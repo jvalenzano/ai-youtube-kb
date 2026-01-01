@@ -49,12 +49,18 @@ pip install -r requirements.txt
 python skills/yt-series-to-team-kb/run_skill.py --playlist YOUR_PLAYLIST_URL
 
 # Option 2: Manual pipeline
-python scripts/ingest.py --playlist YOUR_PLAYLIST_URL
-python scripts/curate.py --all
-python scripts/extract_slides.py --all
-python scripts/export_notebooklm.py
-python query.py --build
+python scripts/ingest.py --playlist YOUR_PLAYLIST_URL      # ~5-10 min
+python scripts/curate.py --all                            # ~15-30 min
+python scripts/extract_slides.py --all                    # ~45-90 min (longest step)
+python scripts/export_notebooklm.py                       # ~1 min
+python query.py --build                                   # ~2-5 min
 ```
+
+**⏱️ Time Expectations** (for 27-video playlist):
+- **Total**: ~1.5-2.5 hours end-to-end
+- **Longest step**: Slide extraction (~45-90 min with parallel processing)
+- **Can run in background**: Slide extraction can be left running while you do other work
+- **Check progress**: Use `python scripts/extract_slides.py --status` anytime
 
 ## Live Demo
 
@@ -71,7 +77,7 @@ python query.py --build
 - **ChromaDB** + **sentence-transformers**: Local semantic search
 - **NotebookLM export**: Team-ready markdown + structured modules
 
-**Performance**: 2hr processing time per 27-video playlist. ~14 hours of content → searchable KB.
+**Performance**: ~1.5-2.5hr processing time per 27-video playlist (with parallel slide extraction). ~14 hours of content → searchable KB.
 
 ## Team Impact
 
@@ -195,20 +201,53 @@ Each curated video includes:
 ##### extract_slides.py - Slide Extraction
 
 ```bash
-python scripts/extract_slides.py --video VIDEO_ID  # Single video
-python scripts/extract_slides.py --all             # All videos
-python scripts/extract_slides.py --status          # Show progress
+python scripts/extract_slides.py --video VIDEO_ID  # Single video (~5-10 min)
+python scripts/extract_slides.py --all             # All videos (parallel)
+python scripts/extract_slides.py --all --workers 4 # Custom worker count
+python scripts/extract_slides.py --status          # Check progress
 python scripts/extract_slides.py --check           # Check dependencies
 ```
 
-**Slide extraction pipeline**:
-1. Downloads video at 720p
-2. Extracts frames every 2 seconds
-3. Detects scene changes via histogram comparison
-4. Classifies slides using CLIP (or text-density fallback)
-5. OCR text extraction with pytesseract
-6. Deduplicates using perceptual hashing
-7. Aligns with transcript timestamps
+**⚠️ Time Commitment**: Slide extraction is the longest step in the pipeline:
+- **Single video**: ~5-10 minutes (download + processing)
+- **Full playlist (27 videos)**:
+  - Sequential: ~2-3 hours
+  - With 4 workers (default): ~45-90 minutes (2.5-3x faster)
+  - Adjust with `--workers N` (recommended: 2-8 based on CPU/bandwidth)
+
+**Slide extraction pipeline** (7 stages per video):
+1. **Download** video at 720p (~1-3 min per video)
+2. **Extract frames** every 2 seconds
+3. **Detect scene changes** via histogram comparison
+4. **Classify slides** using CLIP (or text-density fallback)
+5. **OCR text extraction** with pytesseract
+6. **Deduplicate** using perceptual hashing
+7. **Align** with transcript timestamps
+
+**Monitoring Progress**:
+
+```bash
+# Check overall status
+python scripts/extract_slides.py --status
+
+# Shows:
+# - Total videos
+# - Extracted count
+# - Pending count
+# - Per-video slide counts
+```
+
+**During Batch Processing**:
+- Progress bar shows completion count
+- Each video processes through 7 stages
+- Errors are logged but don't stop the batch
+- Completed videos are saved immediately (can check `data/slides/VIDEO_ID/`)
+
+**Tips**:
+- Run `--all` in background or terminal you can leave open
+- Use `--status` anytime to check progress
+- Adjust `--workers` based on your system (more workers = faster but more CPU/bandwidth)
+- Failed videos can be re-run individually with `--video VIDEO_ID`
 
 **Dependencies for slides**:
 ```bash
