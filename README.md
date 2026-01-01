@@ -304,9 +304,10 @@ python scripts/review_slides.py --video VIDEO_ID --min-words 15 --blur-threshold
 - Shows summary before final removal
 
 **Image Display**:
-- Uses ASCII art by default (always works)
+- Uses ASCII art by default (always works, displays inline in terminal)
 - For better quality: Install `viu` → `brew install viu`
 - Falls back to external viewer if needed
+- **No window switching needed** - images appear directly in terminal
 
 **Why Human-in-the-Loop?**
 - **Quality assurance**: Human judgment catches edge cases
@@ -405,6 +406,47 @@ python scripts/finalize_curation.py --skip-exports
 - ✅ When satisfied with curation
 
 **This is the final step** in the curation workflow.
+
+##### add_credit_overlay.py - Add Credit Attribution ⭐
+
+**Add attribution overlays to existing slides** - ensures proper credit for content creators.
+
+```bash
+# Add credits to single video
+python scripts/add_credit_overlay.py --video VIDEO_ID
+
+# Add credits to all videos
+python scripts/add_credit_overlay.py --all
+
+# Custom credit text
+python scripts/add_credit_overlay.py --video VIDEO_ID \
+    --credit-text "Scott Hebner • The Next Frontiers of AI"
+
+# Preview without making changes
+python scripts/add_credit_overlay.py --video VIDEO_ID --dry-run
+```
+
+**What it does**:
+- Adds semi-transparent credit bar at bottom of each slide
+- Updates metadata to track credit information
+- Works with existing slides (retroactive attribution)
+- Customizable text, author, and series
+
+**Credit overlay features**:
+- **Semi-transparent bar**: Dark bar with white text at bottom
+- **Auto-sizing**: Bar height adapts to image size (5% of height, 30-60px)
+- **Centered text**: Professional appearance
+- **Non-destructive**: Can be re-run if needed
+
+**When to use**:
+- ✅ Adding credits to slides extracted without `--add-credit`
+- ✅ Updating credit text for existing slides
+- ✅ Ensuring proper attribution before sharing
+
+**Example credit text**:
+- Default: `"Scott Hebner • The Next Frontiers of AI"`
+- Custom: `"Source: YouTube Video"`
+- Full: `"Scott Hebner • The Next Frontiers of AI • SiliconANGLE theCUBE"`
 
 ##### export_notebooklm.py - Export Artifacts
 
@@ -511,10 +553,15 @@ python scripts/finalize_curation.py
 # Add new videos
 python scripts/ingest.py --video NEW_VIDEO_ID
 python scripts/curate.py --video NEW_VIDEO_ID
-python scripts/extract_slides.py --video NEW_VIDEO_ID
+
+# Extract slides with credit overlay (recommended)
+python scripts/extract_slides.py --video NEW_VIDEO_ID --add-credit
 
 # Review and curate slides
 python scripts/review_slides.py --video NEW_VIDEO_ID
+
+# Add credits if not done during extraction
+python scripts/add_credit_overlay.py --video NEW_VIDEO_ID
 
 # Finalize when satisfied
 python scripts/finalize_curation.py

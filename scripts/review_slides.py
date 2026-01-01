@@ -52,46 +52,58 @@ def display_image_in_terminal(image_path: Path) -> bool:
     
     Returns True if displayed inline, False if opened externally.
     """
+    # Flush console output before displaying image
+    import sys
+    sys.stdout.flush()
+    sys.stderr.flush()
+    
     # Method 1: Try viu (best quality, works in most terminals)
+    # viu writes directly to the terminal TTY, so we don't capture output
     if shutil.which('viu'):
         try:
             # Get terminal size for optimal display
             cols = min(TERMINAL_WIDTH - 10, 80)
-            subprocess.run(
-                ['viu', '-w', str(cols), str(image_path)],
-                check=False,
-                stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL
+            # Use --blocks flag for better compatibility
+            result = subprocess.run(
+                ['viu', '-w', str(cols), '--blocks', str(image_path)],
+                check=False
+                # Don't capture output - let it write directly to terminal
             )
-            return True
-        except:
-            pass
+            sys.stdout.flush()  # Flush after viu
+            if result.returncode == 0:
+                return True
+        except Exception as e:
+            console.print(f"[dim]viu failed: {e}[/dim]")
     
     # Method 2: Try chafa (good quality, works in most terminals)
+    # chafa writes directly to the terminal TTY
     if shutil.which('chafa'):
         try:
-            subprocess.run(
+            result = subprocess.run(
                 ['chafa', '--size', f'{TERMINAL_WIDTH - 10}x30', str(image_path)],
-                check=False,
-                stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL
+                check=False
+                # Don't capture output - let it write directly to terminal
             )
-            return True
-        except:
-            pass
+            sys.stdout.flush()  # Flush after chafa
+            if result.returncode == 0:
+                return True
+        except Exception as e:
+            console.print(f"[dim]chafa failed: {e}[/dim]")
     
     # Method 3: Try imgcat (iTerm2 on macOS)
+    # imgcat writes directly to the terminal TTY
     if shutil.which('imgcat'):
         try:
-            subprocess.run(
+            result = subprocess.run(
                 ['imgcat', str(image_path)],
-                check=False,
-                stdout=subprocess.DEVNULL,
-                stderr=subprocess.DEVNULL
+                check=False
+                # Don't capture output - let it write directly to terminal
             )
-            return True
-        except:
-            pass
+            sys.stdout.flush()  # Flush after imgcat
+            if result.returncode == 0:
+                return True
+        except Exception as e:
+            console.print(f"[dim]imgcat failed: {e}[/dim]")
     
     # Method 4: PIL-based ASCII art (always works)
     try:
@@ -129,14 +141,24 @@ def _display_ascii_image(image_path: Path, max_width: int = 80, max_height: int 
         # ASCII characters from dark to light
         ascii_chars = '@%#*+=-:. '
         
-        # Convert to ASCII
-        pixels = img.getdata()
+        # Convert to ASCII - get pixels as list (IMPORTANT: must convert to list first)
+        # PIL's getdata() returns ImagingCore which can't be sliced directly
+        pixels_data = img.getdata()
+        pixels = list(pixels_data)  # Convert to list for proper slicing
         width = img.width
+        height = img.height
+        
+        # Validate dimensions
+        if len(pixels) != width * height:
+            raise ValueError(f"Pixel count mismatch: expected {width * height}, got {len(pixels)}")
         
         console.print()  # Blank line before image
-        for i in range(0, len(pixels), width):
-            row = pixels[i:i + width]
-            ascii_row = ''.join([ascii_chars[min(pixel // 28, len(ascii_chars) - 1)] for pixel in row])
+        for y in range(height):
+            row_start = y * width
+            row_end = row_start + width
+            # Slice the list (now safe since pixels is a list)
+            row = pixels[row_start:row_end]
+            ascii_row = ''.join([ascii_chars[min(int(pixel) // 28, len(ascii_chars) - 1)] for pixel in row])
             console.print(f"[dim]{ascii_row}[/dim]")
         console.print()  # Blank line after image
         
@@ -194,7 +216,7 @@ def get_removal_reason(slide: SlideInfo, extractor: SlideExtractor) -> Optional[
     return None
 
 
-def review_slides(video_id: str, config: SlideConfig, auto_approve: bool = False) -> dict:
+def review_slides(video_id: str, config: SlideConfig, auto_approve: bool = False, review_all: bool = False) -> dict:
     """Interactive review of slides flagged for removal."""
     metadata = load_slide_metadata(video_id)
     if not metadata:
@@ -219,22 +241,31 @@ def review_slides(video_id: str, config: SlideConfig, auto_approve: bool = False
     slides_to_review = []
     slides_to_keep = []
     
-    for slide in all_slides:
-        reason = get_removal_reason(slide, extractor)
-        if reason:
-            slides_to_review.append((slide, reason))
-        else:
-            slides_to_keep.append(slide)
-
-    # Check duplicates separately
-    if config.remove_duplicates:
-        deduplicated = extractor.deduplicate(all_slides)
-        kept_hashes = {s.perceptual_hash for s in deduplicated}
+    if review_all:
+        # Review ALL slides, not just flagged ones
         for slide in all_slides:
-            if slide.perceptual_hash and slide.perceptual_hash not in kept_hashes:
-                # Check if already in review list
-                if not any(s.path == slide.path for s, _ in slides_to_review):
-                    slides_to_review.append((slide, "duplicate"))
+            reason = get_removal_reason(slide, extractor)
+            # Use reason if found, otherwise mark as "manual_review"
+            review_reason = reason or "manual_review"
+            slides_to_review.append((slide, review_reason))
+    else:
+        # Only review flagged slides (default behavior)
+        for slide in all_slides:
+            reason = get_removal_reason(slide, extractor)
+            if reason:
+                slides_to_review.append((slide, reason))
+            else:
+                slides_to_keep.append(slide)
+
+        # Check duplicates separately
+        if config.remove_duplicates:
+            deduplicated = extractor.deduplicate(all_slides)
+            kept_hashes = {s.perceptual_hash for s in deduplicated}
+            for slide in all_slides:
+                if slide.perceptual_hash and slide.perceptual_hash not in kept_hashes:
+                    # Check if already in review list
+                    if not any(s.path == slide.path for s, _ in slides_to_review):
+                        slides_to_review.append((slide, "duplicate"))
 
     if not slides_to_review:
         console.print(f"[green]✓ All {len(all_slides)} slides passed quality checks![/green]")
@@ -248,7 +279,10 @@ def review_slides(video_id: str, config: SlideConfig, auto_approve: bool = False
 
     console.print(f"\n[bold]Slide Review for {video_id}[/bold]")
     console.print(f"Total slides: {len(all_slides)}")
-    console.print(f"Passed filters: {len(slides_to_keep)}")
+    if review_all:
+        console.print(f"[cyan]Reviewing ALL slides (manual curation mode)[/cyan]")
+    else:
+        console.print(f"Passed filters: {len(slides_to_keep)}")
     console.print(f"[yellow]Flagged for review: {len(slides_to_review)}[/yellow]\n")
 
     if auto_approve:
@@ -313,11 +347,13 @@ def review_slides(video_id: str, config: SlideConfig, auto_approve: bool = False
     # Summary
     console.print(f"\n[bold]Review Summary:[/bold]")
     console.print(f"  Total slides: {len(all_slides)}")
-    console.print(f"  Passed filters: {len(slides_to_keep)}")
+    if not review_all:
+        console.print(f"  Passed filters: {len(slides_to_keep)}")
     console.print(f"  Reviewed: {len(slides_to_review)}")
     console.print(f"  [green]Kept after review: {len(rejected_removals)}[/green]")
     console.print(f"  [red]Approved for removal: {len(approved_removals)}[/red]")
-    console.print(f"  Final count: {len(slides_to_keep) + len(rejected_removals)} slides")
+    final_count = len(slides_to_keep) + len(rejected_removals) if not review_all else len(rejected_removals)
+    console.print(f"  Final count: {final_count} slides")
 
     if approved_removals:
         # Show what will be removed
@@ -432,11 +468,12 @@ def review_slides(video_id: str, config: SlideConfig, auto_approve: bool = False
 @click.command()
 @click.option('--video', '-v', required=True, help='Video ID to review')
 @click.option('--auto-approve', '-a', is_flag=True, help='Auto-approve all flagged slides (skip review)')
+@click.option('--review-all', '-r', is_flag=True, help='Review ALL slides, not just flagged ones')
 @click.option('--min-words', default=10, type=int, help='Minimum words in OCR text')
 @click.option('--filter-filler/--keep-filler', default=True, help='Filter filler text slides')
 @click.option('--filter-blurry/--keep-blurry', default=True, help='Filter blurry images')
 @click.option('--blur-threshold', default=100.0, type=float, help='Blur detection threshold')
-def main(video: str, auto_approve: bool, min_words: int, filter_filler: bool,
+def main(video: str, auto_approve: bool, review_all: bool, min_words: int, filter_filler: bool,
          filter_blurry: bool, blur_threshold: float):
     """Interactive slide review - Human-in-the-loop quality curation."""
     
@@ -448,7 +485,7 @@ def main(video: str, auto_approve: bool, min_words: int, filter_filler: bool,
         remove_duplicates=True,
     )
 
-    result = review_slides(video, config, auto_approve)
+    result = review_slides(video, config, auto_approve, review_all)
     
     if 'error' in result:
         console.print(f"[red]Error: {result['error']}[/red]")

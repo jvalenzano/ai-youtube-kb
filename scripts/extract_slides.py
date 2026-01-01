@@ -34,6 +34,8 @@ import click
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn, TaskProgressColumn
 from rich.table import Table
+from rich.prompt import Prompt, Confirm
+from rich.panel import Panel
 
 # Project paths
 PROJECT_ROOT = Path(__file__).parent.parent
@@ -61,6 +63,11 @@ class SlideConfig:
     filter_filler_text: bool = True       # Filter out copyright/trademark slides
     filter_blurry: bool = True            # Filter out blurry images
     blur_threshold: float = 100.0         # Laplacian variance threshold for blur detection
+    add_credit: bool = False              # Add credit overlay to slides
+    credit_text: str = ""                 # Custom credit text (empty = auto-generate)
+    credit_author: str = ""               # Author name for credit
+    credit_series: str = ""               # Series name for credit
+    credit_url: str = ""                  # Source URL for credit
 
 
 @dataclass
@@ -605,6 +612,70 @@ class SlideExtractor:
 
         return slides
 
+    def _add_credit_overlay(self, img: Image.Image) -> Image.Image:
+        """Add credit overlay to bottom of image."""
+        from PIL import ImageDraw, ImageFont
+        
+        # Get image dimensions
+        width, height = img.size
+        
+        # Default credit text if not provided
+        if self.config.credit_text:
+            credit_text = self.config.credit_text
+        else:
+            # Auto-generate credit text
+            parts = []
+            if self.config.credit_author:
+                parts.append(self.config.credit_author)
+            if self.config.credit_series:
+                parts.append(self.config.credit_series)
+            if not parts:
+                # Fallback to video metadata
+                video_meta = self._get_video_metadata()
+                if video_meta.get('title'):
+                    parts.append("Source: YouTube")
+                else:
+                    parts.append("Source: YouTube Video")
+            credit_text = " • ".join(parts)
+        
+        # Calculate overlay bar height (5% of image height, min 30px, max 60px)
+        bar_height = max(30, min(60, int(height * 0.05)))
+        
+        # Create overlay image
+        overlay = Image.new('RGBA', (width, bar_height), (0, 0, 0, 200))  # Semi-transparent black
+        draw = ImageDraw.Draw(overlay)
+        
+        # Try to use a nice font, fallback to default
+        try:
+            # Try system fonts (macOS)
+            font_size = max(12, min(16, int(bar_height * 0.4)))
+            try:
+                font = ImageFont.truetype("/System/Library/Fonts/Helvetica.ttc", font_size)
+            except:
+                try:
+                    font = ImageFont.truetype("/System/Library/Fonts/Arial.ttf", font_size)
+                except:
+                    font = ImageFont.load_default()
+        except:
+            font = ImageFont.load_default()
+        
+        # Calculate text position (centered)
+        bbox = draw.textbbox((0, 0), credit_text, font=font)
+        text_width = bbox[2] - bbox[0]
+        text_height = bbox[3] - bbox[1]
+        x = (width - text_width) // 2
+        y = (bar_height - text_height) // 2
+        
+        # Draw text (white)
+        draw.text((x, y), credit_text, fill=(255, 255, 255, 255), font=font)
+        
+        # Composite overlay onto image
+        result = Image.new('RGB', (width, height + bar_height), (255, 255, 255))
+        result.paste(img, (0, 0))
+        result.paste(overlay, (0, height), overlay)
+        
+        return result
+
     def _save_slide_image(self, slide: SlideInfo) -> Path:
         """Copy slide to final location with proper naming."""
         hash_short = slide.perceptual_hash[:8] if slide.perceptual_hash else "unknown"
@@ -614,6 +685,11 @@ class SlideExtractor:
         # Convert to PNG for better quality
         from PIL import Image
         img = Image.open(slide.path)
+        
+        # Add credit overlay if enabled
+        if self.config.add_credit:
+            img = self._add_credit_overlay(img)
+        
         img.save(new_path, 'PNG')
 
         return new_path
@@ -912,8 +988,16 @@ def _extract_single_video(args: tuple) -> dict:
 @click.option('--keep-video', is_flag=True, help='Keep downloaded video after extraction')
 @click.option('--interval', default=2.0, type=float, help='Frame extraction interval in seconds')
 @click.option('--workers', '-w', default=4, type=int, help='Number of parallel workers for --all')
+@click.option('--add-credit', is_flag=True, help='Add credit overlay to slides')
+@click.option('--credit-text', default='', help='Credit text (if not provided, will prompt interactively)')
+@click.option('--credit-author', default='', help='Author name (used only if credit-text not provided)')
+@click.option('--credit-series', default='', help='Series name (used only if credit-text not provided)')
+@click.option('--credit-url', default='', help='Source URL for credit overlay')
+@click.option('--non-interactive', is_flag=True, help='Skip interactive prompts (use defaults or CLI args)')
 def main(video: str, extract_all: bool, status: bool, check: bool, force: bool,
-         no_clip: bool, keep_video: bool, interval: float, workers: int):
+         no_clip: bool, keep_video: bool, interval: float, workers: int,
+         add_credit: bool, credit_text: str, credit_author: str, credit_series: str, credit_url: str,
+         non_interactive: bool):
     """Extract slides from YouTube videos."""
 
     if check:
@@ -992,11 +1076,63 @@ def main(video: str, extract_all: bool, status: bool, check: bool, force: bool,
 
         return
 
+    # Interactive credit text prompt (if add_credit is enabled and text not provided)
+    final_credit_text = credit_text
+    
+    if add_credit and not final_credit_text and not non_interactive:
+        console.print(Panel(
+            "[bold]Credit Overlay Configuration[/bold]\n\n"
+            "Enter the exact text you want displayed in the credit bar at the bottom of each slide.\n"
+            "This text will appear on all slides for this video.\n\n"
+            "Examples:\n"
+            "  • Scott Hebner • The Next Frontiers of AI\n"
+            "  • Source: YouTube Video\n"
+            "  • © 2025 The Cube Research\n"
+            "  • [Your custom attribution text here]",
+            title="Credit Text",
+            border_style="blue"
+        ))
+        
+        final_credit_text = Prompt.ask(
+            "\n[bold]Enter credit text[/bold]",
+            default="",
+            show_default=False
+        ).strip()
+        
+        if not final_credit_text:
+            console.print("[yellow]No credit text provided. Disabling credit overlay.[/yellow]")
+            add_credit = False
+        else:
+            # Show preview
+            console.print(f"\n[dim]Preview:[/dim] [bold]{final_credit_text}[/bold]")
+            if not Confirm.ask("\nUse this credit text?", default=True):
+                console.print("[yellow]Credit overlay disabled.[/yellow]")
+                add_credit = False
+                final_credit_text = ""
+    
+    elif add_credit and not final_credit_text and non_interactive:
+        # Non-interactive mode: use defaults or auto-generate
+        if credit_author or credit_series:
+            parts = []
+            if credit_author:
+                parts.append(credit_author)
+            if credit_series:
+                parts.append(credit_series)
+            final_credit_text = " • ".join(parts) if parts else ""
+        if not final_credit_text:
+            console.print("[yellow]No credit text provided and non-interactive mode. Disabling credit overlay.[/yellow]")
+            add_credit = False
+
     # Build config
     config = SlideConfig(
         frame_interval=interval,
         use_clip=not no_clip,
         keep_video=keep_video,
+        add_credit=add_credit,
+        credit_text=final_credit_text,
+        credit_author=credit_author,
+        credit_series=credit_series,
+        credit_url=credit_url,
     )
 
     if video:
