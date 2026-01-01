@@ -23,7 +23,7 @@ This tool works with any YouTube playlist. The example content used in this repo
 - **Series**: "The Next Frontiers of AI" by [Scott Hebner](https://www.linkedin.com/in/scotthebner/)
 - **Podcast**: [The Next Frontiers of AI](https://thecuberesearch.com/podcasts/the-next-frontiers-of-ai/)
 - **Website**: [Hebner Advisories](https://hebneradvisories.ai/)
-- **Channel**: [SiliconANGLE theCUBE](https://www.youtube.com/@theCUBE)
+- **Channel**: [SiliconANGLE theCUBE](https://www.youtube.com/@siliconangle)
 - **Playlist**: [AI Agents Series](https://www.youtube.com/playlist?list=PLenh213llmcYQRnnZYJAFCns3BaKkA7dv)
 
 **Fair Use Notice**: This repository provides tools for educational and research purposes. All video content, transcripts, and extracted materials remain the property of their respective creators. This tool:

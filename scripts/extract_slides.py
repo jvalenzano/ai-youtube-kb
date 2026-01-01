@@ -20,9 +20,11 @@ System requirements:
 """
 
 import json
+import multiprocessing
 import shutil
 import subprocess
 import time
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from dataclasses import dataclass, field, asdict
 from datetime import datetime
 from pathlib import Path
@@ -742,6 +744,18 @@ def get_status() -> dict:
     }
 
 
+def _extract_single_video(args: tuple) -> dict:
+    """Wrapper for ProcessPoolExecutor (must be top-level for pickling)."""
+    video_id, config_dict, keep_video = args
+    config = SlideConfig(**config_dict)
+    config.keep_video = keep_video
+    try:
+        extractor = SlideExtractor(video_id, config)
+        return {'success': True, 'video_id': video_id, 'result': extractor.process()}
+    except Exception as e:
+        return {'success': False, 'video_id': video_id, 'error': str(e)}
+
+
 @click.command()
 @click.option('--video', '-v', help='Single video ID to extract slides from')
 @click.option('--all', '-a', 'extract_all', is_flag=True, help='Extract from all videos')
@@ -751,8 +765,9 @@ def get_status() -> dict:
 @click.option('--no-clip', is_flag=True, help='Disable CLIP (use text density)')
 @click.option('--keep-video', is_flag=True, help='Keep downloaded video after extraction')
 @click.option('--interval', default=2.0, type=float, help='Frame extraction interval in seconds')
+@click.option('--workers', '-w', default=4, type=int, help='Number of parallel workers for --all')
 def main(video: str, extract_all: bool, status: bool, check: bool, force: bool,
-         no_clip: bool, keep_video: bool, interval: float):
+         no_clip: bool, keep_video: bool, interval: float, workers: int):
     """Extract slides from YouTube videos."""
 
     if check:
@@ -876,6 +891,14 @@ def main(video: str, extract_all: bool, status: bool, check: bool, force: bool,
         results = []
         errors = []
 
+        # Prepare args for parallel execution
+        config_dict = asdict(config)
+        task_args = [(item['video_id'], config_dict, keep_video) for item in pending]
+
+        # Determine actual worker count
+        actual_workers = min(workers, len(pending), multiprocessing.cpu_count())
+        console.print(f"[dim]Using {actual_workers} parallel workers[/dim]")
+
         with Progress(
             SpinnerColumn(),
             TextColumn("[progress.description]{task.description}"),
@@ -885,19 +908,22 @@ def main(video: str, extract_all: bool, status: bool, check: bool, force: bool,
         ) as progress:
             task = progress.add_task("Extracting slides...", total=len(pending))
 
-            for item in pending:
-                video_id = item['video_id']
-                progress.update(task, description=f"Processing {video_id}...")
+            with ProcessPoolExecutor(max_workers=actual_workers) as executor:
+                futures = {executor.submit(_extract_single_video, args): args[0]
+                           for args in task_args}
 
-                try:
-                    extractor = SlideExtractor(video_id, config)
-                    result = extractor.process()
-                    results.append(result)
-                except Exception as e:
-                    console.print(f"[red]Error processing {video_id}: {e}[/red]")
-                    errors.append({'video_id': video_id, 'error': str(e)})
+                for future in as_completed(futures):
+                    video_id = futures[future]
+                    progress.update(task, description=f"Completed {video_id}")
 
-                progress.advance(task)
+                    result = future.result()
+                    if result['success']:
+                        results.append(result['result'])
+                    else:
+                        console.print(f"[red]Error: {result['video_id']}: {result['error']}[/red]")
+                        errors.append({'video_id': result['video_id'], 'error': result['error']})
+
+                    progress.advance(task)
 
         # Summary
         console.print(f"\n[bold]Batch Processing Complete[/bold]")
