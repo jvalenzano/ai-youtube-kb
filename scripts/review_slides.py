@@ -29,7 +29,7 @@ from rich.text import Text
 # Import quality filters
 sys.path.insert(0, str(Path(__file__).parent))
 from extract_slides import SlideConfig, SlideInfo, SlideExtractor
-from curation_progress import mark_reviewed, get_status_summary, get_video_progress, detect_video_state
+from curation_progress import mark_reviewed, get_status_summary, get_video_progress, detect_video_state, select_video_interactive, get_next_video, show_curation_dashboard
 
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_SLIDES = PROJECT_ROOT / "data" / "slides"
@@ -277,6 +277,26 @@ def review_slides(video_id: str, config: SlideConfig, auto_approve: bool = False
             'removed': 0,
             'kept': len(all_slides)
         }
+
+    # Deduplicate slides_to_review to ensure each slide appears only once
+    # Use a dict to track seen slides by path, keeping the first occurrence
+    seen_paths = {}
+    deduplicated_review = []
+    for slide, reason in slides_to_review:
+        slide_path = str(slide.path)
+        if slide_path not in seen_paths:
+            seen_paths[slide_path] = True
+            deduplicated_review.append((slide, reason))
+        else:
+            # If duplicate found, use the more specific reason if available
+            for idx, (existing_slide, existing_reason) in enumerate(deduplicated_review):
+                if str(existing_slide.path) == slide_path:
+                    # Prefer more specific reasons over "manual_review"
+                    if reason != "manual_review" and existing_reason == "manual_review":
+                        deduplicated_review[idx] = (existing_slide, reason)
+                    break
+    
+    slides_to_review = deduplicated_review
 
     console.print(f"\n[bold]Slide Review for {video_id}[/bold]")
     console.print(f"Total slides: {len(all_slides)}")
@@ -556,6 +576,8 @@ def _show_next_steps_after_review(video_id: str, result: dict):
         console.print("    [dim]Command: python scripts/sync_slide_metadata.py --video {video_id}[/dim]")
         console.print("\n[cyan]D)[/cyan] Review another video")
         console.print("    [dim]Command: python scripts/review_slides.py --video VIDEO_ID --review-all[/dim]")
+        console.print("\n[cyan]N)[/cyan] Move to next video (start review)")
+        console.print("    [dim]Automatically starts review for the next video in the list[/dim]")
         console.print("\n[cyan]S)[/cyan] Show status for this video")
         console.print("\n[cyan]H)[/cyan] Show workflow help and useful commands")
         console.print("\n[cyan]E)[/cyan] Exit (you're done with this video)")
@@ -563,15 +585,25 @@ def _show_next_steps_after_review(video_id: str, result: dict):
         
         choice = Prompt.ask(
             "\n[bold]Choose an option[/bold]",
-            choices=["a", "A", "b", "B", "c", "C", "d", "D", "e", "E", "h", "H", "s", "S"],
+            choices=["a", "A", "b", "B", "c", "C", "d", "D", "e", "E", "h", "H", "n", "N", "s", "S"],
             default="A"
         ).upper()
         
         if choice == "H":
             _show_workflow_help(video_id)
+            console.print()  # Add blank line
+            Prompt.ask("\n[dim]Press Enter to continue...[/dim]", default="")
             continue
         elif choice == "S":
-            _show_video_status(video_id)
+            status_choice = Prompt.ask(
+                "\n[bold]Show status for:[/bold] [cyan](T)[/cyan]his video or [cyan](A)[/cyan]ll videos?",
+                choices=["t", "T", "a", "A"],
+                default="T"
+            ).upper()
+            if status_choice == "T":
+                _show_video_status(video_id)
+            else:
+                show_curation_dashboard()
             continue
     
         if choice == "A":
@@ -590,10 +622,22 @@ def _show_next_steps_after_review(video_id: str, result: dict):
             subprocess.run([sys.executable, "scripts/sync_slide_metadata.py", "--video", video_id])
             break
         elif choice == "D":
-            new_video = Prompt.ask("\n[bold]Enter video ID to review[/bold]")
-            console.print(f"\n[bold]Running: python scripts/review_slides.py --video {new_video} --review-all[/bold]\n")
-            import subprocess
-            subprocess.run([sys.executable, "scripts/review_slides.py", "--video", new_video, "--review-all"])
+            console.print("\n[bold]Select video to review:[/bold]")
+            new_video = select_video_interactive("Select a video to review")
+            if new_video:
+                console.print(f"\n[bold]Running: python scripts/review_slides.py --video {new_video} --review-all[/bold]\n")
+                import subprocess
+                subprocess.run([sys.executable, "scripts/review_slides.py", "--video", new_video, "--review-all"])
+            break
+        elif choice == "N":
+            next_video = get_next_video(video_id)
+            if next_video:
+                console.print(f"\n[bold]Moving to next video: {next_video}[/bold]")
+                console.print(f"[bold]Running: python scripts/review_slides.py --video {next_video} --review-all[/bold]\n")
+                import subprocess
+                subprocess.run([sys.executable, "scripts/review_slides.py", "--video", next_video, "--review-all"])
+            else:
+                console.print("\n[yellow]No next video found. This is the last video in the list.[/yellow]")
             break
         else:
             console.print("\n[dim]Exiting. You can continue later with the commands shown above.[/dim]")
@@ -705,7 +749,7 @@ def _show_curation_dashboard():
 
 
 @click.command()
-@click.option('--video', '-v', help='Video ID to review (omit to show dashboard)')
+@click.option('--video', '-v', help='Video ID to review (omit for interactive selection)')
 @click.option('--status', '-s', is_flag=True, help='Show curation status dashboard')
 @click.option('--auto-approve', '-a', is_flag=True, help='Auto-approve all flagged slides (skip review)')
 @click.option('--review-all', '-r', is_flag=True, help='Review ALL slides, not just flagged ones')
@@ -718,9 +762,18 @@ def main(video: str, status: bool, auto_approve: bool, review_all: bool, min_wor
     """Interactive slide review - Human-in-the-loop quality curation."""
     
     # Show curation status dashboard
-    if status or not video:
+    if status:
         _show_curation_dashboard()
         return
+    
+    # Interactive video selection if no video provided
+    if not video:
+        console.print("\n[bold]Interactive Video Selection[/bold]")
+        selected_video = select_video_interactive("Select a video to review")
+        if not selected_video:
+            console.print("[yellow]No video selected. Exiting.[/yellow]")
+            return
+        video = selected_video
     
     # Show video-specific status before starting
     video_progress = get_video_progress(video)

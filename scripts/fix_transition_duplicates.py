@@ -24,6 +24,7 @@ from rich.prompt import Confirm
 
 sys.path.insert(0, str(Path(__file__).parent))
 from extract_slides import DATA_SLIDES
+from curation_progress import select_video_interactive
 
 PROJECT_ROOT = Path(__file__).parent.parent
 console = Console()
@@ -163,7 +164,7 @@ def process_video(video_id: str, dry_run: bool = False, threshold: float = TRANS
 
 
 @click.command()
-@click.option('--video', '-v', help='Single video ID to fix')
+@click.option('--video', '-v', help='Single video ID to fix (omit for interactive selection)')
 @click.option('--all', '-a', 'process_all', is_flag=True, help='Process all videos')
 @click.option('--dry-run', '-d', is_flag=True, help='Preview without removing files')
 @click.option('--threshold', '-t', default=5.0, type=float, help='Time threshold in seconds (default: 5.0)')
@@ -182,6 +183,22 @@ def main(video: str, process_all: bool, dry_run: bool, threshold: float):
         if not dry_run and result.get('removed', 0) > 0:
             console.print(f"\n[bold]Next step:[/bold] Sync metadata")
             console.print(f"[dim]python scripts/sync_slide_metadata.py --video {video}[/dim]")
+    
+    elif not process_all:
+        # Interactive video selection
+        console.print("\n[bold]Interactive Video Selection[/bold]")
+        selected_video = select_video_interactive("Select a video to fix transition duplicates")
+        if selected_video:
+            result = process_video(selected_video, dry_run, threshold)
+            if 'error' in result:
+                console.print(f"[red]Error: {result['error']}[/red]")
+                sys.exit(1)
+            
+            if not dry_run and result.get('removed', 0) > 0:
+                console.print(f"\n[bold]Next step:[/bold] Sync metadata")
+                console.print(f"[dim]python scripts/sync_slide_metadata.py --video {selected_video}[/dim]")
+        else:
+            console.print("[yellow]No video selected. Exiting.[/yellow]")
     
     elif process_all:
         video_dirs = [d for d in DATA_SLIDES.iterdir() if d.is_dir()]

@@ -14,9 +14,14 @@ from datetime import datetime
 from pathlib import Path
 from typing import Optional
 
+from rich.console import Console
+from rich.prompt import IntPrompt
+
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_SLIDES = PROJECT_ROOT / "data" / "slides"
 PROGRESS_FILE = DATA_SLIDES / ".curation_progress.json"
+
+console = Console()
 
 
 def load_progress() -> dict:
@@ -337,4 +342,145 @@ def get_status_summary() -> dict:
             summary['pending'].append(video_id)
     
     return summary
+
+
+def select_video_interactive(prompt_text: str = "Select a video to process") -> Optional[str]:
+    """
+    Interactive video selector - shows menu grouped by status.
+    Returns selected video ID or None if cancelled.
+    """
+    summary = get_status_summary()
+    all_videos = get_all_videos_with_slides()
+    
+    if not all_videos:
+        console.print("[yellow]No videos with slides found[/yellow]")
+        return None
+    
+    # Group videos by status
+    pending = summary['pending']
+    reviewed = summary['reviewed']
+    credits_added = summary['credits_added']
+    completed = summary['completed']
+    
+    # Build numbered list
+    video_list = []
+    index = 1
+    
+    # Show pending first (most important)
+    if pending:
+        console.print(f"\n[bold red]Pending Videos ({len(pending)}):[/bold red]")
+        for vid in pending:
+            vid_info = summary['videos'][vid]
+            slide_count = len(list((DATA_SLIDES / vid).glob("slide_*.png"))) if (DATA_SLIDES / vid).exists() else 0
+            console.print(f"  [cyan]{index:2d})[/cyan] [red]{vid}[/red] [dim]({slide_count} slides)[/dim]")
+            video_list.append(vid)
+            index += 1
+    
+    # Show reviewed (need credits)
+    if reviewed:
+        console.print(f"\n[bold yellow]Reviewed - Need Credits ({len(reviewed)}):[/bold yellow]")
+        for vid in reviewed:
+            vid_info = summary['videos'][vid]
+            slide_count = vid_info.get('slides_kept', '?')
+            console.print(f"  [cyan]{index:2d})[/cyan] [yellow]{vid}[/yellow] [dim]({slide_count} slides kept)[/dim]")
+            video_list.append(vid)
+            index += 1
+    
+    # Show credits added (need finalization)
+    if credits_added:
+        console.print(f"\n[bold cyan]Credits Added ({len(credits_added)}):[/bold cyan]")
+        for vid in credits_added:
+            console.print(f"  [cyan]{index:2d})[/cyan] [cyan]{vid}[/cyan]")
+            video_list.append(vid)
+            index += 1
+    
+    # Show completed (for reference)
+    if completed:
+        console.print(f"\n[bold green]Completed ({len(completed)}):[/bold green]")
+        for vid in completed[:5]:  # Show first 5
+            console.print(f"  [cyan]{index:2d})[/cyan] [green]{vid}[/green] [dim]✓[/dim]")
+            video_list.append(vid)
+            index += 1
+        if len(completed) > 5:
+            console.print(f"  [dim]... and {len(completed) - 5} more completed videos[/dim]")
+            video_list.extend(completed[5:])
+            index += len(completed) - 5
+    
+    if not video_list:
+        console.print("[yellow]No videos available[/yellow]")
+        return None
+    
+    console.print(f"\n[bold]{prompt_text}[/bold]")
+    try:
+        choice = IntPrompt.ask(
+            f"Enter number (1-{len(video_list)})",
+            default=1 if pending else None
+        )
+        
+        if 1 <= choice <= len(video_list):
+            selected = video_list[choice - 1]
+            console.print(f"\n[bold]Selected: {selected}[/bold]\n")
+            return selected
+        else:
+            console.print("[red]Invalid selection[/red]")
+            return None
+    except (KeyboardInterrupt, EOFError):
+        console.print("\n[yellow]Cancelled[/yellow]")
+        return None
+    except Exception as e:
+        console.print(f"[red]Error: {e}[/red]")
+        return None
+
+
+def get_next_video(video_id: str) -> Optional[str]:
+    """
+    Get the next video in the list after the current video.
+    Returns the next video ID, or None if current video is the last one.
+    Videos are sorted alphabetically by video_id.
+    """
+    all_videos = get_all_videos_with_slides()
+    if not all_videos:
+        return None
+    
+    # Sort videos alphabetically for consistent ordering
+    all_videos_sorted = sorted(all_videos)
+    
+    try:
+        current_index = all_videos_sorted.index(video_id)
+        if current_index < len(all_videos_sorted) - 1:
+            return all_videos_sorted[current_index + 1]
+    except ValueError:
+        # Current video not in list, return first video
+        return all_videos_sorted[0] if all_videos_sorted else None
+    
+    return None  # Current video is the last one
+
+
+def show_curation_dashboard():
+    """Show curation status dashboard for all videos."""
+    from rich.panel import Panel
+    
+    summary = get_status_summary()
+    
+    console.print("\n")
+    console.print(Panel(
+        f"[bold]Curation Progress Dashboard[/bold]\n\n"
+        f"Total videos with slides: {summary['total_videos']}\n"
+        f"  [green]✓ Completed: {len(summary['completed'])}[/green]\n"
+        f"  [cyan]→ Credits added: {len(summary['credits_added'])}[/cyan]\n"
+        f"  [yellow]→ Reviewed: {len(summary['reviewed'])}[/yellow]\n"
+        f"  [red]→ Pending: {len(summary['pending'])}[/red]",
+        title="Status",
+        border_style="blue"
+    ))
+    
+    if summary['pending']:
+        console.print("\n[bold red]Pending Videos (not yet reviewed):[/bold red]")
+        for vid in summary['pending'][:15]:  # Show first 15
+            console.print(f"  [red]• {vid}[/red]")
+        if len(summary['pending']) > 15:
+            console.print(f"  [dim]... and {len(summary['pending']) - 15} more[/dim]")
+        console.print(f"\n[bold]Next: Review a pending video[/bold]")
+        if summary['pending']:
+            console.print(f"[dim]Example: python scripts/review_slides.py --video {summary['pending'][0]} --review-all[/dim]")
 

@@ -26,7 +26,7 @@ from rich.panel import Panel
 # Import from extract_slides for consistency
 sys.path.insert(0, str(Path(__file__).parent))
 from extract_slides import DATA_SLIDES, KB_DIR
-from curation_progress import mark_credits_added, get_video_progress, detect_video_state
+from curation_progress import mark_credits_added, get_video_progress, detect_video_state, select_video_interactive, get_next_video, show_curation_dashboard
 
 PROJECT_ROOT = Path(__file__).parent.parent
 console = Console()
@@ -355,21 +355,33 @@ def _show_next_steps_after_credits(video_id: str, result: dict):
         console.print("    [dim]Command: python scripts/review_slides.py --video {video_id} --review-all[/dim]")
         console.print("\n[cyan]D)[/cyan] Add credits to another video")
         console.print("    [dim]Command: python scripts/add_credit_overlay.py --video VIDEO_ID[/dim]")
+        console.print("\n[cyan]N)[/cyan] Move to next video (start review)")
+        console.print("    [dim]Automatically starts review for the next video in the list[/dim]")
         console.print("\n[cyan]S)[/cyan] Show status for this video")
         console.print("\n[cyan]H)[/cyan] Show workflow help and useful commands")
         console.print("\n[cyan]E)[/cyan] Exit (you're done with this video)")
         
         choice = Prompt.ask(
             "\n[bold]Choose an option[/bold]",
-            choices=["a", "A", "b", "B", "c", "C", "d", "D", "e", "E", "h", "H", "s", "S"],
+            choices=["a", "A", "b", "B", "c", "C", "d", "D", "e", "E", "h", "H", "n", "N", "s", "S"],
             default="A"
         ).upper()
         
         if choice == "H":
             _show_workflow_help(video_id)
+            console.print()  # Add blank line
+            Prompt.ask("\n[dim]Press Enter to continue...[/dim]", default="")
             continue
         elif choice == "S":
-            _show_video_status(video_id)
+            status_choice = Prompt.ask(
+                "\n[bold]Show status for:[/bold] [cyan](T)[/cyan]his video or [cyan](A)[/cyan]ll videos?",
+                choices=["t", "T", "a", "A"],
+                default="T"
+            ).upper()
+            if status_choice == "T":
+                _show_video_status(video_id)
+            else:
+                show_curation_dashboard()
             continue
     
         if choice == "A":
@@ -388,10 +400,22 @@ def _show_next_steps_after_credits(video_id: str, result: dict):
             subprocess.run([sys.executable, "scripts/review_slides.py", "--video", video_id, "--review-all"])
             break
         elif choice == "D":
-            new_video = Prompt.ask("\n[bold]Enter video ID to add credits to[/bold]")
-            console.print(f"\n[bold]Running: python scripts/add_credit_overlay.py --video {new_video}[/bold]\n")
-            import subprocess
-            subprocess.run([sys.executable, "scripts/add_credit_overlay.py", "--video", new_video])
+            console.print("\n[bold]Select video to add credits to:[/bold]")
+            new_video = select_video_interactive("Select a video to add credits to")
+            if new_video:
+                console.print(f"\n[bold]Running: python scripts/add_credit_overlay.py --video {new_video}[/bold]\n")
+                import subprocess
+                subprocess.run([sys.executable, "scripts/add_credit_overlay.py", "--video", new_video])
+            break
+        elif choice == "N":
+            next_video = get_next_video(video_id)
+            if next_video:
+                console.print(f"\n[bold]Moving to next video: {next_video}[/bold]")
+                console.print(f"[bold]Running: python scripts/review_slides.py --video {next_video} --review-all[/bold]\n")
+                import subprocess
+                subprocess.run([sys.executable, "scripts/review_slides.py", "--video", next_video, "--review-all"])
+            else:
+                console.print("\n[yellow]No next video found. This is the last video in the list.[/yellow]")
             break
         else:
             console.print("\n[dim]Exiting. You can continue later with the commands shown above.[/dim]")
@@ -399,7 +423,7 @@ def _show_next_steps_after_credits(video_id: str, result: dict):
 
 
 @click.command()
-@click.option('--video', '-v', help='Single video ID to add credits to')
+@click.option('--video', '-v', help='Single video ID to add credits to (omit for interactive selection)')
 @click.option('--all', '-a', 'process_all', is_flag=True, help='Process all videos with slides')
 @click.option('--dry-run', '-d', is_flag=True, help='Preview what would be done without making changes')
 @click.option('--credit-text', default='', help='Credit text (if not provided, will prompt interactively)')
