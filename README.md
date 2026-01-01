@@ -382,7 +382,9 @@ python scripts/cleanup_slides.py --all --min-words 15 --filter-filler
 
 ##### finalize_curation.py - Final Sync & Refresh ⭐
 
-**Run this when you're satisfied with manual slide curation** - syncs metadata and refreshes all exports.
+**⚠️ IMPORTANT**: This processes **ALL videos** in your repository, not just one video.
+
+**Run this when you're satisfied with manual slide curation for all videos** - syncs metadata and refreshes all exports.
 
 ```bash
 # Complete finalization (recommended)
@@ -393,19 +395,24 @@ python scripts/finalize_curation.py --skip-exports
 ```
 
 **What it does**:
-1. **Syncs metadata** for all videos (removes entries for deleted files)
-2. **Refreshes NotebookLM exports** (includes updated slide set)
-3. **Updates Master Knowledge Base** (includes final slide counts)
-4. **Rebuilds search index** (includes updated content)
+1. **Syncs metadata** for **all videos** (removes entries for deleted files)
+2. **Refreshes NotebookLM exports** (includes updated slide set for all videos)
+3. **Updates Master Knowledge Base** (includes final slide counts for all videos)
+4. **Rebuilds search index** (includes updated content for all videos)
 
 **When to run**:
-- ✅ After manual slide deletions
-- ✅ After adding custom slides
-- ✅ Before exporting to NotebookLM
-- ✅ Before sharing with team
-- ✅ When satisfied with curation
+- ✅ After manual slide deletions across multiple videos
+- ✅ After adding custom slides to multiple videos
+- ✅ Before exporting to NotebookLM (finalizes entire repository)
+- ✅ Before sharing with team (ensures all exports are current)
+- ✅ When satisfied with curation for **all videos**
 
-**This is the final step** in the curation workflow.
+**For single video**: If you only need to sync metadata for one video, use:
+```bash
+python scripts/sync_slide_metadata.py --video VIDEO_ID
+```
+
+**This is the final step** in the curation workflow for the entire repository.
 
 ##### add_credit_overlay.py - Add Credit Attribution ⭐
 
@@ -541,9 +548,14 @@ python scripts/review_slides.py --video VIDEO_ID_2
 # Browse data/slides/VIDEO_ID/ and delete unwanted slides
 # Add custom slides if needed
 
-# 4. Final sync (when satisfied with curation)
+# 4. Sync metadata for individual videos (after manual changes)
+python scripts/sync_slide_metadata.py --video VIDEO_ID
+
+# 5. Final sync (when satisfied with curation for ALL videos)
 python scripts/finalize_curation.py
 ```
+
+**Note**: `finalize_curation.py` processes **all videos** in your repository. Use `sync_slide_metadata.py --video VIDEO_ID` for single-video metadata sync.
 
 **See [SLIDE_CURATION_WORKFLOW.md](SLIDE_CURATION_WORKFLOW.md) for complete workflow details.**
 
@@ -563,7 +575,10 @@ python scripts/review_slides.py --video NEW_VIDEO_ID
 # Add credits if not done during extraction
 python scripts/add_credit_overlay.py --video NEW_VIDEO_ID
 
-# Finalize when satisfied
+# Sync metadata for this video
+python scripts/sync_slide_metadata.py --video NEW_VIDEO_ID
+
+# Finalize when satisfied with ALL videos (processes entire repository)
 python scripts/finalize_curation.py
 ```
 

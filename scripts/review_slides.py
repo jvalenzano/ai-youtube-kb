@@ -22,13 +22,14 @@ import click
 from PIL import Image
 from rich.console import Console
 from rich.panel import Panel
-from rich.prompt import Confirm
+from rich.prompt import Confirm, Prompt
 from rich.table import Table
 from rich.text import Text
 
 # Import quality filters
 sys.path.insert(0, str(Path(__file__).parent))
 from extract_slides import SlideConfig, SlideInfo, SlideExtractor
+from curation_progress import mark_reviewed, get_status_summary, get_video_progress
 
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_SLIDES = PROJECT_ROOT / "data" / "slides"
@@ -426,6 +427,13 @@ def review_slides(video_id: str, config: SlideConfig, auto_approve: bool = False
             console.print(f"\n[green]✓ Removed {removed_count} slides[/green]")
             console.print(f"[green]✓ Updated metadata[/green]")
             
+            # Update progress tracking
+            mark_reviewed(
+                video_id,
+                slides_kept=len(final_slides),
+                slides_removed=removed_count
+            )
+            
             # Final sync to ensure metadata matches files exactly
             console.print("[dim]Final sync: ensuring metadata matches files on disk...[/dim]")
             try:
@@ -465,17 +473,209 @@ def review_slides(video_id: str, config: SlideConfig, auto_approve: bool = False
         }
 
 
+def _show_workflow_help(video_id: str = None):
+    """Show workflow help and useful commands."""
+    help_text = f"""
+[bold]Complete Slide Curation Workflow[/bold]
+
+[cyan]Stage 1: Extract Slides[/cyan]
+  python scripts/extract_slides.py --all
+  • Downloads videos and extracts slides
+  • Automatic filtering (blurry, low-text, filler)
+  • ~45-90 min for full playlist
+
+[cyan]Stage 2: Human Review (Recommended)[/cyan]
+  python scripts/review_slides.py --video VIDEO_ID --review-all
+  • Review all slides interactively
+  • Decide: Keep or Remove
+  • Auto-syncs metadata
+
+[cyan]Stage 3: Add Credits[/cyan]
+  python scripts/add_credit_overlay.py --video VIDEO_ID
+  • Add attribution to slides
+  • Interactive credit text prompt
+
+[cyan]Stage 4: Fix Duplicates (If Needed)[/cyan]
+  python scripts/fix_duplicate_credits.py --video VIDEO_ID
+  • Remove duplicate credit bars
+
+[cyan]Stage 5: Sync Metadata[/cyan]
+  python scripts/sync_slide_metadata.py --video VIDEO_ID
+  • Sync metadata after manual deletions
+
+[cyan]Stage 6: Finalize (All Videos)[/cyan]
+  python scripts/finalize_curation.py
+  • ⚠️  Processes ALL videos
+  • Syncs metadata, refreshes exports, rebuilds index
+
+[bold]Useful Commands[/bold]
+
+[dim]Check extraction status:[/dim]
+  python scripts/extract_slides.py --status
+
+[dim]Review specific video:[/dim]
+  python scripts/review_slides.py --video VIDEO_ID --review-all
+
+[dim]Sync single video metadata:[/dim]
+  python scripts/sync_slide_metadata.py --video VIDEO_ID
+
+[dim]Sync all videos metadata:[/dim]
+  python scripts/sync_slide_metadata.py --all
+
+[dim]Cleanup black frames:[/dim]
+  python scripts/cleanup_black_frames.py --video VIDEO_ID
+
+[dim]View workflow documentation:[/dim]
+  See: SLIDE_CURATION_WORKFLOW.md or README.md
+"""
+    
+    console.print(Panel(help_text, title="Workflow Help", border_style="blue"))
+    if video_id:
+        console.print(f"\n[dim]Current video: {video_id}[/dim]")
+
+
+def _show_next_steps_after_review(video_id: str, result: dict):
+    """Show interactive next steps after slide review."""
+    console.print("\n")
+    console.print(Panel(
+        f"[bold green]✓ Slide review complete![/bold green]\n\n"
+        f"Reviewed: {result.get('reviewed', 0)} slides\n"
+        f"Kept: {result.get('final_count', 0)} slides\n"
+        f"Removed: {result.get('removed', 0)} slides",
+        title="Review Complete",
+        border_style="green"
+    ))
+    
+    while True:
+        console.print("\n[bold]What would you like to do next?[/bold]")
+        console.print("\n[cyan]A)[/cyan] Continue to next step: Add credit overlay")
+        console.print("    [dim]Command: python scripts/add_credit_overlay.py --video {video_id}[/dim]")
+        console.print("\n[cyan]B)[/cyan] Check for duplicate credits")
+        console.print("    [dim]Command: python scripts/fix_duplicate_credits.py --video {video_id}[/dim]")
+        console.print("\n[cyan]C)[/cyan] Sync metadata (if you manually deleted slides)")
+        console.print("    [dim]Command: python scripts/sync_slide_metadata.py --video {video_id}[/dim]")
+        console.print("\n[cyan]D)[/cyan] Review another video")
+        console.print("    [dim]Command: python scripts/review_slides.py --video VIDEO_ID --review-all[/dim]")
+        console.print("\n[cyan]H)[/cyan] Show workflow help and useful commands")
+        console.print("\n[cyan]E)[/cyan] Exit (you're done with this video)")
+        
+        choice = Prompt.ask(
+            "\n[bold]Choose an option[/bold]",
+            choices=["a", "A", "b", "B", "c", "C", "d", "D", "e", "E", "h", "H"],
+            default="A"
+        ).upper()
+        
+        if choice == "H":
+            _show_workflow_help(video_id)
+            continue
+    
+        if choice == "A":
+            console.print(f"\n[bold]Running: python scripts/add_credit_overlay.py --video {video_id}[/bold]\n")
+            import subprocess
+            subprocess.run([sys.executable, "scripts/add_credit_overlay.py", "--video", video_id])
+            break
+        elif choice == "B":
+            console.print(f"\n[bold]Running: python scripts/fix_duplicate_credits.py --video {video_id}[/bold]\n")
+            import subprocess
+            subprocess.run([sys.executable, "scripts/fix_duplicate_credits.py", "--video", video_id])
+            break
+        elif choice == "C":
+            console.print(f"\n[bold]Running: python scripts/sync_slide_metadata.py --video {video_id}[/bold]\n")
+            import subprocess
+            subprocess.run([sys.executable, "scripts/sync_slide_metadata.py", "--video", video_id])
+            break
+        elif choice == "D":
+            new_video = Prompt.ask("\n[bold]Enter video ID to review[/bold]")
+            console.print(f"\n[bold]Running: python scripts/review_slides.py --video {new_video} --review-all[/bold]\n")
+            import subprocess
+            subprocess.run([sys.executable, "scripts/review_slides.py", "--video", new_video, "--review-all"])
+            break
+        else:
+            console.print("\n[dim]Exiting. You can continue later with the commands shown above.[/dim]")
+            break
+
+
+def _show_curation_dashboard():
+    """Show curation status dashboard."""
+    summary = get_status_summary()
+    
+    console.print("\n")
+    console.print(Panel(
+        f"[bold]Curation Progress Dashboard[/bold]\n\n"
+        f"Total videos with slides: {summary['total_videos']}\n"
+        f"  [green]✓ Completed: {len(summary['completed'])}[/green]\n"
+        f"  [cyan]→ Credits added: {len(summary['credits_added'])}[/cyan]\n"
+        f"  [yellow]→ Reviewed: {len(summary['reviewed'])}[/yellow]\n"
+        f"  [red]→ Pending: {len(summary['pending'])}[/red]",
+        title="Status",
+        border_style="blue"
+    ))
+    
+    if summary['pending']:
+        console.print("\n[bold red]Pending Videos (not yet reviewed):[/bold red]")
+        for vid in summary['pending'][:15]:  # Show first 15
+            console.print(f"  [red]• {vid}[/red]")
+        if len(summary['pending']) > 15:
+            console.print(f"  [dim]... and {len(summary['pending']) - 15} more[/dim]")
+        console.print(f"\n[bold]Next: Review a pending video[/bold]")
+        console.print(f"[dim]Example: python scripts/review_slides.py --video {summary['pending'][0]} --review-all[/dim]")
+    
+    if summary['reviewed']:
+        console.print("\n[bold yellow]Reviewed Videos (need credits):[/bold yellow]")
+        for vid in summary['reviewed'][:10]:
+            vid_info = summary['videos'][vid]
+            kept = vid_info.get('slides_kept', '?')
+            removed = vid_info.get('slides_removed', '?')
+            console.print(f"  [yellow]• {vid} ({kept} kept, {removed} removed)[/yellow]")
+        if len(summary['reviewed']) > 10:
+            console.print(f"  [dim]... and {len(summary['reviewed']) - 10} more[/dim]")
+    
+    if summary['credits_added']:
+        console.print("\n[bold cyan]Videos with Credits (need finalization):[/bold cyan]")
+        for vid in summary['credits_added'][:5]:
+            console.print(f"  [cyan]• {vid}[/cyan]")
+        if len(summary['credits_added']) > 5:
+            console.print(f"  [dim]... and {len(summary['credits_added']) - 5} more[/dim]")
+    
+    if summary['completed']:
+        console.print("\n[bold green]Completed Videos:[/bold green]")
+        console.print(f"  [green]✓ {len(summary['completed'])} videos fully curated[/green]")
+        if len(summary['completed']) <= 5:
+            for vid in summary['completed']:
+                console.print(f"    [dim]• {vid}[/dim]")
+    
+    console.print("\n[bold]Quick Commands:[/bold]")
+    console.print("[dim]  Review: python scripts/review_slides.py --video VIDEO_ID --review-all[/dim]")
+    console.print("[dim]  Status: python scripts/review_slides.py --status[/dim]")
+    console.print("[dim]  Help:   Choose 'H' in any interactive menu[/dim]\n")
+
+
 @click.command()
-@click.option('--video', '-v', required=True, help='Video ID to review')
+@click.option('--video', '-v', help='Video ID to review (omit to show dashboard)')
+@click.option('--status', '-s', is_flag=True, help='Show curation status dashboard')
 @click.option('--auto-approve', '-a', is_flag=True, help='Auto-approve all flagged slides (skip review)')
 @click.option('--review-all', '-r', is_flag=True, help='Review ALL slides, not just flagged ones')
 @click.option('--min-words', default=10, type=int, help='Minimum words in OCR text')
 @click.option('--filter-filler/--keep-filler', default=True, help='Filter filler text slides')
 @click.option('--filter-blurry/--keep-blurry', default=True, help='Filter blurry images')
 @click.option('--blur-threshold', default=100.0, type=float, help='Blur detection threshold')
-def main(video: str, auto_approve: bool, review_all: bool, min_words: int, filter_filler: bool,
+def main(video: str, status: bool, auto_approve: bool, review_all: bool, min_words: int, filter_filler: bool,
          filter_blurry: bool, blur_threshold: float):
     """Interactive slide review - Human-in-the-loop quality curation."""
+    
+    # Show curation status dashboard
+    if status or not video:
+        _show_curation_dashboard()
+        return
+    
+    # Show video-specific status before starting
+    video_progress = get_video_progress(video)
+    if video_progress.get('reviewed'):
+        console.print(f"\n[dim]This video was previously reviewed on {video_progress.get('reviewed_date', 'unknown date')}[/dim]")
+        console.print(f"[dim]Kept: {video_progress.get('slides_kept', '?')} slides, Removed: {video_progress.get('slides_removed', '?')} slides[/dim]")
+        if not Confirm.ask("\n[bold]Review again?[/bold]", default=False):
+            console.print("[yellow]Skipping review[/yellow]")
+            return
     
     config = SlideConfig(
         min_ocr_words=min_words,
@@ -490,6 +690,10 @@ def main(video: str, auto_approve: bool, review_all: bool, min_words: int, filte
     if 'error' in result:
         console.print(f"[red]Error: {result['error']}[/red]")
         sys.exit(1)
+    
+    # Show next steps if successful
+    if not auto_approve and 'removed' in result:
+        _show_next_steps_after_review(video, result)
 
 
 if __name__ == '__main__':

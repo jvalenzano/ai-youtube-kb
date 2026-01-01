@@ -26,6 +26,7 @@ from rich.panel import Panel
 # Import from extract_slides for consistency
 sys.path.insert(0, str(Path(__file__).parent))
 from extract_slides import DATA_SLIDES, KB_DIR
+from curation_progress import mark_credits_added
 
 PROJECT_ROOT = Path(__file__).parent.parent
 console = Console()
@@ -208,12 +209,137 @@ def process_video(
         for err in errors[:5]:  # Show first 5 errors
             console.print(f"  [dim]{err['file']}: {err['error']}[/dim]")
     
+    # Update progress tracking
+    if not dry_run:
+        mark_credits_added(video_id, credit_text=final_credit_text)
+    
     return {
         'video_id': video_id,
         'processed': processed,
         'errors': len(errors),
         'credit_text': final_credit_text,
     }
+
+
+def _show_workflow_help(video_id: str = None):
+    """Show workflow help and useful commands."""
+    help_text = f"""
+[bold]Complete Slide Curation Workflow[/bold]
+
+[cyan]Stage 1: Extract Slides[/cyan]
+  python scripts/extract_slides.py --all
+  • Downloads videos and extracts slides
+  • Automatic filtering (blurry, low-text, filler)
+  • ~45-90 min for full playlist
+
+[cyan]Stage 2: Human Review (Recommended)[/cyan]
+  python scripts/review_slides.py --video VIDEO_ID --review-all
+  • Review all slides interactively
+  • Decide: Keep or Remove
+  • Auto-syncs metadata
+
+[cyan]Stage 3: Add Credits[/cyan]
+  python scripts/add_credit_overlay.py --video VIDEO_ID
+  • Add attribution to slides
+  • Interactive credit text prompt
+
+[cyan]Stage 4: Fix Duplicates (If Needed)[/cyan]
+  python scripts/fix_duplicate_credits.py --video VIDEO_ID
+  • Remove duplicate credit bars
+
+[cyan]Stage 5: Sync Metadata[/cyan]
+  python scripts/sync_slide_metadata.py --video VIDEO_ID
+  • Sync metadata after manual deletions
+
+[cyan]Stage 6: Finalize (All Videos)[/cyan]
+  python scripts/finalize_curation.py
+  • ⚠️  Processes ALL videos
+  • Syncs metadata, refreshes exports, rebuilds index
+
+[bold]Useful Commands[/bold]
+
+[dim]Check extraction status:[/dim]
+  python scripts/extract_slides.py --status
+
+[dim]Review specific video:[/dim]
+  python scripts/review_slides.py --video VIDEO_ID --review-all
+
+[dim]Sync single video metadata:[/dim]
+  python scripts/sync_slide_metadata.py --video VIDEO_ID
+
+[dim]Sync all videos metadata:[/dim]
+  python scripts/sync_slide_metadata.py --all
+
+[dim]Cleanup black frames:[/dim]
+  python scripts/cleanup_black_frames.py --video VIDEO_ID
+
+[dim]View workflow documentation:[/dim]
+  See: SLIDE_CURATION_WORKFLOW.md or README.md
+"""
+    
+    console.print(Panel(help_text, title="Workflow Help", border_style="blue"))
+    if video_id:
+        console.print(f"\n[dim]Current video: {video_id}[/dim]")
+
+
+def _show_next_steps_after_credits(video_id: str, result: dict):
+    """Show interactive next steps after adding credit overlay."""
+    console.print("\n")
+    console.print(Panel(
+        f"[bold green]✓ Credit overlay added![/bold green]\n\n"
+        f"Processed: {result.get('processed', 0)} slides\n"
+        f"Credit text: {result.get('credit_text', 'N/A')}",
+        title="Credits Added",
+        border_style="green"
+    ))
+    
+    while True:
+        console.print("\n[bold]What would you like to do next?[/bold]")
+        console.print("\n[cyan]A)[/cyan] Continue to next step: Check for duplicate credits")
+        console.print("    [dim]Command: python scripts/fix_duplicate_credits.py --video {video_id}[/dim]")
+        console.print("\n[cyan]B)[/cyan] Sync metadata (if you manually deleted slides)")
+        console.print("    [dim]Command: python scripts/sync_slide_metadata.py --video {video_id}[/dim]")
+        console.print("\n[cyan]C)[/cyan] Review slides (if you haven't already)")
+        console.print("    [dim]Command: python scripts/review_slides.py --video {video_id} --review-all[/dim]")
+        console.print("\n[cyan]D)[/cyan] Add credits to another video")
+        console.print("    [dim]Command: python scripts/add_credit_overlay.py --video VIDEO_ID[/dim]")
+        console.print("\n[cyan]H)[/cyan] Show workflow help and useful commands")
+        console.print("\n[cyan]E)[/cyan] Exit (you're done with this video)")
+        
+        choice = Prompt.ask(
+            "\n[bold]Choose an option[/bold]",
+            choices=["a", "A", "b", "B", "c", "C", "d", "D", "e", "E", "h", "H"],
+            default="A"
+        ).upper()
+        
+        if choice == "H":
+            _show_workflow_help(video_id)
+            continue
+    
+        if choice == "A":
+            console.print(f"\n[bold]Running: python scripts/fix_duplicate_credits.py --video {video_id}[/bold]\n")
+            import subprocess
+            subprocess.run([sys.executable, "scripts/fix_duplicate_credits.py", "--video", video_id])
+            break
+        elif choice == "B":
+            console.print(f"\n[bold]Running: python scripts/sync_slide_metadata.py --video {video_id}[/bold]\n")
+            import subprocess
+            subprocess.run([sys.executable, "scripts/sync_slide_metadata.py", "--video", video_id])
+            break
+        elif choice == "C":
+            console.print(f"\n[bold]Running: python scripts/review_slides.py --video {video_id} --review-all[/bold]\n")
+            import subprocess
+            subprocess.run([sys.executable, "scripts/review_slides.py", "--video", video_id, "--review-all"])
+            break
+        elif choice == "D":
+            new_video = Prompt.ask("\n[bold]Enter video ID to add credits to[/bold]")
+            console.print(f"\n[bold]Running: python scripts/add_credit_overlay.py --video {new_video}[/bold]\n")
+            import subprocess
+            subprocess.run([sys.executable, "scripts/add_credit_overlay.py", "--video", new_video])
+            break
+        else:
+            console.print("\n[dim]Exiting. You can continue later with the commands shown above.[/dim]")
+            break
 
 
 @click.command()
@@ -291,6 +417,10 @@ def main(video: str, process_all: bool, dry_run: bool, credit_text: str,
         if 'error' in result:
             console.print(f"[red]Error: {result['error']}[/red]")
             sys.exit(1)
+        
+        # Show next steps for single video (unless dry-run or non-interactive)
+        if not dry_run and not non_interactive:
+            _show_next_steps_after_credits(video, result)
     
     elif process_all:
         # All videos

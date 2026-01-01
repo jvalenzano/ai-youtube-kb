@@ -201,6 +201,11 @@ class SlideExtractor:
             if not ret:
                 break
 
+            # Skip frame 0 (often a black frame before video content starts)
+            if frame_count == 0:
+                frame_count += 1
+                continue
+
             if frame_count % frame_interval_frames == 0:
                 timestamp = frame_count / fps
                 frame_path = self.frames_dir / f"frame_{frame_count:08d}.jpg"

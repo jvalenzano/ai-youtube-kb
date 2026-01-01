@@ -11,17 +11,24 @@ Usage:
 """
 
 import json
+import sys
 from pathlib import Path
 from typing import Optional
 
 import click
 from rich.console import Console
+from rich.panel import Panel
+from rich.prompt import Prompt
 from rich.table import Table
 
 PROJECT_ROOT = Path(__file__).parent.parent
 DATA_SLIDES = PROJECT_ROOT / "data" / "slides"
 
 console = Console()
+
+# Import progress tracking
+sys.path.insert(0, str(Path(__file__).parent))
+from curation_progress import mark_metadata_synced
 
 
 def sync_video_metadata(video_id: str, dry_run: bool = False) -> dict:
@@ -49,11 +56,14 @@ def sync_video_metadata(video_id: str, dry_run: bool = False) -> dict:
     
     if not missing_files and not orphaned_files:
         console.print(f"[green]✓ Metadata is in sync for {video_id}[/green]")
+        if not dry_run:
+            mark_metadata_synced(video_id)
         return {
             'video_id': video_id,
             'synced': True,
             'removed': 0,
-            'added': 0
+            'added': 0,
+            'current_count': len(actual_files)
         }
     
     # Show what will change
@@ -83,6 +93,9 @@ def sync_video_metadata(video_id: str, dry_run: bool = False) -> dict:
         with open(metadata_file, 'w') as f:
             json.dump(metadata, f, indent=2)
         
+        # Update progress tracking
+        mark_metadata_synced(video_id)
+        
         console.print(f"[green]✓ Updated metadata: {len(missing_files)} entries removed[/green]")
         console.print(f"[green]  Final count: {len(actual_files)} slides[/green]")
     
@@ -91,7 +104,8 @@ def sync_video_metadata(video_id: str, dry_run: bool = False) -> dict:
         'synced': not dry_run,
         'removed': len(missing_files),
         'added': 0,
-        'orphaned': len(orphaned_files)
+        'orphaned': len(orphaned_files),
+        'current_count': len(actual_files)
     }
 
 
@@ -110,6 +124,10 @@ def main(video: Optional[str], sync_all: bool, dry_run: bool):
         if 'error' in result:
             console.print(f"[red]Error: {result['error']}[/red]")
             return
+        
+        # Show next steps for single video (unless dry-run)
+        if not dry_run:
+            _show_next_steps_after_sync(video, result)
     
     elif sync_all:
         video_dirs = [d for d in DATA_SLIDES.iterdir() if d.is_dir()]
@@ -147,6 +165,130 @@ def main(video: Optional[str], sync_all: bool, dry_run: bool):
     else:
         console.print("[yellow]Please specify --video VIDEO_ID or --all[/yellow]")
         console.print("Use --dry-run to preview changes first")
+
+
+def _show_workflow_help(video_id: str = None):
+    """Show workflow help and useful commands."""
+    help_text = f"""
+[bold]Complete Slide Curation Workflow[/bold]
+
+[cyan]Stage 1: Extract Slides[/cyan]
+  python scripts/extract_slides.py --all
+  • Downloads videos and extracts slides
+  • Automatic filtering (blurry, low-text, filler)
+  • ~45-90 min for full playlist
+
+[cyan]Stage 2: Human Review (Recommended)[/cyan]
+  python scripts/review_slides.py --video VIDEO_ID --review-all
+  • Review all slides interactively
+  • Decide: Keep or Remove
+  • Auto-syncs metadata
+
+[cyan]Stage 3: Add Credits[/cyan]
+  python scripts/add_credit_overlay.py --video VIDEO_ID
+  • Add attribution to slides
+  • Interactive credit text prompt
+
+[cyan]Stage 4: Fix Duplicates (If Needed)[/cyan]
+  python scripts/fix_duplicate_credits.py --video VIDEO_ID
+  • Remove duplicate credit bars
+
+[cyan]Stage 5: Sync Metadata[/cyan]
+  python scripts/sync_slide_metadata.py --video VIDEO_ID
+  • Sync metadata after manual deletions
+
+[cyan]Stage 6: Finalize (All Videos)[/cyan]
+  python scripts/finalize_curation.py
+  • ⚠️  Processes ALL videos
+  • Syncs metadata, refreshes exports, rebuilds index
+
+[bold]Useful Commands[/bold]
+
+[dim]Check extraction status:[/dim]
+  python scripts/extract_slides.py --status
+
+[dim]Review specific video:[/dim]
+  python scripts/review_slides.py --video VIDEO_ID --review-all
+
+[dim]Sync single video metadata:[/dim]
+  python scripts/sync_slide_metadata.py --video VIDEO_ID
+
+[dim]Sync all videos metadata:[/dim]
+  python scripts/sync_slide_metadata.py --all
+
+[dim]Cleanup black frames:[/dim]
+  python scripts/cleanup_black_frames.py --video VIDEO_ID
+
+[dim]View workflow documentation:[/dim]
+  See: SLIDE_CURATION_WORKFLOW.md or README.md
+"""
+    
+    console.print(Panel(help_text, title="Workflow Help", border_style="blue"))
+    if video_id:
+        console.print(f"\n[dim]Current video: {video_id}[/dim]")
+
+
+def _show_next_steps_after_sync(video_id: str, result: dict):
+    """Show interactive next steps after syncing metadata."""
+    console.print("\n")
+    console.print(Panel(
+        f"[bold green]✓ Metadata synced![/bold green]\n\n"
+        f"Removed: {result.get('removed', 0)} orphaned entries\n"
+        f"Current slides: {result.get('current_count', 0)}",
+        title="Sync Complete",
+        border_style="green"
+    ))
+    
+    while True:
+        console.print("\n[bold]What would you like to do next?[/bold]")
+        console.print("\n[cyan]A)[/cyan] Continue to next step: Finalize curation (processes ALL videos)")
+        console.print("    [dim]Command: python scripts/finalize_curation.py[/dim]")
+        console.print("    [dim]Note: This will sync all videos and refresh exports[/dim]")
+        console.print("\n[cyan]B)[/cyan] Review slides (if you haven't already)")
+        console.print("    [dim]Command: python scripts/review_slides.py --video {video_id} --review-all[/dim]")
+        console.print("\n[cyan]C)[/cyan] Add credit overlay (if not done yet)")
+        console.print("    [dim]Command: python scripts/add_credit_overlay.py --video {video_id}[/dim]")
+        console.print("\n[cyan]D)[/cyan] Sync another video")
+        console.print("    [dim]Command: python scripts/sync_slide_metadata.py --video VIDEO_ID[/dim]")
+        console.print("\n[cyan]H)[/cyan] Show workflow help and useful commands")
+        console.print("\n[cyan]E)[/cyan] Exit (you're done with this video)")
+        
+        choice = Prompt.ask(
+            "\n[bold]Choose an option[/bold]",
+            choices=["a", "A", "b", "B", "c", "C", "d", "D", "e", "E", "h", "H"],
+            default="A"
+        ).upper()
+        
+        if choice == "H":
+            _show_workflow_help(video_id)
+            continue
+    
+        if choice == "A":
+            console.print("\n[bold]Running: python scripts/finalize_curation.py[/bold]")
+            console.print("[yellow]⚠️  This will process ALL videos in your repository[/yellow]\n")
+            if Prompt.ask("Continue?", choices=["y", "Y", "n", "N"], default="Y").upper() == "Y":
+                import subprocess
+                subprocess.run([sys.executable, "scripts/finalize_curation.py"])
+            break
+        elif choice == "B":
+            console.print(f"\n[bold]Running: python scripts/review_slides.py --video {video_id} --review-all[/bold]\n")
+            import subprocess
+            subprocess.run([sys.executable, "scripts/review_slides.py", "--video", video_id, "--review-all"])
+            break
+        elif choice == "C":
+            console.print(f"\n[bold]Running: python scripts/add_credit_overlay.py --video {video_id}[/bold]\n")
+            import subprocess
+            subprocess.run([sys.executable, "scripts/add_credit_overlay.py", "--video", video_id])
+            break
+        elif choice == "D":
+            new_video = Prompt.ask("\n[bold]Enter video ID to sync[/bold]")
+            console.print(f"\n[bold]Running: python scripts/sync_slide_metadata.py --video {new_video}[/bold]\n")
+            import subprocess
+            subprocess.run([sys.executable, "scripts/sync_slide_metadata.py", "--video", new_video])
+            break
+        else:
+            console.print("\n[dim]Exiting. You can continue later with the commands shown above.[/dim]")
+            break
 
 
 if __name__ == '__main__':
