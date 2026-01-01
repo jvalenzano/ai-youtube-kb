@@ -20,7 +20,9 @@ Turn any YouTube series into a searchable knowledge base:
 
 This tool works with any YouTube playlist. The example content used in this repository comes from:
 
-- **Series**: "The Next Frontiers of AI" by [Scott Hebner](https://www.linkedin.com/in/scott-hebner/)
+- **Series**: "The Next Frontiers of AI" by [Scott Hebner](https://www.linkedin.com/in/scotthebner/)
+- **Podcast**: [The Next Frontiers of AI](https://thecuberesearch.com/podcasts/the-next-frontiers-of-ai/)
+- **Website**: [Hebner Advisories](https://hebneradvisories.ai/)
 - **Channel**: [SiliconANGLE theCUBE](https://www.youtube.com/@theCUBE)
 - **Playlist**: [AI Agents Series](https://www.youtube.com/playlist?list=PLenh213llmcYQRnnZYJAFCns3BaKkA7dv)
 
