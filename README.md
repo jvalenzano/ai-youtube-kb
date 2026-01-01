@@ -58,8 +58,10 @@ python query.py --build
 
 ## Live Demo
 
-**NotebookLM**: [Add your NotebookLM link here]  
+**NotebookLM**: [Create a public link to share your notebook](#notebooklm-sharing)  
 **Query example**: `python query.py "futures index chart"` → Returns slide image + transcript context
+
+> **Note**: To create a shareable NotebookLM link, import your exported files to NotebookLM and use the "Share" button to generate a public link. See [NotebookLM Sharing](#notebooklm-sharing) below for details.
 
 ## Tech Stack ✨
 
@@ -264,11 +266,33 @@ For structured learning, import module files from `notebooks/notebooklm-ready/mo
 - `Agentic_Workflows_&_Orchestration.md`
 - `Case_Studies_&_Lessons.md`
 
-#### Sharing with Team
+#### Sharing with Team {#notebooklm-sharing}
 
-1. In NotebookLM: Click **Share**
-2. Set access: "Anyone with the link can view"
-3. Copy link and distribute
+NotebookLM supports both **private** and **public** sharing:
+
+**Public Sharing (Recommended for demos):**
+1. In NotebookLM: Click **Share** button (top-right)
+2. Set access to: **"Anyone with the link can view"**
+3. Copy the public link and share it
+4. Viewers can:
+   - Ask questions and interact with the notebook
+   - Explore generated content (audio overviews, FAQs, briefing documents)
+   - View all source documents and notes
+   - **Cannot** edit source material (read-only)
+
+**Private Sharing:**
+- Share with specific individuals via email (up to 50 for personal accounts)
+- Set permissions: **Viewer** (read-only) or **Editor** (can add/remove sources)
+- Enterprise/Education accounts can share with unlimited users within their organization
+
+**Important Notes:**
+- Public sharing is available for **personal Google accounts only**
+- Workspace/Education accounts can only share within their organization
+- All viewers need a Google account to access shared notebooks
+
+**Resources:**
+- [NotebookLM Sharing Guide](https://support.google.com/notebooklm/answer/16206563)
+- [Public Notebooks Announcement](https://blog.google/technology/google-labs/notebooklm-public-notebooks/)
 
 ### Adding New Content
 
