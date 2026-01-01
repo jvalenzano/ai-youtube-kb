@@ -32,6 +32,10 @@ console = Console()
 # Threshold: if slides are less than this many seconds apart, consider removing the earlier one
 TRANSITION_THRESHOLD = 5.0  # seconds
 
+# Perceptual hash threshold for transition duplicates (more lenient than general deduplication
+# because transition frames may be blurry but still the same slide)
+TRANSITION_PHASH_THRESHOLD = 15  # More lenient than the default 10 for general deduplication
+
 
 def parse_timestamp_from_filename(filename: str) -> Optional[float]:
     """Parse timestamp from slide filename like 'slide_18m52s_f580eaca.png'."""
@@ -55,14 +59,41 @@ def parse_timestamp_from_filename(filename: str) -> Optional[float]:
     return None
 
 
-def find_transition_duplicates(video_id: str, threshold: float = TRANSITION_THRESHOLD) -> list[tuple[str, str]]:
+def hash_distance(hash1: str, hash2: str) -> int:
+    """Calculate Hamming distance between two perceptual hash strings."""
+    if not hash1 or not hash2:
+        return float('inf')  # If either hash is missing, consider them different
+    
+    # Convert hex strings to integers and calculate Hamming distance
+    try:
+        h1 = int(hash1, 16)
+        h2 = int(hash2, 16)
+        return bin(h1 ^ h2).count('1')
+    except (ValueError, TypeError):
+        # If hashes aren't valid hex, compare as strings
+        return sum(c1 != c2 for c1, c2 in zip(hash1, hash2))
+
+
+def find_transition_duplicates(video_id: str, threshold: float = TRANSITION_THRESHOLD, phash_threshold: int = TRANSITION_PHASH_THRESHOLD) -> list[tuple[str, str, float, int]]:
     """
-    Find pairs of slides that are very close together in time.
-    Returns list of (earlier_slide, later_slide) tuples.
+    Find pairs of slides that are very close together in time AND are duplicates.
+    Returns list of (earlier_slide, later_slide, time_diff, hash_distance) tuples.
     """
     slide_dir = DATA_SLIDES / video_id
     if not slide_dir.exists():
         return []
+    
+    # Load metadata to get perceptual hashes
+    metadata_file = slide_dir / "metadata.json"
+    hash_map = {}
+    if metadata_file.exists():
+        try:
+            with open(metadata_file) as f:
+                metadata = json.load(f)
+            for slide in metadata.get('slides', []):
+                hash_map[slide['filename']] = slide.get('perceptual_hash', '')
+        except Exception:
+            pass
     
     # Get all slide files with their timestamps
     slide_files = list(slide_dir.glob("slide_*.png"))
@@ -76,7 +107,7 @@ def find_transition_duplicates(video_id: str, threshold: float = TRANSITION_THRE
     # Sort by timestamp
     slides_with_times.sort(key=lambda x: x[1])
     
-    # Find pairs that are close together
+    # Find pairs that are close together AND are duplicates
     duplicates = []
     for i in range(len(slides_with_times) - 1):
         slide1, time1 = slides_with_times[i]
@@ -85,20 +116,31 @@ def find_transition_duplicates(video_id: str, threshold: float = TRANSITION_THRE
         time_diff = time2 - time1
         
         if 0 < time_diff < threshold:
-            # These are close together - likely a transition duplicate
-            duplicates.append((slide1.name, slide2.name, time_diff))
+            # Check if they're actually duplicates using perceptual hash
+            hash1 = hash_map.get(slide1.name, '')
+            hash2 = hash_map.get(slide2.name, '')
+            
+            if hash1 and hash2:
+                hamming_dist = hash_distance(hash1, hash2)
+                if hamming_dist <= phash_threshold:
+                    # Both conditions met: close in time AND similar hashes
+                    duplicates.append((slide1.name, slide2.name, time_diff, hamming_dist))
+            else:
+                # If hashes aren't available, fall back to time-only check
+                # (for backwards compatibility with videos that don't have hashes)
+                duplicates.append((slide1.name, slide2.name, time_diff, -1))
     
     return duplicates
 
 
-def process_video(video_id: str, dry_run: bool = False, threshold: float = TRANSITION_THRESHOLD) -> dict:
+def process_video(video_id: str, dry_run: bool = False, threshold: float = TRANSITION_THRESHOLD, phash_threshold: int = TRANSITION_PHASH_THRESHOLD) -> dict:
     """Find and optionally remove transition duplicates for a video."""
     slide_dir = DATA_SLIDES / video_id
     if not slide_dir.exists():
         console.print(f"[red]No slides directory found for {video_id}[/red]")
         return {'error': 'No slides directory'}
     
-    duplicates = find_transition_duplicates(video_id, threshold)
+    duplicates = find_transition_duplicates(video_id, threshold, phash_threshold)
     
     if not duplicates:
         console.print(f"[green]✓ No transition duplicates found for {video_id}[/green]")
@@ -109,8 +151,11 @@ def process_video(video_id: str, dry_run: bool = False, threshold: float = TRANS
         }
     
     console.print(f"\n[bold]Found {len(duplicates)} transition duplicate pairs:[/bold]")
-    for earlier, later, time_diff in duplicates:
-        console.print(f"  [dim]• {earlier} → {later} ({time_diff:.1f}s apart)[/dim]")
+    for earlier, later, time_diff, hash_dist in duplicates:
+        if hash_dist >= 0:
+            console.print(f"  [dim]• {earlier} → {later} ({time_diff:.1f}s apart, hash distance: {hash_dist})[/dim]")
+        else:
+            console.print(f"  [dim]• {earlier} → {later} ({time_diff:.1f}s apart, no hash data)[/dim]")
     
     if dry_run:
         console.print(f"\n[yellow]DRY RUN: Would remove {len(duplicates)} earlier slides[/yellow]")
@@ -123,7 +168,7 @@ def process_video(video_id: str, dry_run: bool = False, threshold: float = TRANS
     
     # Remove earlier slides
     removed = []
-    for earlier, later, time_diff in duplicates:
+    for earlier, later, time_diff, hash_dist in duplicates:
         earlier_path = slide_dir / earlier
         if earlier_path.exists():
             earlier_path.unlink()
@@ -168,14 +213,15 @@ def process_video(video_id: str, dry_run: bool = False, threshold: float = TRANS
 @click.option('--all', '-a', 'process_all', is_flag=True, help='Process all videos')
 @click.option('--dry-run', '-d', is_flag=True, help='Preview without removing files')
 @click.option('--threshold', '-t', default=5.0, type=float, help='Time threshold in seconds (default: 5.0)')
-def main(video: str, process_all: bool, dry_run: bool, threshold: float):
+@click.option('--phash-threshold', '-p', default=TRANSITION_PHASH_THRESHOLD, type=int, help=f'Perceptual hash distance threshold (default: {TRANSITION_PHASH_THRESHOLD}, more lenient for transition frames)')
+def main(video: str, process_all: bool, dry_run: bool, threshold: float, phash_threshold: int):
     """Fix transition duplicates - Remove slides caught during transitions."""
     
     if dry_run:
         console.print("[yellow]DRY RUN MODE - No files will be deleted[/yellow]\n")
     
     if video:
-        result = process_video(video, dry_run, threshold)
+        result = process_video(video, dry_run, threshold, phash_threshold)
         if 'error' in result:
             console.print(f"[red]Error: {result['error']}[/red]")
             sys.exit(1)
@@ -189,7 +235,7 @@ def main(video: str, process_all: bool, dry_run: bool, threshold: float):
         console.print("\n[bold]Interactive Video Selection[/bold]")
         selected_video = select_video_interactive("Select a video to fix transition duplicates")
         if selected_video:
-            result = process_video(selected_video, dry_run, threshold)
+            result = process_video(selected_video, dry_run, threshold, phash_threshold)
             if 'error' in result:
                 console.print(f"[red]Error: {result['error']}[/red]")
                 sys.exit(1)
@@ -222,7 +268,7 @@ def main(video: str, process_all: bool, dry_run: bool, threshold: float):
             for video_dir in video_dirs:
                 video_id = video_dir.name
                 progress.update(task, description=f"Processing {video_id}...")
-                result = process_video(video_id, dry_run, threshold)
+                result = process_video(video_id, dry_run, threshold, phash_threshold)
                 if 'error' not in result:
                     results.append(result)
                 progress.advance(task)
