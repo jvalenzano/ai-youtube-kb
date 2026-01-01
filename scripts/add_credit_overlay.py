@@ -26,7 +26,7 @@ from rich.panel import Panel
 # Import from extract_slides for consistency
 sys.path.insert(0, str(Path(__file__).parent))
 from extract_slides import DATA_SLIDES, KB_DIR
-from curation_progress import mark_credits_added
+from curation_progress import mark_credits_added, get_video_progress, detect_video_state
 
 PROJECT_ROOT = Path(__file__).parent.parent
 console = Console()
@@ -221,6 +221,58 @@ def process_video(
     }
 
 
+def _show_video_status(video_id: str):
+    """Show detailed status for a specific video."""
+    from pathlib import Path
+    from extract_slides import DATA_SLIDES
+    
+    video_progress = get_video_progress(video_id)
+    detected_state = detect_video_state(video_id)
+    
+    slide_dir = DATA_SLIDES / video_id
+    slide_files = list(slide_dir.glob("slide_*.png")) if slide_dir.exists() else []
+    
+    console.print("\n")
+    console.print(Panel(
+        f"[bold]Video Status: {video_id}[/bold]\n\n"
+        f"Slides on disk: {len(slide_files)}\n"
+        f"Status: {video_progress.get('status', 'pending').upper()}\n\n"
+        f"Progress Tracking:\n"
+        f"  Reviewed: {'✓' if video_progress.get('reviewed') else '✗'}\n"
+        f"  Credits added: {'✓' if video_progress.get('credits_added') else '✗'}\n"
+        f"  Duplicates fixed: {'✓' if video_progress.get('duplicates_fixed') else '✗'}\n"
+        f"  Metadata synced: {'✓' if video_progress.get('metadata_synced') else '✗'}\n\n"
+        f"Detected State:\n"
+        f"  Has credits: {'✓' if (detected_state.get('has_credits_in_metadata') or detected_state.get('has_credits_in_images')) else '✗'}\n"
+        f"  Has been reviewed: {'✓' if detected_state.get('has_been_reviewed') else '✗'}\n"
+        f"  Metadata synced: {'✓' if detected_state.get('metadata_synced') else '✗'}",
+        title="Video Status",
+        border_style="cyan"
+    ))
+    
+    # Check if complete
+    is_complete = (
+        video_progress.get('reviewed') and
+        video_progress.get('credits_added') and
+        video_progress.get('metadata_synced')
+    )
+    
+    if is_complete:
+        console.print("\n[bold green]✓ This video is COMPLETE![/bold green]")
+        console.print("[dim]All curation steps have been completed.[/dim]")
+    else:
+        missing = []
+        if not video_progress.get('reviewed'):
+            missing.append("Review slides")
+        if not video_progress.get('credits_added'):
+            missing.append("Add credits")
+        if not video_progress.get('metadata_synced'):
+            missing.append("Sync metadata")
+        
+        if missing:
+            console.print(f"\n[yellow]Remaining steps: {', '.join(missing)}[/yellow]")
+
+
 def _show_workflow_help(video_id: str = None):
     """Show workflow help and useful commands."""
     help_text = f"""
@@ -303,17 +355,21 @@ def _show_next_steps_after_credits(video_id: str, result: dict):
         console.print("    [dim]Command: python scripts/review_slides.py --video {video_id} --review-all[/dim]")
         console.print("\n[cyan]D)[/cyan] Add credits to another video")
         console.print("    [dim]Command: python scripts/add_credit_overlay.py --video VIDEO_ID[/dim]")
+        console.print("\n[cyan]S)[/cyan] Show status for this video")
         console.print("\n[cyan]H)[/cyan] Show workflow help and useful commands")
         console.print("\n[cyan]E)[/cyan] Exit (you're done with this video)")
         
         choice = Prompt.ask(
             "\n[bold]Choose an option[/bold]",
-            choices=["a", "A", "b", "B", "c", "C", "d", "D", "e", "E", "h", "H"],
+            choices=["a", "A", "b", "B", "c", "C", "d", "D", "e", "E", "h", "H", "s", "S"],
             default="A"
         ).upper()
         
         if choice == "H":
             _show_workflow_help(video_id)
+            continue
+        elif choice == "S":
+            _show_video_status(video_id)
             continue
     
         if choice == "A":
