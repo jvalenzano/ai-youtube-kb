@@ -1,0 +1,34 @@
+# Slide from: 20. Navigating the AI Talent Crisis: Act Now Before It’s Too Late
+
+## Video Information
+**Video ID:** 9xKc3OqMvog
+**Title:** 20. Navigating the AI Talent Crisis: Act Now Before It’s Too Late
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=9xKc3OqMvog
+**Duration:** 40:36
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video presents real-world examples of AI talent challenges, specific company implementations like BairesDev's talent retention tool, and practical case studies of how organizations are addressing the AI skills shortage
+
+## Slide Information
+**Timestamp:** 13m18s
+**Timestamp URL:** https://www.youtube.com/watch?v=9xKc3OqMvog&t=798s
+**Original Filename:** slide_13m18s_a5cada35.png
+
+## Transcript Context
+**Before:** And again, we'll keep coming back to the AI agents, which we'll get into, and the augmentation. And part of the reason, if we peel these statistics back even a little bit more, I'll bring up another chart here.
+**After:** What we're finding here is first of all, there's, right now, in terms of jobs that are being posted, there's a 2. 3 times gap in supply and demand. In other words, the demand is significantly higher than the
+
+## Slide Content (OCR)
+gap in supply & demand
+in higher education capacity  ~ >
+gap in new entrants vs new jobs
+AI
+Talent
+
+---
+
+*This slide is from the video: 20. Navigating the AI Talent Crisis: Act Now Before It’s Too Late*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=9xKc3OqMvog*
+*Slide timestamp: 13m18s*

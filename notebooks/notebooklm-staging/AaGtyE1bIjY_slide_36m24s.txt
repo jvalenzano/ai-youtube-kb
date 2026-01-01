@@ -1,0 +1,41 @@
+# Slide from: 15. Are Agile & SaaS Dead with the Rise of Agentic AI?
+
+## Video Information
+**Video ID:** AaGtyE1bIjY
+**Title:** 15. Are Agile & SaaS Dead with the Rise of Agentic AI?
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=AaGtyE1bIjY
+**Duration:** 47:28
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video primarily focuses on how agentic workflows are transforming software development processes, replacing Agile methodologies with lean engineering approaches that utilize parallel agent execution across different application layers.
+
+## Slide Information
+**Timestamp:** 36m24s
+**Timestamp URL:** https://www.youtube.com/watch?v=AaGtyE1bIjY&t=2184s
+**Original Filename:** slide_36m24s_91f5eb1a.png
+
+## Transcript Context
+**Before:** This is why, and actually let me get your take on... I've talked to probably a hundred-plus companies, a lot of them vendors, but some end user companies mixed in there over the last six months or so.
+**During:** Let me just show you what I would aggregate as the keys
+**After:** to future state software. This is whether you're selling software or you're building it within your own business. I think there were five takeaways here that I've sort
+
+## Slide Content (OCR)
+Keys to Creating                                            =
+Power Decisions
+Software Business                                       —
+($)                       Go Vertical in
+Nuanced Markets
+Target Labor
+Spend, Not IT
+Rethink Software,
+Tap Al                                       Go Agentic
+E      t
+ae                                                     QO ves:
+
+---
+
+*This slide is from the video: 15. Are Agile & SaaS Dead with the Rise of Agentic AI?*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=AaGtyE1bIjY*
+*Slide timestamp: 36m24s*

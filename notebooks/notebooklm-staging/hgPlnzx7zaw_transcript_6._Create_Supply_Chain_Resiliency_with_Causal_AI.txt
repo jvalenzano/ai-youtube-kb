@@ -1,0 +1,70 @@
+# 6. Create Supply Chain Resiliency with Causal AI
+
+**Video ID:** hgPlnzx7zaw
+**Channel:** Unknown
+**Duration:** Unknown
+**URL:** https://www.youtube.com/watch?v=hgPlnzx7zaw
+
+## ⚠️ Transcript Not Available
+
+**Note:** Full video transcript is not available for this video.
+This may be due to:
+- YouTube rate limiting during batch processing
+- Transcripts disabled or not available for this video
+- Video age or accessibility restrictions
+
+**Content Available:**
+- Presentation slides with OCR text (below)
+- Slide companion files with full metadata
+- Slide images with timestamps
+
+## Presentation Slides
+*2 unique slides extracted from this video*
+*Content below is extracted from slide OCR text.*
+
+**Note:** Each slide image has a companion .txt file with full metadata.
+Slide filenames: hgPlnzx7zaw_slide_TIMESTAMP.png
+
+### Slide: [hgPlnzx7zaw_slide_1m54s.png](https://www.youtube.com/watch?v=hgPlnzx7zaw&t=114s) at 1m54s
+
+The Needs of the Managerial Class
+ul                   .
+[Today’s Al] relies on
+correlations to make                                                 .
+predictions; the insights it                   ; New Machine
+offers managers are flawed, [Iigsreny   Aporoach
+at best, when it comes to         ee) “PProac
+ae         .                                Answers What-lf
+anticipating the impact of              Questions
+different choices on                               uestlo
+Business outcomes.
+
+### Slide: [hgPlnzx7zaw_slide_30m36s.png](https://www.youtube.com/watch?v=hgPlnzx7zaw&t=1836s) at 30m36s
+
+WV Business Impact: Expert consensus - 83.7% high        W stress Test: Expert consensus - 87.2% high
+—s |           er                         1           Current Approach 9.2% 3                       1            Current Approach 10.5% 3
+2. Traditional Machine Learning 20.0% 2                       2 Traditional Machine Learning 19.2% 2
+Experts preferred
+rsa ML                                      3      Causal Machine Learning 70.8% | 1                           3      Causal Machine Learning 70.3% | 1
+approach
+PP                                     V accuracy: Expert consensus - 78.9% high explanation Capability: Expert consensus - 66% moderate
+Fes                                     1            Current Approach 12.6% 3                       1           Current Approach 17.7% 3
+Experts! collective                     2 Traditional Machine Learning 23.2% 2                 2 Traditional Machine Learning 18.7% 2
+preference for CML i.e.                              3 Causal Machine Learning 64.2% | 1                           3 Causal Machine Learning 63.6% | 1
+significantly more suitable
+,            +,                                      :                    -      Y                                        J                    - 68.
+for supplier escalation, over            Y Human Bias: Expert consensus - 70.5% moderate      V time to Recover: Expert consensus - 68.6% moderate
+the other methods: current               cot                   Priority Rank               cot                   Priory Rank
+approach Piety og                       1            Current Approach 15.0% _ 3:                      1           Current Approach 14.5% 3
+traditiona      at 28.                             2 Traditional Machine Learning 26.2% 2 a                     2 Traditional Machine Learning 23.8% | 2
+3 Causal Machine Learning 58.9% [il                    3 Causal Machine Learning 61.9% (JH
+
+
+## Full Transcript
+
+*Transcript not available. Content extracted from presentation slides only.*
+
+---
+
+*Content extracted from YouTube video slides. Full transcript not available.
+*Original content by Unknown. Video URL: https://www.youtube.com/watch?v=hgPlnzx7zaw*

@@ -1,0 +1,38 @@
+# Slide from: 16. Governance and Compliance in the Age of Data & AI
+
+## Video Information
+**Video ID:** J9AI_duELPI
+**Title:** 16. Governance and Compliance in the Age of Data & AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=J9AI_duELPI
+**Duration:** 38:47
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental governance, compliance, and trust foundations that must be established before successful AI agent deployment, rather than specific workflows or tooling implementations
+
+## Slide Information
+**Timestamp:** 16m32s
+**Timestamp URL:** https://www.youtube.com/watch?v=J9AI_duELPI&t=992s
+**Original Filename:** slide_16m32s_d4c20bc9.png
+
+## Transcript Context
+**Before:** regulatory for data and AI, but if you just look at 34... So, even if you're just operating primarily in the United States, you've got to deal state-by-state, so I can only imagine how complex it's going to be.
+**During:** The other thing I uncovered here was a survey
+**After:** by Compliance Insight, and so this is 2025 and so I summarized it here. So, on the left-hand side it's saying, " How prepared is your organization
+
+## Slide Content (OCR)
+Prepared to handle AI              Using AI in governance
+governance & compliance?       and compliance?
+& 2%       0%   (x) 50%
+Very         Yes          No
+‘3 36%  (-)  43%   (2) 7%
+Somewhat                           Using Al, but not                         Don’t Know
+for compliance
+COMPLIANCE INSIGHTS
+
+---
+
+*This slide is from the video: 16. Governance and Compliance in the Age of Data & AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=J9AI_duELPI*
+*Slide timestamp: 16m32s*

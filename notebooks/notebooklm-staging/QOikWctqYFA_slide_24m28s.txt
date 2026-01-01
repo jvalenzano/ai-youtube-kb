@@ -1,0 +1,37 @@
+# Slide from: 9. SDLC in the Era of Agentic AI: Necessity or Overkill?
+
+## Video Information
+**Video ID:** QOikWctqYFA
+**Title:** 9. SDLC in the Era of Agentic AI: Necessity or Overkill?
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=QOikWctqYFA
+**Duration:** 32:16
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video focuses extensively on software development lifecycle workflows, CI/CD pipelines, and how AI agents integrate into development processes and methodologies
+
+## Slide Information
+**Timestamp:** 24m28s
+**Timestamp URL:** https://www.youtube.com/watch?v=QOikWctqYFA&t=1468s
+**Original Filename:** slide_24m28s_837a78e8.png
+
+## Transcript Context
+**Before:** to elaborate a little bit more on what you were just saying about. I wonder how much software is going to get integrated in all this.
+**During:** And before you answer, let me just show you a chart here.
+**After:** There we go. Just as an example. This is from the BMW group. This is one of the podcasts I had done earlier. This is actually a causal knowledge graph, so an AI graph of a supply chain that they're modeling at BMW.
+
+## Slide Content (OCR)
+~~        -
+A Supply Chain Causal Knowledge Graph
+ee, BMWs     _ es      =)      ‘tom
+me .     GROUP ‘iii           al         te
+r    oa    j     pro [er     =      =—
+\    Ad tsss8rch_ The Next Frontiers of Al
+“a
+
+---
+
+*This slide is from the video: 9. SDLC in the Era of Agentic AI: Necessity or Overkill?*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=QOikWctqYFA*
+*Slide timestamp: 24m28s*

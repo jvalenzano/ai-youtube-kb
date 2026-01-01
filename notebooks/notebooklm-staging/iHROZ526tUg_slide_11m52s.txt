@@ -1,0 +1,47 @@
+# Slide from: 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** iHROZ526tUg
+**Title:** 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=iHROZ526tUg
+**Duration:** 26:08
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational conceptual frameworks for understanding AI agents, decision intelligence architecture, and the progressive technology stack needed to build decision-making capabilities
+
+## Slide Information
+**Timestamp:** 11m52s
+**Timestamp URL:** https://www.youtube.com/watch?v=iHROZ526tUg&t=712s
+**Original Filename:** slide_11m52s_ea485d0d.png
+
+## Transcript Context
+**Before:** actually make trustworthy decisions from an AI point of view. All right. Let's just dive a little bit deeper into these technologies, just to give you a little bit
+**During:** of insight into how this comes to life.
+**After:** Again, this is what I've pieced together all the conversations I've had. When you think about these decision intelligence type of technologies, I think  number one,
+
+## Slide Content (OCR)
+Multi-Agent
+=e                       © Reasoning
+2 Causal
+Reasoning                       poehtone nate _ by
+525 semantic                                                         Sharing Knowledge am
+Reasoning                       Understands how and why               coordinating actions
+fe. Chain of                                                              “ nappes and te             > Mult-agent RAG
+* Thought                      Interprets the underlying                      a                                          > Imitation RF
+context, relationships, and         > Causal Knowledge Models           > swarm Al
+Breaks probl         A             F                  concepts in a logical manner
+problems into logical                                                     > Causal-RAG
+that              ically
+i ae a              > Knowledge Graphs                        > Causal Neural Networks
+> Graph-RAG
+‘> Ghalero- Thought                   > Neural Symbolic Al
+> Attention Transformers
+> RLHF for CoT Tokens
+
+---
+
+*This slide is from the video: 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=iHROZ526tUg*
+*Slide timestamp: 11m52s*

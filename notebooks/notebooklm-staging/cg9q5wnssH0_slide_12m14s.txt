@@ -1,0 +1,42 @@
+# Slide from: 11. Agentic AI Architecture Matters
+
+## Video Information
+**Video ID:** cg9q5wnssH0
+**Title:** 11. Agentic AI Architecture Matters
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=cg9q5wnssH0
+**Duration:** 40:14
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses primarily on the foundational technologies, architectural principles, and core concepts needed to understand and build agentic AI systems
+
+## Slide Information
+**Timestamp:** 12m14s
+**Timestamp URL:** https://www.youtube.com/watch?v=cg9q5wnssH0&t=734s
+**Original Filename:** slide_12m14s_df68028c.png
+
+## Transcript Context
+**Before:** that I wanted to touch on a little bit with you, one that think over time will be the big differentiating components, if you will. One is the agentic RAG, which is coming on the scene now,
+**During:** and then the other is going to be the reasoning.
+**After:** There's a little chart that I found out on the internet that compares a standalone LLM, traditional RAG and then agentic RAG.
+
+## Slide Content (OCR)
+—    | if        ‘
+Agentic RAG
+Lid,      a  |          Goal-Oriented Task Execution         |x     |x             |
+nm (          N          _ Autonomous Planning & Decomposition | Bo  x                I           |
+Bess           a                 Tool Use & Multi-Tool Integration                  x             Limited                   |
+=  =       =                           Multi-Step Reasoning Over Time                x           x                 |
+cs m sal  i i}          " Self-Correction & Re-evaluation Loops  2 |
+Vs ye p\ iN          Context-Aware Retrieval Refinement     x     Static          eo |
+pee ay eS          Memory Use & Knowledge Sharing      |  x     |  x          |
+(osecnsoent) eee             )
+'              \   (J iz22%n The Next Frontiers of Al
+a
+
+---
+
+*This slide is from the video: 11. Agentic AI Architecture Matters*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=cg9q5wnssH0*
+*Slide timestamp: 12m14s*

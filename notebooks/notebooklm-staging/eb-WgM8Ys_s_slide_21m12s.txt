@@ -1,0 +1,41 @@
+# Slide from: 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+
+## Video Information
+**Video ID:** eb-WgM8Ys_s
+**Title:** 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s
+**Duration:** 46:57
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational knowledge about how AI systems discover and rank brands, explaining core concepts like the CAT framework, semantic graphs, and the fundamental shift from SEO to AEO
+
+## Slide Information
+**Timestamp:** 21m12s
+**Timestamp URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=1272s
+**Original Filename:** slide_21m12s_d2c4ed92.png
+
+## Transcript Context
+**Before:** everybody on some advice. Does that sound >> Yeah, sounds great. >> Good a good path forward. All right.
+**During:** Well, let's start with with uh I think the easier one to sort of understand um
+**After:** which is which is the CAT framework. Um it represents the core principles LLMs use to prioritize um when they are ranking and selecting
+
+## Slide Content (OCR)
+The core principles
+LLMs use to prioritize
+information & content                   CAAT
+.                                              Scorin
+Credible                                                  e
+Authentic                                     = |
+Authoritative                  8          so
+{                      AI Engine
+Optimization
+Trusted
+Qs
+
+---
+
+*This slide is from the video: 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=eb-WgM8Ys_s*
+*Slide timestamp: 21m12s*

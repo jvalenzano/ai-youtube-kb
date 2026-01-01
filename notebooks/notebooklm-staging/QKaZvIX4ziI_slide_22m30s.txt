@@ -1,0 +1,54 @@
+# Slide from: 19. From PoC to Production: Scaling Agentic AI in Financial Services
+
+## Video Information
+**Video ID:** QKaZvIX4ziI
+**Title:** 19. From PoC to Production: Scaling Agentic AI in Financial Services
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI
+**Duration:** 40:21
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video centers on real-world implementation challenges in financial services, featuring a detailed wealth management POC demonstration and practical deployment experiences with specific clients
+
+## Slide Information
+**Timestamp:** 22m30s
+**Timestamp URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI&t=1350s
+**Original Filename:** slide_22m30s_87f14823.png
+
+## Transcript Context
+**Before:** >> Yeah. This is the main screen. In the middle of the page, you can see the portfolio with different stocks and different colorful indicators like Wix,
+**During:** GDP, interest rate, unemployment rate and sentiment score.
+**After:** This is where the AI provide the explanation to portfolio manager with different indicators and different explanation of those predefined reports that the other two agents that I mentioned.
+
+## Slide Content (OCR)
+@@ Leafy Bank                                                                   Investment Portfolio Dashboard                                                                        © ‘solected Risk Profile: { HIGH FISK                  ~| oe
+@ Mongobs                          Interest Rate (US)                 Dally           12/06/2025           433                 %               -
+io *
+Investment Portfolio
+SvMmoL ASSET TYPE     DESCRIPTION _—«CLOSEPRICE(S) ALLOCATION —_NEWSSENTIMENT Vix SENSITIVITY    Gop INTEREST RATE UNEMPLOYMENT    Acrions
+‘scone
+HYG    Bonds     High-Yield Bonds     70.36      5%       0.02        e       e       e        e     gue o
+HYG Insights
+$0-Day Moving Average Analysis                                                                                                                                                                                                    e
+Prion va. MASO:
+HYG close price 78.35, and ts MASO 7.38.
+Diagnoals:
+Mt may indeate an upton,
+VIX Sensitivity Analysis                                                                               @ —_GDPAnalysis                                                                                                e
+Market Volalty:                                        (00 Trend:
+Vik clo pio it 20.4 fraprted on: 2025-06-19), provous clo plc value was: 18.02 rapate an: 2025-              GOP sup by +248.78 wih respect to he pravious period.
+06-12), percontage change: 15.6856,
+Assat-Speotic Recommendation:
+Asset-Speciic Recommendation:                                 Suggestion:
+‘Suggestion:                                                                  Reduce Bond assets as rising GOP typically favors equity over fixed income,
+Pht            ‘med          a       ete Bee                   7                                  Conflicting signal with Effective intersst Rate, Unemptoyment Fate
+HYG has HIGH sencitinty to merkat vointility, Currently in UPTREND                                                                                                                                                      2.   Leafy Portfolio Assistant
+@ avalble
+Interect Bare Analicic                                                                        a         Lineamninumant Bate Anolvcc                                                              2
+
+---
+
+*This slide is from the video: 19. From PoC to Production: Scaling Agentic AI in Financial Services*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=QKaZvIX4ziI*
+*Slide timestamp: 22m30s*

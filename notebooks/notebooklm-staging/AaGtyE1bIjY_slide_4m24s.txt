@@ -1,0 +1,32 @@
+# Slide from: 15. Are Agile & SaaS Dead with the Rise of Agentic AI?
+
+## Video Information
+**Video ID:** AaGtyE1bIjY
+**Title:** 15. Are Agile & SaaS Dead with the Rise of Agentic AI?
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=AaGtyE1bIjY
+**Duration:** 47:28
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video primarily focuses on how agentic workflows are transforming software development processes, replacing Agile methodologies with lean engineering approaches that utilize parallel agent execution across different application layers.
+
+## Slide Information
+**Timestamp:** 4m24s
+**Timestamp URL:** https://www.youtube.com/watch?v=AaGtyE1bIjY&t=264s
+**Original Filename:** slide_4m24s_e6d60939.png
+
+## Transcript Context
+**Before:** of AI agents where agents can now take over the engineering workflows, so it begs the question, is Agile dead? Is it just evolving? Why do you have this view?
+**After:** >> I definitely think that Agile needs either a compete rethink or we kill it and look at a new operating model, and I do believe that,
+
+## Slide Content (OCR)
+Adile*” | V7    Ay
+‘Ts Dead!    oe
+Le
+
+---
+
+*This slide is from the video: 15. Are Agile & SaaS Dead with the Rise of Agentic AI?*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=AaGtyE1bIjY*
+*Slide timestamp: 4m24s*

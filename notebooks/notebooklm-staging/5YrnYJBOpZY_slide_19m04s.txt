@@ -1,0 +1,45 @@
+# Slide from: 22. The State of Digital Labor Transformation
+
+## Video Information
+**Video ID:** 5YrnYJBOpZY
+**Title:** 22. The State of Digital Labor Transformation
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=5YrnYJBOpZY
+**Duration:** 37:18
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video establishes fundamental concepts about digital labor transformation, distinguishes between different AI strategies, and provides foundational research insights rather than specific workflows or tools
+
+## Slide Information
+**Timestamp:** 19m04s
+**Timestamp URL:** https://www.youtube.com/watch?v=5YrnYJBOpZY&t=1144s
+**Original Filename:** slide_19m04s_b4b5cb4a.png
+
+## Transcript Context
+**Before:** what I saw was that it's being viewed a little bit differently than the agentic AI technology strategy. It's a component of it, but it's much broader, which makes it interesting.
+**During:** So let's turn to strategy for a second.
+**After:** Again, this is probably where the most questions were. So the survey has given some really good insights into the strategic nature of what people are trying to accomplish. And one of the things that jumped out at me is right here,
+
+## Slide Content (OCR)
+Q   What are the primary activities that you envision
+Gal owl e d g e                          your organization’s digital co-workers performing?
+Help diagnose & ste busines probes ox
+6 2   Yy                                              Pursue goals with minimal guidance —_aae 58%
+Envision more than                         Act autonomously on behalf of workers _ ——— 53%
+predictions and
+automation; A shift
+Digital Labor
+to knowledge work                                                     (a ws,              Trinsformation
+r  a           P                     Index
+/
+Oo 31 |            “
+7       utots
+N=625 |              cor)
+i+ ¢ (Search Confidential. Termsapply.                                                       ;
+
+---
+
+*This slide is from the video: 22. The State of Digital Labor Transformation*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=5YrnYJBOpZY*
+*Slide timestamp: 19m04s*

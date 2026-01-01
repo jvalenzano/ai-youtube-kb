@@ -1,0 +1,29 @@
+# Slide from: 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** xedTTP84hIE
+**Title:** 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=xedTTP84hIE
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 34m18s
+**Timestamp URL:** https://www.youtube.com/watch?v=xedTTP84hIE&t=2058s
+**Original Filename:** slide_34m18s_94106e69.png
+
+## Slide Content (OCR)
+10x campaign performance
+* Trusted look-a-like audience modeling
+* On-the-fly real-time adjustments
++ Full transparency & explainability
+Scanbuy
+* Regulatory compliance guardrails              @             y
+ae’ HOV/SO
+
+---
+
+*This slide is from the video: 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=xedTTP84hIE*
+*Slide timestamp: 34m18s*

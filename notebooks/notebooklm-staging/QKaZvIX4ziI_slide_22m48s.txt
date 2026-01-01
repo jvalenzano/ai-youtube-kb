@@ -1,0 +1,57 @@
+# Slide from: 19. From PoC to Production: Scaling Agentic AI in Financial Services
+
+## Video Information
+**Video ID:** QKaZvIX4ziI
+**Title:** 19. From PoC to Production: Scaling Agentic AI in Financial Services
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI
+**Duration:** 40:21
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video centers on real-world implementation challenges in financial services, featuring a detailed wealth management POC demonstration and practical deployment experiences with specific clients
+
+## Slide Information
+**Timestamp:** 22m48s
+**Timestamp URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI&t=1368s
+**Original Filename:** slide_22m48s_d3a1d23c.png
+
+## Transcript Context
+**Before:** to portfolio manager with different indicators and different explanation of those predefined reports that the other two agents that I mentioned. So there are some charting capability,
+**During:** MongoDB support Atlas Charts,
+**After:** which if you have the data in MongoDB, you can create easily different charts. So this section is showing news sentiment and the way that news is extracted
+
+## Slide Content (OCR)
+@@® Leafy Bank                       Investment Portfolio Dashboard                         © selected Risk Prfie: | HIGH RISK      +|
+SYMBOL ASSET TYPE    DESCRIPTION   CLOSEPRICE (s) ALLOCATION NEWS SENTIMENT —_VIXSENSITIVITY   GDP INTEREST RATE UNEMPLOYMENT    actions
+Scone
+HYG   Bonds    High-Yield Bonds    79:36    5%     0.02      e     e     e      e    eau oO
+HYG Candlestick Chart (Last Day) aaa | ee
+Industry Solutions» Copital Markets demo
+ney
+nell
+me                    wh ith
+mae i  My fy      j   | nll ft  “| -  rh,  ij     ;
+en”    “a "Ma       iy i a        ath yam  “yuu i     th 1
+Sima        \     they fal              !      ed aT     tha
+3             Wh     hel    il                              t    ‘aul      tit       me
+7990      ee                      ea    fal   hi
+yo                                           I   i    hil
+mae        Hal                                   \ i    My,  N   |
+738)                                                   itu!       tall il |
+ae             ‘al
+za nai ip ici aoa tna acca
+ge ey See eee se ee NS ee ee Se ee eS ee ee Le es a ee ee ee ee es Ne Bey
+SSSR SG HSS SS SSSR SSE SRS RA SEES SSSR ESS RST SS RRS REE E EEE
+timestamp
+Hstongeoo
+‘Any gop inthe last 7 days chart are due to weekends, during which financial markets are closed.
+2. Leafy Portfolio Assistant
+@ avaiable
+Lop             Bonds _—investment-Grade Bonds 10778                  1%                      oss                          e                       e                      e
+
+---
+
+*This slide is from the video: 19. From PoC to Production: Scaling Agentic AI in Financial Services*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=QKaZvIX4ziI*
+*Slide timestamp: 22m48s*

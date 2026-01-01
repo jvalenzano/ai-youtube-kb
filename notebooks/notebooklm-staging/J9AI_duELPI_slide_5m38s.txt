@@ -1,0 +1,45 @@
+# Slide from: 16. Governance and Compliance in the Age of Data & AI
+
+## Video Information
+**Video ID:** J9AI_duELPI
+**Title:** 16. Governance and Compliance in the Age of Data & AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=J9AI_duELPI
+**Duration:** 38:47
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental governance, compliance, and trust foundations that must be established before successful AI agent deployment, rather than specific workflows or tooling implementations
+
+## Slide Information
+**Timestamp:** 5m38s
+**Timestamp URL:** https://www.youtube.com/watch?v=J9AI_duELPI&t=338s
+**Original Filename:** slide_5m38s_c1c23e27.png
+
+## Transcript Context
+**Before:** But anyhow, we will get into some of the things that we think are key here and would love to hear from everybody to help us shape the summit.
+**During:** So, Christophe, let's start with this research that
+**After:** we here at theCUBE Research pulled together, which let me explain this chart and get your thoughts on it. The blue bars are showing the estimated generation of new data from 2025 through 2030.
+
+## Slide Content (OCR)
+=                    Trust in data & Al
+38%
+drops to only 18%     a
+36%
+281 ZB
+33%
+==@= Trust in Data & Al Analytics                        210 zB
+30%
+155 ZB
+115 zB                                                               26%
+84 ZB
+18%
+2025           2026           2027           2028           2029           2030      GS iesezicn
+Note: Hypothetical inverse trend modeled between growth in unanalyzed data and business trust in Al/dat
+Sources: SAP, McKinsey, IDC, modeled for illustrative purposes.
+
+---
+
+*This slide is from the video: 16. Governance and Compliance in the Age of Data & AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=J9AI_duELPI*
+*Slide timestamp: 5m38s*

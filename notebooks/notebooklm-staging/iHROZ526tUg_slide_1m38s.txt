@@ -1,0 +1,44 @@
+# Slide from: 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** iHROZ526tUg
+**Title:** 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=iHROZ526tUg
+**Duration:** 26:08
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational conceptual frameworks for understanding AI agents, decision intelligence architecture, and the progressive technology stack needed to build decision-making capabilities
+
+## Slide Information
+**Timestamp:** 1m38s
+**Timestamp URL:** https://www.youtube.com/watch?v=iHROZ526tUg&t=98s
+**Original Filename:** slide_1m38s_ef41501e.png
+
+## Transcript Context
+**Before:** Obviously it starts with what I think is a lot of discussion out in the marketplace as I watch it, how do you actually define an AI agent? What I've learned from the people I've been talking to,
+**During:** you can see the chart here, is this sort of progression.
+**After:** We're all accustomed to AI assistance. They are fueled by LLMs and generative AI. They're really good at being able to automate simple tasks, repeatable tasks.
+
+## Slide Content (OCR)
+The Rise of AI Decision Intelligence
+23               .      Agentic AI
+= “£3                       * Plans action paths
+"4                      * Orchestrates workflows
+Pom                                  Al Agents                       * Autonomous actions             -
+Tes)                                                                                    =f
+* Pursues goals
+Al Assistants           * Problem-solves                        <n
+* Makes decisions                          qc
+* Automates tasks                                                            ewe
+* Analyzes information
+* Makes predictions                              -
+<co               R Ol
+Generative Al
+
+---
+
+*This slide is from the video: 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=iHROZ526tUg*
+*Slide timestamp: 1m38s*

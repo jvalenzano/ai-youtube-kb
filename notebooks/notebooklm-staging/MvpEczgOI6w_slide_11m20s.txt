@@ -1,0 +1,33 @@
+# Slide from: Digital Labor @ Work: How AI Agents are Transforming Community Management
+
+## Video Information
+**Video ID:** MvpEczgOI6w
+**Title:** Digital Labor @ Work: How AI Agents are Transforming Community Management
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=MvpEczgOI6w
+**Duration:** 45:58
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** This video presents a detailed real-world case study of HOAI's implementation of AI agents in community management, including specific customer examples, measurable outcomes, and live demonstrations of the technology in action.
+
+## Slide Information
+**Timestamp:** 11m20s
+**Timestamp URL:** https://www.youtube.com/watch?v=MvpEczgOI6w&t=680s
+**Original Filename:** slide_11m20s_9c4e6ab1.png
+
+## Transcript Context
+**Before:** that addressed the specific building problem. And I think that's where we got here. And apparently, I think we're solving a lot of real- world problems and having amazing outcomes.
+**After:** >> I created this graphic from what I've learned from you guys and on your website. And I kind of love this message, "Go beyond chat. Experience what true automation's about,
+
+## Slide Content (OCR)
+HOAI
+Go beyond chat,
+mdel-e(ciarece 1rue Automation
+Don’t just chat - experience Al that actually gets work done.
+
+---
+
+*This slide is from the video: Digital Labor @ Work: How AI Agents are Transforming Community Management*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=MvpEczgOI6w*
+*Slide timestamp: 11m20s*

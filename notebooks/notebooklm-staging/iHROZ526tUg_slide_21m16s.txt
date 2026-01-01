@@ -1,0 +1,41 @@
+# Slide from: 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** iHROZ526tUg
+**Title:** 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=iHROZ526tUg
+**Duration:** 26:08
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational conceptual frameworks for understanding AI agents, decision intelligence architecture, and the progressive technology stack needed to build decision-making capabilities
+
+## Slide Information
+**Timestamp:** 21m16s
+**Timestamp URL:** https://www.youtube.com/watch?v=iHROZ526tUg&t=1276s
+**Original Filename:** slide_21m16s_b831475e.png
+
+## Transcript Context
+**Before:** where this is all leading. I do think over the next couple of years, this idea and this emerging technology around causal AI, that's the secret sauce
+**After:** or the secret ingredient that's going to really progress decision intelligence. We're tracking here at theCUBE Research 20 or so vendors that are actively providing solutions today
+
+## Slide Content (OCR)
+The Rise of Causal AI: The Secret Ingredient
+om                               25%             > Plan to evaluate
+2
+40%                              |     33%              > Experimenting
+n0%                       > Actively using                                       GoogleTrends
+Rapidly
+0%                                                                                 Expanding
+Ot") © catabreks                                                     Interest in
+Causal AI
+pois A AA MV
+2022
+EC
+
+---
+
+*This slide is from the video: 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=iHROZ526tUg*
+*Slide timestamp: 21m16s*

@@ -1,0 +1,29 @@
+# Slide from: 5. AI That Knows Why | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** 5qhDifJM8M8
+**Title:** 5. AI That Knows Why | The Next Frontiers of AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=5qhDifJM8M8
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 37m50s
+**Timestamp URL:** https://www.youtube.com/watch?v=5qhDifJM8M8&t=2270s
+**Original Filename:** slide_37m50s_fe51505e.png
+
+## Slide Content (OCR)
+Model Reuse and Decision Chains
+ision Model          1}    Decision Model | ag      : -— Decision Model a               Decisi
+‘oe   |      = ° ae     Lier 7 —         Lat 7
+er ae     as  ee
+eo8 oe N LO      Knowledge Model (KM)
+aie:       =        [ oe       >      =    >   +       ial   <
+$$ -_-4_4#—__+—_4}$_, ~~
+
+---
+
+*This slide is from the video: 5. AI That Knows Why | The Next Frontiers of AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=5qhDifJM8M8*
+*Slide timestamp: 37m50s*

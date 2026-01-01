@@ -1,0 +1,30 @@
+# Slide from: 1. AI Predictions for 2025 | Next Frontiers of AI
+
+## Video Information
+**Video ID:** WOSRtdti6sY
+**Title:** 1. AI Predictions for 2025 | Next Frontiers of AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=WOSRtdti6sY
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 40m24s
+**Timestamp URL:** https://www.youtube.com/watch?v=WOSRtdti6sY&t=2424s
+**Original Filename:** slide_40m24s_e874716a.png
+
+## Slide Content (OCR)
+a  theCUBE
+@_ ‘esearch
+| 1|  LLMs alone run out of gas              |4|   Gen Al wars meet the same
+to fuel enterprise ROI                              fate as the browser wars
+|2 l  Al reasoning gets                           | 5 |   Software developers
+democratized for all                              become data scientists
+|3 |  Explainable Al emerges                  |6|   Al talent augmentation
+as the currency of innovation                    becomes Inevitable
+
+---
+
+*This slide is from the video: 1. AI Predictions for 2025 | Next Frontiers of AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=WOSRtdti6sY*
+*Slide timestamp: 40m24s*

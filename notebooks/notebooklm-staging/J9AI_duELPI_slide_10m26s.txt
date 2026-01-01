@@ -1,0 +1,36 @@
+# Slide from: 16. Governance and Compliance in the Age of Data & AI
+
+## Video Information
+**Video ID:** J9AI_duELPI
+**Title:** 16. Governance and Compliance in the Age of Data & AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=J9AI_duELPI
+**Duration:** 38:47
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental governance, compliance, and trust foundations that must be established before successful AI agent deployment, rather than specific workflows or tooling implementations
+
+## Slide Information
+**Timestamp:** 10m26s
+**Timestamp URL:** https://www.youtube.com/watch?v=J9AI_duELPI&t=626s
+**Original Filename:** slide_10m26s_c2533ddc.png
+
+## Transcript Context
+**Before:** And so, you just think about the consequences of that. You start to make business-critical decisions, not just a productivity tool like generative AI. And so, the stakes are going to go even higher.
+**During:** And this is some more research
+**After:** that I uncovered is actually from Identity and SalesPoint, that 96% of people that are developing AI agents, they're worried about the inability to audit
+
+## Slide Content (OCR)
+r) \  P ]            Identities   & e<countaity
+w      h  le     KPIs     i  o  Credentials
+orryt  at agents ac          Sate   Si a
+systemic auditability &      oe    ge"
+compliance controls             History O'8in Traceability
+identity OSailPoint
+
+---
+
+*This slide is from the video: 16. Governance and Compliance in the Age of Data & AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=J9AI_duELPI*
+*Slide timestamp: 10m26s*

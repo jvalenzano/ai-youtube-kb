@@ -1,0 +1,42 @@
+# Slide from: 16. Governance and Compliance in the Age of Data & AI
+
+## Video Information
+**Video ID:** J9AI_duELPI
+**Title:** 16. Governance and Compliance in the Age of Data & AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=J9AI_duELPI
+**Duration:** 38:47
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental governance, compliance, and trust foundations that must be established before successful AI agent deployment, rather than specific workflows or tooling implementations
+
+## Slide Information
+**Timestamp:** 23m14s
+**Timestamp URL:** https://www.youtube.com/watch?v=J9AI_duELPI&t=1394s
+**Original Filename:** slide_23m14s_91c8e9d2.png
+
+## Transcript Context
+**Before:** It's that whole risk versus innovation trade off, and I think everyone's struggling with that. The other part of the risk though, and you've done some really great research.
+**During:** Let me bring up one of the slides from it
+**After:** and maybe you can talk a little bit about what this is saying. What did you find here? >> Yeah, so we serve at actually 600 people around the world as part of a cyber-resiliency research,
+
+## Slide Content (OCR)
+Cloud and Al-based Threats Keep IT
+and Cyber Pros Awake At Night...
+Cloud security
+Al-driven cyberattacks
+Data encryption
+Data exfiltration
+Regulatory compliance issues due to cyber incidents/attacks
+Third-party vulnerabilities
+Insider threats
+Inability to access clean backups for recovery
+Other |0%
+Don'tknow [1%          g smecuse |
+
+---
+
+*This slide is from the video: 16. Governance and Compliance in the Age of Data & AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=J9AI_duELPI*
+*Slide timestamp: 23m14s*

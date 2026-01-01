@@ -1,0 +1,53 @@
+# Slide from: 25. The Widening AI Value Gap — How to Close it Before its Too Late
+
+## Video Information
+**Video ID:** zNuZ9sADgXA
+**Title:** 25. The Widening AI Value Gap — How to Close it Before its Too Late
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=zNuZ9sADgXA
+**Duration:** 34:05
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video primarily focuses on agentic workflows, the integration of different AI capabilities into end-to-end automated processes, and how organizations structure workflows for AI success
+
+## Slide Information
+**Timestamp:** 19m34s
+**Timestamp URL:** https://www.youtube.com/watch?v=zNuZ9sADgXA&t=1174s
+**Original Filename:** slide_19m34s_af60501e.png
+
+## Transcript Context
+**Before:** "I thought culture was part of the game, but it turned out to be the entire game. " There's a lot of organizational transformation that has to happen to make this all successful.
+**During:** And I think this chart in your report, and I took two charts
+**After:** and put them on one, hopefully that was okay. But I think you make a couple great points here on the left about people and organization and process being 70% of the game to be successful.
+
+## Slide Content (OCR)
+°                          °                          °                                                                  °
+.
+Get It Right: Joint Business-IT Ownership
+Algorithms — 499%
+Technology                                                       :                                                17
+19                                12
+(20%                       Business          eel.           este,
+( 20%                               advisedbyiT = #3                ;          :
+\                                                               eee. |             '                    '             '
+ae: | 2.5X
+Equal  '                             1                   H            1 | More likely to have joint
+responsibility   H                               '                     |             ‘ | ownership by IT and
+‘eae -              H                     '             '    business teams
+IT advised        Pa                                            ‘             '
+by business                          3a                           =
+People,                                                  Ges
+organization,                                                                          \                          2              a
+and processes.                                                            a.                             Exclusive IT ownership
+on                                '                   “255 5): | isakey indicator of
+!                                  | | stagnating companies
+Stagnating Emerging Scaling —_Future-built
+BOG Build for the Future 2025
+Global Study (n = 1,250)
+
+---
+
+*This slide is from the video: 25. The Widening AI Value Gap — How to Close it Before its Too Late*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=zNuZ9sADgXA*
+*Slide timestamp: 19m34s*

@@ -1,0 +1,36 @@
+# Slide from: 19. From PoC to Production: Scaling Agentic AI in Financial Services
+
+## Video Information
+**Video ID:** QKaZvIX4ziI
+**Title:** 19. From PoC to Production: Scaling Agentic AI in Financial Services
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI
+**Duration:** 40:21
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video centers on real-world implementation challenges in financial services, featuring a detailed wealth management POC demonstration and practical deployment experiences with specific clients
+
+## Slide Information
+**Timestamp:** 34m34s
+**Timestamp URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI&t=2074s
+**Original Filename:** slide_34m34s_d1700acd.png
+
+## Transcript Context
+**Before:** your clients in terms of how they prepare themselves for that? >> Yeah. - And as you answer that question, I'm going to bring up a chart here that I love that you created
+**During:** that kind of talks about how MongoDB
+**After:** has been rapidly evolving with the needs of their clients. >> Yeah. Absolutely. And I think it is hard to say three to five years because things are changing by month or by week these days.
+
+## Slide Content (OCR)
+| — |      e
+0 MongoDB. * Built for Change
+ceatatiecs | Mente == @MongoDB. | sn          <=
+ongo08         pms    renner oye «PULLSTET awe semzes _vecron seanc STREAM, EMBEDDING wots &//
+Seamless    End-to-End      Run
+Scalability     Security     Anywhere
+
+---
+
+*This slide is from the video: 19. From PoC to Production: Scaling Agentic AI in Financial Services*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=QKaZvIX4ziI*
+*Slide timestamp: 34m34s*

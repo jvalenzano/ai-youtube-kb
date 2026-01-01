@@ -1,0 +1,39 @@
+# Slide from: 23. Agentic AI ROI: From Automation to Decisions
+
+## Video Information
+**Video ID:** PH6KNZykjX4
+**Title:** 23. Agentic AI ROI: From Automation to Decisions
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=PH6KNZykjX4
+**Duration:** 40:57
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video heavily features real-world examples from DoozerAI's deployments, specific customer cases like the financial reporting agent, and practical lessons learned from actual enterprise implementations
+
+## Slide Information
+**Timestamp:** 32m50s
+**Timestamp URL:** https://www.youtube.com/watch?v=PH6KNZykjX4&t=1970s
+**Original Filename:** slide_32m50s_81b8d656.png
+
+## Transcript Context
+**Before:** coworker where you're actually working with each other, right? >> Yeah. - So let me just show you another thing, because we're getting close to time here, which is my view,
+**After:** from what I learned in this section of our survey, that brings together... Basically, the top line message here, right? So investment. You can see we did these maturity curves where you're able
+
+## Slide Content (OCR)
+INVESTMENT                           USE CASES                                 TRUST
+Al Reasoning                              Knowledge Work                           No Trust, No ROI
+Kn "Ny                  a /                   ly
+;      3.7   A          Fa    31 /      A           ;  oa \          g
+/ #      ' @       @
+ZB iweste1 Agentic Al Technology Indices
+= The vast majority envision a higher ROI than GenAI can deliver alone.
+=: The shift beyond task automation to AI decision-making is underway.
+= Trust has emerged as the currency of innovation
+ai           at       f   ,    ]    1    i    t    c        "§           Confidential. Terms apply>—
+
+---
+
+*This slide is from the video: 23. Agentic AI ROI: From Automation to Decisions*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=PH6KNZykjX4*
+*Slide timestamp: 32m50s*

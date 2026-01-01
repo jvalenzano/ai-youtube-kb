@@ -1,0 +1,41 @@
+# Slide from: 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+
+## Video Information
+**Video ID:** eb-WgM8Ys_s
+**Title:** 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s
+**Duration:** 46:57
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational knowledge about how AI systems discover and rank brands, explaining core concepts like the CAT framework, semantic graphs, and the fundamental shift from SEO to AEO
+
+## Slide Information
+**Timestamp:** 13m12s
+**Timestamp URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=792s
+**Original Filename:** slide_13m12s_e45a5b43.png
+
+## Transcript Context
+**Before:** just mean it's just an anecdotal thing. But yeah, I think there's a lot of catching up to do here. Um, and you know, that's why I think this could be
+**During:** really useful conversation. So, let's kind of frame this in some data. And,
+**After:** um, this is some work that we've been doing here. And what you have on the vertical bar is the percent of business or B2B. So, this is B2B buyers um that e
+
+## Slide Content (OCR)
+H                                                         PP vrecuse
+Shift From SEO to AEO Buyer Journeys          Seen
+80   —_—_
+0             Traditional
+..                   Search                                  |
+$                                     :   ——            42 pt Gap
+2°             |  ae   |
+=“                     Al  a   Z   .                ~~
+30                         mediated        Tipping Point
+20                    Discovery
+Google BERT,   —
+
+---
+
+*This slide is from the video: 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=eb-WgM8Ys_s*
+*Slide timestamp: 13m12s*

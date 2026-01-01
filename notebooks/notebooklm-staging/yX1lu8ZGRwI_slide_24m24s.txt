@@ -1,0 +1,33 @@
+# Slide from: 4. Next-Generation AI in Financial Services | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** yX1lu8ZGRwI
+**Title:** 4. Next-Generation AI in Financial Services | The Next Frontiers of AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=yX1lu8ZGRwI
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 24m24s
+**Timestamp URL:** https://www.youtube.com/watch?v=yX1lu8ZGRwI&t=1464s
+**Original Filename:** slide_24m24s_d553683c.png
+
+## Slide Content (OCR)
+.                                                                              .               .
+Infusing Causal Reasoning into AI Systems
+Causal Graphs                                  Causal Learning Algorithms          Causal Interventions
+Visualize causal relationships                       Learn causal mechanisms                            Simulate the consequences
+among variables in a system                         from observational data                              of interventions (“what if”
+—|                                    .
+a
+Identify Factor                                   —
+Analyze Data   |     Consider                            "1
+Counterfactuals     Manipulate
+ee     Variable       Observe Impact
+
+---
+
+*This slide is from the video: 4. Next-Generation AI in Financial Services | The Next Frontiers of AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=yX1lu8ZGRwI*
+*Slide timestamp: 24m24s*

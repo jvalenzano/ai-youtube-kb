@@ -1,0 +1,46 @@
+# Slide from: Digital Labor @ Work: How AI Agents are Transforming Community Management
+
+## Video Information
+**Video ID:** MvpEczgOI6w
+**Title:** Digital Labor @ Work: How AI Agents are Transforming Community Management
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=MvpEczgOI6w
+**Duration:** 45:58
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** This video presents a detailed real-world case study of HOAI's implementation of AI agents in community management, including specific customer examples, measurable outcomes, and live demonstrations of the technology in action.
+
+## Slide Information
+**Timestamp:** 33m16s
+**Timestamp URL:** https://www.youtube.com/watch?v=MvpEczgOI6w&t=1996s
+**Original Filename:** slide_33m16s_a55af985.png
+
+## Transcript Context
+**Before:** because of the differentiation our AI has brought to their business. >> That's great. And I read about Silverleaf, and I pulled together a chart for you
+**During:** to talk a little bit about it, because they're one your
+**After:** customers of the Voice. So what I like about this is very clear, measurable outcomes, right? >> Yeah. Silverleaf is a great customer.
+
+## Slide Content (OCR)
+-               Ss                              °    e
+HOAI Voice _, Driving Measurable Outcomes
+.                        .                                                                  “                        .
+|     Silverleaf receives thousands                                   We count HOAi Al Agents as
+of phone calls per week                                      employees. The math is crazy
+when you save that much time.
+Y_ HOA is answering 1,400 inbound calls per week                        We can easily and rapidly scale
+with Al, taking on the increased
+Y Phone wait time reduced from 4 minutes to 3 seconds                 workload.                      ~
+a Cian
+Y Inthe first 60 days, HOAI Agents completed over 4,000                                                            a
+tasks, saving over 400+ hours of busywork                                                                                    :
+*                                            s\
+Employee satisfaction has increased                                     Lisa Turner       Z                ~~
+CEO, Silverleaf           °                        >
+Management Group
+
+---
+
+*This slide is from the video: Digital Labor @ Work: How AI Agents are Transforming Community Management*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=MvpEczgOI6w*
+*Slide timestamp: 33m16s*

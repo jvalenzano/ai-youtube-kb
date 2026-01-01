@@ -1,0 +1,43 @@
+# Slide from: 11. Agentic AI Architecture Matters
+
+## Video Information
+**Video ID:** cg9q5wnssH0
+**Title:** 11. Agentic AI Architecture Matters
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=cg9q5wnssH0
+**Duration:** 40:14
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses primarily on the foundational technologies, architectural principles, and core concepts needed to understand and build agentic AI systems
+
+## Slide Information
+**Timestamp:** 16m48s
+**Timestamp URL:** https://www.youtube.com/watch?v=cg9q5wnssH0&t=1008s
+**Original Filename:** slide_16m48s_d76e02a0.png
+
+## Transcript Context
+**Before:** over time, I think gets further enhanced by say better and better reasoning capabilities that are starting to show up in the marketplace. Chain of thought is one of them,
+**After:** but I think this is going to go much further than that. This is another good chart that I came up with here and it compares the notion of semantic reasoning and causal reasoning.
+
+## Slide Content (OCR)
+_— — fF             ‘
+.
+Al Reasoning
+a        .     -  |       |   Semantic Reasoning                              Causal Reasoning
+Eis         |   Interprets intent & related concepts            Identifies underlying drivers of queries
+allt        » ;      |  Fetehesimore contextually; aligned Jee |  Selects evidence based on causal logic
+Ls  =- —                 |   Shares semantic frames between agents | Coordinates based on causal dependencies
+‘ie             ai             |   Ensures coherence                                  Prioritizes actions that lead to goals
+Beas  s   \  Refines meaning based on new input         Updates beliefs based on observed
+coc (. FA                                                           outcomes
+\
+\               theCUBE                                           °
+.              \     LF research The Next Frontiers of Al
+s
+
+---
+
+*This slide is from the video: 11. Agentic AI Architecture Matters*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=cg9q5wnssH0*
+*Slide timestamp: 16m48s*

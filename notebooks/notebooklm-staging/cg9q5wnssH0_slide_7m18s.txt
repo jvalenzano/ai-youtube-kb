@@ -1,0 +1,48 @@
+# Slide from: 11. Agentic AI Architecture Matters
+
+## Video Information
+**Video ID:** cg9q5wnssH0
+**Title:** 11. Agentic AI Architecture Matters
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=cg9q5wnssH0
+**Duration:** 40:14
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses primarily on the foundational technologies, architectural principles, and core concepts needed to understand and build agentic AI systems
+
+## Slide Information
+**Timestamp:** 7m18s
+**Timestamp URL:** https://www.youtube.com/watch?v=cg9q5wnssH0&t=438s
+**Original Filename:** slide_7m18s_a76d5890.png
+
+## Transcript Context
+**Before:** and others are so excited about it. It's going to take a lot of new technologies that are emerging on the scene beyond just LLMs and generative AI.
+**During:** And one of the things I did, let me just bring this up
+**After:** so you can see it here and the audience can see it, is this is the aggregate of several surveys on the right, on what are the most important new technologies that are going
+
+## Slide Content (OCR)
+_              =
+Agentic Al Technologies                                                 Qs.
+=                        GenAl / LLMs                                          3
+ea =                       .                                                             G
+ne           j                  Vector Databases                                       7
+=, ©                 Agentic RAG                                   \   R
+ae    A                   Mult-agent FWs                          ®            oo 4 Py data
+SS ee                     .                                          arXiv Vg iku
+==        =                              Tool Integration APIs                                                    6
+=a        P                   Decision inteligence                                                                          + blueprism
+i Fe M4   |       Semantic & Causal Reasoning                                         ,              McKinsey
+ise        is                                                                                         & Company
+‘    4 3                      Learning Loops                                6
+Georgecibert                                            ;     :     ;     :     ,     ;     ;
+Relative Importance                       :
+\
+\     US fekesicn. The Next Frontiers of Al
+«
+
+---
+
+*This slide is from the video: 11. Agentic AI Architecture Matters*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=cg9q5wnssH0*
+*Slide timestamp: 7m18s*

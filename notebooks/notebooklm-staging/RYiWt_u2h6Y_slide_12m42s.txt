@@ -1,0 +1,41 @@
+# Slide from: 17. AI Meets Psychology: How to Build Agents that Understand People
+
+## Video Information
+**Video ID:** RYiWt_u2h6Y
+**Title:** 17. AI Meets Psychology: How to Build Agents that Understand People
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=RYiWt_u2h6Y
+**Duration:** 45:17
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental limitations of current LLMs and introduces psychological intelligence as a foundational capability needed for effective AI agents, rather than specific workflows or implementations
+
+## Slide Information
+**Timestamp:** 12m42s
+**Timestamp URL:** https://www.youtube.com/watch?v=RYiWt_u2h6Y&t=762s
+**Original Filename:** slide_12m42s_b449b62f.png
+
+## Transcript Context
+**Before:** get responses, it's another whole thing if you're trying to establish a goal. I would imagine the psychological thing becomes even more important.
+**During:** And actually, let me show you a survey
+**After:** that I actually found out there, because when we talked, it really intrigued me, this whole area. So I went out and I did some research
+
+## Slide Content (OCR)
+ling,         of business professionals
+Ss               % agreed that psychological and
+=                   —              .                           :     :
+=             %  2 emotional understanding is
+=                  O= critical for AI to interact
+successfully with
+\)
+nw           humans.                  ©
+f  : ~   ~~ -
+DAT
+SLOAN SCHOOL                                                                                                  SS .        \,
+
+---
+
+*This slide is from the video: 17. AI Meets Psychology: How to Build Agents that Understand People*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=RYiWt_u2h6Y*
+*Slide timestamp: 12m42s*

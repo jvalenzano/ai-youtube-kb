@@ -1,0 +1,40 @@
+# Slide from: 19. From PoC to Production: Scaling Agentic AI in Financial Services
+
+## Video Information
+**Video ID:** QKaZvIX4ziI
+**Title:** 19. From PoC to Production: Scaling Agentic AI in Financial Services
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI
+**Duration:** 40:21
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video centers on real-world implementation challenges in financial services, featuring a detailed wealth management POC demonstration and practical deployment experiences with specific clients
+
+## Slide Information
+**Timestamp:** 4m58s
+**Timestamp URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI&t=298s
+**Original Filename:** slide_4m58s_91666d91.png
+
+## Transcript Context
+**Before:** and financial services simply don't make it into production. And for those that do, they often face an uphill battle to scale. So in your experience,
+**During:** what is happening behind the scenes here?
+**After:** Why is there such a high failure rate? As you can see here on the graphic, 56% is darn high. And in this survey from S&P Global, it actually doubled the rate that have
+
+## Slide Content (OCR)
+RL          The AI initiative abandonment
+SY              YZ                                             .
+SS              B       rate more than doubled in 2025
+$                  A
+NS
+nw                                       i    |
+of Al proof-of-concepts ~<~@tja\       ;
+are scrapped before          , 3      Ne
+reaching production.            a  wd  ‘a
+b                            '    S&P Global g Gra
+
+---
+
+*This slide is from the video: 19. From PoC to Production: Scaling Agentic AI in Financial Services*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=QKaZvIX4ziI*
+*Slide timestamp: 4m58s*

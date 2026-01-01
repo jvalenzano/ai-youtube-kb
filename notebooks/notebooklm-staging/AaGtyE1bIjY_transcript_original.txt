@@ -1,0 +1,1079 @@
+# 15. Are Agile & SaaS Dead with the Rise of Agentic AI?
+
+**Video ID:** AaGtyE1bIjY
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 47:28
+**URL:** https://www.youtube.com/watch?v=AaGtyE1bIjY
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video primarily focuses on how agentic workflows are transforming software development processes, replacing Agile methodologies with lean engineering approaches that utilize parallel agent execution across different application layers.
+
+## Summary
+- Agentic AI is fundamentally changing software development from traditional Agile methodologies to 'lean software engineering' with significantly faster delivery times and reduced costs
+- Companies are moving from 24-month development cycles to 10-month cycles using agentic workflows that work in parallel across all application layers
+- Traditional SaaS models are being challenged as custom software development becomes faster and more cost-effective with AI agents, giving companies full IP ownership
+- Developers need to evolve from coding specialists to problem solvers who manage agentic workflows, as syntax knowledge becomes less valuable
+- AI agents provide complete traceability and compliance capabilities that humans cannot match, making code review and regulatory compliance more robust
+- The build vs. buy decision is shifting toward building custom solutions since companies typically only use 20% of SaaS features but pay for 100%
+- ROI is measured through revenue acceleration and cost savings acceleration, with some clients achieving 60-70% reductions in engineering costs
+- Legacy system modernization is becoming feasible even for obscure languages like COBOL through AI agents that can understand and generate compliant code
+
+## Key Takeaways
+- **DO:** Start with identifying specific pain points like legacy modernization, slow product releases, or high tech spend rather than doing general POCs
+- **DO:** Ensure C-level leadership drives the transformation as cultural changes and organizational restructuring are required
+- **DO:** Focus on developing problem-solving skills and deep technology understanding rather than specific programming language expertise
+- **DO:** Consider the build vs buy decision differently now that custom software can be delivered faster and cheaper than SaaS implementations
+- **DON'T:** Don't focus procurement on unit cost reductions and labor rate negotiations instead of total cost transformation
+- **DON'T:** Don't assume traditional IDEs and development tools will remain relevant as agents take over code generation
+
+## Topics
+lean software engineering, agentic workflows, SaaS disruption, legacy modernization, developer role evolution, compliance automation, cost transformation
+
+## Key Moments
+- [06:08](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=368s): Introduction of 'mega sprints' concept where agentic workflows attack all application layers in parallel instead of sequential development
+- [12:16](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=736s): Discussion of how developer roles evolve to become managers of digital workforce rather than individual coders
+- [19:26](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=1166s): ROI measurement framework focusing on time and cost acceleration with real client examples of 10-month vs 24-month delivery cycles
+- [32:49](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=1969s): Analysis of how agentic AI changes the build vs buy decision, challenging traditional SaaS models
+- [43:03](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=2583s): Practical advice on getting started with agentic AI by identifying specific pain points rather than doing proof of concepts
+
+## Presentation Slides
+*5 unique slides extracted from this video*
+
+### Slide at [9m58s](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=598s)
+
+~  ee ee  \-  \  i  }  }  ee ee
+of developers                wa \
+believe Al Agents            Ne)
+will advance         |     ‘i
+their careers         ¥        \ \              /
+
+### Slide at [16m34s](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=994s)
+
+0 f say their SDLC platforms
+62 ue need major upgrades to
+support Agentic Al G3
+a
+
+### Slide at [32m00s](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=1920s)
+
+Saas  yO      » Custom  Ww   |
+cut WS pig |e
+of business consumers familiar with AI
+7 Ro  agents, view agentic AI as SaaS successors
+‘€ Vortex IQ
+ascENDIon
+
+### Slide at [36m24s](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=2184s)
+
+Keys to Creating                                            =
+Power Decisions
+Software Business                                       —
+($)                       Go Vertical in
+Nuanced Markets
+Target Labor
+Spend, Not IT
+Rethink Software,
+Tap Al                                       Go Agentic
+E      t
+ae                                                     QO ves:
+
+### Slide at [4m24s](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=264s)
+
+Adile*” | V7    Ay
+‘Ts Dead!    oe
+Le
+
+
+## TL;DR
+Agentic AI is replacing Agile development with lean engineering workflows that deliver software 10x faster.
+
+## Full Transcript
+
+>> Hello, everyone.
+Scott Hebner here.
+Thanks for tuning in to The
+Next Frontiers of AI podcast.
+Today, we'll answer the question, is the Agile development methodology dead?
+We'll discuss whether software as a service will also
+become a relic of the past.
+With agentic AI at our side, we can now build software 10 times faster and deploy products at scale with significantly fewer resources, and applications become highly modular and composable providing
+unprecedented flexibility and adaptability.
+This is so different than the era of cloud and SaaS development where companies needed massive
+resources to design, build, deploy, and adapt applications.
+The democratization of AI
+agents is changing everything, creating a new super cycle
+in software innovation.
+Who knows this world better than anyone?
+Well, I vote for Arun Varadarajan,
+
+[01:01]
+the Chief Commercial Officer at Ascendion.
+Arun is here with us today
+to discuss the world of Agile and software as a service
+and where it's all heading.
+Welcome so much, appreciate
+you being here again, Arun.
+It's been a while since
+we've talked at the AI Agent Builder Summit.
+What's new with you and Ascendion?
+>> I'm starting to see the
+interest level going up significantly in the market.
+When we were talking, I
+think there was a lot of...
+We obviously had a set of marquee clients who had already started working with us on the new operating model, but since we spoke, I don't know what's happened
+in the last two months.
+It's been a deluge of
+clients signing up to say, "Listen, we want to get this
+started sooner than later," and then also kind of being
+a little disillusioned with some of the tools that
+were available in the market that I think were very single-purpose,
+
+[02:01]
+just focused on one aspect
+of engineering being coding.
+When they started looking at our platform and the ability to look at
+autonomous engineering from start to finish, they saw a
+significant opportunity in changing the game.
+We're very excited. We
+just started some very interesting work for a very large client.
+You know, unfortunately, under
+NDA, I'm not in a position to name them, but that's going to be huge.
+It's a massive transformation
+where the client is more or less committed to using our platform, and they're going through
+kind of an initial phase of proving out the approach
+in part of their business.
+The idea is to take it
+across their entire product engineering organization and transform the way software
+is getting done using agentic AI, everything from redefining
+the process, redefining how their engineers will operate.
+What will be the new roles?
+
+[03:02]
+Will there need to be a new org structure?
+All of that is up in the air, and they have taken a very
+aggressive approach in saying, "We want to do this and we want to be the first to really drive this systematically
+across the organization.
+" I would say last two
+months, it's been a lot of, and interestingly, about three clients who are a little concerned
+about, should they leverage AI?
+Should they even... "Let's
+experiment, let's do pilots, let's take easy steps.
+" They want to come forward and said, "No, we want
+to get this done now.
+" It's been an interesting last couple of months since we spoke.
+>> That's great, so it sounds
+like the demand is kicking in and people are starting
+to get a little bit of the message here that
+the game is played on the field, not in the dugout.
+You got to get going, do more than pilots because you risk falling behind, which you may never catch up with how quickly these innovation
+cycles are moving, right?
+>> Very true. So, so, so, true, so true.
+
+[04:05]
+>> Well, you've argued that Agile is no longer
+sufficient in this new era of AI agents where agents can now take over
+the engineering workflows, so it begs the question, is Agile dead?
+Is it just evolving? Why
+do you have this view?
+>> I definitely think that Agile needs either a compete rethink or we kill it and look at a new operating model, and I do believe that, I'm calling it lean software engineering because I know a lot of
+people say, "Why lean?
+" I think lean is a word
+that we all understand.
+It's about, how do you put
+in place a very efficient, effective process that can deliver outcomes
+much faster than before?
+To me, we are calling it
+lean software engineering where we are taking out all the fluff and all the, again, the ceremonies and a lot of this stuff that happens
+
+[05:08]
+that doesn't necessarily
+drive the velocity of getting things done.
+You see, Agile was a
+response, like and you and I know, to Waterfall because Waterfall had its limitations.
+We built something and by the time we built it
+was a long, drawn process.
+The requirements changed, right?
+>> Right. Mm-hmm.
+- We said, "You know what?
+We'll be a lot more agile."
+The whole idea of Agile was to be agile, truly agile, but I think what has also
+happened is over time, I don't think Agile was
+designed to be that way.
+It's just that over time it's been polluted, if you will.
+The way it is implemented today, it doesn't bring the engineering
+discipline that we used to have even in the past.
+The sprints will come come and go and you will find that
+the features that you want to develop are still not fully baked.
+The business users are taking that time to decide what to do.
+There's a lot of elongation
+that happens, and part of it is
+
+[06:08]
+because I also think all of us are visual people, you know?
+>> Right. - If we can see
+something viscerally, we are able to understand and appreciate
+what it's all about.
+With lean software engineering,
+what I'm suggesting is that if I can do these, let's
+call them mega sprints.
+I don't want the Agile folks
+to get all bent out of shape.
+I just call them mega
+sprints to make them happy, and these mega sprints, what I'm telling the client is you're going to see the entire enchilada, but not necessarily in its final form, but you can see how based
+on your initial vision, can I quickly show you how that entire application is going to work?
+It's going to be now possible because I'm no longer dependent only on humans to get the work done.
+I can actually have these
+agentic workflows, one for the presentation layer, one for the business logic layer,
+one for the API layer, one for the database layer, and maybe even one for the
+infrastructure layer if need be.
+
+[07:09]
+I can in parallel attack all these layers and not have, say, "Oh, I'm only addressing business
+logic in sprint three.
+" I can bring that together and actually very quickly
+show my client based on their initial vision, based on what
+they think they want, this is what it's going to look like.
+When they look at it, they
+can say, "Aah, you know, I don't like this.
+Change this. I think the workflow needs to to have three steps instead of two steps.
+" Or, "I need the UI to look differently," or, "I need to integrate with this system which you haven't considered.
+Let's talk about history,
+data, migration or whatever.
+" Now, those things I can
+do in the next iteration.
+What happens is in every iteration, I'm incrementally building
+across all the layers, getting the clients to have
+a complete visual experience or an immersive experience
+of the entire application.
+Then, at some point in time, I say, "Voila, this is what I want.
+Let's switch it over
+to production." I feel- >> -
+- ...
+faster approach- >> Yeah, so-
+- ...
+.
+- ... it's an aggregate of subworkflows
+
+[08:10]
+that all come together and
+allow you to do things quicker because you're doing things in parallel also. Is that sort of- >> Yeah.
+- ... the notion- >> Yeah.
+- ...
+here? Are you calling
+it agentic engineering or lean engineering?
+>> I'm calling it lean software engineering because what I'm saying is,
+firstly, my team is going to be super lean and it's also going to have a very lean process.
+It's going to be cleanly defined.
+There's going to be points of interaction that we will define with
+the customer right up front, and it'll be a very structured approach to getting things done.
+There will be a certain
+amount of discipline that will also be required
+from the customer side, which I think we have lost in Agile.
+To a large extent, the Agile process, if it's not implemented
+well has actually led to a lot of indiscipline.
+We don't know how much it's
+going to cost to build the...
+We say, "Hey, we think it's going to cost a million dollars
+to do this project.
+" I have seen in the
+last seven, eight years
+
+[09:11]
+or 10 years since Agile has been there, very few people are able
+to stay within budget.
+Everybody's budget is bloated and that's why we're
+facing all the challenges and problems in the tech world with layoffs and everything else.
+I just feel that here's a
+great opportunity for all of us in the industry to
+take a real hard look at how we build software and
+develop a lean approach to it.
+That's why I'm calling it lean software engineering powered by agentic AI.
+>> Right, and that's inclusive of evolving the software
+it learns, it adapts to the requirements much more quicker because the whole thing is lean, and it sounds like human
+in the loop is a big component of all this- >> Yeah, yeah.
+- ...
+which brings me to let me show you a little study that I found.
+It was actually done by Salesforce, and I think it was in the beginning of March, so it's not too old.
+Just a month and a half
+or two months ago or so.
+The good news is 92% of developers believe that AI agents will advance their careers.
+
+[10:14]
+It doesn't sound to me,
+at least from this study, and I saw some others out there that were in the similar ballpark there, it sounds to me like developers
+are welcoming of this.
+It's not, "Oh, it's going to take my job.
+" It's going to give them superpowers, and I think that's the
+message I think they're getting from all of this.
+>> Oh, all our engineers
+in S&D are loving it because it brings a lot more
+predictability to how they are able to deliver things, right?
+>> Yeah. - It gives then,
+like you said, superpowers, but I can also tell you that there are some adjustments you
+have to make as an engineer for you to be relevant in
+the agentic world, right?
+>> Mm-hmm.
+- Nobody is going to be hired for their skills anymore.
+Just because you know Python,
+you're not going to get a job.
+Just because you know .NET
+Core, you're not going to get a job, but if
+you are a problem solver that knows how to use software engineering to solve problems, you
+are going to be front
+
+[11:15]
+and center in this transformation.
+In fact, we are getting
+to a point where we can pretty much write code using our agents in any damn language you want.
+Everything from PL1 or, you know, PL1, which is
+60, 70 years old, all the way to the latest programming languages.
+We have agents that can write
+in any of those languages, so I know...
+Let me put it this way. Very
+soon, I'm no longer going to need to hire an Arun
+because Arun knows .
+NET Core, but I had to
+do that in the past.
+In the past, I had to hire you because I was looking specifically
+for engineers who knew .
+NET Core, but today, if I
+know engineers who know how to write good, how know what
+good is from a coding standard, the syntax can be taken
+care of by the agent, right?
+>> Conceptually, it's sort of like the roles across the software
+development life cycle,
+
+[12:16]
+they become little managers of their own little digital
+workforce that's going to help them not only do their job better and elevate their value, but also partner with other
+parts of the life cycle, other people that are managing that.
+A lot of it gets automated
+through these intelligent agents.
+Is that conceptually sort
+of what we got going on here as the future goes?
+>> Absolutely. Let me tell
+you an interesting real- world problem that I'm
+solving for a client.
+The client came... In fact, we had a very interesting
+discussion about two, three weeks ago in one of the conferences.
+Client said, "Listen, my
+platform is built on Cobalt.
+I want to modernize, but I also know, Arun, that
+even though you have a platform that can accelerate my modernization, I may not do my modernization
+in one big bang.
+I will do it over time
+because there's risk involved.
+There are multiple things involved, but in the meantime, I
+also need to make sure that the clients who are on
+my Cobalt code base continue to get new features and new capabilities.
+
+[13:17]
+I've got to keep them happy
+while I'm transforming, and we all know that you
+can't find Cobalt programmers that easily, and even if
+you find them, they're going to charge you 5, $600 because they believe it's a unique skill.
+I told the client, "You
+know, hey, we have agents that can decipher Cobalt code and reverse engineer Cobalt code.
+I'm gong to build you agents
+that can write Cobalt code, so you don't need to hire any more Cobalt knowledgeable engineers.
+You need to hire good
+engineers who can come in and we will write, we will
+generate the Cobalt code for the user stories that you have, convert the Cobalt code
+actually into a technical spec that any good programmer can read.
+If the technical spec is all right, then the Cobalt code is good.
+If the technical spec is
+not all right, let him make changes to the technical spec.
+I will take that and make sure that the Cobalt code reflects it.
+The world is changing, Scott,
+
+[14:18]
+and while I continue to look at how we can modernize this Cobalt platform, I'm also helping him
+deliver features in the old legacy application.
+This is a solution we are looking at.
+Those are the kind of changes that tell me that if engineers have to be
+successful, in my opinion, they have to really become
+truly creative in their thinking in terms of how they solve problems, and must have a deep
+understanding of technology and really look at things, have very sound conceptual capabilities.
+I'm tell you, in the last 10 years, a lot of the engineers have lost
+their grounding on core software engineering principles
+because they're busy dragging and dropping stuff and just learning some Python skills or going for a class on .
+NET Core and thinking
+that they're programmers.
+They're coders. They're not programmers, and what we really need in the
+new world is true programmers
+
+[15:19]
+who now how to program
+irrespective of language.
+>> Right, and not only are they going to inherently adopt the ability
+to build AI capabilities, it sounds like they're going
+from a focus on activity to outcomes, and their job
+is to make sure the outcomes that the agentic workers are
+creating meet the requirements and so on and so for.
+Really, it's subtle, but it's profound at
+the same time in terms of the changes, right?
+>> Absolutely, and in
+addition, I also think that that is something that we are
+also looking at, that a lot of the applications will also become agentic.
+We're using agents, of
+course, to build software, but many of the capabilities
+in the software products that are now there in the
+market will become agentic because that in itself will create a very new playbook in terms
+of how applications get built.
+It'll be a combination
+of traditional software that you write and agentic frameworks
+
+[16:22]
+that will really turbocharge
+the entire user experience for the end consumer of
+that software product.
+>> That brings me to another
+thing I saw in the survey.
+Let me bring that up
+here, which is that 82 % of the developers say
+that their SDLC platforms, they actually said infrastructure,
+needs major upgrades to support this notion
+that they're driving here, agentic AI, lean software engineering.
+I found this to be
+pretty interesting, too.
+>> Yeah. You know, I will tell you, I may become unpopular if I say this, but I genuinely believe that these IDEs, these integrated development
+environments, are going to become more and more minimized.
+What are these IDEs? These IDEs are places where engineers go and write code, but if I have agents writing
+the code, why do I need IDEs?
+
+[17:23]
+I don't need IDEs, so some of these tools in the software
+development life cycle I think will become superfluous and unnecessary as this evolves, so you're absolutely right.
+I think the way we design, the way we architect, so I'll
+give you another example.
+For a large bank today, we are
+using our platform to build to replace their
+architecture review board.
+Wat does the architecture review board do?
+They use tools to really analyze and assess whether the design and the code are two standards.
+That's what they do, and they
+use tools and they use a lot.
+There's a lot of human
+involvement in the whole process.
+We have developed agents
+that can actually go and review the design and review your low-level
+design, review your code, and see if you're using all
+the well-architected principles of Azure or AWS or whatever else.
+
+[18:24]
+If there are an anti-patterns,
+I can actually recognize what those anti-patterns are and give you remediations
+to correct the code so that it becomes compliant.
+What you're seeing here is a lot of the processes involved in
+the engineering world are going to be dramatically impacted
+by these agents and, therefore, a lot of these
+tools will probably fall by the wayside and may no
+longer be needed and required.
+>> Yeah- >> .
+- ...
+I can see that in the...
+I think that's true in other domains. too.
+I kind of said in the upfront, the agentic AI movement is
+really changing everything.
+We'll get into that a little bit later because I got some questions
+for you on that, but before we do, if you're
+talking to, let's say, a business person, let's
+say a CEO, a CFO, in terms of ROI, as you move from your
+development teams having an Agile methodology to moving towards
+this more lean agentic- based software engineering approach, how
+
+[19:26]
+would they measure that?
+I mean, is the measurements different?
+I mean, I get that you're
+getting improved time to value, you're reducing development costs.
+I assume here you're elevating quality, but how would you recommend
+they would measure that?
+Do you have any good
+examples, you don't have to name customers, of real
+outcomes that have shown that this is definitely the way to go?
+>> Oh, for sure. I think you
+hit the two simple dimensions.
+It's time and it's cost.
+These are the two simple dimensions.
+We had a client who
+recently, a startup, that startup fish company,
+they've been, I think, in business for five years.
+They're a health tech. They chose us because we were able to show
+them that their product release that they had planned
+because they had to do a set of activities to get the product ready and ship the product out
+in 24 months, we were able to show them that, "Listen, you can get this done in 10 months.
+" Suddenly, their business
+case was able to introduce
+
+[20:30]
+literally five more quarters of earnings.
+We actually premium-priced that and we said, "Listen, if you
+want to do it in 24 months, okay, we'll do it cheaper, but if you want to get
+it done, we are happy to do this in 10 months for you," but they're going to charge you more because we're giving you the value of accelerating your revenue.
+I think there is, like I
+said, that's one dimension where if I can bring
+forward either your revenue or bring forward your savings,
+so for another large bank, we are doing their entire
+customer service transformation using our platform.
+We're actually building an
+agentic AI customer service environment, ecosystem
+completely for their call center, for their web, and multiple channels.
+Now, we were doing the
+engineering in terms of building out this agentic platform for them in the traditional way.
+In the traditional way, they
+have already saved money
+
+[21:32]
+and they're likely to save
+money at a particular rate.
+We went back to them and
+said, "Listen, you're going to take probably three, four years to save that total quantum of money, upwards of hundreds of millions of dollars.
+" We said, "Using our
+method, what if we bring that savings forward and get you to save the same
+money in two years instead of waiting for four or five years?
+" That's a huge business case,
+so acceleration of revenue, acceleration of savings is
+obviously a big, big dimension.
+The second thing that
+some CFOs are telling us, and we've had, again, a conversation with a large tech company
+where they believe that they are spending way too much money on their product engineering efforts.
+We are working with them to see how can we really change the cost
+curve, not do an optimization of 20% or 10%.
+We're talking about some 60, 70% savings in their engineering costs
+
+[22:34]
+over a period of time.
+That is what is building the
+business case in that instance.
+If I was a CFO or if I was a CEO of a company,
+if I'm really struggling to accelerate revenue because somebody is telling
+me, "Listen, it's going to take me three years
+to launch that product, " agentic AI is a great option.
+We can show them how we can bring that revenue acceleration for them.
+Secondly, if they have ideas that if they have technology
+programs that is going to save them money over time and they're being told
+by their IT department that it's going to take
+you five years to get that transformation done and you're going to get the
+savings over five years, we will show you how you can
+take that five-year savings and get it done in two years
+and accelerate your savings.
+If you're looking at
+these two scenarios, CEOs and CFOs, you should
+definitely talk to companies that have our kind of capability
+to accelerate your revenue and accelerate your savings.
+Then, the other things is if
+you fundamentally believe a lot
+
+[23:36]
+of the I would say B-backed
+firms, mid-sized companies, and even large companies feel that their current spend
+on technology is very high, you're seeing signs of
+layoffs happening across right now, and those are all actions being taken by the really big tech, as I call them.
+They're finding efficiencies.
+If the smaller companies
+who are there in the market are not realizing that that is real, they should think again.
+There, again, we have the
+playbook to show them, if your tech spend is so
+much, we can save you 50, 60% of your tech spend across
+product management, across architecture, design,
+development, operations, what have you, by using agentic AI.
+These are the three, what do I say, broad business imperatives that should drive a CEO or a CFO to reach out to people like us who can help them drive that kind
+
+[24:37]
+of business impact in their business.
+>> Yeah. Ultimately,
+that's the bottom line, and then I think you get the
+intangibles of creativity and innovation and higher quality and things like that that are going to be- >>  right.
+- ...
+a byproduct of... yeah, yeah.
+Well, so let me ask you, so we've talked about in the past as you and I back with the AI Agent
+Builder Summit about today's agentic technologies,
+largely based on LLMs and generative AI, which I don't know if you saw
+Apple came out with a study that showed that LLMs really can't reason.
+The good news is there's all kinds of technologies coming on the scene and being democratized
+as we speak that start to provide semantic reasoning and causal reasoning, that I think when
+complementing an LLM is going to change the nature of
+these agents in time.
+The question for you is,
+the vision that you have as these agents are able
+to truly reason better, make more trustworthy decisions that can actually explain those
+decisions, which I think is where this is all heading,
+not so much a black box
+
+[25:39]
+and not trying to predict reasoning, but actually do better
+mimicking of human reasoning.
+I assume this will take
+it to a whole new level.
+You agree with that?
+>> Oh, for sure. See, the one
+thing that we're doing, Scott, is we are making sure
+that our customers see how the agents are making their decisions.
+We have a complete traceability as to, why did the agent choose to
+write the user story that way?
+Why did the agent choose to write the low- level design that way?
+I mean, let me ask you, how will you get that information from a human engineer?
+Very tough. You're not
+going to be able to get it, but the agent here, you're able to- >>  black boxes, too.
+- ...
+exactly. They're walking human black box or whatever, living black boxes, but here, I can actually tell the agent, "Tell me why you did that.
+Why did you choose that design?
+" It'll actually tell you,
+I mean, you should see now how much the output of our
+agents have improved over time.
+
+[26:41]
+It is able to go into, so let's say I train my agent
+on somebody's GitHub repo, wherever they have their code base.
+It'll actually tell me I don't need to write this piece of code.
+It already exists in the repo.
+I'm going to pick it up from the repo.
+It actually tells you,
+"Don't write these methods.
+" Recently, actually, we did
+a small pilot for a client who use Sterling Commerce, one of IBM's old products.
+We are trying to do a
+customization for them, and we're in the middle of
+doing that work for them.
+We found that when we trained
+the agent, the agent was able to understand that these are the standards that the Sterling Commerce and the e-commerce engine requires.
+Therefore, when I write code, I got to make sure I comply to those standards.
+Let me tell you, I used to work for a company called Oracle. I
+mean, I'm sure you know them- >> Mm-hmm.
+- ...
+and I had huge difficult
+making sure our consultants
+
+[27:43]
+followed the Oracle standards.
+It was so difficult, but here,
+I trained the agent once.
+It's consistently spitting out
+code that is super compliant to what Sterling Commerce requires.
+That is the huge advantage,
+so its ability to understand and appreciate all these
+things is only getting better, like you said, and it's
+getting more .
+>> That's great, and
+you're right about humans.
+I mean, developers, one thing they hate more
+than anything than having to document everything and explain in writing why they've done things a certain way.
+You're right, the agents can
+probably open it up even more, and it also kind of brings...
+I think you kind of
+implicitly hit on this, but my research has been showing a bigger and bigger headwind in the
+world of AI due to data privacy, security, regulatory compliance, which is all over the
+place, all over the world.
+You have all... I'm assuming this is going to help out in the whole
+world of compliance.
+You were kind of referencing policy and compliance to a corporate
+standard or a vendor standard, but it's true for
+regulatory compliance, too.
+
+[28:45]
+It's going to ease that burden.
+>> For sure, Scott.
+- Yeah.
+>> You look at all the data
+leakages that have happened, the data breaches that have
+happened, they're all happened, sorry to say this, because of human error.
+A lot of them have happened
+because of human error.
+Somebody decided to open a
+firewall without whatever.
+There could be a hundred things
+that the human did, maybe for a valid reason at that point in time, but created vulnerabilities.
+Now, with agents, I can
+actually prevent that.
+I can train them not to do something.
+I can say, "Hey, this is
+HIPAA-compliant procedures.
+PHI data cannot be compromised.
+This is PCI-compliant
+data. Do not mess with it.
+" It will never accept PCI
+data unless it's scrambled.
+It'll never operate on...
+
+[29:46]
+The guardrails that we can set
+in place with these agents, in my opinion, will be far more robust than the guardrails
+we place on humans because even if...
+What guardrails can you place on humans?
+You can't tie their hands
+up. What can you do?
+You can only tell them, "Hey,
+it is good governance for you to not do this," but somebody
+can still do it. Right?
+>> The same, the value of the developer, the people on the life cycle goes up because now they'll be able...
+these agents will be able
+to generate the compliance documentation to make
+sure that they can show, and yeah, again, just more and more things to get
+done so they can focus on higher value things.
+>> For a life-
+- Yeah, so change.
+- ...
+absolutely. For a life
+sciences mid-size firm, we're actually using our
+agents to produce all of the documents in the GXP
+process, which is so important for compliance because this company sells bioreactors to the large farmers,
+
+[30:46]
+and they have to make sure that their manufacturing process
+is absolutely compliant and they're able to publish all of the documentation in terms of how all the systems have been validated, the process have been validated.
+It's pretty elaborate, so we
+are able to do that with agents and it's really helping this
+company do things far cheaper and far more consistently than
+relying on a human process.
+>> Yeah, since last time
+we talked, I went to...
+We covered at theCUBE the AWS
+Financial Services Symposium in New York City last week,
+actually it was this week, this week, time doesn't...
+This week I was down in Washington, D.C.
+, at the AWS DC Summit.
+In both places, regulatory
+compliance was one of the major themes,
+and you're right, part of the trick here to addressing that and turning it, slowing
+down that headwind of having to do all that is going to be the agentic approach that you're taking.
+>> Yeah.
+- I want
+
+[31:48]
+to ask you the other
+side of the coin here.
+We talked about the lean software engineering process for software.
+What about software as a service?
+I took that middle graphic
+from your blog that you write, the trade-off here,
+and so is the byproduct of this the world of SaaS is
+going to change dramatically?
+You can see I found another
+study out there, 78% saying that business consumers that are
+familiar with agentic AI think that agentic AI will become the
+successor to the SaaS model.
+I'm curious to your thoughts on that.
+I know you've touched on it in your paper.
+>> I absolutely believe that
+this will be the fourth reason why CEOs and CFOs will start
+calling companies like us.
+The fourth reason is, if we
+all know in the tech world, there's a big decision you have to make,
+
+[32:49]
+"Should I build or should I buy?
+", before you embark on
+any project or initiative.
+Today, with agentic AI, that build versus buy decision
+has become very interesting because think about it, when
+you buy these SaaS products that are there in the
+market, the IP is not yours.
+Your pace of change is dictated by them.
+They decide your pace of innovation.
+If you want to introduce a new capability, you're most likely to hear, "Wait for my next release next year.
+" You're shackled, and then in any case, you
+customized the damn thing because everything is not out-of-the-box.
+Then, you have problems with upgrades.
+It's a bit of a, in my opinion, it's a golden clasps that you get into.
+You just completely get shackled.
+Now, the reason why you did that was because you had time-to-market advantage.
+
+[33:51]
+The technology wasn't there to build these products fast
+enough, so you said, "Okay, damn it, I'm just going to buy, deploy it, and just get to market quickly.
+" In my opinion, with
+agentic AI coming in, custom software is going to be faster for you for two reasons.
+One is, of course, the entire
+process is becoming smaller, shorter and shorter and getting shrunk, but more importantly, think about it.
+When you buy a SaaS product, 80% of the features you don't use.
+You only use 20%.
+You go to any client,
+they buy the software, they only use 20% of the features,
+so you're actually buying that entire a hundred percent
+for just the 20%. Now, if I can build software for you that 20%, focused on what you want, the problem solving even becomes smaller.
+If I can do it with agentic AI, the cost and time-to-market advantage
+is probably in the favor of custom software, and the IP is yours and you can drive the pace of
+innovation, and that becomes-
+
+[34:53]
+>> That becomes .
+- ...
+yeah.
+A lot of mid-market firms
+were scared to do this, build custom software,
+because they didn't have the capability.
+They said, "We can't have
+those kind of people," but with agentic AI, you
+can bring partners like us and we'll be able, and I'm
+sure there are others in the market, but partners
+like us who can come in and do it for you at a
+very attractive cost point, not burn your bank, and get you something that
+you really want for yourself.
+I'm spitting code, so that is your IP.
+I'm not a low-code, no-code platform.
+That's the other option.
+I also think low-code, no- code platforms are also a locket.
+You get locked into a
+low-code, no-code platform because if you don't have that low-code, no-code platform, you can't run the app.
+Low-code, no-code platforms
+are also under threat, in my opinion, with the agentic AI because here I am building code that can be then given to
+the client, so the client owns the code base.
+>> It's truly, yeah, it really is...
+
+[35:54]
+it's profoundly transformational.
+I mean, that's what I was saying before.
+I know our view here, John Furrier, who's one of the CEOs here, we're
+on the verge of the dawn of a new super cycle in innovation.
+This is why, and actually
+let me get your take on...
+I've talked to probably a
+hundred-plus companies, a lot of them vendors, but some end
+user companies mixed in there over the last six months or so.
+Let me just show you what I
+would aggregate as the keys to future state software.
+This is whether you're selling software or you're building it
+within your own business.
+I think there were five
+takeaways here that I've sort of aggregated in all my conversations.
+On the bottom left, first of all, you got to tap into an AI ecosystem because there are going to
+be agents all over the place.
+There's going to be skills
+you're going to want to build on AI-native
+cloud infrastructures.
+A lot of this stuff you can
+acquire in the marketplace so you can focus on your added value, so the ecosystem becomes
+critically important.
+
+[36:55]
+I think your point about not
+getting locked into a low-code, no-code environment kind
+of plays into that notion, and I've heard that also, Arun.
+The second thing is totally
+rethink software. Go agentic.
+I think that's the case
+you're making here.
+It's a totally different model.
+Don't just assume the SaaS model.
+It's a really important
+point. You drove that home.
+I think the other thing is what I've heard is they're
+targeting labor spend, not IT spend- >> Correct.
+- ...
+and what that's meaning is go
+vertical in nuanced markets because if the idea here is
+to create digital coworkers, digital labor, if you
+will, just think about how many unique skill
+sets there are out there.
+Even if you are an
+accountant, where you live, what business you're living or working for, what industry, I mean, it's a little bit different.
+If you're a homeowner
+association manager, as I talked to one of the leaders there,
+very nuanced skills that have
+
+[37:57]
+to make judgments when
+they do knowledge work.
+Go in these nuanced markets.
+Go very vertical in what you
+build in terms of your agents, and then power people to do
+more than just automate tasks, but actually to make decisions,
+pursue goals, problem solve.
+If you take all five
+of these in aggregate, that is truly a very
+different model than SaaS, and to your point, Salesforce or any of these big application providers, you can name hundreds and hundreds of them, are not going to go after the people that are managing homeowner
+associations, for example.
+They can't cover all of that.
+What's your thoughts on
+sort of that aggregation of what's really changed
+in here in the big picture?
+>> Oh, I resonate with every one of them.
+I'd like to amplify on
+one of them a little bit and then go to where I
+see this all trending.
+You are so right that if you go to any procurement
+organization today in any
+
+[38:58]
+of the large enterprises,
+their entire focus is on, "How do I reduce my vendor's bill rate?
+How do I get more volume discounts?
+" Their focus is all on the
+unit cost problem, as I call it.
+They're not looking at
+the total cost of IT.
+That is definitely a major, major gap, and I really beseech all CFOs and CEOs to rethink how their procurement
+organizations are talking to their IT vendors.
+They go and they do these
+large contracts with these big, large IT vendors, and all these IT vendors do
+is they're not looking at, "How do I do this dramatically different?
+"
+They're just telling them, "We'll reduce our labor rates by $3, $2.
+We will give you volume
+discounts." Guess what?
+Instead of giving you
+better quality resources, because they still want to make their margins, so what do they do?
+The bring low-quality
+resources to make sure that their margins don't get impacted
+
+[40:00]
+and you get bad quality and maybe you've reduced a few dollars, but you're really not getting the value.
+I really think that all CEOs and CFOs must go to their
+procurement organizations, especially the ones
+focused on IT procurement, and change the way they think
+about cost transformation.
+That's one thing I want to amplify, but looking ahead, Scott,
+one of the reasons why Karthik, who's the CEO of Ascendion, he and I, when we started Ascendion,
+one of our big goals was to impact a billion lives.
+That was a higher order
+vision that we had.
+We felt that the only way
+to impact a billion lives and really impact the wider
+populace in the planet was to bring the cost of building
+technology dramatically down because that's the only way
+we can provide technology access to everybody.
+There are a lot of these, like
+you said, small businesses that are out there that
+simply cannot access the best
+
+[41:00]
+technology because it's
+too expensive for them.
+Even if they go to a Salesforce
+or any of these big names, and I hate mentioning,
+naming any of these players, they will not get the service they want.
+One of our vision by
+building this platform was to really democratize the
+way technology gets built and delivered at a
+significantly lower cost so that we can have may the whole planet boom with technology.
+That's where I think this is going.
+All the points you raise are bang on.
+It completely fits into how we see this story unfolding, and we are
+very excited about the future.
+>> Yeah, and I think Salesforce,
+since I brought them up, I actually think they're
+on the absolute right strategy for their business.
+Marc Benioff, they were
+actually did an interview with theCUBE not too long ago and he made a couple of points
+I thought were interesting.
+One is he'll be the last CEO of Salesforce that will manage only a human workforce.
+Two, is I think what they're
+doing with Agentforce
+
+[42:03]
+is they're going to help
+provide the backbone, but then you can plug in agents
+that are much more nuanced, much more vertical.
+They're playing that backbone
+infrastructure play around, obviously, their core market.
+It's not that these big vendors go away, it's just the role changes with these, and I think they're aggressively
+moving from software as a service to this notion of agentic AI.
+>> Sure. - Before we go here,
+though, so for our audience, how can they get started with this?
+How can they learn more about Ascendion and what you guys all have
+to offer as a way to do that?
+>> I think the best way to get
+started, in my opinion, is to really identify a pebble in your shoe.
+What is that pebble in
+the shoe that you have?
+One pebble could be, "I've got all of these legacy applications and they're really resource-hogging.
+They're not allowing me
+to innovate fast enough.
+
+[43:03]
+I want to modernize quickly.
+" Everybody who comes to you and tells you that modernization
+is long, drawn, it's going to cost you a lot of money,
+are selling you the wrong idea.
+I think you've got to figure
+out, what is your pain point?
+If your pain point is, like
+I said, legacy modernization or you're not able to
+introduce products fast enough or you feel your tech
+spend is really way over budget, your projects
+are getting delayed, all of these are good signals,
+in my opinion, for you to really explore agentic AI and how it can change your world.
+I mentioned to you there's
+that revenue acceleration opportunity, savings
+acceleration opportunity, fundamental cost
+transformation opportunity, and then the build versus buy position that you want to make.
+These are all good triggers
+for you reach out to a company that does agentic AI.
+With us, we are telling our clients, "Don't do POCs.
+
+[44:07]
+"
+POC days are gone. This is proven.
+We have proof points that we can do this, but maybe you want to start with a pilot.
+That's okay. Even if you have
+proof points, companies say, "Listen, pilot this for me in this area, and let's see if it works.
+" There's also not just us
+bringing in this new capability and technology, there's also got to be acceptance at the ground
+level on the client side.
+There are cultural changes
+that need to happen.
+People have to embrace this, and somebody from the
+top has to drive this.
+That is very important.
+We are seeing that if the C- level is not involved
+in driving this change and transformation,
+it's not going to happen because there's a sea change that is happening at the ground level and top. Somebody at the top
+has to say, "I'm doing this and let's make it happen, and I want to everybody
+lined up to do this.
+" That would be my advice to them, and we're working with a wide range of clients across the globe.
+We are seeing some very good results, so I would strongly tell all
+your listeners that don't wait,
+
+[45:11]
+pick up the phone and call us.
+We are happy to engage with you and share with you what we
+are doing with other clients and the impacts that we are
+able to deliver for them.
+We're happy to see what we can do for you.
+>> Yeah, I can say I've
+been highly impressed with what you guys are all doing.
+I've seen it live through the demos and the tours that you gave
+and really great stuff.
+Or anyhow, Arun, it's time for
+us to kind of wrap up here, but it's always great talking with you.
+The vision you guys
+have is very inspiring.
+I think you're definitely heading in the right direction here.
+>> Scott, thank you for inviting me back.
+It's always a pleasure to talk to you, and I think the questions you ask and the discussion we have always, it's a learning experience
+for me, so thank you for that.
+>> Well, thank you, and we'll
+definitely have you back.
+We'll keep these conversations going.
+For all of you out there,
+this agentic AI opportunity, particularly if you're in the
+software development space,
+
+[46:11]
+is really no longer theoretical.
+It's real, it's growing.
+It's open to those with clarity
+of vision or urgency to act, and as Arun has been saying, the game's played on the
+field, not in the dugout.
+It's time to act and get involved because this change is
+happening and will happen.
+To help you out, by the way, make sure you check out
+the upcoming broadcast of The AI Agent Builder Summit, which will be on June 25th on thecube.
+net, or you can see it
+on demand afterwards on our YouTube channel.
+You will see more from Arun
+going into what they can do, and you'll see a lot of good stuff in a little bit more detail.
+I encourage you to go watch
+The AI Agent Builder Summit.
+I think it'll be very well
+worth your time to do that.
+Anyhow, thanks for tuning in. Take care.
+We'll see you on the next
+episode of The Next Frontier of AI.
+We are the lead on tech
+news analysis. Bye for now.
+
+---
+
+*Content extracted from YouTube video. Original content by SiliconANGLE theCUBE. Video URL: https://www.youtube.com/watch?v=AaGtyE1bIjY*

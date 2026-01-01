@@ -1,0 +1,45 @@
+# Slide from: 17. AI Meets Psychology: How to Build Agents that Understand People
+
+## Video Information
+**Video ID:** RYiWt_u2h6Y
+**Title:** 17. AI Meets Psychology: How to Build Agents that Understand People
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=RYiWt_u2h6Y
+**Duration:** 45:17
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental limitations of current LLMs and introduces psychological intelligence as a foundational capability needed for effective AI agents, rather than specific workflows or implementations
+
+## Slide Information
+**Timestamp:** 32m46s
+**Timestamp URL:** https://www.youtube.com/watch?v=RYiWt_u2h6Y&t=1966s
+**Original Filename:** slide_32m46s_ae7751c4.png
+
+## Transcript Context
+**Before:** and it responds in a way that reflects the way that person thinks and feels. >> Right. You provided- - Sorry, go ahead. >> I was going to say you provided a good
+**During:** example of that here.
+**After:** >> Yeah. - The left and right. >> Exactly. - Is it some right? >> Yeah, so if you take this exact example here, the generic agent behavior on the left is just this kind
+
+## Slide Content (OCR)
+.                                                    :
+Generic vs. Psychologically-Informed Responses
+User inquiry: “I’m having trouble with my account. Can you help me reset my password?”
+Generic Agent Behavior              Receptiviti-Informed Agent Behavior
+Agent uses general-purpose defaults, no adaptation to user.                                         Communication optimized to user's psychological profile
+[OY                     fo
+Of course -I can help you with that.           \                    No problem -/ can help you reset your password right now.
+For your security, I'll first need to verify your identity.                          Let's get this sorted quickly. First, I'll just need to confirm a
+Could you please confirm your full name, the last                                            few details to protect your account:
+four digits of your account number, and the email                          Could you please share your full name, the last 4 digits of your
+address linked to your account?                                                  account number, and the email address you use with us?
+Once we've completed verification, I’ll walk you                              Once | have that, I’ll walk you through the reset in just a
+through resetting your password right away.                                couple of quick steps. You won't be stuck waiting. I'll stay
+\                                                        /                 \ 7                     with you the whole way.                       /
+Receptiviti
+
+---
+
+*This slide is from the video: 17. AI Meets Psychology: How to Build Agents that Understand People*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=RYiWt_u2h6Y*
+*Slide timestamp: 32m46s*

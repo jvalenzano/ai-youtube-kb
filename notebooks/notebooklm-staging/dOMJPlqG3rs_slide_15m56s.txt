@@ -1,0 +1,46 @@
+# Slide from: 12. The Future of Marketing- Causal Al Agents That Think Strategically
+
+## Video Information
+**Video ID:** dOMJPlqG3rs
+**Title:** 12. The Future of Marketing- Causal Al Agents That Think Strategically
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=dOMJPlqG3rs
+**Duration:** 38:47
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video establishes fundamental concepts about the evolution from correlation-based AI to causal AI, explaining core principles and theoretical frameworks rather than specific implementation workflows or tools
+
+## Slide Information
+**Timestamp:** 15m56s
+**Timestamp URL:** https://www.youtube.com/watch?v=dOMJPlqG3rs&t=956s
+**Original Filename:** slide_15m56s_c36c0c79.png
+
+## Transcript Context
+**Before:** and being a little bit more thoughtful about how it's deployed, how it's measured. And then I think, so maybe into next year we'll start to see some of the ROI start to increase.
+**During:** >> Right. Let's talk a little bit about the use cases
+**After:** and bring up another chart here. Again, the source for this one is also McKinsey, but I've also seen this reflected in many other places. I mean, I think the first thing to note is on the right-
+
+## Slide Content (OCR)
+—
+Top Marketing Use Cases
+Lead Funnel Optimization                                                                     6
+— en E              )
+i   hi            Dynamic Content.                                            4 %
+‘Scott Hebner                                                                                  +
+2                     Cross / Up Selling      ee                         Marketing
+i                              4      (NPS, Churn, C1, Win/Loss)                                        °
+©                                 (Audience Gen, Retargeting)                                   5
+Michelle Killebrew
+Intelligence Nurture            FY 35                                                                                                                                           |
+.                                  Ni A
+McKinsey&Company         un          |
+\    Le research The Next Frontiers of Al
+a
+P
+
+---
+
+*This slide is from the video: 12. The Future of Marketing- Causal Al Agents That Think Strategically*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=dOMJPlqG3rs*
+*Slide timestamp: 15m56s*

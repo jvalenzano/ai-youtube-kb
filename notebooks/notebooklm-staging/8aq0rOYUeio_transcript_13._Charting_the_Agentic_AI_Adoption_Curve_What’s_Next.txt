@@ -1,0 +1,1033 @@
+
+
+---
+**Note:** This transcript references 6 slide images. Each slide has a companion .txt file with full metadata. Slide filenames follow the pattern: 8aq0rOYUeio_slide_TIMESTAMP.png
+# 13. Charting the Agentic AI Adoption Curve: What’s Next?
+
+**Video ID:** 8aq0rOYUeio
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 38:37
+**URL:** https://www.youtube.com/watch?v=8aq0rOYUeio
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily covers foundational concepts of Agentic AI, market adoption patterns, infrastructure requirements, and strategic considerations for enterprises rather than specific workflows, tools, or case studies
+
+## Summary
+- EY's technology pulse poll shows 81% of tech executives are highly optimistic about Agentic AI potential, with 43% increasing AI budgets and over half going to autonomous AI
+- Agentic AI represents a shift from individual AI assistants to collaborative autonomous agents that can reason, make decisions, and work together in workflows
+- Innovation cycles are moving 5-10x faster than cloud migration, requiring companies to experiment quickly or risk falling behind permanently
+- Most enterprises are moving away from building custom models to using RAG approaches and Agentic RAG, with focus on orchestrating pre-built agents
+- Trust, adaptability, and decision intelligence are becoming critical requirements as agents move from productivity tools to business-critical decision makers
+- Data infrastructure remains the foundation - companies must get their data architecture right before deploying effective AI agents
+- Talent crisis emerging with 2.3x more demand than supply for AI professionals, plus 90% of companies unsure what AI skills they actually need
+- New business models are emerging based on outcome-based pricing rather than traditional seat-based or transaction-based SaaS models
+- Security and privacy concerns are the top barrier to adoption, mentioned by over 75% of survey respondents
+- Startups have unprecedented advantages in this cycle, able to target vertical labor spend rather than just IT spend with AI-native approaches
+
+## Key Takeaways
+- **DO:** Focus on getting your data infrastructure and architecture in place first - there's no AI without good IA (information architecture)
+- **DO:** Start experimenting with AI agents now and build flexible frameworks that allow plugging in and pulling out different solutions as the market evolves
+- **DO:** Look for AI agent platforms that support open standards like Model Context Protocol (MCP) to avoid vendor lock-in
+- **DO:** Target vertical-specific use cases and labor spend rather than broad horizontal IT applications for maximum impact
+- **DON'T:** Don't assume you need to build AI models from scratch - focus on RAG approaches and orchestrating pre-built agents instead
+- **DON'T:** Don't get overconfident about your competitive position - benchmark against external market developments, not just internal progress
+
+## Topics
+agentic AI adoption, enterprise AI strategy, AI talent crisis, data infrastructure, AI agent orchestration, trust and security, business model transformation
+
+## Key Moments
+- [03:04](https://www.youtube.com/watch?v=8aq0rOYUeio&t=184s): Definition of Agentic AI as intelligent systems with autonomous agents requiring light or no human interaction
+- [08:08](https://www.youtube.com/watch?v=8aq0rOYUeio&t=488s): Discussion of EY's technology pulse poll methodology and key findings about executive optimism
+- [14:19](https://www.youtube.com/watch?v=8aq0rOYUeio&t=859s): Analysis of key technology priorities for building Agentic AI capabilities including LLMs, databases, and reasoning systems
+- [23:29](https://www.youtube.com/watch?v=8aq0rOYUeio&t=1409s): Debate over who will win the agent orchestration layer - CRM players, hyperscalers, or new orchestrators
+- [28:35](https://www.youtube.com/watch?v=8aq0rOYUeio&t=1715s): Deep dive into the emerging AI talent crisis with 2.3x demand-to-supply ratio and skills uncertainty
+
+## Presentation Slides
+*6 unique slides extracted from this video*
+
+### Slide at [9m58s](https://www.youtube.com/watch?v=8aq0rOYUeio&t=598s)
+
+as
+y                                 of executive respondents who are
+planning to increase their Al budgets say
+|                                                         more than half of their total Al budget is
+. 43.,                currently allocated for autonomous Al
+”           ice as
+ep     EY
+
+### Slide at [11m50s](https://www.youtube.com/watch?v=8aq0rOYUeio&t=710s)
+
+"                                                                                           8
+@)             4    of
+(1
+of tech leaders are already adopting
+or fully deploying autonomous Al
+50%          =
+Half of tech executives             TH /            PF
+say more than 50% of Al          cae          —            7
+deployment will be autonomous
+in their company in the next
+24 months
+
+### Slide at [13m18s](https://www.youtube.com/watch?v=8aq0rOYUeio&t=798s)
+
+Agentic Al Tech Priorities
+GenAl / LLMs                                                                           8
+Vector Databases                                                                           "
+Agentic RAG                                                                           7
+Mult-agent FWs                                                                    5                                         theCUBE
+research
+Tool Integration APIs                                                                 °
+Survey Aggregate
+Decision Intelligence                                                                           7
+Semantic & Causal Reasoning                                                                           ,
+Learning Loops                                                                 6
+oO           1           2           3           4           Ss           6           7           8
+Relative Importance
+
+### Slide at [18m00s](https://www.youtube.com/watch?v=8aq0rOYUeio&t=1080s)
+
+Security inches its way
+to the top of the Al agenda                              (a)
+3 in 4 technology leaders say that while
+they have security and privacy governance
+frameworks in place to oversee Al-driven
+decisions, they still have concerns about
+the current state of Al                                                             =
+EY
+
+### Slide at [26m48s](https://www.youtube.com/watch?v=8aq0rOYUeio&t=1608s)
+
+Ny
+>
+When it comes to Al talent,  +
+we can expect significant hiring of resources, along
+with a continued rebalancing of the workforce
+70»)    =)  (e+)
+of tech leaders are                  are hiring Al-skilled                  of tech leaders are
+focusing on upskilling                talent almost equally                  anticipating hiring
+in the next six months
+EY
+
+### Slide at [28m14s](https://www.youtube.com/watch?v=8aq0rOYUeio&t=1694s)
+
+The Emerging Al Talent Crisis
+2.3X  gap in supply and demand                    supply
+9 in 10 lack a full view of talent needs         i
+8 in 10 are struggling to hire talent
+.                  .           .                                47%
+4 in 10 are at risk of losing current talent            Higher Pay
+
+
+## TL;DR
+Tech executives are bullish on Agentic AI but need better data infrastructure and talent strategies to succeed.
+
+## Full Transcript
+
+>> Welcome back to the Next
+Frontiers of AI podcast where we feature the industry pioneers who are shaping the future of AI.
+Thanks for tuning in. I'm
+Scott Hebner, your host and the principal analyst
+for AI at SiliconANGLE Media and theCUBE Research.
+In this episode, we'll
+chart the adoption curve for Agentic AI within the
+technology sector with the help of EY, one of the big four global
+professional services firms who no doubt has their
+pulse on the marketplace.
+As we enter what many are
+calling the golden age of AI agents, a new market
+category is emerging, one that delivers on the growing
+demand for highly domain- specific digital workers
+who can reason and act and collaborate with humans
+to enhance decision-making and to accelerate outcomes and even act autonomously
+when human involvement is not feasible or warranted.
+As we learn from the recent
+AI Agent Builder Summit hosted by theCUBE, now is the best time
+
+[01:02]
+to build a new technology business or reset an existing business.
+With the emerging Agentic AI technologies, innovators can now build 10 times faster, deploy products at scale, and fuel go to market with
+significantly fewer resources.
+And more importantly, they can move beyond targeting IT spend and target labor spend, a significantly larger
+untapped opportunity.
+This is the dawn of a new
+supercycle in innovation where vertical expertise, fast iteration, and the use of AI-native
+infrastructures will likely reshape the marketplace.
+And it's likely to occur
+faster than you think.
+To explore all this, I'm
+excited to have Ken Englund, the Americas technology
+sector growth leader at EY, joining us today.
+So, Ken, thanks so much for taking the time to be here today.
+>> Yeah. Scott, great to be here and looking forward to our conversation.
+It's nice to get together.
+>> Yeah. And it's always fun doing these.
+You get to meet new people and I see that we had a good cross-section
+
+[02:03]
+of overlap at IBM.
+>> Yeah. The world is small
+from that perspective and I was sort of smiling as I was looking at your background and we're in the middle of
+another platform shift, right?
+A supercycle as you like to call it.
+So ready for another one.
+>> Yeah. I was in the software group.
+You were in the consulting.
+>> Yep.
+- I guess what they call global business services back then.
+>> Yeah. Global business
+service at that time. Yeah.
+Now I've been at EY about seven years, so still just deep embedded
+in high-tech industry.
+>> That's great. So a whole bunch of enterprise experience, which is great.
+And you're focused on the
+technology sector, correct?
+>> Yeah. I spend all my time
+in high-tech, a lot of time with upstarts, new
+private company scale-ups, and then a lot of times still
+with big high-tech as well.
+So that's all I do day in and day out.
+>> All right. That's great. All right.
+Let's start, Ken, with just
+what is EY's view of the Agentic AI marketplace
+or Agentic AI in general and how do you see it being
+different from the last three years of generative AI
+both from a technology
+
+[03:04]
+and business perspective?
+>> Yeah. I mean a few things,
+Scott, I would start maybe just to lay out our view.
+Agentic AI for us is intelligent systems with autonomous agents that either have light human
+interaction or fully hands off.
+Right? So a pretty broad
+definition in that regard.
+I sort of feel and EY, we're really
+sort of at the coming age of the discussion of what I'll
+call the application layer.
+If you think of the last two or three years, it's been
+really about foundational infrastructure and compute
+and large language models.
+Now, we're all pretty
+excited about actually how does this get deployed and help an enterprise,
+which is a big item.
+And then for me, as you said, I spend my whole life in the enterprise, so while I'm super excited
+about the consumer tech side of AI, the light bulbs are
+going on of how we're going to apply this to an enterprise.
+Right? That's really it.
+And then for me, the biggest thing is, I don't know about you, but this feels 5 or 10 times faster than
+cloud migration, right?
+This platform shift is light speeds.
+I mean, I appreciate
+your thoughts as well.
+>> Yeah. I would say the aggregate
+
+[04:06]
+of all the conversations
+I've had on Agentic AI for the last nine months or so would be that people would view AI assistance as what I think most people
+are familiar with, right?
+Genitive AI based. They're task oriented.
+They help you analyze information.
+They can help you create content.
+Again, repetitive task, it can be.
+It's really about the individual, right?
+>> Yeah.
+- And generative AI has sort of created this gateway into the world of AI in a very similar way that the browser 25 years
+ago created a gateway into the online world.
+And the AI agents then
+take that to the next level and started to add, as you
+said, autonomous behavior.
+They can talk to each other and
+collaborate with each other.
+They have greater degrees of,
+let's call it, "reasoning, " quote, unquote, where
+they can help you plan and make decisions.
+And they are really more than just assisting you in a task.
+They're actually collaborating
+with you as a human being
+
+[05:06]
+to give you superpowers and help you do higher
+value work even better, so not just productivity
+but actual decision-making.
+And then Agentic AI is when
+you wire these things together into a workflow where
+you have multiple humans, perhaps multiple agents,
+that are working together.
+That's sort of how I would
+piece it all together.
+>> Yeah. I mean, I think our framework and thinking of mental
+models are about the same.
+I think for us as well, I mean a lot of discussion is technical
+and I've been in it a while.
+I believe we'll solve
+the technical hurdles.
+What I think in the enterprise that's really interesting is
+the enterprise incumbents have a tremendous strength, as you
+shared on your pods before, but also, they have a tremendous
+weakness as well, right?
+These incumbents are upstarts and we actually think that
+the commercial models are changing pretty significantly.
+If you think about some
+of these native Agentic AI companies, their commercial
+models are totally outcome- based, not seat-based,
+not transaction-based, so it's the idea of creating sort of a no- regret buying decision with some of these native AI companies
+that are going to be as important as the technology, I think.
+
+[06:07]
+>> Yeah. I actually did a
+podcast not too long ago with a new startup, two years old, called HOAi, homeowner association, and they targeted the
+homeowner association market.
+And apparently there's 40,000
+of these in the United States.
+They support about 40 million
+homes across the United States and historically known
+as low-rated, in terms of homeowner associations are
+always less than three stars.
+No one's happy with them. So
+they targeted the labor there with a set of AI agents.
+And they went from the end of this year 2024 10 customers
+to over 60 through April, so the first four months, now
+covering over a million homes.
+And their secret was you target
+the labor spend in a very vertical market where the big
+guys like Salesforce aren't going to target homeowner
+associations, right?
+>> Mm-hmm.
+- And you capture the nuances of how people work there, the knowledge work.
+
+[07:07]
+We have to make judgments and I think that's part of the key.
+And then to your point,
+it's not like the SaaS model of the past or the cloud model because you're able to
+build off these cloud- native infrastructures and
+build these agents quicker and even use agents to build agents, so you can move so much quicker.
+And you're right also on the
+innovation cycles are just...
+Think about it. It's only, what,
+two and a half years ago we got into generative AI and now we're moving on,
+so much faster than cloud.
+>> Yeah. I mean, Scott, for us, the most important thing we talk to clients about these days
+are just getting their sort of Agentic frameworks
+correct because our view or sort of my personal
+view is if you think about enterprises, they're
+pretty brittle, right?
+I mean you've got ERPs and
+CRMs and enterprise data marts.
+To change those things is
+pretty difficult these days and we see the pace of change of products, buy versus build models, the ability to build some extensibility
+into these frameworks, to plug in and pull out is going to be super critical in terms
+of just, as you mentioned,
+
+[08:08]
+the rapid pace of innovation.
+>> Yeah. So you guys at EY
+recently released your latest technology pulse poll and
+it was focused on Agentic AI and I think it targeted
+the technology sector.
+Can you explain a little
+bit about the objectives of the survey and a
+little bit more detail on who you targeted, who participated?
+>> Yeah. Absolutely. I'll give
+you a little bit of context.
+We started these surveys
+back in 2022, so four or five years ago, and
+originally they were really just to get sort of the pulse and thinking of high-tech executives around their broader industry.
+What ended up happening,
+we've conducted six of them.
+We do a couple of them a year.
+We just did this one April.
+The last two years have almost
+all been about AI, right?
+Everything we talk more
+broadly about is narrowed down, so those are our topics.
+We surveyed 500 tech executives
+in companies that have 5,000 or more people, so these aren't startups, to really get a pulse of what's on their mind from that perspective.
+So that's a little bit of
+it about the background of the survey.
+>> The one thing that popped
+out to me was, what was it, 80,
+
+[09:12]
+81% are highly optimistic
+about the potential of Agentic AI and AI
+agents? It's a big number.
+>> Yeah. Yeah. I think
+two things I'd say there.
+It actually is a big number.
+I think a couple of really
+interesting things for me as we talk about high-tech
+versus other industries, there's a little selection
+bias in there too, right?
+These are all high-tech execs.
+All these technology
+waves start in high-tech.
+And I think part of the reason for the optimum is if you
+think about maybe the two most high-value, high-impact
+use cases today, it's around software development, coding, and customer care, and agents.
+And I use sort of high-tech as the leading indicator of that, right?
+They are making serious traction in those spaces from that perspective.
+>> Yeah. There's no doubt.
+This one also jumped out at me too, the 43%, that they're actually
+increasing their budgets in AI and more than half of it
+is going to autonomous AI, which I guess is agents, right?
+>> Yeah. Yeah. So I would
+say very broadly Agentic AI.
+
+[10:14]
+And I think, Scott, three things there.
+Like you said, I mean,
+it's one of those surprise, not surprise, so two things I would say as we look at these surveys
+longitudinally, the amount of money and interest people
+are budgeting continues to increase 10 points up from last year.
+And then really, as you can feel, those dollars are now
+shifting away from core infrastructure, just
+large language models, to really agents, right?
+How are we going to deploy
+this out in the field?
+And it's pretty natural, right?
+We're seeing direct line of
+POCs moving into production, scale up, so the budgets are going up 10%.
+90% of the survey said their budgets are increasing around AI.
+Right.
+>> That's pretty incredible because the budgets over the last couple of years have become really
+high anyhow for AI, so it seems like the
+Agentic is an added layer of additional investment
+on top of the core AI that's already been put in place.
+Is that a fair observation?
+>> Yeah. I think of it as sort of fundamental investments have been made and now we're sort of
+extracting the benefit
+
+[11:17]
+of it from an Agentic perspective.
+Again, what I view more broadly, I think about these workflows and cross-platform workflows as sort of inter platform and intra, right?
+So a lot of the work right
+now is going on within these ecosystems, intra.
+It could be Oracle, SAP,
+Workday, Salesforce, and everybody is starting
+to tilt a little bit about how do we integrate that workflow across a
+variety of platforms.
+I think it's really early days, but that's where the line of sight is.
+>> Tell me more about these numbers here, which is also very interesting about the autonomous... A lot of progress.
+>> Yeah. Yeah. So a lot of progress and again, I think back to
+the comment I made about, I'll just call it, intra-platform, so within a particular
+infrastructure, we're seeing adoption of agents in that space,
+around care, chat, just simple knowledge
+tasks, and those activities.
+But I mean really we were a
+little bit surprised just in the pace of the next 24 months that more than half the
+executives are going
+
+[12:18]
+to really expand their
+deployments of autonomous, right?
+So we really view it as sort of this is when people
+are going to see work above the waterline, right?
+Whether you're a customer,
+a vendor, an employee, we've been talking about AI a lot, but it's really been building
+up all the things under the waterline and now we're sort of moving into what
+people are going to see.
+So I think reasonably ambitious
+over the next 24 months to drive that Agentic work forward.
+>> Yeah. So I think what
+you've learned so far was that these comments are very
+optimistic about the potential, almost game-changing.
+I think you see that big of a number, 81%, and they're already well invested.
+Almost half, 43%, have
+some degree of these agents that are already deployed
+and increasingly autonomous and the investment is going
+to go up even further.
+>> Yeah.
+- So it brings me to I'd just like to get your view on some of the research that we did here at theCUBE Research on.
+
+[13:18]
+Let me bring this up here.
+On the tech priorities.
+Basically, what this is
+saying is if you were to ask the technology folks...
+And this is not just within
+technology companies, but this is across both
+technology companies and enterprise accounts, about
+what are the key technologies that are really key in terms of priorities to build out the promise of Agentic AI?
+And LLMs certainly make a
+lot of sense at the top, but some of these are really interesting.
+>> Yeah. Scott, this is a great slide.
+I mean I violently agree
+with sort of all of these.
+I think two things I'd say
+right off the bat, maybe just to pivot back to the prior
+discussion about why aren't people moving forward with AI.
+Right? There's a small group of people and of them, maybe 40% of discussions around the use cases they chose didn't drive the ROI they wanted.
+About an equal percentage
+really have slowed their AI investment because they want to get data and infrastructure in place.
+Right? So when I sort
+of look at this slide,
+
+[14:19]
+if you think about the
+LLMs, some of the work around databases overall, I would add graph
+databases in there as well as a big item from that perspective.
+And one of the funniest conversations...
+At least I think it's funny when I talk with a client or a prospect.
+I sort of walk in first and
+say kind of, "How's your data?
+" Right? And we kind of all know the answer in an enterprise.
+The data is tough. And then I say, "Well, think about your normal data, then think about adding vector
+databases, graph databases, other external content.
+You really have to get your
+act in order around that.
+" Now, we actually think
+Agentic RAG will solve some of this activity as we go forward, but for me, I actually think the multi- agent workflows are going to be really critical
+from that perspective.
+And then the tool integration
+is really important, I think.
+For me, I get excited about...
+A really simple example
+is if you took an LLM, a GPT model and you ask it to do math, the answer is historically changed.
+If you go back to GPT-3,
+
+[15:21]
+maybe you get the right
+answer, maybe you don't.
+But in common terms now,
+these models are going to call other deterministic
+tool usage, right?
+So for me, what I get really
+excited about these priorities here, and it falls into decision
+intelligence as well, is how do we add deterministic
+pieces into this probabilistic model?
+Right? That's what the
+enterprise is going to want, so those are really critical there.
+And obviously all the reasoning
+items are on your list and I violently agree
+with all those as well.
+>> Yeah. My take on all
+this is three big things that are becoming increasingly
+important in the world of Agentic AI, right?
+One is trust is becoming
+the currency of innovation.
+And it's one thing to
+have GenAI assistants that are helping individual productivity.
+It's another whole thing to
+have agents working within a workflow and help you make
+actual, in many cases, business critical decisions.
+You have to be able to trust it and trust it means humans have to trust it and they're going to trust it
+more if it can explain itself
+
+[16:22]
+on why to do something, not
+just tell you to do something or come up with an answer.
+And then of course you get
+into all the world of security and you get in the world of privacy and regulatory compliance issues, so trust is a big thing.
+I think the second one is this
+notion of being able to adapt as your environment around you adapts.
+GenAI and LLMs on their own,
+they basically encode what we know about the past and create correlations to
+help predict the future, but if you're going to make
+judgments into the future, it has to be to adapt with
+the conditions around you, so it has to be adaptable.
+And then the third thing
+I think is the decision intelligence where, again,
+they're going to have to have additional
+technologies built around them to actually provide the ability to make trustworthy decisions and be able to explain those decisions and do what-if analysis and
+counterfactual reasoning.
+Like you said, that's where
+you got to build around it
+
+[17:23]
+with things like graph
+databases, knowledge graphs, some of the causal AI stuff.
+And I think that's what was in
+that line that said semantic and causal reasoning.
+I think the graph stuff fits in there. I assume that's
+what you mean, right? Like- >> Yeah.
+No. Absolutely, Scott. I
+would make two other comments.
+I think you totally have
+nailed the discussion of how do you build a confidence level?
+For us, two things were
+really interesting, and we may even touch on it later, but a part of the survey,
+the biggest concern of all these companies is
+around security and privacy.
+Over three quarters of
+the respondents said that is their biggest gating item.
+A fair distance back our
+discussions around commercial terms and legal and all of that,
+but top of mind is this.
+And what is interesting was
+if you go back a year ago, I'll describe it much broadly as observability was probably
+at the top of the list.
+How do these things work and all of that?
+So, Scott, to your point that
+these need to be trusted, we got a long ways to go, but I think in the last year, we've taken quite a step forward.
+
+[18:25]
+If you think about the
+chain of thought, reasoning that's occurring, it's not
+going to happen overnight, but the confidence levels and the results are definitely moving up.
+Right.
+>> Yeah. It's definitely a journey, right?
+There's no binary on and off, and whether you do decision intelligence or whether you're explainable, I think it's a progression, right?
+>> Yeah.
+- And like you said, chain of thought.
+And then you got semantic reasoning, being the knowledge graphs
+that kind of understand context and they understand
+relationships between entities, and the meaning in terms of
+how they relate to each other.
+And then causal starts to infuse cause and effect in the journey that
+we're going to be on here.
+And it was interesting that
+73%, I mean, security goes back to your point a little
+while ago about step one is to get your data in place, right?
+There's no AI without an IA and IA being information architecture.
+So without data, your AI is
+not going to be as useful as you want it to be, right?
+
+[19:25]
+>> Yeah. Yeah. But I think- >> In fact, the most important
+focus right now is still getting that data layer.
+>> Yeah. It's a lifelong
+journey and we're seeing...
+Like I said, I mean if you
+think about the transactional data, it continues to need to get better.
+And then all these other data sources, other external sources,
+we really think about that as a really critical item
+and just a lot of work and not a lot of people see
+it from that perspective.
+So it's like digging in the trenches, but that's what you need, right?
+>> Yeah. Get that data
+infrastructure in place and then you got to build the models and your GenAI infrastructure
+on top of that.
+Like in clouds, you've got
+to have a cloud provider that can also support your
+private cloud infrastructure.
+And then you can start to
+build the ecosystem of models and agents around that, so
+it is a journey for sure.
+>> Yeah. I think, Scott, a
+good segue into models, right?
+So who's building them? Who's
+buying them and all that?
+And I think it's been really
+kind an enlightening experience that I have seen.
+
+[20:26]
+From my view, kind of in tech,
+everybody sort of jumped in and thought they had to
+build their own models.
+That was sort of the natural course and back to some of the talent discussions that we'll have like,
+"How many data scientists and research do you want you
+want to build your models?
+" I think what we've seen personally is it evolved from everybody
+wanted to build their models, so think it was fine to get a
+fundamental understanding of how these models work, so
+people should build models, but in the broader sense,
+the discussion then shifted to maybe we just need to fine-tune models.
+And that has sort of evolved as well.
+Actually, where I'd say
+most enterprises are, most really had sort of
+moved down the discussion around RAG from that perspective.
+And when you think about RAG and chunking, I mean there's still a lot of work and a grind of a work.
+So from there, I think
+this whole discussion around Agentic RAG, which
+if you think about it, it was a nascent idea just 12 months ago, LangChain and all these things.
+And it's really only coming
+into the consciousness in the last six months, five months,
+
+[21:26]
+but we actually think the number
+of companies that are going to have to build ground-up models is going to be relatively small
+from that perspective.
+And using these models
+in the right purpose and small language models and all of that will be
+the case, so that's kind of what we're seeing out there in the space.
+I don't know why. Are you
+seeing something similar?
+>> Yeah. No. I'm seeing the same thing.
+We call it small language models, but we kind of equate the S to be in small but also specialized in
+sovereign and secure.
+It has all the S's, right?
+And I think you're right on
+because you get a general purpose model as the global
+intelligence sucks up the internet essentially
+and then you build your very domain-specific models around it.
+Many of which you can
+purchase on the open market.
+Well, there's over a
+million models on Hugging Face, for example, now.
+Bring them in. You customize them and you have to bill very few.
+I've also been seeing
+research that is showing that even when it comes to buying
+
+[22:27]
+or to agents, that about half
+the companies out there plan to actually acquire agents
+either as part of their SaaS applications or separately customize them and plug them into a
+smaller number of domain- specific agents that
+they build that's unique to their business, so it becomes truly a composable model, right?
+>> Yeah. Yeah. No. I'm smiling only because my head already
+thinks about like...
+I describe it very broadly
+about orchestration of agents across the enterprise.
+Right? So not just within
+an individual platform or orchestrating multiple
+agents to accomplish a task.
+And my perspective right now
+is within the major platforms, it's almost a no-regret decision to apply those agents in those space.
+Whether you're an AP or AR or quoting or something like that, that's great, but to us, the real thought
+process going is to who's going to win the orchestration
+across the enterprise?
+Is it going to be
+traditionally our PCRM players who have incumbency,
+but there's quite a bit
+
+[23:29]
+of vendor lock-in backlash?
+Is it going to be the hyperscalers or is it going to be another set of orchestrators out on the market?
+That will be the critical
+decision to be made and if you can drive some
+optionality in waiting to make that decision while you're doing sort of the smaller agent work is kind of the recommendation, at
+least at this point, right?
+Things are changing pretty fast.
+>> Yeah. I think a big criteria for success for the Agentic platforms
+is going to be the ability to take any agent from
+anywhere regardless of origin and plug it into a workflow.
+The worst thing that some of
+these companies can do is lock people into their platform
+as the only source of building agents, right?
+>> Yeah. Yeah. Well,
+Scott, I'm super excited and Microsoft put a lot of
+attention on it last week or the week before in Build, but MCP, the Model Context Protocol.
+They won't be the only one,
+Ada and some of these others, but I am super excited
+about just seeing some of these competitors
+at least lining up now around driving some standards.
+I mean, people will say it's a fancy API,
+
+[24:30]
+but I think there's a little
+bit more intelligence to this, a little bit more two-way work status.
+So seeing things like MCP are really going to make a difference.
+I'm not smart enough to know who's going to win the standards war, but we're heading in the right
+direction a lot earlier than I'd say with some other platform shifts.
+>> Yeah. Well, we covered a
+bunch of events this month or I guess it's still May.
+IBM announced MCP support
+in watsonx Orchestrate.
+Commercetools, one of the bigger commerce
+platforms out there, they announced MCP support.
+And then just recently,
+I think, was it AWS?
+It was either AWS or SAS, but you can already see it
+be getting adopted into these platforms and again, that's
+going to be another key to keeping it open, so you're right.
+What's interesting here is the innovation cycles are moving so fast.
+They're moving at warp speed.
+
+[25:33]
+The game is played on the
+field, not in the dugout, so you got to get out
+and start experimenting and playing with this stuff because with innovation cycles moving
+that quickly, if you fall behind, you may never catch up.
+Where in the cloud world and
+prior to that with mobile and client server and all that stuff, you had
+a little bit of luxury to see how things kind of shape.
+>> Yeah. Scott, it's
+funny you mentioned that because I heard recently something
+that really interests me, was we're 20 years into
+the cloud migration, right?
+So think 20 years from now
+in the AI migration, what, 2045?
+Are we still going to be migrating to AI or is it just going to be ubiquitous?
+Right? So it's moving
+a lot faster, I think, so flexibility is .
+>> When you see what Google put out with...
+Was it Veo, with the video, the movies?
+And then you see some of
+the videos of the prototype of the Tesla robots folding
+laundry, cooking food.
+
+[26:33]
+You start to say like, "Can you
+imagine five years from now?
+It's going to be a whole new world." >> Yeah.
+>> Well, let's transition to one thing that's really been at a center of my attention over the last
+many months, which is talent.
+Why don't you explain a little
+bit about the findings here because this could be a
+real problem for companies?
+>> Yeah. Yeah. A few things, Scott.
+I'd say this is fairly intuitive, but there's another piece
+of data I'll share as well.
+Companies, there's certainly
+a supply-demand imbalance, as you've talked about in the past.
+A lot of upskilling going
+on from that perspective.
+Still a lot of AI-specific hiring going on and a lot of just intentional
+hiring overall, right?
+84%. What's really interesting
+that isn't on this slide is 12 months ago, we asked
+as far as employees and displacement of
+employees via AI, about 20%
+
+[27:34]
+of the respondents said they
+expected displacement from AI solely, not incremental add, reskilling.
+That number has actually moved down to about 10%, so half as much.
+So for us, a real keen insight here is for these tech companies, it isn't so much about removing workforce.
+It's upskilling and also the belief that
+the total amount of work and productivity can happen,
+we're going to need AI for, so that number's really shifted down on those who just thought this was a cost- saving exercise from that perspective.
+>> Yeah. As you kind of referenced
+and we talked a little bit before we got started
+on the podcast today, and bring up one of our charts here, which I think complements
+what you guys found, which is our view of this emerging talent crisis.
+You mentioned the supply and demand gap.
+Our research shows it to be about 2.
+3 times more demand for AI professionals than
+there is in the marketplace.
+And interesting enough,
+from one of the HR firms,
+
+[28:35]
+they came out with a study that showed 9 and 10 aren't even sure exactly what talent needs they have to have.
+They're still trying to figure out what exactly is the ideal
+profile of the AI talent for their organization.
+And obviously people are
+struggling to find the talent and even the talent they
+got is at risk of leaving for higher-paying jobs because some of this research, we found 47% premium being put on finding the best AI skills out there.
+So there is a battle to get to the skills that you can then hire and actually retain within your business.
+People can't lose focus on that and the cultural elements of
+all this. Would you agree?
+>> Yeah. Well, yeah. No.
+I 100% agree and your sort of second
+point is the one that to me is the most interesting, about not really knowing the
+talent skill sets they need.
+The way I think about this is
+things are moving pretty fast
+
+[29:37]
+and, Scott, my reference point is how many people did we need to build compilers back in the day versus how many people did we need to write assembler versus using the tools?
+Right? And I think we're still
+at a very early stage as to how many people do we
+need to build the tools and how many people do we need
+to know how to use the tools?
+And that's going to continue
+to ebb and flow back and forth, so there's no equilibrium in supply, demand at this point.
+And I don't think we totally know.
+If somebody came to me and told me they knew what
+their requirements were on AI, that's where I'd have
+some disbelief, right?
+>> Yeah. There's whole new
+professions getting created.
+Another thing that we had written about was software developers.
+Actually, this is one of my
+AI predictions for the year that software developers
+become data scientists.
+What I mean by that is the
+software development profession in the SDLC, with the help of
+agents, they're actually going to be able to build AI models
+
+[30:38]
+and build agents, so it
+starts to beg the question.
+Is there a fused profession
+coming up now where you're two sides of the coin,
+you're a software developer, but you're also a data scientist
+who can build AI stuff?
+>> Yeah. Yeah.
+- And it's- >> It's really interesting, Scott, because I get a lot of people come and say like, "My kid's going to college.
+What should they learn and train in?
+" And it's an impossible answer.
+I mean, my answer to them is a simple one.
+Make sure you're good at using AI tools because I don't know if
+being a computer scientist or EE or an ME is going to be
+totally clear in four years.
+I mean, it's going to totally
+evolve from that perspective.
+>> Yeah. No. It definitely is
+and I think like you said, the best thing to do is
+be a user of this stuff.
+Get out and use Veo and all these.
+Every week, there seems to
+be these new things coming out from different providers.
+And play around with them because I think you build your own skills around this stuff. Right?
+>> Yeah. Yeah. No. Absolutely.
+
+[31:39]
+Scott, just maybe the funniest or at least the thing that
+brings me the most humor in the pulse survey response was
+there's obviously a high level of confidence and optimism around AI.
+And we ask a question about,
+where are you relative to your competitors?
+Mind you, we ask, what's
+driving your AI usage?
+And simple top three, being competitive as a company, a better
+customer experience, and making sure we're on
+point with our strategy.
+That's the reason they say
+they're deploying this.
+So you ask them, how are you
+doing against your competitors?
+Right? And nearly 60% of them say, "We're more competitive than
+the people we're chasing.
+" And I described this as, well, that's statistically not possible that all of you could be more.
+It's like saying are you an
+above average driver, right?
+So my point is just that people
+have asked their executives for a ton of money to go do AI things, so there's a natural human point
+
+[32:42]
+to make sure you show in
+best light your AI work to get more funding and stuff.
+So my only point is that I
+think it's super important, while it's early days, to make sure you're
+benchmarking competitively outside in versus just kind
+of talking about stuff inside.
+Right? So podcasts like this, really explaining what's on the horizon, to give you a yardstick to measure against your progress
+I think is super important because the yardstick's
+changing literally every week, if not every day.
+>> Yeah. You have the added dimension too that there's no better time
+to be a startup than now, as I was kind of alluding to earlier.
+You could see markets getting
+really disrupted again, sort of like what happened with
+the emergence of the internet.
+It changed everything. And
+you can't get overconfident.
+You're right. If you have
+63% saying that they're ahead of their competition,
+something doesn't add up there and you're not even including
+startups, right? This wasn't- >> Yeah.
+- ...
+really a startup survey because 90% of startups, by
+the way, I think there's 17,
+
+[33:44]
+000 startups in the United States alone.
+I think it's closer to 70,000
+AI startups around the globe and it's projected, 90% of
+them will end up failing.
+>> Yeah. If not more probably, Scott.
+I mean, in some areas though,
+what's important is like around coding tools and stuff, it's starting
+to narrow down to three or five major likely winners and stuff.
+And we'll see more of
+that, so I kind of think of 2026 is sort of a year of
+some consolidation coming up.
+Not totally. We're not going
+to know all the winners, but it's going to narrow down
+a little bit on that front as we go forward.
+The other thing for me, I mean pretty much everything
+we've talked today about is the existing workflows, right?
+You think about record a
+report, payables, all this sort of stuff, how we apply these
+things, but these tools and Agentic models and everything are going to
+drive totally new workflows.
+We just haven't thought
+about them because we're kind of pattern matching against
+what's there today, right?
+If you think about the sales
+motion in a big corporate
+
+[34:45]
+company at an individual or SMB, small and medium business,
+they either pass that off to a distributor or a reseller.
+The ability to have Agentic workflows in that whole sales motion,
+brand new workflows that maybe a company just kind
+of outsourced to the channel, that may all change, right?
+So we're thinking very
+traditionally about these models, but there's going to be
+some great new workflows that we just hadn't thought about because we didn't have the time or money or horsepower to do it.
+>> Yeah. Yeah. Deterministic and not pre-coded and pretty thought out.
+They learn as they go and it
+could really change things.
+You kind of alluded to the
+overconfidence could actually become an inhibitor if
+you're overconfident.
+Is there any other inhibitors that jump out in the technology aside- >> Yeah.
+I mean, to me, it's ironic that that would be the case, right?
+I think that overconfidence
+creates blind spots, right?
+And I always think within tech, there's a very big not
+invented here syndrome,
+
+[35:46]
+so I think being open-minded about it.
+I think in broader industry sense, I think it's about taking
+some more calculated risks and moving forward a little
+bit faster in particular areas and monitoring and measuring.
+We're definitely seeing a lot
+more discussion now about ROI, actual measuring outcomes, so
+I think that's really critical for folks to make sure they're measuring appropriately as to what they're doing.
+And I think up till now it's
+been okay. Logical investment.
+Let's see what happens.
+Now, I think it's going to look much more like
+a traditional investment that has happened over the last 20 years, right? How do you fund these?
+>> As a business.
+- Yeah.
+>> Well, look, I think
+your survey clearly shows that technology companies
+are the ones that are sort of driving the rapid
+adoption of Agentic AI.
+They're out in front, right?
+>> Yeah. - You think this is
+going to overflow into other sectors pretty quickly?
+>> Oh, yeah. I mean, it's
+already happening I think to the degree that the optimism will follow
+in these other sectors, right?
+And again, chat, agent,
+care, coding will be first,
+
+[36:48]
+testing.
+All of these things, it's coming.
+I don't know an industry
+that isn't pretty excited and moving relatively fast, but I think they're going
+to continue to look in tech and say, "I can move faster," right?
+>> Yeah. Again, you got
+to be careful these days.
+You fall behind and
+it's going to be harder and harder to catch up because
+things are moving so quickly.
+All right. Well, I think
+it's time for us to wrap up.
+Frankly, Ken, I can go
+on forever and ever here.
+I love having these conversations, but I really appreciate, Ken, you taking the time to be here.
+This was a great discussion.
+I think very meaningful too.
+Insights are gold, right?
+>> Yeah. Yeah. No. Thanks, Scott.
+I really appreciate it and
+learned quite a bit from you as well, so thanks for the time.
+>> You bet and I look
+forward to keeping in touch.
+There's no doubt that
+we're at the entry here of the golden age of AI
+agents, as I said earlier, so I think this opportunity
+is no longer theoretical.
+It's real. It's growing.
+It's available with those
+that have the clarity and vision to act with
+urgency and just get going.
+
+[37:48]
+I encourage you all to check
+out the AI Agent Builder Summit that we recently hosted on thecube.
+net. It's also on our YouTube channel.
+It featured 20 innovators
+from 12 companies sharing best practices on actually building AI agents and Agentic workflows.
+I think it'll be a time well spent.
+Again, thank you all for
+tuning in. Take care.
+We'll see you on the next
+episode of the Next Frontiers of AI podcast.
+We are the leader in
+tech news and analysis.
+We'll see you next time
+around. Thanks, everybody.
+
+---
+
+*Content extracted from YouTube video. Original content by SiliconANGLE theCUBE. Video URL: https://www.youtube.com/watch?v=8aq0rOYUeio*

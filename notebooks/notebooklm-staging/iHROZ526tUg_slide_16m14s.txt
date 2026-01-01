@@ -1,0 +1,40 @@
+# Slide from: 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** iHROZ526tUg
+**Title:** 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=iHROZ526tUg
+**Duration:** 26:08
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational conceptual frameworks for understanding AI agents, decision intelligence architecture, and the progressive technology stack needed to build decision-making capabilities
+
+## Slide Information
+**Timestamp:** 16m14s
+**Timestamp URL:** https://www.youtube.com/watch?v=iHROZ526tUg&t=974s
+**Original Filename:** slide_16m14s_ea48554d.png
+
+## Transcript Context
+**Before:** through time here, as they get democratized by different vendors in the marketplace. Let's translate that into the world of agents. I've pulled a chart together here
+**During:** that basically outlines the tiers of sophistication,
+**After:** very high level obviously. But if you think of a domain intelligence agent that understands the specific domain, like legal precedent when doing contracts, it acts based on
+
+## Slide Content (OCR)
+Domain fore,                                Semantic _s73.                                    Causal pars                        Planning and    =>
+Intelligence        \    4                             Reasoning        \    4                             Reasoning      t   d                      Orchestration         \    4
+Acts based on what has                    Acts on semantic structures             Acts on reasoned decisions              Plans and coordinates
+happened in the past                        and contextual knowledge                and inferred consequences               multi-agent workflows
++ Task automation                                  + Entity relationships                              * Decision intelligence                            * Contextual perception
++ Pattern recognition                              * Context and meaning                           * Interactive explainability                     + Autonomous actions
++ Anomaly detection                               * Ontology knowledge                            * Counterfactual analysis                        + Dynamic pathways
++ Predictions and forecasts                     + Expert know-how                                + Problem-solving (what-if)                    * Indirect, multi-hop reasoning
+What is the primary driver                How does the newsletter               What happens if we increase           What other interventions will
+of customer retention?                 influence customer retention?                     send rates by 20%?                      reduce the loss of customers?
+
+---
+
+*This slide is from the video: 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=iHROZ526tUg*
+*Slide timestamp: 16m14s*

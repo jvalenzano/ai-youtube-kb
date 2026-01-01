@@ -1,0 +1,82 @@
+# 4. Next-Generation AI in Financial Services | The Next Frontiers of AI
+
+**Video ID:** yX1lu8ZGRwI
+**Channel:** Unknown
+**Duration:** Unknown
+**URL:** https://www.youtube.com/watch?v=yX1lu8ZGRwI
+
+## ⚠️ Transcript Not Available
+
+**Note:** Full video transcript is not available for this video.
+This may be due to:
+- YouTube rate limiting during batch processing
+- Transcripts disabled or not available for this video
+- Video age or accessibility restrictions
+
+**Content Available:**
+- Presentation slides with OCR text (below)
+- Slide companion files with full metadata
+- Slide images with timestamps
+
+## Presentation Slides
+*3 unique slides extracted from this video*
+*Content below is extracted from slide OCR text.*
+
+**Note:** Each slide image has a companion .txt file with full metadata.
+Slide filenames: yX1lu8ZGRwI_slide_TIMESTAMP.png
+
+### Slide: [yX1lu8ZGRwI_slide_11m46s.png](https://www.youtube.com/watch?v=yX1lu8ZGRwI&t=706s) at 11m46s
+
+LLMs          1
+(Context Window Only)
+2 RAG
+RAG                                           Retrieve &                    ‘en
+.                                            Re-rank          3
+architecture        RAG Multimodal
+.                                                              RAG
+progression
+F                                 Graph RAG         5
+SO fe ar:                                                           P         Agentic
+RAG
+Causal RAG?         7
+
+### Slide: [yX1lu8ZGRwI_slide_20m10s.png](https://www.youtube.com/watch?v=yX1lu8ZGRwI&t=1210s) at 20m10s
+
+Computer Science > Artificial Intelligence
+°                          Causal Parrots: Large Language Models May Talk Causality
+ut wait,           But Are Not Causal
+Matej Zecevic, Moritz Willig, Devendra Singh Dhami, Kristian Kersting
+can  t                                       Some argue scale is all what is needed to achieve Al, covering even causal models. We make it clear
+that large language models (LLMs) cannot be causal and give reason onto why sometimes we might
+feel otherwise. To this end, we define and exemplify a new subgroup of Structural Causal Model
+(SCM) that we call meta SCM which encode causal facts about other SCM within their variables. We
+|    |   Ms                                  conjecture that in the cases where LLM succeed in doing causal inference, underlying was a
+respective meta SCM that exposed correlations between causal facts in natural language on whose
+data the LLM was ultimately trained. If our hypothesis holds true, then this would imply that LLMs are
+like parrots in that they simply recite the causal knowledge embedded in the data. Our empirical
+reason  9                           analysis provides favoring evidence that current LLMs are even weak "causal parrots.”
+e
+
+### Slide: [yX1lu8ZGRwI_slide_24m24s.png](https://www.youtube.com/watch?v=yX1lu8ZGRwI&t=1464s) at 24m24s
+
+.                                                                              .               .
+Infusing Causal Reasoning into AI Systems
+Causal Graphs                                  Causal Learning Algorithms          Causal Interventions
+Visualize causal relationships                       Learn causal mechanisms                            Simulate the consequences
+among variables in a system                         from observational data                              of interventions (“what if”
+—|                                    .
+a
+Identify Factor                                   —
+Analyze Data   |     Consider                            "1
+Counterfactuals     Manipulate
+ee     Variable       Observe Impact
+
+
+## Full Transcript
+
+*Transcript not available. Content extracted from presentation slides only.*
+
+---
+
+*Content extracted from YouTube video slides. Full transcript not available.
+*Original content by Unknown. Video URL: https://www.youtube.com/watch?v=yX1lu8ZGRwI*

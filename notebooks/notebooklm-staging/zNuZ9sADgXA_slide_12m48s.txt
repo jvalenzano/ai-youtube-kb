@@ -1,0 +1,50 @@
+# Slide from: 25. The Widening AI Value Gap — How to Close it Before its Too Late
+
+## Video Information
+**Video ID:** zNuZ9sADgXA
+**Title:** 25. The Widening AI Value Gap — How to Close it Before its Too Late
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=zNuZ9sADgXA
+**Duration:** 34:05
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video primarily focuses on agentic workflows, the integration of different AI capabilities into end-to-end automated processes, and how organizations structure workflows for AI success
+
+## Slide Information
+**Timestamp:** 12m48s
+**Timestamp URL:** https://www.youtube.com/watch?v=zNuZ9sADgXA&t=768s
+**Original Filename:** slide_12m48s_ca250c4a.png
+
+## Transcript Context
+**Before:** despite years and years of invest, only 5% of companies are capturing real measurable value from AI. So tell us a little bit about what's behind the gap, and I'm going to bring up what I consider to be one
+**During:** of the summary charts in your report that sets the framework
+**After:** or sets the context for the rest of what we'll talk about. >> Yeah, so listen, when we talk about the companies, what we found is they self-
+
+## Slide Content (OCR)
+Assessing the Al Value Gap
+2024   Higher                              .. fueling higher                     2028   Higher
+*       ——— ..                        ————_
+value realized                      investments...                                             value expected
+[0 4x |                14 ax
+Average global share             0                12x           pi h4x 5
+of IT budget for Al                 5%                         ,                      |
+14.2%                13.6%
+Future-built vs laggards
++ Higher spendingon IT  +26%                         oe
+5.3x                   | 3.0x                 ° Higher share from IT                  0,
+|                    |              budget for Al                +64 %          6.8
+6.2%                 6.0%
+* Overall higher
+investment of future-built   +120%
+;                         2.                            companies in Al
+Revenue               Cost                                                                      Revenue               Cost
+increase             reduction                                                                    increase             reduction
+Laggards                Future-built                                                     Build for the Future 2025
+7                                                   BOG Global Study (n = 1,250)
+
+---
+
+*This slide is from the video: 25. The Widening AI Value Gap — How to Close it Before its Too Late*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=zNuZ9sADgXA*
+*Slide timestamp: 12m48s*

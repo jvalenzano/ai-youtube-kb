@@ -1,0 +1,34 @@
+# Slide from: 15. Are Agile & SaaS Dead with the Rise of Agentic AI?
+
+## Video Information
+**Video ID:** AaGtyE1bIjY
+**Title:** 15. Are Agile & SaaS Dead with the Rise of Agentic AI?
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=AaGtyE1bIjY
+**Duration:** 47:28
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video primarily focuses on how agentic workflows are transforming software development processes, replacing Agile methodologies with lean engineering approaches that utilize parallel agent execution across different application layers.
+
+## Slide Information
+**Timestamp:** 9m58s
+**Timestamp URL:** https://www.youtube.com/watch?v=AaGtyE1bIjY&t=598s
+**Original Filename:** slide_9m58s_a16d9bab.png
+
+## Transcript Context
+**Before:** and it sounds like human in the loop is a big component of all this- >> Yeah, yeah. - ... which brings me to let me show you
+**After:** a little study that I found. It was actually done by Salesforce, and I think it was in the beginning of March, so it's not too old.
+
+## Slide Content (OCR)
+~  ee ee  \-  \  i  }  }  ee ee
+of developers                wa \
+believe Al Agents            Ne)
+will advance         |     ‘i
+their careers         ¥        \ \              /
+
+---
+
+*This slide is from the video: 15. Are Agile & SaaS Dead with the Rise of Agentic AI?*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=AaGtyE1bIjY*
+*Slide timestamp: 9m58s*

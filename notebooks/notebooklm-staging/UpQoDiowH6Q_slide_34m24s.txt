@@ -1,0 +1,43 @@
+# Slide from: 10. A Blueprint for Scaling a New Agentic AI Business
+
+## Video Information
+**Video ID:** UpQoDiowH6Q
+**Title:** 10. A Blueprint for Scaling a New Agentic AI Business
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=UpQoDiowH6Q
+**Duration:** 40:48
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** This video primarily presents a detailed case study of HOAi's success in building and scaling an agentic AI business, with specific customer testimonials, growth metrics, and real-world implementation examples
+
+## Slide Information
+**Timestamp:** 34m24s
+**Timestamp URL:** https://www.youtube.com/watch?v=UpQoDiowH6Q&t=2064s
+**Original Filename:** slide_34m24s_830578ec.png
+
+## Transcript Context
+**Before:** if you don't mind, turn you a little bit into an advisor, give some advice to those in the audience that might be in this world or just ready to get started. Let me just bring up a chart here.
+**During:** I did some research before we did this.
+**After:** And what I found here is the yellow is the growth in startups, AI startups in the United States only. If you go worldwide today, it's closer to 70,000
+
+## Slide Content (OCR)
+The Growth of Al Startups (usa 2015-2024)
+\ 2     mi    1400     90%
+—h |               1200         of Al startups will fail altogether or fail to scale
+*.  )                   because they are unable to emerge from a
+. By       -  lA             1000       crowded marketplace with clear differentiation
+Scott Hebner           :                              FA vet oe
+ez  u  a)  soo}
+(>)        :     600}
+5 ¥             400
+\
+= EN                   2016         201s         20z20         Zoz2         2024
+\    US ‘esearch The Next Frontiers of Al
+6
+
+---
+
+*This slide is from the video: 10. A Blueprint for Scaling a New Agentic AI Business*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=UpQoDiowH6Q*
+*Slide timestamp: 34m24s*

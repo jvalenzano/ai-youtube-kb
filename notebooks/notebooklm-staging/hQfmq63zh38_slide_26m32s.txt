@@ -1,0 +1,41 @@
+# Slide from: 27. How Agentic AI Rewires a SaaS Business: Lessons from a Unicorn Pioneer
+
+## Video Information
+**Video ID:** hQfmq63zh38
+**Title:** 27. How Agentic AI Rewires a SaaS Business: Lessons from a Unicorn Pioneer
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=hQfmq63zh38
+**Duration:** 34:29
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** This video presents a detailed real-world case study of Vantaca's successful implementation of agentic AI at scale, with specific metrics, before/after examples, and business outcomes
+
+## Slide Information
+**Timestamp:** 26m32s
+**Timestamp URL:** https://www.youtube.com/watch?v=hQfmq63zh38&t=1592s
+**Original Filename:** slide_26m32s_d02e6e6e.png
+
+## Transcript Context
+**Before:** in some cases, 90% reduction in human time needed to handle phone calls and handle incoming kind of customer volume because agents can so meaningfully go
+**During:** and handle these things.
+**After:** I think the data that you have on the screen here is a pretty good example. There's some averages on the bottom there, and then there's a specific customer that we went
+
+## Slide Content (OCR)
+Wantaca.
+Before HOAi Voice                                           After HOAi Voice
+4,000        _       60%       _        1,600
+~800 hours               92%        _      ~66 hours
+5.0 FTEs        _        +4.6        _        0.4 FTE
+$7.00              _       65% decrease          .              $2.48
+Al        70%       30%     $4.50
+KK                                °                               (<}                       .
+Calls Per Month           Deflection Rate               Action Rate             Cost Reduction
+Average monthly volume          Resolved by HOAi Voice            Calls that create or update        Average savings per call
+managed by HOAi Voice          without human follow-up            action items automatically handled through HOAi Voice.
+
+---
+
+*This slide is from the video: 27. How Agentic AI Rewires a SaaS Business: Lessons from a Unicorn Pioneer*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=hQfmq63zh38*
+*Slide timestamp: 26m32s*

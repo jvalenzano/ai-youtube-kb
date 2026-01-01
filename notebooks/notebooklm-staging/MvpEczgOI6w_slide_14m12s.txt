@@ -1,0 +1,40 @@
+# Slide from: Digital Labor @ Work: How AI Agents are Transforming Community Management
+
+## Video Information
+**Video ID:** MvpEczgOI6w
+**Title:** Digital Labor @ Work: How AI Agents are Transforming Community Management
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=MvpEczgOI6w
+**Duration:** 45:58
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** This video presents a detailed real-world case study of HOAI's implementation of AI agents in community management, including specific customer examples, measurable outcomes, and live demonstrations of the technology in action.
+
+## Slide Information
+**Timestamp:** 14m12s
+**Timestamp URL:** https://www.youtube.com/watch?v=MvpEczgOI6w&t=852s
+**Original Filename:** slide_14m12s_96cd6995.png
+
+## Transcript Context
+**Before:** And then, there is a bunch of maintenance requests, okay, "Can you help fix this? " Or, "How do we fix this? Is everything being addressed? " Things like that. So that's on the
+**During:** homeowner and property side.
+**After:** On the other hand, a community homeowner association operates like a corporate entity, because it has a lot of things or tasks that are required for that entity.
+
+## Slide Content (OCR)
+e        e
+The Old Way: Drowning in low-value tasks
+* Constant homeowner & board requests
+* Buried in invoices & budget prep                     pee
+* Repetitive detailed tasks drain resources          ge               |
+° Frustrated, overloaded employees                           y 7 4  gh,
+* Growth means more labor, not more profit              ). ~_a     Ws
+* Not enough time for relationships or                       ;                        r
+growing the business
+ae                                =                     HOA
+
+---
+
+*This slide is from the video: Digital Labor @ Work: How AI Agents are Transforming Community Management*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=MvpEczgOI6w*
+*Slide timestamp: 14m12s*

@@ -1,0 +1,38 @@
+# Slide from: 17. AI Meets Psychology: How to Build Agents that Understand People
+
+## Video Information
+**Video ID:** RYiWt_u2h6Y
+**Title:** 17. AI Meets Psychology: How to Build Agents that Understand People
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=RYiWt_u2h6Y
+**Duration:** 45:17
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental limitations of current LLMs and introduces psychological intelligence as a foundational capability needed for effective AI agents, rather than specific workflows or implementations
+
+## Slide Information
+**Timestamp:** 40m04s
+**Timestamp URL:** https://www.youtube.com/watch?v=RYiWt_u2h6Y&t=2404s
+**Original Filename:** slide_40m04s_c13fe08c.png
+
+## Transcript Context
+**Before:** They become more sophisticated, and you're starting to make real business decisions. And that trust factor goes up. And what I've sort of pulled together,
+**During:** and let me just show you a chart on this
+**After:** to get your feedback on it, is it's clear to me that LLMs are the foundation, but for agentic AI to realize its promise, particularly as we move forward in time from here, there's going
+
+## Slide Content (OCR)
+The Future of        ;        25       Ee
+Agentic AI              Intelligence ae
+@          Causal         52
+Reasoning          WHAT IF
+Psychological
+*~     :                          Loops
+oi            emantic     2,    im
+on           i
+
+---
+
+*This slide is from the video: 17. AI Meets Psychology: How to Build Agents that Understand People*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=RYiWt_u2h6Y*
+*Slide timestamp: 40m04s*

@@ -1,0 +1,47 @@
+# Slide from: 11. Agentic AI Architecture Matters
+
+## Video Information
+**Video ID:** cg9q5wnssH0
+**Title:** 11. Agentic AI Architecture Matters
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=cg9q5wnssH0
+**Duration:** 40:14
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses primarily on the foundational technologies, architectural principles, and core concepts needed to understand and build agentic AI systems
+
+## Slide Information
+**Timestamp:** 32m58s
+**Timestamp URL:** https://www.youtube.com/watch?v=cg9q5wnssH0&t=1978s
+**Original Filename:** slide_32m58s_836f7830.png
+
+## Transcript Context
+**Before:** what the agent figures out on its own now. >> Yeah. Very, very different, but incredibly powerful. And that's, again, why it's going to be a journey. Well, just if you recall, George,
+**During:** let me bring up this chart.
+**After:** We did a podcast, I think it was back in early February, the ladder to agentic AI. Just want to make everyone aware, if you haven't watched it, you can go back and get our views on just the high level
+
+## Slide Content (OCR)
+——_                -
+Architecture Matters
+Gl & co                                                                                   Orchestrate & Govern     oa :
+cn’ ew                                            1            Enable Autonomous       (
+| aA     4     »                      /            Agent-to-Agent Interplay 5! 5
+Scott Hebner
+—                                           Ses                  Infuse Explainable fff :2
+Sea                                     ee                Decision Intelligence      WHAT IF 2               o
+==" ee  el Il                                                        z
+\ Pa Be | |                          Deploy Domain         $             Ci 2
+\   at   ‘e   a     |                                     Knowledge Models     eget             %
+George Gilbert      .
+GenAl / LLM Foundation
+\
+Whi the                                        °
+\     Ue ‘esearch The Next Frontiers of Al
+Py
+
+---
+
+*This slide is from the video: 11. Agentic AI Architecture Matters*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=cg9q5wnssH0*
+*Slide timestamp: 32m58s*

@@ -1,0 +1,43 @@
+# Slide from: 13. Charting the Agentic AI Adoption Curve: What’s Next?
+
+## Video Information
+**Video ID:** 8aq0rOYUeio
+**Title:** 13. Charting the Agentic AI Adoption Curve: What’s Next?
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=8aq0rOYUeio
+**Duration:** 38:37
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily covers foundational concepts of Agentic AI, market adoption patterns, infrastructure requirements, and strategic considerations for enterprises rather than specific workflows, tools, or case studies
+
+## Slide Information
+**Timestamp:** 13m18s
+**Timestamp URL:** https://www.youtube.com/watch?v=8aq0rOYUeio&t=798s
+**Original Filename:** slide_13m18s_b00dcd1b.png
+
+## Transcript Context
+**Before:** that are already deployed and increasingly autonomous and the investment is going to go up even further. >> Yeah. - So it brings me to I'd just like to get your view on some of the research
+**During:** that we did here at theCUBE Research on.
+**After:** Let me bring this up here. On the tech priorities. Basically, what this is saying is if you were to ask the technology folks... And this is not just within technology companies,
+
+## Slide Content (OCR)
+Agentic Al Tech Priorities
+GenAl / LLMs                                                                           8
+Vector Databases                                                                           "
+Agentic RAG                                                                           7
+Mult-agent FWs                                                                    5                                         theCUBE
+research
+Tool Integration APIs                                                                 °
+Survey Aggregate
+Decision Intelligence                                                                           7
+Semantic & Causal Reasoning                                                                           ,
+Learning Loops                                                                 6
+oO           1           2           3           4           Ss           6           7           8
+Relative Importance
+
+---
+
+*This slide is from the video: 13. Charting the Agentic AI Adoption Curve: What’s Next?*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=8aq0rOYUeio*
+*Slide timestamp: 13m18s*

@@ -1,0 +1,41 @@
+# Slide from: 22. The State of Digital Labor Transformation
+
+## Video Information
+**Video ID:** 5YrnYJBOpZY
+**Title:** 22. The State of Digital Labor Transformation
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=5YrnYJBOpZY
+**Duration:** 37:18
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video establishes fundamental concepts about digital labor transformation, distinguishes between different AI strategies, and provides foundational research insights rather than specific workflows or tools
+
+## Slide Information
+**Timestamp:** 7m14s
+**Timestamp URL:** https://www.youtube.com/watch?v=5YrnYJBOpZY&t=434s
+**Original Filename:** slide_7m14s_a552b5ca.png
+
+## Transcript Context
+**Before:** >> Yeah. Well let's jump into some of the findings, right? We'll give you a sneak peek and obviously there's a boatload of this stuff behind the scenes here,
+**During:** but let me bring up what I consider to be the key takeaways.
+**After:** First, let me start on the top right. So the index is from one to five, and it's a set of criteria that we've developed here that basically applies a methodology on
+
+## Slide Content (OCR)
+Key Takeaways               26
+Digital Labor
+Transformation
+> Digital labor is inevitable                                                    FUTURES INDEX
+> HR is emerging as a co-architect                                      PX  ee / >
+> CAIOs becoming digital HR leaders                                  f        cord
+> Trust is the defining challenge: no trust, no ROI
+> Barriers are multifaceted, multi-organizational                            ©
+> Aspiration > strategy > execution gaps
+vse             Ce
+waa                ca
+
+---
+
+*This slide is from the video: 22. The State of Digital Labor Transformation*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=5YrnYJBOpZY*
+*Slide timestamp: 7m14s*

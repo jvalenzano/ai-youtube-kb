@@ -1,0 +1,51 @@
+# Slide from: 11. Agentic AI Architecture Matters
+
+## Video Information
+**Video ID:** cg9q5wnssH0
+**Title:** 11. Agentic AI Architecture Matters
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=cg9q5wnssH0
+**Duration:** 40:14
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses primarily on the foundational technologies, architectural principles, and core concepts needed to understand and build agentic AI systems
+
+## Slide Information
+**Timestamp:** 21m18s
+**Timestamp URL:** https://www.youtube.com/watch?v=cg9q5wnssH0&t=1278s
+**Original Filename:** slide_21m18s_837a78a0.png
+
+## Transcript Context
+**Before:** and you start over time infusing the semantics and the causal stuff into it, the reasoning, super powerful compared to what you're able to do with a generative AI, task-oriented chatbot today
+**During:** or assistant, which brings us to
+**After:** these levels of sophistication in terms of the type of agents that you can start to think about when you are building an agentic system or an architecture.
+
+## Slide Content (OCR)
+——_                  >
+ie      i)       @       ©       ©
+Ma      fo)        Analysis GB             Domain @3”           Reasoning @*          Planning and @9>
+=| Era            & Tasks “7 7           Knowledge “|”           & Decistons “|")          Orchestration"| ")
+7       }
+:               i       i
+Ls  ri  fs           y                         Acts based on what has                 Acts on semantic structures           Acts on reasoned decisions            Plans and coordinates
+Pee),                           happened in the past                 and contextual knowledge           and inferred consequences          multi-agent workflows
+==            + Task automation              + Entity relationships            + Decision intelligence           + Contextual perception
+ae            * Pattern recognition            * Context and meaning           * Interactive explainability         * Autonomous actions
+= ey               |
+wy       rt   i]     * Anomaly detection             + Ontology knowledge            » Counterfactual analysis          + Dynamic pathways
+t fees        jis        = Predictions and forecasts        + Expert know-how             * Problem-solving             + Indirect, multi-hop reasoning
+3      ,
+¢     ‘e             |
+George Gilbert      “
+Enterprise and Domain-specific Generative Al Services
+\
+Wy thecuBe                                       .           f
+\    US iesecich The Next Frontiers of Al
+4
+
+---
+
+*This slide is from the video: 11. Agentic AI Architecture Matters*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=cg9q5wnssH0*
+*Slide timestamp: 21m18s*

@@ -1,0 +1,37 @@
+# Slide from: 22. The State of Digital Labor Transformation
+
+## Video Information
+**Video ID:** 5YrnYJBOpZY
+**Title:** 22. The State of Digital Labor Transformation
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=5YrnYJBOpZY
+**Duration:** 37:18
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video establishes fundamental concepts about digital labor transformation, distinguishes between different AI strategies, and provides foundational research insights rather than specific workflows or tools
+
+## Slide Information
+**Timestamp:** 11m04s
+**Timestamp URL:** https://www.youtube.com/watch?v=5YrnYJBOpZY&t=664s
+**Original Filename:** slide_11m04s_81d0be5e.png
+
+## Transcript Context
+**Before:** that I also found is that there's a big difference between do users trust this stuff versus do the technology guys and gals trust this stuff? And there's a lot to be kind of weeded out in all this.
+**During:** Let me bring up what I consider to be the top line.
+**After:** If I had to net out what I think is the bottom line takeaway, if I'm an executive thinking about a strategy, and you can see here the aspiration, the maturity of the aspiration, the rise of digital labor if you will,
+
+## Slide Content (OCR)
+\              /
+ASPERATION:                     STRATEGY:                      EXECUTION:
+The rise of                          Knowledge                        Barriers, Gaps,
+digital labor                                  Workers                                   and Culture
+| ae    L   o           Fa   31 f       e            ey \ 18      eo
+Digital Labor Transformation Indices
+An Agentic Al Strategy + Digital Labor Transformation Strategy
+
+---
+
+*This slide is from the video: 22. The State of Digital Labor Transformation*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=5YrnYJBOpZY*
+*Slide timestamp: 11m04s*

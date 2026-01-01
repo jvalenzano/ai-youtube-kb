@@ -9,18 +9,18 @@ Patterns for multi-agent systems, orchestration, and workflow design
 
 ## Videos in This Module
 
-### 1. 15. Are Agile & SaaS Dead with the Rise of Agentic AI?
-**URL:** https://www.youtube.com/watch?v=AaGtyE1bIjY
-**Duration:** 47:28
+### 1. 25. The Widening AI Value Gap — How to Close it Before its Too Late
+**URL:** https://www.youtube.com/watch?v=zNuZ9sADgXA
+**Duration:** 34:05
 
 **Summary:**
-- Agentic AI is fundamentally changing software development from traditional Agile methodologies to 'lean software engineering' with significantly faster delivery times and reduced costs
-- Companies are moving from 24-month development cycles to 10-month cycles using agentic workflows that work in parallel across all application layers
-- Traditional SaaS models are being challenged as custom software development becomes faster and more cost-effective with AI agents, giving companies full IP ownership
+- Only 5% of companies are capturing real measurable value from AI investments, creating a widening AI value gap that may become impossible to close
+- Future-built companies invest 25-50% more in IT budgets and 100%+ more on AI initiatives compared to laggards, resulting in 3-5x better results
+- The evolution of AI follows three stages: predictive AI (45% of current value), generative AI (38%), and agentic AI (17% currently but expected to dominate future value)
 
 **Key Takeaways:**
-- **DO:** Start with identifying specific pain points like legacy modernization, slow product releases, or high tech spend rather than doing general POCs
-- **DO:** Ensure C-level leadership drives the transformation as cultural changes and organizational restructuring are required
+- **DO:** Start immediately rather than waiting - the gap is widening and compound advantages make catching up increasingly difficult
+- **DO:** Establish shared business-IT ownership for AI initiatives rather than siloing them in one department
 
 ---
 
@@ -39,17 +39,17 @@ Patterns for multi-agent systems, orchestration, and workflow design
 
 ---
 
-### 3. 25. The Widening AI Value Gap — How to Close it Before its Too Late
-**URL:** https://www.youtube.com/watch?v=zNuZ9sADgXA
-**Duration:** 34:05
+### 3. 15. Are Agile & SaaS Dead with the Rise of Agentic AI?
+**URL:** https://www.youtube.com/watch?v=AaGtyE1bIjY
+**Duration:** 47:28
 
 **Summary:**
-- Only 5% of companies are capturing real measurable value from AI investments, creating a widening AI value gap that may become impossible to close
-- Future-built companies invest 25-50% more in IT budgets and 100%+ more on AI initiatives compared to laggards, resulting in 3-5x better results
-- The evolution of AI follows three stages: predictive AI (45% of current value), generative AI (38%), and agentic AI (17% currently but expected to dominate future value)
+- Agentic AI is fundamentally changing software development from traditional Agile methodologies to 'lean software engineering' with significantly faster delivery times and reduced costs
+- Companies are moving from 24-month development cycles to 10-month cycles using agentic workflows that work in parallel across all application layers
+- Traditional SaaS models are being challenged as custom software development becomes faster and more cost-effective with AI agents, giving companies full IP ownership
 
 **Key Takeaways:**
-- **DO:** Start immediately rather than waiting - the gap is widening and compound advantages make catching up increasingly difficult
-- **DO:** Establish shared business-IT ownership for AI initiatives rather than siloing them in one department
+- **DO:** Start with identifying specific pain points like legacy modernization, slow product releases, or high tech spend rather than doing general POCs
+- **DO:** Ensure C-level leadership drives the transformation as cultural changes and organizational restructuring are required
 
 ---

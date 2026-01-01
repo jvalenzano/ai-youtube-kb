@@ -1,0 +1,44 @@
+# Slide from: 23. Agentic AI ROI: From Automation to Decisions
+
+## Video Information
+**Video ID:** PH6KNZykjX4
+**Title:** 23. Agentic AI ROI: From Automation to Decisions
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=PH6KNZykjX4
+**Duration:** 40:57
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video heavily features real-world examples from DoozerAI's deployments, specific customer cases like the financial reporting agent, and practical lessons learned from actual enterprise implementations
+
+## Slide Information
+**Timestamp:** 20m14s
+**Timestamp URL:** https://www.youtube.com/watch?v=PH6KNZykjX4&t=1214s
+**Original Filename:** slide_20m14s_b495ca5a.png
+
+## Transcript Context
+**Before:** I'd love to get your reaction to one of the survey questions and hear what type of investments you're seeing being most critical to unlocking the ROI in this space.
+**After:** So here's the question on the right. How would you describe your organization's level of investment in AI reasoning and decision intelligence over the next 18 months?
+
+## Slide Content (OCR)
+7 3  0 Yi                                                      Q  How would you describe your organization's level of investment
+0                                                       in Al reasoning & decision intelligence over the next 18 months?
+of enterprises plan
+major investments                                 Significant ~ multiple funded programs  Ps 37%
+in AI agents that
+can reason                                                         Strategic - core to our enterprise strategy  | 36%
+Moderate — funding a few use cases                               21%
+Minimal - exploratory funding only        4%
+thecuse
+eg research
+Sodinatint NY
+“Ws                                                                        No investment planned 2%
+Agentic Al
+FUTURES INDEX                                              N=625
+==           5          =          ?                      ]           |          |           |           4          \                       aie          s            __ Confidential. Terms apply.
+
+---
+
+*This slide is from the video: 23. Agentic AI ROI: From Automation to Decisions*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=PH6KNZykjX4*
+*Slide timestamp: 20m14s*

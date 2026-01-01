@@ -1,0 +1,40 @@
+# Slide from: 13. Charting the Agentic AI Adoption Curve: What’s Next?
+
+## Video Information
+**Video ID:** 8aq0rOYUeio
+**Title:** 13. Charting the Agentic AI Adoption Curve: What’s Next?
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=8aq0rOYUeio
+**Duration:** 38:37
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily covers foundational concepts of Agentic AI, market adoption patterns, infrastructure requirements, and strategic considerations for enterprises rather than specific workflows, tools, or case studies
+
+## Slide Information
+**Timestamp:** 26m48s
+**Timestamp URL:** https://www.youtube.com/watch?v=8aq0rOYUeio&t=1608s
+**Original Filename:** slide_26m48s_af87d56a.png
+
+## Transcript Context
+**Before:** It's going to be a whole new world." >> Yeah. >> Well, let's transition to one thing that's really been at a center
+**During:** of my attention over the last many months, which is talent.
+**After:** Why don't you explain a little bit about the findings here because this could be a real problem for companies? >> Yeah. Yeah. A few things, Scott. I'd say this is fairly intuitive,
+
+## Slide Content (OCR)
+Ny
+>
+When it comes to Al talent,  +
+we can expect significant hiring of resources, along
+with a continued rebalancing of the workforce
+70»)    =)  (e+)
+of tech leaders are                  are hiring Al-skilled                  of tech leaders are
+focusing on upskilling                talent almost equally                  anticipating hiring
+in the next six months
+EY
+
+---
+
+*This slide is from the video: 13. Charting the Agentic AI Adoption Curve: What’s Next?*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=8aq0rOYUeio*
+*Slide timestamp: 26m48s*

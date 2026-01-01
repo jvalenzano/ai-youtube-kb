@@ -1,0 +1,38 @@
+# Slide from: 17. AI Meets Psychology: How to Build Agents that Understand People
+
+## Video Information
+**Video ID:** RYiWt_u2h6Y
+**Title:** 17. AI Meets Psychology: How to Build Agents that Understand People
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=RYiWt_u2h6Y
+**Duration:** 45:17
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental limitations of current LLMs and introduces psychological intelligence as a foundational capability needed for effective AI agents, rather than specific workflows or implementations
+
+## Slide Information
+**Timestamp:** 27m06s
+**Timestamp URL:** https://www.youtube.com/watch?v=RYiWt_u2h6Y&t=1626s
+**Original Filename:** slide_27m06s_f807feb8.png
+
+## Transcript Context
+**Before:** that crank through, they swim in these huge data lakes, lakes of data, and they establish patterns and correlations, like you said, next best token that then forms a word and so on and so forth.
+**During:** But I love the chart that we had talked about and you had
+**After:** provided here, which kind of really, I think, nets it out, right? They treat everyone the same, except, well, maybe you can talk through these four things?
+
+## Slide Content (OCR)
+Treat users the           Personalizes           Doesn't get how            Lacks human,
+same; adapts to          language, not         people think, feel,           psychological
+tone and syntax           experience             communicate                 context
+L                                                                                                      Erodes
+,                                                                                                         TRUST
+}                     Cy,
+LLM-based Agent
+a        :                                                                                                        Receptiviti
+
+---
+
+*This slide is from the video: 17. AI Meets Psychology: How to Build Agents that Understand People*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=RYiWt_u2h6Y*
+*Slide timestamp: 27m06s*

@@ -1,0 +1,42 @@
+# Slide from: 25. The Widening AI Value Gap — How to Close it Before its Too Late
+
+## Video Information
+**Video ID:** zNuZ9sADgXA
+**Title:** 25. The Widening AI Value Gap — How to Close it Before its Too Late
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=zNuZ9sADgXA
+**Duration:** 34:05
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video primarily focuses on agentic workflows, the integration of different AI capabilities into end-to-end automated processes, and how organizations structure workflows for AI success
+
+## Slide Information
+**Timestamp:** 5m38s
+**Timestamp URL:** https://www.youtube.com/watch?v=zNuZ9sADgXA&t=338s
+**Original Filename:** slide_5m38s_bd454269.png
+
+## Transcript Context
+**Before:** that it is going to really expand the value that people can get out of their investments in AI. And let me bring up a chart here that I pulled from the study.
+**During:** Maybe you can explain it a little bit for our audience.
+**After:** >> Yes. One can debate the words, et cetera. But what we are seeing in the study when we roughly try to break the use cases that are being deployed
+
+## Slide Content (OCR)
+Agentic AI Value: 2x by 2028
+2x more value is expected to come          Companies are experimenting
+from agentic Al by 2028 (%)                     with agentic Al...
+Agentic                                                                   Of companies are experimenting
+with early pilots or deploying agents
+46%    (with 16% of these companies
+Generative                                                                           already demonstrating
+tangible value)
+... Thanks to budget allocation
+Predictive                                                      0%      Of companies are spending over
+0    15% of their Al budget on agents
+2025               2028                                                                uild for the Future
+
+---
+
+*This slide is from the video: 25. The Widening AI Value Gap — How to Close it Before its Too Late*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=zNuZ9sADgXA*
+*Slide timestamp: 5m38s*

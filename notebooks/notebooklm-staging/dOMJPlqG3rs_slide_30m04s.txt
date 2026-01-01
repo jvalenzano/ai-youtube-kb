@@ -1,0 +1,45 @@
+# Slide from: 12. The Future of Marketing- Causal Al Agents That Think Strategically
+
+## Video Information
+**Video ID:** dOMJPlqG3rs
+**Title:** 12. The Future of Marketing- Causal Al Agents That Think Strategically
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=dOMJPlqG3rs
+**Duration:** 38:47
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video establishes fundamental concepts about the evolution from correlation-based AI to causal AI, explaining core principles and theoretical frameworks rather than specific implementation workflows or tools
+
+## Slide Information
+**Timestamp:** 30m04s
+**Timestamp URL:** https://www.youtube.com/watch?v=dOMJPlqG3rs&t=1804s
+**Original Filename:** slide_30m04s_872d6af8.png
+
+## Transcript Context
+**Before:** The causality is going to actually help you justify the decisions that you're making and the outcomes that you're producing in a way that has never been able to be done before.
+**During:** Let's end here on just me bring up another chart here,
+**After:** which is the core benefits of causal AI. Let's just kind of rotate through this and talk a little bit about marketing. Causality is one of the big benefits of causal AI,
+
+## Slide Content (OCR)
+——_
+CAUSALITY            WHAT IF            ROOT CAUSE
+Sa       .                              understand why things happen            interventions may impact outcomes                  confidence levels
+yal  re    »        PRESCRIPTION         INTUITION        CONFOUNDERS
+‘Scott Hebner
+|                               '
+E]             =e           !
+3    4           a 4             i
+i              of
+sneneld dl)            EXPLAINATION        SIMPLICITY          AGENTICS
+Open up Al “black boxes” to                    Create smaller yet more                 Enable Al agents that interact with
+| Eh 823) The Next Frontiers of Al
+\    Le, research  The Next Frontiers o
+at
+ts
+
+---
+
+*This slide is from the video: 12. The Future of Marketing- Causal Al Agents That Think Strategically*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=dOMJPlqG3rs*
+*Slide timestamp: 30m04s*

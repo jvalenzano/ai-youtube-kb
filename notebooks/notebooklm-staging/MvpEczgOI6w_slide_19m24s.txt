@@ -1,0 +1,42 @@
+# Slide from: Digital Labor @ Work: How AI Agents are Transforming Community Management
+
+## Video Information
+**Video ID:** MvpEczgOI6w
+**Title:** Digital Labor @ Work: How AI Agents are Transforming Community Management
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=MvpEczgOI6w
+**Duration:** 45:58
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** This video presents a detailed real-world case study of HOAI's implementation of AI agents in community management, including specific customer examples, measurable outcomes, and live demonstrations of the technology in action.
+
+## Slide Information
+**Timestamp:** 19m24s
+**Timestamp URL:** https://www.youtube.com/watch?v=MvpEczgOI6w&t=1164s
+**Original Filename:** slide_19m24s_b1911af6.png
+
+## Transcript Context
+**Before:** >> Right. That's right. - I'm going to bring up a graphic here which talks about many of the things that your agents can do and maybe you can summarize for us
+**During:** and just talk through
+**After:** what these agents can now do more specifically on top of the company's existing software stack. >> Yeah, I think on a high level, the agents are just doing the work
+
+## Slide Content (OCR)
+e
+An Al Agent: Your Next Hire?
+Agents execute work                                               24/7 work — evenings,
+alongside your team           O                   (@)               weekends, holidays
+Executes repetitive,          eo)   ie  ft Z =      ad   ee    re)        Never quits, constantly
+. time-consuming tasks                =      ey “             learning & executing more
+Employees can focus on       re)           —  wall) =     “y   ro)      Higher retention & better
+growth & relationships                  fa                    homeowner reviews
+Faster, more accurate,            eo)                  oO    {          Scales without adding
+higher-quality output                                              headcount, higher profitability
+Wye   Viewed as a strategic hire that pays for itself -
+yy _alabor expense, not a software expense                     HOAi
+
+---
+
+*This slide is from the video: Digital Labor @ Work: How AI Agents are Transforming Community Management*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=MvpEczgOI6w*
+*Slide timestamp: 19m24s*

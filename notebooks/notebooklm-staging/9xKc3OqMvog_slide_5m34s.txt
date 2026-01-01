@@ -1,0 +1,39 @@
+# Slide from: 20. Navigating the AI Talent Crisis: Act Now Before It’s Too Late
+
+## Video Information
+**Video ID:** 9xKc3OqMvog
+**Title:** 20. Navigating the AI Talent Crisis: Act Now Before It’s Too Late
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=9xKc3OqMvog
+**Duration:** 40:36
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video presents real-world examples of AI talent challenges, specific company implementations like BairesDev's talent retention tool, and practical case studies of how organizations are addressing the AI skills shortage
+
+## Slide Information
+**Timestamp:** 5m34s
+**Timestamp URL:** https://www.youtube.com/watch?v=9xKc3OqMvog&t=334s
+**Original Filename:** slide_5m34s_95c0be2d.png
+
+## Transcript Context
+**Before:** >> We could do a whole podcast just on that. >> Yes, you can. No doubt about it. All right, well let me frame with a graphic the whole conversation that I'm hoping to have
+**During:** with you today.
+**After:** And I think this sets the stage here. So 74% of enterprises, according to our research, are reporting that they're struggling to find qualified AI talent.
+
+## Slide Content (OCR)
+ny,       of enterprises report
+Ss               % — struggling to find qualified AI
+=  7 4 of  = talent, while 40% of existing
+=                 O =    Al-skilled employees
+, RS     are considering        ,
+TS            leaving their jobs.
+= \       Na
+BO xe                                   = \ a y  y
+aS        =         <—&  ‘
+
+---
+
+*This slide is from the video: 20. Navigating the AI Talent Crisis: Act Now Before It’s Too Late*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=9xKc3OqMvog*
+*Slide timestamp: 5m34s*

@@ -1,0 +1,36 @@
+# Slide from: 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** xedTTP84hIE
+**Title:** 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=xedTTP84hIE
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 24m26s
+**Timestamp URL:** https://www.youtube.com/watch?v=xedTTP84hIE&t=1466s
+**Original Filename:** slide_24m26s_8e259f0b.png
+
+## Slide Content (OCR)
+tit
+Explains what,
+how and why
+Causal Al can                                                                        |
+understand the        K    wh         Dy
+.           .                      nows                               A
+precise chain of        Sa  Things             a        Understands  <5
+events leading           38% Happen         WW         Consequences
+to an outcome                                      |
+Helps Solve       * Causal discovery
+Problems         * Root cause detection
+* Counter-factual analysis
+WHAT IF.  ?      * Interventional “what if”
+Leam More
+
+---
+
+*This slide is from the video: 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=xedTTP84hIE*
+*Slide timestamp: 24m26s*

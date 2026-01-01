@@ -1,0 +1,41 @@
+# Slide from: 13. Charting the Agentic AI Adoption Curve: What’s Next?
+
+## Video Information
+**Video ID:** 8aq0rOYUeio
+**Title:** 13. Charting the Agentic AI Adoption Curve: What’s Next?
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=8aq0rOYUeio
+**Duration:** 38:37
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily covers foundational concepts of Agentic AI, market adoption patterns, infrastructure requirements, and strategic considerations for enterprises rather than specific workflows, tools, or case studies
+
+## Slide Information
+**Timestamp:** 11m50s
+**Timestamp URL:** https://www.youtube.com/watch?v=8aq0rOYUeio&t=710s
+**Original Filename:** slide_11m50s_ea498ba5.png
+
+## Transcript Context
+**Before:** how do we integrate that workflow across a variety of platforms. I think it's really early days, but that's where the line of sight is.
+**During:** >> Tell me more about these numbers here,
+**After:** which is also very interesting about the autonomous... A lot of progress. >> Yeah. Yeah. So a lot of progress and again, I think back to the comment I made about,
+
+## Slide Content (OCR)
+"                                                                                           8
+@)             4    of
+(1
+of tech leaders are already adopting
+or fully deploying autonomous Al
+50%          =
+Half of tech executives             TH /            PF
+say more than 50% of Al          cae          —            7
+deployment will be autonomous
+in their company in the next
+24 months
+
+---
+
+*This slide is from the video: 13. Charting the Agentic AI Adoption Curve: What’s Next?*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=8aq0rOYUeio*
+*Slide timestamp: 11m50s*

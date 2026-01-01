@@ -1,0 +1,892 @@
+
+
+---
+**Note:** This transcript references 1 slide images. Each slide has a companion .txt file with full metadata. Slide filenames follow the pattern: UpQoDiowH6Q_slide_TIMESTAMP.png
+# 10. A Blueprint for Scaling a New Agentic AI Business
+
+**Video ID:** UpQoDiowH6Q
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 40:48
+**URL:** https://www.youtube.com/watch?v=UpQoDiowH6Q
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** This video primarily presents a detailed case study of HOAi's success in building and scaling an agentic AI business, with specific customer testimonials, growth metrics, and real-world implementation examples
+
+## Summary
+- The agentic AI market for digital co-workers is projected to grow 45% annually through 2030, reaching $47 billion, creating unprecedented opportunities for vertical AI startups
+- HOAi founder Haoyu Zha built a successful AI agent company targeting HOA management, growing from 10 to 60+ customers in just 4 months of 2025
+- The democratization of AI allows startups to build 10x faster with significantly fewer resources compared to the previous cloud/SaaS era
+- HOA management represents an ideal vertical for AI agents - it's desktop-heavy work requiring human judgment calls, managing 400,000 HOAs with 40 million homes
+- Customer testimonials show dramatic results: one client saves $10,000/month in labor costs processing 10,000+ invoices that previously took 2-3 minutes each
+- The evolution from predictive AI to generative AI to agentic AI enables real-world impact beyond just text generation - agents can execute tasks end-to-end
+- Vertical AI represents a shift from the traditional 2-3% IT spend to targeting 50%+ labor spending in industries, creating 10x larger market opportunities
+- Success strategy focuses on building on top of existing SaaS solutions rather than rebuilding entire tech stacks, leveraging domain expertise in overlooked niches
+
+## Key Takeaways
+- **DO:** Focus on vertical industries with heavy labor spending (50%+) and judgment-based desktop work that's ripe for AI agent automation
+- **DO:** Build on top of existing SaaS solutions rather than rebuilding entire tech stacks from scratch
+- **DO:** Target problems you personally experienced to ensure deep domain knowledge and authentic product-market fit
+- **DO:** Design AI agents as digital coworkers that business owners can manage like human employees, with performance reviews and trust-building
+- **DON'T:** Don't compete directly with horizontal AI solutions from big players like OpenAI - they can easily add features that kill horizontal startups
+- **DON'T:** Don't try to replace existing customer solutions entirely - offer new value that wasn't previously available to reduce adoption friction
+
+## Topics
+agentic_ai, vertical_ai, startup_scaling, digital_workers, hoa_management, y_combinator, labor_automation
+
+## Key Moments
+- [05:08](https://www.youtube.com/watch?v=UpQoDiowH6Q&t=308s): Found product-market fit in 2024 when focusing on agentic AI agents to solve real-life problems
+- [20:37](https://www.youtube.com/watch?v=UpQoDiowH6Q&t=1237s): Customer testimonial showing $10,000/month savings processing invoices and 1000+ hours saved on budgets
+- [22:41](https://www.youtube.com/watch?v=UpQoDiowH6Q&t=1361s): Growth metrics: 6x customer growth in 4 months of 2025, reaching 60+ management companies and 1M+ homes
+- [25:48](https://www.youtube.com/watch?v=UpQoDiowH6Q&t=1548s): Key insight: AI agents can tap into 50%+ labor spending vs traditional software's 2-3% IT budget
+- [36:04](https://www.youtube.com/watch?v=UpQoDiowH6Q&t=2164s): Startup advice: focus on vertical niches and leverage macro AI trends rather than following traditional software playbooks
+
+## Presentation Slides
+*1 unique slides extracted from this video*
+
+### Slide at [34m24s](https://www.youtube.com/watch?v=UpQoDiowH6Q&t=2064s)
+
+The Growth of Al Startups (usa 2015-2024)
+\ 2     mi    1400     90%
+—h |               1200         of Al startups will fail altogether or fail to scale
+*.  )                   because they are unable to emerge from a
+. By       -  lA             1000       crowded marketplace with clear differentiation
+Scott Hebner           :                              FA vet oe
+ez  u  a)  soo}
+(>)        :     600}
+5 ¥             400
+\
+= EN                   2016         201s         20z20         Zoz2         2024
+\    US ‘esearch The Next Frontiers of Al
+6
+
+
+## TL;DR
+HOAi's rapid scaling demonstrates how vertical AI agents targeting labor-intensive industries can achieve exponential growth.
+
+## Full Transcript
+
+>> Hello, everyone.
+Scott Hebner here. Welcome
+back to the Next Frontiers of AI podcast, where we
+feature industry pioneers who are shaping the future of AI.
+Thank you very much for tuning in.
+In this episode, we'll
+explore what it takes to build and scale a new agentic AI business.
+As we enter what many are
+calling the golden age of AI agents, a new market
+category is clearly emerging, one that's really going to
+deliver on the growth demand that we're seeing for highly
+domain-specific digital co- workers who can reason, act, and collaborate with humans
+to enhance decision-making and accelerate outcomes and even act autonomously when
+human involvement is either not feasible or warranted.
+This market for digital co-workers and agentic workflows is
+projected to expand 45% compounded through 2030, reaching 47 billion.
+
+[01:01]
+It's a massive new opportunity.
+Today we unpack the blueprint for creating successful new businesses, tapping into the best practices that have helped a young company, HOAi, rapidly scale into a high- growth leader in the market
+segment they're targeting.
+According to the experts that spoke at the recent AI
+Agent Builder Summit, hosted by SiliconANGLE and theCUBE, the playing field has
+never been more favorable for starting a new business.
+Innovators can now build 10
+times faster, get to product and market fit sooner,
+deploy products at scale, and fuel go-to market with
+significantly fewer resources.
+Unlike the world of
+cloud and SaaS that came before this, where startups
+needed massive resources to enter and lead in a
+market, the democratization of AI has changed everything.
+This is the dawn of a new super- cycle in business innovation,
+one where vertical expertise,
+
+[02:02]
+fast iteration, and the use of AI-native
+infrastructures can turn overlooked niches into billion-dollar categories.
+To explore all this, I'm thrilled to have Haoyu Zha join us today.
+He is a wide-combiner member and the founder of HOAi,
+a fast-growing startup, harnessing digital
+workers to help transform how homeowner associations
+operate, create value, and engage their communities.
+So thank you so much for taking the time to be here, Haoyu.
+>> Thanks for having me.
+- Let bring you up on the screen here.
+There you are. How are you doing?
+>> Hi. Good. Hi, Scott.
+Thanks for having me.
+>> You bet. It's been really interesting.
+We're just coming off of
+the AI Agent Builder Summit and we got into this conversation about what a great time it is
+to be a startup, right?
+And there was a lot of
+discussion about sort of what I just said in the intro here about
+
+[03:02]
+the ingredients are all there
+to create new marketplaces.
+I'm excited to kind of get
+into this conversation with you and then talk about your
+business and what you've created and how you're scaling it as
+a good blueprint for others to think about how they do the same.
+>> Absolutely.
+- So before we get started though,
+just for our audience, tell us a little bit about
+your personal journey to where you are now.
+>> Great. Yeah, so I started this company about three years ago.
+That was 2022.
+Right before that, I worked
+at a healthcare startup.
+I was one of the early
+employees, building AI for consumer healthcare technology, at which time I really
+started thinking about how AI could transform our life and change every piece of
+our life and experience.
+I was also on the board of an HOA.
+So I owned a home in an
+HOA, went through all
+
+[04:05]
+the paying of being a homeowner in an HOA.
+I sat on the board, saw everything, and just thought, "Well, this industry and this whole HOA management
+operation are really needing something to make
+it a better experience for homeowners, for
+board members as well as for property managers who are struggling with managing these HOAs.
+" So that's how I got started.
+I started building a
+software for my own problem and got accepted by Y Combinator, found some really good
+investors, raised a seed round of funding, and kept building the software and really have been building in a space for the past three years.
+Really found the product
+market fit in 2024 when we started focusing
+on the agentic AI space and using agents, building
+AI agents to solve real-
+
+[05:08]
+life problems for the space.
+>> For our audience that's not
+familiar with Y Combinator, can you give us a little
+bit of a background of what that is?
+>> Yeah, so Y Combinator is one of perhaps the most successful
+incubators in Silicon Valley and arguably in the world.
+It has incubated a lot
+of very, very widely- known names such as Airbnb, Coinbase, Stripe.
+So these are all Y Combinator alumni.
+And in fact, with OpenAI, Sam Altman was the president of Y Combinator, and OpenAI used to be the research or AI research arm of Y Combinator.
+And then he started really working on it and incubating OpenAI
+then left Y Combinator to focus fully on OpenAI.
+So there were just a lot of successful companies
+coming out of Y Combinator.
+
+[06:12]
+So we were fortunate
+enough to be part of it.
+>> Yeah, I know one other founder and CEO that went through that program.
+And my understanding is
+that they put you through your exercises, right?
+It's not easy to graduate and become a part of
+that whole organization.
+So that's true, right?
+You can't just join it.
+You got to earn your way through it and get people to believe
+in what you're doing, which is a big accomplishment.
+Congratulations on that.
+>> Yeah, thank you. That was great.
+>> So let's just think a little
+bit about the agentic AI marketplace, the marketplace
+for AI, agents in general, which obviously you're tapping into.
+From a business opportunity perspective, what makes it different
+than the last few years of what you were able to
+do with generative AI?
+>> Well, I think generative
+AI is the precursor of agentic AI.
+I would really classify AIs as there is the predictive AI and then there's the generative AI,
+
+[07:13]
+and then the agentic AI is just kind of a natural progression
+from this generative AI.
+And in fact, the core
+basis is generative AI.
+So if we look back, we
+had predictive AIs trying to predict weathers,
+trying to predict fraud.
+Those were usually very specific.
+You had to train models and
+get a very specific results.
+Where generative AI deferred
+itself is, it was able, for the first time, to be
+one more general purpose and to communicate and
+generating text or picture or even videos in a way that did not completely stem
+from the past experience.
+It's able to create new
+things and generate things and generate very, very sophisticated and extensive results from it.
+And then layering on top
+of that, we leverage the
+
+[08:17]
+ability of generative AI to really think to reason through the
+context, generate commands, thinking through texts
+and other modalities and bring them with the tools and other systems that we have
+today, whether through APIs where there's something
+that's really popular lately that's called MCP, these other things to create real world impact.
+That's how I think about agentic AI.
+It's like you have the
+generative AI doing work and creating real life
+impact in the real world and doing more complex stuff.
+So that's what agentic
+AI is, in my .
+>> Just to get your take on
+one of my predictions, one of my AI predictions
+for the year, which was the generative AI wars are going to end the same way the
+browser wars did in the
+
+[09:17]
+early internet age.
+And what I meant by that
+is if you think back to that timeframe, the browser
+was the most important decision you can ever make, right?
+But what ended up happening
+over time is it faded into the infrastructure and it
+became a preference at best.
+And those that essentially
+creating a gateway into the world of the internet, the online world, and those that were most successful in
+creating business value were those that built around and on top of that gateway
+being the browser, right?
+And that's where all the value came from.
+So you make the analogy to what's happening
+today is generative AI, I think it represents a
+gateway into the world of AI.
+It's democratizing the
+ability for people to use it and does all the stuff you just mentioned.
+The value is going to be when
+you start to build on top of that as a core infrastructure service.
+And I think that's
+exactly what you're kind of describing here, is you're adding value through the notion of agentic workflows and AI agents that are able
+to make decisions better,
+
+[10:20]
+they're able to plan and even autonomously and sort of collaborate with each other.
+I think there's a good analogy there because there's so many people now that are really focused on generative AI and which one to go with.
+>> Right. - I think it's time
+to move up that value stack.
+>> I would agree with that.
+I think exactly to your point, I think the models, I would
+focus more on the models, whether it's GPTs, Anthropic's models or even Google's Gemini,
+Llama, whatever, you name it.
+These models are critical
+part of the whole ecosystem.
+But they're probably, I would say, they're the foundation layer or they're the gateway to
+a much bigger opportunity.
+I deeply believe that the world is full of new opportunities and a lot of value will come from the
+application layer, that is
+
+[11:21]
+to use these new technology and these foundational models and then apply them in real
+life situations in different industries, verticals and exact use cases.
+The reason why I believe that is, because I just think there are so many long tail situations and actual real use cases you
+would not be able to pick up as a general purpose or generic model.
+It's like, there are
+infinite possibilities and infinite types of situations.
+There's no way a foundation
+model will be able to exhaust all the human
+possibilities or interactions.
+So there are always going
+to be these industries or business industries,
+business layers on top of these core intelligence layer.
+And then where these
+industries are, they're closer to end customers.
+So that's where they can capture a lot of values in their unique
+workflow, unique ways
+
+[12:22]
+of doing business, applying
+these specific domain knowledge.
+To summarize, I believe that the evolution of this technology is going to be that the foundation model is going to get smarter and smarter.
+It's going to create so
+much tailwind for all of these businesses, but they're going to be
+just a foundation layer and, perhaps to some
+point, get commoditized.
+There are so many options and they may not defer
+too much in capabilities.
+And it's the business layer,
+the application layer on top of them, building unique
+workflows, unique use cases, unique interfaces, and solving for specific problems
+that are going to capture more value in the next several years.
+>> Yeah. That was the consensus of the 20 or so people that participate in the AI Agent Builder Summit, was that
+is what you need to do, is agentic AI provides you a
+framework with AI agents on to build on top of that
+
+[13:22]
+and just leverage the generative
+AI foundation, the LLMs that make the most sense for you because over time the
+value would be what you do.
+Which kind of brings us to
+the million-dollar question for you, which is, what
+inspired you to start HOAi and how did you identify the
+homeowners association market as the right to target with
+an AI agent-based solution?
+>> So several things.
+One, I mentioned I was
+on a board of an HOA, so that was just a personal
+problem that I had.
+It wasn't magic.
+It was just, I happened to be there so I experienced it firsthand
+and understood it very well.
+But on the other hand, I
+think this industry has something really unique.
+This industry is pretty big.
+There are about 400,000
+HOAs in the United States, mostly run by volunteers, and that includes about 40 million homes.
+And all of the new
+homes, I want to say 70%
+
+[14:26]
+of all the new homes coming
+to the market today are part of an HOA.
+So it's pretty huge market.
+A lot of people are involved, consumers and private management companies.
+Many people are involved.
+But it's highly inefficient and the experience is really bad.
+If you go online or if you have a friend
+who lives in an HOA, I would be surprised
+if they are very happy about their experience.
+In general, I see if I go online and find a HOA management company, I generally find Yelp rating below 3.
+It's industry full of complaints.
+So what that means is it just really
+needs a better solution.
+So that was kind of part of the origin why I had a personal pain.
+The industry is big enough and has a low MPS, you would argue.
+So these just mean it's
+ready for innovations.
+
+[15:29]
+On the other hand, even
+though HOA management is related to property
+management, 90% of the work are actually done in the
+back office, in front of computer screens.
+The interesting part is these work are what I call desktop-driven tasks, meaning you can do things on a computer, but they rely on judgments, heavy reliance on judgment calls.
+So what this creates is unique, because if it's
+desktop-driven, meaning a lot of things can be done on a computer, that means it's ready for software.
+But because it's reliance on judgments, it was not ready for traditional softwares where you could just code things,
+deterministically if else, and exhaust all the possibilities because there are a lot of
+natural language communication
+
+[16:31]
+among homeowners, vendors, boards.
+There's a lot of unstructured
+data, rules, bylaws, policies that require that level of
+micro judgment by humans.
+It's not hard stuff, but it's something that humans
+need to read, understand, have that context, make a little decision where it should go, how should
+I handle this situation.
+So these characteristics
+make it a really good fit for generative AI because generative AI is able to parse through all these
+information making decisions like a human would do.
+So combining these two, it's
+computer-heavy, desktop-heavy, and then relying on
+judgment plus the advent of generative AI, all of these elements coming together make
+it a really great vertical for agentic AI.
+So based on all of the reasons we started, we were working on it, and I
+think that's why we were able
+
+[17:33]
+to achieve pretty good early success.
+>> Yeah, I definitely agree
+with you on the generative AI or the LLMs underneath the generative AI largely are predictive models, right?
+They work on predictions and
+correlations and patterns and data and all that.
+And a prediction is not a judgment.
+So to make decisions, you
+need to make judgments, as you said, and that's
+where I think some of that ecosystem on top of that
+foundation starts to come in, which I know is a big part
+of building these agents.
+And I actually love your tagline.
+It says, "Don't just chat experience AI that actually gets work done.
+" And to your point, you
+need to make judgments to get work done in most cases, right?
+>> Yeah. And I think just
+in addition to that, when we started using ChatGPT,
+it was text in, text out.
+You are getting answers most of the time.
+But what agentic AI is focused on, and specifically what we're focused on, is creating real life impact
+beyond just the tech space.
+
+[18:33]
+So it's like our AI would
+help homeowners actually make changes or apply changes to
+their ledger, charge their fees, waive late fees if necessary, or enter accounts payable invoices, facilitating the payments, dispatching vendors to fix things.
+So all of those real life
+actual impacts are happening.
+I think that's where
+agentic AI really shines.
+It's creating, doing
+tasks, getting work done beyond just giving you an
+answer, which is very limited because if you think about
+getting an answer, you still need to go around and do things.
+So it's more convenient, but it doesn't solve
+the problem end-to-end.
+And agentic AI is meant to really get the work done end-to-end.
+>> So for this target market that you had a personal
+experience and need for, and you did your research obviously, and you saw that there's
+a ton of these out there and they're not very satisfied
+in terms of the community,
+
+[19:35]
+that the community's
+not satisfied, so bring to life here a little bit of the value that you're delivering to
+the homeowner associations and the communities that
+they serve in terms of what is HOAi providing them?
+>> Yeah, I think what would speak loudly is to see some of our customer testimonial.
+I have a customer video and
+maybe we can play it now.
+>> Prior to HOAi's AP agent,
+we were processing between 10, 000 and 15,000 invoices a month, each one taking two or three minutes.
+Some taking research
+that took much longer.
+It was a very tedious
+labor-intensive process.
+Now with HOAi, those 10, 000 plus invoices are processed
+accurately within minutes.
+So I did a cost analysis
+of before and after, and I'm saving approximately
+$10,000 a month in labor costs.
+We're really going to embrace
+in a major way using AI to do budgets for the 2026 budget cycle.
+
+[20:37]
+I think I'll save literally
+a thousand hours of time.
+We have 600 plus budgets to do, each one taking about two hours.
+I think we can get them
+done, the draft budget, in about 15 minutes each.
+Our 5-star reviews have gone way up.
+The residents are calling with a question, they get a good answer.
+We've seen great benefit
+both from client satisfaction and from an efficiency point of view.
+AI is going to transform our
+companies, how we do our work, how we deliver our product.
+It's going to allow us to
+work smarter and faster.
+It's going to optimize our results.
+It's going to control our costs.
+>> It's amazing. Those are-
+- Yeah. So what- >> Yeah. Those are real numbers, right?
+>> Those are real numbers. Yeah.
+The person who appeared in the video, he is Peter Greaves, he's one of our early customers in the DC area, our primary customer.
+We don't sell our AI agents
+
+[21:39]
+to the HOA communities directly.
+We usually sell to the property or HOA management companies
+who manage these communities.
+So they are able to achieve a lot of these benefits in their
+back office operations.
+What Peter described was
+one of the agents we had, or we have, that is the AP agent.
+It's able to recognize invoices, understanding the GL codings,
+checking historical ones, checking for duplicates,
+verifying the numbers, doing all of these things that a accounts
+payable clerk would do, and just using generative AI and doing it in an agentic way.
+Like he was saying, he was able to save $ 10,000 a month.
+And we've just seen a lot of
+these real results among...
+It's not one customer.
+It's from tens
+
+[22:41]
+of customers we have.
+So another customer I can
+think of, repurposed half of their AP team after deploying our AI agency
+in their AP department.
+So it's just real tangible
+results everywhere.
+>> So you mentioned tens of
+customers, 10 customers.
+If I understand correctly, you
+founded the company in 2023, so you're only a couple years old, right?
+And that's some really great growth and scale, I think, just from
+getting started, you know?
+>> Yeah. So in the year
+of 2024, by end of 2024, we have 10 customers.
+Now, today is April 24th of 2025 so four months in, we've 6Xed our customer base in just four months of this year.
+So that means we have about
+60 management companies.
+
+[23:44]
+And that represents a total
+of more than a million homes that were helping the
+management companies manage.
+>> What was the number again
+of HOAs in United States?
+Did you say it was ?
+>> So there's 40 million
+homes in the United States that are part of HOAs.
+Today we have more than a million homes that we're helping these
+management companies manage it.
+>> That's great. And so, as
+you think about scaling...
+So I think what's unique is
+that you've created a business.
+And sort of like what
+I said in the beginning that I learned from the summit we did, that the opportunities
+in these, I don't want to use the word niche,
+but very vertical spots that require unique domain
+knowledge like an HOA, that's an incredible scale
+since launching a business.
+And I think a lot of it has
+to do with just the fact
+
+[24:45]
+that it's a whole new market set of capabilities when you
+get into these agents and agentic workflows.
+So what are some of the
+other growth milestones that you're looking at?
+Obviously it's the acquisition of customers, their satisfaction.
+I think having looked through your website and seeing a lot of this, you have a lot of really happy customers that have their minds blown almost, right?
+>> Yeah. - What are you
+looking at as we go through?
+>> Yeah, so back to your point, I think it's with agentic AI,
+we're really opening up a lot of opportunities that were previously not
+available to software.
+I think as a whole, software or traditional software
+accounts 2 to 3% spend of overall business spending.
+And then a lot of these industries and HOA management being one of them has heavy labor spending.
+Other related that are similar industries or accounting, these things
+can have heavy labor spending.
+
+[25:48]
+And in the HOA industry,
+it's like more than 50% of the expense goes to labor.
+So what agentic AI or AI agents are able to do
+is tap into that spending, that part of your business expense.
+So if you think about IT budget, that's maybe single digit
+spending of your total P&L.
+And your labor could be 50,
+60, some higher, some lower.
+But if you think about that, that's a 10X bigger market
+opportunity for software.
+So that just means
+previously niche industries or industries that will
+rely heavily on labor and have high labor expense
+now become opportunities.
+So we're able to tap into that.
+This industry alone now
+becomes a really, really lucrative opportunity.
+So the industries that perhaps
+previously are not great industry for software company
+
+[26:50]
+because they were a
+labor-intensive, now all of a sudden become the most
+lucrative opportunities because AI can tap into
+that labor spending.
+As a company, for us,
+our goal for the rest of the year is to grow to double, triple, quadruple our customer account.
+I think the market has the demand and we see that growth going there.
+We just need to keep
+delivering our products to meet that market demand.
+>> Right. And so for you to get started, what's really different, tell
+me if this is true or not, but my understanding is that
+what's different from the SaaS era, software as a service, is you had to build a lot of the software.
+The layer was sort of not at the top layer of the user interface, but it
+was at the next layer, right?
+Where now, like you said,
+you're building off agentic capabilities off of the
+generative AI foundation.
+And obviously underneath
+that is a cloud foundation.
+So you're able to create a lot more faster
+
+[27:51]
+than perhaps in the end.
+And I'm sure you're using AI to actually help you create your software.
+>> Yeah, absolutely.
+- And that's your fast  to the market. Yeah.
+>> Yeah. And I think you start seeing a lot of these smaller teams creating
+incredible growth within super short amount of time.
+Obviously as software
+companies, we use AI agents and these agentic AI
+coding tools to help us deliver those things.
+But on the other end, the
+approach we chose was we're not rebuilding the entire tech stack.
+We're building on top
+of the existing SaaS.
+So all of these industries have
+their SaaS solutions today.
+So we're really just building the people who are using these SaaS software.
+It's a different layer of this tech stack that allows us not to
+rewrite the entire playbook of the SaaS industry.
+We're just standing on top of
+the shoulders to the giants and then be able to provide
+values that they were not able
+
+[28:53]
+to provide previously and solve a problem that is
+deeply needed by our customers.
+>> At the summit, I keep
+referencing, we had Abdi Goodarzi, who is the lead generative
+AI leader at Deloitte, and he made an interesting comment.
+And I'm teeing back on your
+comment about the labor, right?
+>> Yeah.
+- And he said the chief AI officer, they're starting to see that they're obviously more
+than technology people.
+They're business people.
+But he was making the point that he's seeing more of their
+big clients treating them as HR people.
+>> Exactly right.
+-  HR, because really what you're doing and what
+the opportunity is here, and certainly what
+you've done with the HOA community is you're really
+helping provide coworkers that helping give superpowers to
+the people that manage the HOA.
+And to do that, you have to understand how people get work done, where it's just a little bit
+different than automating tasks and stuff like that, right?
+I mean, it is a different
+way of thinking about
+
+[29:54]
+how you build a new set of
+offerings for the market.
+It really has changed the game, hasn't it?
+>> I thinks so.
+- Yeah.
+>> Yeah, I think so. And
+unlike building tools for the typical users to use,
+I think where we add a lot of value is not only applying
+the domain-specific knowledge and workflows to our solution, but also building the right
+experience for the decision- maker, the business owners
+to manage a team, a workforce of AI agents.
+So we're a HR company, we're
+a human resource company and providing these AI agents.
+And I think a lot of value
+to our product goes to how we create the right
+experience so that the decision- makers can manage these AI
+agents like they manage people.
+How do they do performance review?
+How do they understand the results?
+How do they build trust and confidence?
+How do they continuously improve them?
+
+[30:56]
+So that's a critical piece
+I think we're all going to see more and more as this
+agentic AI era comes to life because the basic getting
+things done will quickly become commoditized too.
+I think the next step is, how do you really facilitate
+this change of management?
+How do you bring digital
+workers to your human workforce and transition certain function roles to this digital workforce and then facilitate that
+experience is where we want to focus on a lot of our energy.
+>> Yeah. I think you hit it on the head before when you said that
+the old software market, let's call it the
+traditional software market, you're building software that helps people automate the tasks that they're trying to complete.
+Where now you're delivering
+software agents that sort of start to understand how
+you think, how you reason, how you make decisions and
+becoming a true coworker or partner with, right?
+
+[31:57]
+And I think that's fascinating.
+So where do you think this
+is all heading for you guys?
+What are you most excited about?
+If you look a couple
+of years out from here, where do you think you're
+heading as a business?
+>> Yeah, I think it's super exciting because our goal is to be able to basically relieve all the grant labor- intensive work for this industry.
+So we're looking function by function.
+So it's the accounting
+department, the AP/AR, the financial productions, it's the customer service, these roles.
+But our goal is really to look
+at them function by function and trying to create AI agents and digital workers for
+this vertical industry and then provide these workforce
+or labor to the property or HOA management companies.
+The great future we're seeing is, all of these work are done by AIs so that the business have better
+margin, better results,
+
+[33:00]
+the homeowners are being served better.
+And at the same time
+though, I think the people that are working for these
+companies today will all get elevated to roles where require
+more interpersonal skills and just be relationship
+builders, relationship managers.
+And all of those work are
+going to be done by AIs.
+So that's exciting for us because our goal really,
+when we look at the future or a few years down the road, our goal is to really provide that
+workforce to the entire industry and be able to, in a way,
+revolutionize this industry.
+>> Yeah. I'm excited that we're talking because I mean, to me, this is
+an incredible success story.
+So congratulations to you and the team on everything
+that you've done there.
+I mean, it's such a short amount of time to have so much success.
+I mean, I know a lot of
+startups haven't worked at IBM for all those years, and
+I've worked with a lot of startup type businesses.
+It usually takes 5, 6, 7, 8 years
+
+[34:02]
+to actually build into 60 customers, for example, or whatever.
+You're growing very rapidly.
+It's a great, great success story.
+So before we wrap up here, I want to just, if you don't mind, turn you
+a little bit into an advisor, give some advice to those in
+the audience that might be in this world or just
+ready to get started.
+Let me just bring up a chart here.
+I did some research before we did this.
+And what I found here is
+the yellow is the growth in startups, AI startups
+in the United States only.
+If you go worldwide today,
+it's closer to 70,000 that have been created
+over the last 10 years.
+So just looking at the United
+States here, so almost 18,000.
+It's still growing at the rate
+that you see on this chart.
+However, it's projected that
+90% of them are going to fail.
+And so, obviously you
+got 17,000 startups that are focused on AI now.
+
+[35:02]
+They continue to grow at this rate.
+How do the ones that
+have already started kind of adapt a little bit versus
+the ones that are just ready to get started now?
+How do they think a
+little bit differently?
+I think you've given a
+lot of good insights into that already, but I'm curious
+to your views on that.
+What would you tell someone who's looking to either start a new business
+as part of a bigger business or a startup, they want to find and just get going with a business opportunity
+that they see like you did?
+>> Yeah, just from my personal
+experience, I guess I have two humble thoughts.
+One is I think vertical
+industries are really interesting.
+It's like vertical SaaS, to
+now we're entering an era of vertical AI agents.
+Previously, the industries
+that previously looks small now may not be small.
+So it's really interesting to
+look into specific industries because horizontal
+industries, big markets,
+
+[36:04]
+you always worry about what OpenAI or Gemini, these bigger
+model providers can do.
+A new feature they roll
+out tomorrow might just kill a bunch of startups we were previously doing in those places.
+But it's always going to be
+hard for these big players to focus on the specific verticals.
+There are just a lot of
+very niche nuanced demands and requirements in these
+verticals that the big, big players or big labs won't be able to spend or to focus on.
+So that's one thing. Vertical
+industry is interesting.
+Look at small niches.
+Don't underestimate their potential.
+The second piece I feel
+really interesting is to really focus on the macro trend and rethink what's needed.
+Every 10 years in the
+2000s, it's internet, PC .
+and the 2010s, it's cloud and mobile.
+
+[37:07]
+Now it's really AI.
+There are new software, new
+interaction, new problems and new ways of thinking.
+So we decided to build this, not to follow the traditional
+software playbook to rebuild everything from ground up or repeating whatever that was already available
+in the previous generation or already in the market.
+We want to focus on things
+that these softwares or existing solutions
+don't offer or don't solve.
+So that was our wedge into the market.
+We don't replace people's current solutions, which usually
+create a lot of pain.
+We are offering new values that are previously not available and rethink about the customer experience and interaction with
+software and AI in general.
+So these two have been, what
+I think, attributed a lot to our success.
+
+[38:07]
+>> Yeah, I think that's great advice because I think a lot of
+these SaaS providers today are going to decompose and evolve to create
+an agents out of them.
+And they tend to be
+more horizontal in terms of the big guys, right?
+And the opportunity is
+to really go vertical, domain-specific.
+And like you said, there's
+probably just an uncountable number of opportunities out there.
+>> That's right.
+- Who would've thought homeowner associations would be
+such a big market here?
+And then I think over time you
+start getting these AI agent marketplaces that start to come up and you can start to
+integrate these things together and you can tie things.
+It really is a reset of the software marketplace going forward.
+And the business value
+shifts from automating stuff to helping people make decisions.
+And it's about giving
+superpowers to people.
+It's about labor, to
+even a greater extent.
+It's really going to be fascinating as we go through time here.
+All right. Well, look, I think
+it's time for us to wrap up.
+I can go forever on this.
+
+[39:08]
+I think it's been a
+fascinating conversation.
+I think it's been a great example of what you can actually do with
+some focus, some discipline, and just you are showing
+a lot of creativity.
+A lot of it was based on
+your real life experience, which makes it even better.
+And great progress in just over what?
+Just around two years or so.
+So Haoyu, thank you very
+much for being here.
+I think this is a great
+discussion actually.
+I think it's a very
+meaningful discussion for most of our audience.
+And I wish you the best. And
+keep us up to date on progress.
+I'm sure we'll have more
+conversations going forward.
+And for all of you out
+there, thank you very much for tuning into this.
+There's no doubt that
+agentic AI is reshaping how startups launch,
+scale, and deliver value.
+And as I said up front here, and we heard at the AI
+Agent Builder Summit, we're entering a new
+golden age of AI agents.
+This opportunity is clearly
+not theoretical. It's real.
+It's growing. It's available
+to those with clarity of vision
+
+[40:09]
+and the urgency to act.
+So make sure you do check out the recent AI Agent Builder Summit.
+You can go to thecube.
+net or our YouTube channel
+to get access to that.
+And I really do appreciate
+you all for tuning in.
+Take care and we'll see
+you on the next episode of the Next Frontiers of AI.
+Bye for now.
+
+---
+
+*Content extracted from YouTube video. Original content by SiliconANGLE theCUBE. Video URL: https://www.youtube.com/watch?v=UpQoDiowH6Q*

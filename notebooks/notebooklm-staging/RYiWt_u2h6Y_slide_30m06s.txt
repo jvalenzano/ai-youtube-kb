@@ -1,0 +1,42 @@
+# Slide from: 17. AI Meets Psychology: How to Build Agents that Understand People
+
+## Video Information
+**Video ID:** RYiWt_u2h6Y
+**Title:** 17. AI Meets Psychology: How to Build Agents that Understand People
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=RYiWt_u2h6Y
+**Duration:** 45:17
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental limitations of current LLMs and introduces psychological intelligence as a foundational capability needed for effective AI agents, rather than specific workflows or implementations
+
+## Slide Information
+**Timestamp:** 30m06s
+**Timestamp URL:** https://www.youtube.com/watch?v=RYiWt_u2h6Y&t=1806s
+**Original Filename:** slide_30m06s_ab7c41c5.png
+
+## Transcript Context
+**Before:** the more trust I think people are going to have in interacting with them, which I think is really important. So let's talk a little bit about how you kind of go about making this happen, right?
+**During:** >> Yeah. - Receptiviti and just in general.
+**After:** And again, let me bring up another graphic here for you to kind of explain. >> Yeah. So let me, before step one here, what we have is we've got a system
+
+## Slide Content (OCR)
+Integrating Psychological Intelligence into LLMs
+1. Real-Time or Ongoing       2. Communication      3. Dynamic Contextual        Psychologically
+Psychology Profiling          Profile Translation                 Prompting               Aligned Responses
+Continuously analyze user                 LLM translates psych vector into          Inject the communication profile          Responses tailored to the user’s
+interactions to generate or update a        communication preferences stored         into each LLM prompt to guide           psychological traits for improved
+dynamic psychological profile.             in session memory or user profile.               personalized generation.                   relevance and engagement.
+Jser X’s High-Signal Traits:                      User X's Communication Profile for Prompt Injection:
+Low Agreeableness (-1.8 SDs)                  + Use neutral, straightforward language. Avoid excessive warmth, flattery, or sales-like tone.
+High Impulsiveness (+1.3 SDs)                 + Keep responses short and direct. Minimize steps. Avoid delays, disclaimers, or unnecessary elaboration.
+High Neuroticism (+1.8 SDs)                     * Offer reassurance and clarity. Proactively address concerns and emphasize security or resolution
+Low Analytical Thinking (-1.3 SDs)             * Use simple, plain language. Break down instructions step-by-step. Avoid abstract or technical phrasing.
+Receptiviti
+
+---
+
+*This slide is from the video: 17. AI Meets Psychology: How to Build Agents that Understand People*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=RYiWt_u2h6Y*
+*Slide timestamp: 30m06s*

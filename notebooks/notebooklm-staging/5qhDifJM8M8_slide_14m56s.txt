@@ -1,0 +1,35 @@
+# Slide from: 5. AI That Knows Why | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** 5qhDifJM8M8
+**Title:** 5. AI That Knows Why | The Next Frontiers of AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=5qhDifJM8M8
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 14m56s
+**Timestamp URL:** https://www.youtube.com/watch?v=5qhDifJM8M8&t=896s
+**Original Filename:** slide_14m56s_c15c7ac3.png
+
+## Slide Content (OCR)
+Decisions - Fast and Slow
+| knowled
+Fast                ax S              Slow
+General questions                (ge (Pm).         Specific decisions
+Language driven           l        ‘                 Data driven
+Lacks precision                 LLMs     - Causal Al \ More precise
+Prone to bias &                CQIBEE)    (© milan      Less bias
+hallucinations                 ok a         al  ae |        No hallucinations
+Not good for key                                                                         ici
+decisions                                 i            Af            Great for key decisions
+Great for knowledge                 al mn             ; Wee raeperne?
+sharing                                       Grap!                                         ,
+Similar to Daniel Kahneman’s “Thinking, fast and slow”
+
+---
+
+*This slide is from the video: 5. AI That Knows Why | The Next Frontiers of AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=5qhDifJM8M8*
+*Slide timestamp: 14m56s*

@@ -1,0 +1,44 @@
+# Slide from: Digital Labor @ Work: How AI Agents are Transforming Community Management
+
+## Video Information
+**Video ID:** MvpEczgOI6w
+**Title:** Digital Labor @ Work: How AI Agents are Transforming Community Management
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=MvpEczgOI6w
+**Duration:** 45:58
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** This video presents a detailed real-world case study of HOAI's implementation of AI agents in community management, including specific customer examples, measurable outcomes, and live demonstrations of the technology in action.
+
+## Slide Information
+**Timestamp:** 23m14s
+**Timestamp URL:** https://www.youtube.com/watch?v=MvpEczgOI6w&t=1394s
+**Original Filename:** slide_23m14s_9679696c.png
+
+## Transcript Context
+**Before:** So the front office facing is really the agents that's serving homeowners directly. And then the back office facing is kind of the back office, your workforce
+**During:** that does the work like your employee would do.
+**After:** So for the homeowner facing product, we call it Homeowner Suite. It's a combination of voice AI agent that's able to answer phone calls, 24/7, a SMS text-based agent
+
+## Slide Content (OCR)
+.                       *                                                  ee
+HOAI - Automating Knowledge-based Decisions & Tasks
+Homeowner Suite
+Homeowner-facing Al that answers and resolves questions
+without your team’s intervention
++ 24/7 Voice Agent (+ texting and webchat)
++ Unlimited concurrent calls
++ Improved customer satisfaction
+Workforce
+Al agents that proactively complete work 24/7 across all
+areas of the company
+« Accounts Payable & Receivable + Homeowners
+« Customer Service              + Board Members
++ Community Managers           + Executives & Finance
+
+---
+
+*This slide is from the video: Digital Labor @ Work: How AI Agents are Transforming Community Management*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=MvpEczgOI6w*
+*Slide timestamp: 23m14s*

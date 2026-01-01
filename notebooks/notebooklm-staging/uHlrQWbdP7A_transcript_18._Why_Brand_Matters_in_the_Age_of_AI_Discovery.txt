@@ -1,0 +1,994 @@
+
+
+---
+**Note:** This transcript references 5 slide images. Each slide has a companion .txt file with full metadata. Slide filenames follow the pattern: uHlrQWbdP7A_slide_TIMESTAMP.png
+# 18. Why Brand Matters in the Age of AI Discovery
+
+**Video ID:** uHlrQWbdP7A
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 40:57
+**URL:** https://www.youtube.com/watch?v=uHlrQWbdP7A
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video covers fundamental principles of brand building and marketing strategy in the AI era, focusing on foundational concepts rather than specific workflows, tools, or case studies
+
+## Summary
+- AI-driven search has caused a 30% decline in traditional click-through rates in 2024, fundamentally changing how B2B buyers discover solutions
+- Over 90% of AI startups are projected to fail, primarily due to lack of market visibility and weak brand equity rather than poor technology
+- Brand equity has become the gateway to demand generation - companies need strong brands to be discovered by both humans and AI assistants
+- Authentic storytelling from executives and customers is critical to stand out in the 'sea of sameness' created by AI-generated content
+- Generative Engine Optimization (GEO) is replacing SEO as buyers increasingly use AI summaries instead of clicking through to websites
+- Different AI models (Perplexity, Claude, Grok) prioritize different content types, requiring tailored content strategies
+- Thought leadership through video interviews, podcasts, and high-authority publications is essential for AI model visibility
+- Executive visibility and authentic personal narratives are becoming more important than polished marketing content
+- The traditional brand-to-demand-to-sales cycle is being reshaped, with brand becoming the critical first step
+
+## Key Takeaways
+- **DO:** Get executives actively creating authentic content on social platforms and participating in interviews and podcasts
+- **DO:** Focus on high-authority publications and platforms that AI models trust and crawl for content
+- **DO:** Create well-structured content with clear headlines and metadata optimized for different AI models
+- **DO:** Build consistent, differentiated storylines that employees, customers, and partners can authentically tell
+- **DON'T:** Rely solely on traditional SEO, keyword optimization, or AI-generated marketing content that creates sameness
+- **DON'T:** Expect great products alone to succeed without strong brand visibility and storytelling in the crowded AI market
+
+## Topics
+brand equity, AI discovery, generative engine optimization, thought leadership, startup marketing, authentic storytelling, executive visibility
+
+## Key Moments
+- [10:12](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=612s): Discussion of why 90% of AI startups fail due to visibility and brand issues rather than technology problems
+- [15:24](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=924s): Key statistics showing 30% decline in click-throughs and 80% of B2B buyers using AI summaries for research
+- [21:35](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=1295s): Tactical advice on building thought leadership through high-authority publications and structured content
+- [28:42](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=1722s): Discussion of why brand equity is more critical than ever for early-stage companies in crowded markets
+- [32:52](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=1972s): Emphasis on authenticity over polish in executive communication and brand building
+
+## Presentation Slides
+*5 unique slides extracted from this video*
+
+### Slide at [7m06s](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=426s)
+
+A crowded, noisy marketplace                                    xe
+_ 100%  > 50K
+The Survival Funnel for
+=                                     Al Startups: 90% Failure Rate
+ro  o.                           60%                es research
+20-                              15%                           10%
+|
+seed                     Series A                  Series B          Product-to-Mkt Fit       Profitability / Exit
+
+### Slide at [12m36s](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=756s)
+
+——      we ne
+A) [d                             “Om
+SS        “fy                                  |
+S       oo.        anes     7
+=         BRGDAGF 40 ROM       7. sume
+s      PEEEAA-Eepeomme’ cP |S  ~REEE
+\)          TTA  |     "   é     x iy   in|
+aw        AP.G00000" (as NN  ii
+f       fail       Ae       inn
+i          Ly   ma   a]     ") res |
+of Al startup failures     ATC, “Me
+market visibility, clarity,      TCO eee Th MI     rH
+and brand weakness         CTT eae |         ErET 1}
+t  \  Y  .  a4
+
+### Slide at [15m34s](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=934s)
+
+.                 .                .                                    PP recuse
+The nature of discovery is changing                                           SM
+-30%
+Drop in Click-through Rates                                  0
+Across B2B Software Categories                80  % 0
+Rely on Al summaries
+Ny,                                at least 40% of the time
+% of click-
+throughs for
+select software                                    —
+keywords
+Jan 2024 (before Al summaries)  WE Jan 2025
+Source: Bain-Dynata Generative Al Consumer Survey, December 2024 (n=1,117)
+
+### Slide at [18m56s](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=1136s)
+
+“Zero-click” AI summaries are taking over                      Css,
+Replacing Search: % of Generative AI Users
+Researching and               Staying up to date              Evaluating products         q                  =    ‘
+gathering info                and tracking news                and references                @         ke Ci
+|                                                          &
+—Q@   ry
+Source: Bain-Dynata Generative Al Consumer Survey, December 2024 (n=1,117)   be  Ly         y  ‘
+
+### Slide at [34m34s](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=2074s)
+
+2d ny re ees be 2 Se
+- 2) ee oe 8 eS
+°             “os tee        Signin
+theCUBE Al offers unique .  a
+°      °           °                                       etl
+insights into the world of “im
+enterprise technology.          “el,
+Responses are based on verbatim transcripts from  ‘ od                 —"s
+thousands of live conversations with industry           3 .                            “
+thought leaders on theCUBE.                              . ;                 G Signin with Google
+
+
+## TL;DR
+Brand equity has become the gateway to demand in AI-driven discovery, requiring authentic executive storytelling over traditional marketing.
+
+## Full Transcript
+
+>> Hello, everyone.
+Welcome back to the Next
+Frontier of AI's podcast where we speak with the innovators who are shaping the
+future of enterprise AI and helping us all navigate the windy and unpredictable road ahead.
+I'm Scott Hebner, principal analyst for AI at SiliconANGLE
+Media and theCUBE Research.
+Thanks so much for joining us today.
+Our topic is one that's taken on a new
+urgency in the new age of AI, your brand and your company's brand.
+With so many early stage AI
+companies more than at any point in tech history, the enterprise AI market
+has never been more crowded or noisy.
+And as a result, over 90% of these AI companies are
+projected to ultimately fail.
+Why? Most often, it's not the technology or the customer value,
+it's a lack of visibility, credibility, and trust in
+the markets they target and an inability to be discovered.
+In this new world of zero
+click search driven by AI-
+
+[01:02]
+generated summaries and decision-making algorithms,
+there's been a decline of 30% in traditional search and click-through just over
+the span of the last year and expect this to accelerate
+in the years ahead.
+Having great AI products or services simply is not enough anymore.
+The companies that break through
+are the ones that are seen, trusted, and remembered by both people and AI assistants like ChatGPT.
+So does brand equity still
+matter in this new era of AI discovery?
+The answer is a resounding
+yes. More than ever, in fact.
+But not in the way it used to.
+The traditional brand to demand to sales to success life cycle is
+being totally reshaped, with brand becoming the gateway to demand.
+No brand, no demand, no nothing.
+What used to work in the
+past is now dead on arrival.
+In this episode, I go back to
+my roots as a high-tech CMO to explore why this is the case
+
+[02:02]
+and why the strength of brand
+equity may very well become the difference between a company leading, lagging, or outright failing.
+Translated: your story may
+matter more than your software.
+Joining me today is someone
+who knows this world inside and out, Mick Hollison, who is the founder and CEO of RedLine Advisors.
+Mick is a longtime CMO, president, and now founder known for
+building world-class messaging and storytelling strategies and helping high growth companies rise above all the noise that's out there.
+So Mick, appreciate you taking
+the time to be here today.
+It's great to see you and thanks again.
+>> Terrific to see you as well, Scott.
+Looking forward to the discussion here.
+>> Yeah. It's a very interesting,
+time isn't it? Warp speeds- >> Indeed.
+- ...
+in terms of change on every front.
+>> Yes. I think you and I probably thought we'd been through some high speed
+stuff in our transitions through the internet era, the
+big data and analytics era, and they all seem slow by comparison
+
+[03:04]
+and small by comparison.
+>> Yeah. Every day is just a
+learning experience through what I've never experienced before.
+There's just so much just to keep up with what's going on out there.
+But let's start with a
+little bit of background here and can you just tell us a
+little bit about your personal journey that led you to
+where you are now as founder and CEO of RedLine Advisors
+and what RedLine is all about?
+>> Sure, sure. I'll take
+everyone on the way back machine a little bit here.
+I had very humble beginnings.
+Began at a little teeny
+startup in Atlanta called Samna that was later bought
+by Lotus Development and provided them their word
+processing capabilities and their suite back in the day.
+Fast-forward a few years
+and IBM bought Lotus and I was blessed to have a really great
+sales career at IBM.
+I shifted gears a little
+bit, moved to Microsoft where I was responsible for
+their relationships with some of their largest customers
+who ran their EBC and things like the CEO
+Summit while I was there.
+
+[04:05]
+Got hired by a wonderful man and a great leader at
+a company called Citrix after I left Microsoft.
+Had the great privilege of
+building a business from scratch there and desktop virtualization.
+Took a little turn into
+a startup in InsideSales.
+com which moved me out here at
+a beautiful Park City, Utah.
+And then I took a spin through the data and analytics world at
+Cloudera where I got to take a company public, then
+private again over the course of a few year.s and most recently worked at an agentic AI company called Sema4.
+ai where I got a master's
+degree in AI in a real hurry.
+So all of that sort of
+experience, know-how knowledge that formed along the way there,
+Scott, is what convinced me that I wanted to give back a little bit and be able to help, especially
+young tech companies, figure out how to get their
+story straight in the AI era.
+
+[05:06]
+And it's harder than ever before.
+But anyway, sorry for
+the long-winded opening, but I've had a long-winded
+career. So there- >> Yeah.
+No. We first met when you were
+at Cloudera and I was at IBM.
+I remember we had the
+partnerships and stuff like that.
+And obviously, we've worked at Sema4.
+ai which I love that company.
+I've learned a lot
+about them thanks to you and the team there.
+And now, RedLine Advisors.
+Why don't you just talk a little bit about what you're all doing there?
+>> Yeah. RedLine's really about positioning and messaging your company in
+the most effective way in the AI era.
+And as we're getting ready to unpack here, there are a couple of
+angles to that, Scott.
+There's the technology angle where we move from SEO into GEO or generative engine optimization, but more importantly than what you can do to optimize the tech is what you can do to optimize your story.
+And nothing, in my view, is ever going to replace human beings talking
+about their own personal journey with your product or service
+
+[06:09]
+and the impact that it
+made on them personally and on their business.
+And those kind of stories
+are the ones that are going to separate you from the
+pack in an environment where AI built messaging has
+really taken over everybody's websites and Instagram accounts and LinkedIn environments
+and everything else.
+So authenticity combined with
+that AI productivity is really what we think is the
+secret recipe at RedLine.
+>> Yeah. No doubt it's changing and we've talked offline
+a lot about just a sheer number of these new AI companies.
+You've got a lot of existing companies that are spinning off
+ventures in the AI space and the market has become flooded with these early stage companies, these new kind of startups.
+And let me just share
+some data points with you and I'd love to get your thoughts on like, "What do you do in this type of market?
+"
+So you kind of look at some work that we did here at
+theCUBE Research and...
+
+[07:09]
+First of all, let's start
+about the crowded market.
+Depending on who you talk
+to, there's anywhere from 50 to 70,000 new AI startups.
+So that's not existing companies that are creating new
+offerings, it's startups.
+Around the globe and I
+think it was around 17,000 that I saw in the United States.
+This is since 2015 to 2025, so basically over the last 10 years.
+And what's interesting about
+this is the survival rate is only about 10% and that's only a five-year survival rate to get into profitability
+and potentially exit.
+But this looks pretty daunting to me.
+In other words, 90% of these
+companies are going to fail, is the projection at least.
+>> Yeah, Scott. It's an
+interesting point and I...
+For whatever reason, it's helped me get this far
+along in my life and my career.
+I'm definitely a glass is half
+full kind of a guy, so I tend to flip that the other way around
+
+[08:11]
+and want to think about
+what makes the 10%, the 10%.
+And I don't know what
+your favorite AI tool of choice is these days.
+My favorite tool of choice at the moment is a tool called gamma.
+app. They have a fantastic CEO there that is really telling his
+story in a very compelling way and building products that
+solve everyday problems for customers.
+So I think for the founders out there and young companies out there
+that want to make it into that 10%, they got to figure
+out a way to build a product that really reaches a
+good number of people.
+In gamma.app's case, they got to 50 million users in no time flat and they've also gotten to
+$50 million in profitability in no time flat.
+And they've done that with a combination of great AI powered tooling, but also with the
+authenticity of their CEO and their executive team in particular.
+
+[09:11]
+So I think there's some combination there that's pretty powerful and I think it's going to
+help a number of companies be among the survivors.
+There will always be lots of stories to tell about those that
+didn't quite make it.
+>> Yes, I did a lot of
+research on this, a ton of it actually, over the last many months.
+In particular, preparing for
+this discussion with you.
+And there's a bunch of different reasons
+why these companies fail and I just found it
+fascinating that the majority of them do not fail because
+of technology innovation or technology capability or even client value, they
+simply run out of gas.
+And it kind of brings
+us to the brand elements and how important that is.
+And it brings you to,
+like I said in the intro, your story perhaps is as
+important if not more important than just your software.
+Because if you don't get noticed, you're not going to go anywhere.
+And it kind of brings the
+question for you which is, what has changed today versus
+maybe even five years ago on
+
+[10:12]
+how buyers in the
+enterprise market discover and evaluate solutions?
+Which kind of brings us back to, why is the brand story
+more critical than ever?
+>> Yeah. Well... Wow, Scott.
+Everything has changed and we went through this era of content is king and in some respects, one
+could argue that it still is.
+But that content is often being
+automatically generated on behalf of somebody that sits in a product
+marketing organization.
+And at the end of the day, everybody's using the
+same LLMs reaching out to the same datasets more or less.
+And so, you're creating what I referred to in a recent blog
+that I posted called...
+You're swimming in the Sea of Sameness.
+And as more and more of
+the content gets to be more and more the same, the more
+you're turning off the buyers and the buyers are becoming
+more and more discerning.
+And they don't find information in the
+
+[11:13]
+same way they used to.
+No longer are they just
+using Google search and whoever has the best SEO strategy wins the click-through.
+In fact, the click-through
+never even happens anymore.
+As I think you'll talk about
+in a little bit here, Scott.
+That's changed as well.
+So if you want to stand out
+in the sea of sameness, yes, there's some technical
+knobs that you can turn.
+But more importantly, you've
+got to have a consistent, differentiated storyline
+that can be told effectively by not just your employees
+but by your customers and by your partners as well.
+Those are the kind of three
+legs of the authenticity stool as we think of it at RedLine.
+>> Yeah. As you know, my
+job is to spend a lot of time talking to AI companies and particularly startups and...
+Probably well over a hundred
+since I started here at theCUBE research and you're right.
+I mean, a lot of this stuff
+starts to sound the same.
+And I mean my experience
+with you at Sema4.
+
+[12:17]
+ai was you guys had some
+things that popped out to me, like the trust angle you guys had and the fact that it's about
+a mindset of digital labor, not just technology.
+I think things like that
+kind of help the story pop.
+But to your point about
+the crowded markets and the brand, some of the
+research that we did showed that up to 60% of these AI
+startups are actually failing because of lack of market
+visibility, clarity, and just a weakness in their brand.
+So they're market related issues.
+And then, not necessarily...
+Some might describe it as demand gen but you don't have demand without a brand.
+You need to attract people to want to actually engage at a deeper level that you can create a lead.
+So it begs the question, as a brand builder at
+one of these companies, what should they be doing?
+And in particular, getting noticed is one
+thing, that's important.
+But you also then have to say,
+"How do you become credible,
+
+[13:20]
+a credible authority?" >> Yes.
+>> So yeah, you might get noticed but does it necessarily make
+you credible enough for people to actually engage with you
+when there's so many options.
+>> Well, listen, Scott, you and
+I are able to have this open and honest dialogue today because we've grown to know
+one another over the years.
+And so, we inherently share a little bit of credibility with one another.
+It's no different with what
+marketers need to be doing with their teams and particularly
+with their executives.
+They need to get their
+executives out there with an authentic message
+that is differentiated and that buyers are going
+to be interested in.
+And in order to do that,
+you got to do something that marketers for years
+didn't want you to do.
+You've got to be completely
+open and transparent.
+You need to talk about both the bad times and the good times.
+And the great leaders that are out there and building fabulous companies in the age of AI are doing just that.
+
+[14:22]
+I think of what happened
+with Dylan from Figma.
+He's just gone through this major IPO, untold amounts of wealth being created.
+But along the way, he shared
+his real story of missteps that took place in the early days of Figma losing large
+numbers of employees.
+And telling those real world
+stories builds empathy.
+Empathy builds sort of relationships and commitments between one another.
+And that's what ultimately leads to people moving from being
+prospects to being proponents.
+And so, that's kind of central to how you move out of that sea of sameness and how you get to credibility and a lot of that is
+about sharing your true and transparent story.
+>> Yeah. There's no doubt about it.
+And just to kind of step back and look at what's happening
+as we move, as more and more people are using
+these AI assistants which
+
+[15:24]
+ultimately are going to be, as you know, better than almost everyone.
+It's going to be moving to AI agents that even have more algorithmic decision- making capabilities.
+I found this to be really
+interesting research that we kind of pulled together here
+from sources everywhere from McKinsey and Bain and so on so forth.
+But this is really interesting and this is just over
+the span of a year 2024.
+So the number of
+click-throughs to websites and the content across B2B
+software categories dropped 30%.
+That's a huge drop in one year.
+>> Wow.
+- And 80% of B2B buyers use AI summaries or generative AI and these assistants and agents, at least for
+some of their research and a lot of them use
+it as their primary way.
+So what they're getting is
+they're getting summaries and having the agents
+do it on their behalf.
+
+[16:25]
+So no matter what content you're
+putting out on your website or in the Google space or wherever it may be,
+it getting discovered and becoming credible,
+it's not the same game that it used to be, correct?
+>> No, it's not at all, Scott.
+It was very recently that it was all about
+keywords and backlinks and whoever was keyword
+king would find their way to the most eyeballs on their site.
+Well, when you move to a
+generative engine optimization model, it becomes about having
+well-structured content, having clear, defined
+headlines and metadata.
+The structure of your information
+becomes very important, so does the context.
+The why behind what of
+your content becomes more and more important to
+a number of these LLMs.
+Moreover, not to nerd out too much, but each of these LLMs looks at the world through a slightly different lens.
+
+[17:26]
+For example, Perplexity tends to focus on recency, current events, news, and the like.
+Grok also focuses on recency but it's conversational recency pulled from things like Twitter.
+You talk about Claude,
+Claude likes more...
+They're a little safer in the way that they look at the world.
+They want to look at things
+like white paper content.
+So one of the strategies that you can employ is building
+content that's explicit to some of these different models and how they look at the data and information that's
+being served up to them to deliver that summary.
+So there are a lot of technical things that you can do in addition to sort of the authentic storylines delivered
+via video and podcasts.
+Things like this podcast
+that we're on right now, by the way, this is fabulous
+content for those kinds of engines and one of the great value adds
+
+[18:29]
+that you folks at theCUBE
+deliver to your audience.
+>> Yeah. Absolutely. Between
+the transcript, the clips, the video itself on YouTube,
+the places we put this thing, it's much more likely to get
+consumed into these engines.
+And it is really important
+when we showed the decline in the click-throughs in
+traditional search and all that.
+And then, how many more B2B, particularly in the software space, are using these AI assistants,
+it's also very important for everyone to sort of come to grips with what's actually being used by executives and decision makers.
+And you can see here on this chart, right?
+And, again, Bain stuff
+here is the primary source of it is 68% are actually
+using it to research and to gather information about
+potential issues they have solutions, products that are out there.
+They're using it to stay
+up to date around half of them tracking news, as you mentioned.
+
+[19:30]
+Probably using Perplexity or Grok, some of those that
+are oriented towards that.
+And this actually being
+increasingly used around 4 in 10 to evaluate products and the references and the success of what's going
+on with different solutions to help them sort of narrow
+down your getting started list of who you want to actually engage with.
+So it is becoming really important to be present in these engines.
+>> It is. There's no doubt about it.
+And I think the wise marketers
+are going to be those that find a way to optimize
+around those engines.
+And I think the references
+piece that was sort of at the tail end of
+your slide there becomes really, really paramount.
+And seeing genuine,
+like live human beings, like we're on the screen
+here right now commenting on and sharing their story and the impact that your product or service had on them becomes
+even more important than it's
+
+[20:31]
+been over the course of
+the past several years.
+Really adding that human
+element to all the things that you can do with the AI
+becomes the difference maker.
+>> Yeah. And there's a bunch of tactics and maybe we can just spend a
+couple minutes talking about.
+You mentioned some of them already.
+But on my list as I just
+think through it is, one is get published on
+this high domain, these- >> Yeah.
+Highly trusted. Yeah.
+>> Yeah. They have authority, right?
+So LLMs like ChatGPT and Perplexity mean they
+like sources like Forbes or textCrunch or G2 or LinkedIn and things like SiliconANGLE
+that are highly trafficked, they have a pattern, right?
+And you can also use structured and this is where I think you come in with your storytelling, right?
+Use structure and consistent
+metadata and terminology and define your brand and
+keep beating it to death.
+And things like participating
+in events and interviews
+
+[21:35]
+and media where the transcripts and all that stuff get out in the domain.
+Because really, what we're trying to do here is build thought leadership.
+It comes from evergreen videos
+and podcasts and interviews.
+You're building a topical
+authority in an area, better known as thought leadership.
+That's what this stuff is
+really going to suck up and that's where the models
+are crawling around to find because they basically want...
+The AI models, they're
+not going to see you unless you're in a credible
+context. They're just- >> Yes.
+- ...
+your answers. And to them, that is not a brochure or a website, it's these conversations- >> Not even traditional
+advertising either, Scott.
+It's smart enough to
+sort of see through that.
+But that makes it incumbent
+upon the people building that storyline to make it differentiated
+
+[22:35]
+and memorable enough that it's
+actually going to stick out.
+And more importantly, it means you've got to hurt the cats within
+your own organization to get everybody sort of
+singing from the same hymnal, if you will, and telling at
+least a very similar story.
+It doesn't have to be exact.
+In fact, it doesn't play
+well if it gets too exact.
+But it does need to hang
+together with the same threads and that takes a lot of work internally.
+One of the final steps of
+building out a great narrative is to ensure that you've enabled
+everybody in your organization to tell that story in
+a very consistent way.
+>> Yeah. You make it a team.
+So I think being active where the AI models hang out
+and crawl and suck up data.
+You can also feed these
+AI systems directly.
+So you got the ChatGPT plugins,
+you got Perplexity Pages, you got Claude's customization stuff.
+But also, leveraging the
+ecosystem of influencers
+
+[23:35]
+and analysts and people that
+are subject matter experts and you get everyone...
+The more the models see the context and the conversations
+around all this stuff, the more likely you are
+to be fed into it and therefore discovered by people that are asking these assistants for help on whatever solutions.
+>> What's fantastic about it too, Scott, is that if it's done well,
+it's very symbiotic.
+In other words, I'm adding
+some credibility to your show by being on here with
+my set of experiences and career.
+Similarly, on the other
+hand, I'm benefiting by getting some visibility and eyeballs on my new business that I wouldn't get otherwise.
+And so, when this is working
+well, it's mutually beneficial to all parties involved.
+>> Yeah. And what's going to
+happen here is this one's going to go out and there probably...
+Who knows? It's been averaging around 5, 000 views just on YouTube,
+not including Spotify- >> Fantastic.
+- ...
+and then not including the clips.
+
+[24:36]
+And more recent, over the last month, I think it's been more
+like 8,000, so we'll see.
+These are all post-YouTube audit numbers.
+So there's good visibility there.
+But then, the transcript gets out there because remember we publish the transcript along right next to it.
+If you go to thecube.net and between that and SiliconANGLE getting a
+million unique viewers a month and then we do the research note on it and the paper, you know I
+wrote a paper on all this that- >> Yes.
+- ...
+that you've helped with
+and you start putting that all out there and then
+you get the social engine behind it, it starts showing up in all these different places.
+I think that's what these engines like- >> It's a multiplier - >> Yeah.
+And it brings us back to the notion of thought leadership, right?
+Decision makers, particularly
+in the B2B space, love...
+They consume a lot of thought
+leadership kind of stuff to educate themselves, to stay up-to- date what's going in the market.
+So you can see half the decision
+makers, a little bit more of C-level executives, and
+they do it on a weekly basis.
+And 64%,
+
+[25:38]
+and this is according to Edelson and LinkedIn, they did a 2025 thought leadership study.
+64% rely on the video and the interviews and so the interviews are
+becoming a brand builder's secret weapon because the example you just kind of sparked me to talk about, right?
+>> Yes.
+- Right?
+You're just basically
+flooding the context out there of what is important.
+>> 100%.
+So, I think one of the things
+that this requires is buy-in by that executive team to be willing to be part of the storytelling.
+They can't just hand it all off to their product marketing organization or their marketing
+organization in general.
+I think people expect to hear
+from the actual leadership of an organization and for them to be out there on all
+
+[26:38]
+of the available social media channels and out there in the raw, so to speak.
+Very transparently talking
+about what they plan to do with the business, their
+products, and the ups and downs that they've
+experienced as a business.
+And that reaches that kind of sophisticated buyer in a way that all of the traditional advertising
+and SEO keyword search and so forth in the world
+could never possibly do.
+So AI is an enormous productivity benefit for generating
+well-structured marketing content but it just doesn't go all the way.
+You've got to combine that with the human element, at least for now.
+Maybe the robots are eventually
+going to take over, Scott, but they're not quite there yet.
+>> Yeah. And all the
+innovation is often thought of in terms of the technology.
+But the innovation in
+spaces like marketing and brand equity, in communications
+and public relations,
+
+[27:40]
+and all that stuff, I mean, this whole zero click behavioral
+kind of transformation that we're in here really
+does mean that companies, particularly early stage
+companies, they really need to think about the importance of brand.
+And I know it's one of the...
+You know this too I'm sure.
+We both spent a lot of time
+as CMOs and working with comms and all that stuff over the years.
+Spending money on brand is
+never the easiest thing to do because it's the least
+measurable in some ways, right?
+>> Yeah.
+- However, I think there's a...
+My observation over decades of being a marketer in enterprise tech is that the brand is critically important because there's too many
+options out there and people...
+You're not going to get the
+opportunity to create demand and progress a pipeline unless you have a brand equity.
+And that is more than
+visibility, it's trust, it is credibility, it is
+thought leadership image
+
+[28:42]
+that you're popular, you're
+seen in different places, right?
+>> Yeah.
+- So the question for you is as people start thinking about their go- to market strategies...
+I think we've touched on a lot of it, but what are some of the key things you think they should do?
+>> Yeah. I mean, I think
+I have hit on a couple of these already which is
+really getting folks out there.
+But if I take Grant Lee that I
+mentioned earlier from hamma.
+app, one of the first things I noted with him is you don't
+see lots of CEOs with 50, 000 followers on LinkedIn.
+And the reason that you don't is most CEOs
+aren't actually taking the time to generate their own content
+and build their own community and following for their business.
+Now, he's got an exceptional story.
+He's built a profitable
+$50 million company with, I don't know what he's up to, 35 people or something like that.
+This is one of those crazy
+stories where a tiny number of people using AI tools is building this
+
+[29:44]
+astounding business.
+But the point of the matter
+is that the tip of your spear, of your go-to-market, needs to be your own employees
+telling their story about the impact of your product.
+If you're successful, those employee stories will
+turn into great customer stories and customer references.
+If you are successful with
+the first few customers, you're going to have partners
+they're going to want to join in the ecosystem.
+And then, they're going to tell the story.
+So it's one of those...
+I'm trying to remember what
+the commercial was from back in the probably '80s, "And then,
+they'll tell their friends.
+And then, they'll tell their friends.
+" And that effect is what you're
+looking for in your go-to- market motion now.
+And by the way, none of this excuses you from
+building a great product that really makes a difference and solves for a very discreet problem and delivers real ROI.
+That's still necessary.
+I think the point of this
+podcast though is you could build a great product that
+solves a discreet problem.
+
+[30:47]
+And if Horton doesn't hear a who, what difference does it make, right?
+You yell at in a forest
+with nobody to hear you.
+So you have to do both.
+You got to build a great product, yes.
+But then, you have to tell
+your story in a very compelling and authentic way about that product.
+And you put those two things together with the force multiplier or the productivity gains that can be had from building
+great marketing content with AI, man.
+Then, you've built really a juggernaut and something that could be envied by anybody building a new business.
+>> Yeah. The story,
+perhaps, is as important as your software, right?
+Especially in this new world and getting discovered in a new...
+I mean, the whole front part
+of the funnel is changing and it has to be transformed.
+Otherwise, you never get...
+You still need the more traditional approaches that
+have been proven over time, on- demand generation and
+progressing through the journey.
+
+[31:49]
+But that front end has
+become, in my estimation, more important than ever.
+Not just because of the flooded markets and how noisy everything is now with all social and all this stuff.
+But the fact that discovery and learning about this
+stuff is coming from this...
+Not so much the search engines as much now as the AI assistance that
+are just giving summaries and having dialogues with people, which kind of brings you to...
+There's definitely growing
+evidence that founders and executives and technology innovators and the technical experts must become more and more the face of their company.
+It's no longer about traditional
+content and websites.
+But rather, visibility
+in building the brand, the trust, the credibility.
+And this is especially
+true for AI startups.
+You've got to get out and be visible.
+>> You do. And look, it's...
+One of the things that was
+the hardest for me to learn and transition for
+myself, Scott, like you,
+
+[32:52]
+long great career at IBM.
+And we weren't exactly known
+for being the casual guys to say the least, right?
+Memes have been written
+about all the formality of working at a place like an IBM and that formality just
+doesn't translate in the way that it once did.
+It's more important to be
+deemed as authentic than it is to be deemed as in a great
+suit with a great haircut and a perfect movie set kind
+of environment around you.
+If you were to look at the environment that I'm in right now, probably looks kind of fancy behind me.
+But in front of me, there's
+the laptops on a stack of 10 books and I got an $8 little light fixture
+from Walmart back behind it.
+And so, the authenticity factor
+is really a big deal today.
+And yes, you need to know
+your content, you need to be a subject matter expert,
+
+[33:52]
+but I'm almost considering that a given.
+The way you deliver it matters
+though in today's world.
+And really, really
+sophisticated buyers can see through somebody that's just a...
+Looks like they're in a $3,000 Armani suit and they got a great PowerPoint.
+But that's very different
+than somebody that comes with a compelling
+narrative, real customers that are doing really great
+things with their software, and that's what counts in today's market.
+>> Yeah. And not only about what you can deliver today
+in terms of solutions and services and products, but also you have a vision for the future.
+And I kind of bring this all together.
+Let me just show you, maybe
+a little bit of a plug here.
+But we have this thing called theCUBE AI.
+So if anyone who is listening
+wants to go check it out, the URL is thecubeai.
+com and this is exactly what
+we're talking about here.
+All the interviews and all the transcripts and the content...
+
+[34:53]
+And, again, we're talking huge
+amounts of interviews, right?
+Thousands of them a year.
+We got all these events that
+we cover from re:Invent to...
+All it is people doing thought leadership and interviews and talking about things.
+All those transcripts,
+this is sucking it all up and you can go to the tool,
+you can go to ChatGPT, you can go to Claude, you can go to all these different
+places, and what it...
+This is a great example of
+how this kind of content is what is being attracted
+into the LLMs and then therefore it shows up.
+And if you're just doing
+websites and emails and content and you're not out there visible at events and digital summits and doing interviews where the transcripts and all that stuff's being put out there, you're simply just not going
+to show up in these things.
+And I think as time goes by,
+that's going to become bigger and bigger of an issue for any
+company that wants to break through in an increasingly
+noisy environment.
+I think that's the bottom line here.
+And like you said, the whole idea of
+
+[35:56]
+that we're swimming in
+the sea of sameness, you got to get the story.
+You have to have a strategic
+narrative, proof points, build credibility, build trust, authenticity, as you said, right?
+That's what people like
+and are attracted to.
+And then from there, you
+got to figure out how to get that out and break the
+signals into out of the noise and into people's minds.
+And increasingly, that's
+being done through these AI dialogues that are going on.
+It's a new world.
+>> It is. No doubt and it's
+an exciting and fun one too.
+So I'm sure like you, I just feel like I'm learning at a rate and pace that I could have never
+probably foreseen if I look back five years ago.
+Just the amount of input and context that I can take in as a result of working together with these LLMs and these engines, it's making me smarter and making my business better and I think making all of the customers and listeners that you've got
+out there smarter on a day-
+
+[36:57]
+to-day basis too.
+And that's great, but it also makes it harder
+to compete and differentiate.
+You've really got to listen
+carefully to your customers.
+I know I keep going back to
+the well on the Gamma example.
+But I think part of why they've been so successful early on is
+they took a really simple, common problem like, "How
+do I lay out this PowerPoint or Google slide deck?
+I'm not a designer. I'm a business person.
+How do I make that as
+easy as humanly possible?
+" A problem we've all been trying to solve for 30 plus years now.
+They took that very discreet problem and just went at it with all that they had and delivered on something very compelling and differentiated.
+And then, told the world
+about it in an authentic way.
+If you can do that for your
+business, then you're going to have the chance to reach
+those kind of lofty heights and early success that a
+company like that has had.
+>> Yeah. Amazing.
+
+[37:59]
+It's going to be a fun
+couple of years. Well, look- >> By the way, I don't work for Gamma or anybody like it in
+any way, shape, or form.
+I'm the walking example of
+what you want to have people do because it's an authentic and genuine referral for people
+to go check out something that, I think, can change their lives.
+If you're a consultant that's
+been building PowerPoints and building Excel pivot
+tables for the past 20 years, I got great news for you.
+You got way better toolkit to do it with and you can do all that work
+in a fraction of the time.
+>> Yeah. And we didn't even
+get into the changing dynamic, which has been happening for years now, is people are getting
+tired of reading things and they want to see video- >> That too.
+- ...
+podcasts, and they're on the treadmill or whatever they're doing,
+they're taking a walk.
+And that's the new way to consume.
+That's where the money should be spent if you want to build your brand.
+But all right. Well, look, this has been a great conversation.
+I think very hard hitting and insightful.
+I really appreciate you taking the time
+
+[39:01]
+to be here, Mick. This is great.
+>> Absolutely, Scott. Happy
+to do it at any time.
+And I ultimately plan on
+getting a little podcast series going on my own.
+You'll be sure to be one of
+my first guests on that front, so really enjoyed being here today.
+Thank you for the opportunity.
+>> Yeah. It's sharing your perspectives and having this dialogue.
+Always learning, right?
+>> Absolutely.
+- All right.
+Well, for all of you that
+are watching, the takeaway, I think, is quite clear here, right?
+In a world where algorithms
+are now helping buyers decide what's worth seeing, if
+you don't have a story, you're not visible.
+And if you're not visible,
+you're not viable.
+Now, I think it kind of
+gets down to that kind of proposition here.
+So if you want to rise above the noise and start building a brand
+that market wants to hear from, that's what you need to do.
+And these traditional approaches to brand building are
+simply becoming obsolete and you need to really rethink how this is all going to happen.
+Sharpen your storytelling.
+Build a brand strategy.
+
+[40:03]
+Invest in it. And you got
+companies like Mick's RedLine Advisors, you check them out at redlinecs.
+ai to help out with the storytelling and building the strategy.
+And then, of course, there's
+us here at SiliconANGLE and theCUBE that can help get all that stuff out there in a high authority, high populated area.
+So thanks again for tuning
+in to the Next Frontiers of AI podcast.
+We'll see you next time.
+We are the leader in enterprise
+tech news and analysis.
+Take care and we will see
+you next time. Thank you.
+
+---
+
+*Content extracted from YouTube video. Original content by SiliconANGLE theCUBE. Video URL: https://www.youtube.com/watch?v=uHlrQWbdP7A*

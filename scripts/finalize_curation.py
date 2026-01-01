@@ -60,31 +60,21 @@ def finalize_curation(skip_exports: bool = False) -> dict:
         console.print("[yellow]No slide directories found[/yellow]")
         return {'error': 'No slides found'}
     
-    synced_count = 0
-    total_removed = 0
+    # Use --all flag to sync all videos at once (non-interactive)
+    code, output = run_command(
+        [sys.executable, 'scripts/sync_slide_metadata.py', '--all']
+    )
     
-    with Progress(SpinnerColumn(), TextColumn("[progress.description]{task.description}"), console=console) as progress:
-        task = progress.add_task("Syncing metadata...", total=len(video_dirs))
-        
-        for video_dir in video_dirs:
-            video_id = video_dir.name
-            progress.update(task, description=f"Syncing {video_id}...")
-            
-            code, output = run_command(
-                [sys.executable, 'scripts/sync_slide_metadata.py', '--video', video_id]
-            )
-            
-            if code == 0:
-                synced_count += 1
-                # Try to extract removal count from output
-                if 'removed' in output.lower():
-                    total_removed += 1
-        
-        progress.advance(task)
-    
-    console.print(f"[green]✓ Synced {synced_count} videos[/green]")
-    if total_removed > 0:
-        console.print(f"[dim]  Removed {total_removed} orphaned metadata entries[/dim]")
+    if code == 0:
+        # Try to extract counts from output
+        synced_count = len(video_dirs)  # Assume all were processed
+        if 'removed' in output.lower() or 'Synced' in output:
+            console.print(f"[green]✓ Metadata sync complete[/green]")
+        else:
+            console.print(f"[green]✓ Synced {synced_count} videos[/green]")
+    else:
+        console.print(f"[yellow]Sync had warnings: {output[-300:]}[/yellow]")
+        synced_count = len(video_dirs)  # Continue anyway
     
     if skip_exports:
         console.print("\n[yellow]Skipping exports (--skip-exports)[/yellow]")

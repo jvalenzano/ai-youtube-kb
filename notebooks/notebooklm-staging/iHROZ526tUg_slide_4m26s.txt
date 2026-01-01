@@ -1,0 +1,46 @@
+# Slide from: 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** iHROZ526tUg
+**Title:** 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=iHROZ526tUg
+**Duration:** 26:08
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational conceptual frameworks for understanding AI agents, decision intelligence architecture, and the progressive technology stack needed to build decision-making capabilities
+
+## Slide Information
+**Timestamp:** 4m26s
+**Timestamp URL:** https://www.youtube.com/watch?v=iHROZ526tUg&t=266s
+**Original Filename:** slide_4m26s_8ea49b0f.png
+
+## Transcript Context
+**Before:** among multiple options. They're going to need to help people actually engage and interrogate the agent, to ask what-if questions, to discover how does my business actually operate?
+**During:** What are the causal effects on different actions,
+**After:** different conditions, different interventions that I can make? How does that change an outcome? What are the root causes of a particular problem I have?
+
+## Slide Content (OCR)
+tit
+The Future                                Explains what,
+ss                                                          how and wh
+of Decision                                       y
+Making Agents                                    |
+<  Knows Why            @          Understands = 8
+=Dz   Things ——           —_                 Y
+:                        aad                                          ‘onsequences
+By helping humans           7 oS Happen          WV
+understand the precise
+chain of events leading                                        |
+to a desired outcome
+Helps Solve        * Causal discovery
+Problems             * Root cause detection
+* Counter-factual analysis
+WHAT \F  ?      * Interventional “what if”
+
+---
+
+*This slide is from the video: 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=iHROZ526tUg*
+*Slide timestamp: 4m26s*

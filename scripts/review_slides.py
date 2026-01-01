@@ -270,10 +270,37 @@ def review_slides(video_id: str, config: SlideConfig, auto_approve: bool = False
 
     if not slides_to_review:
         console.print(f"[green]✓ All {len(all_slides)} slides passed quality checks![/green]")
+        
+        # Mark video as reviewed even if no slides needed review
+        # (the review process ran, all slides passed)
+        metadata_file = DATA_SLIDES / video_id / "metadata.json"
+        if metadata_file.exists():
+            try:
+                with open(metadata_file) as f:
+                    metadata = json.load(f)
+                metadata['human_reviewed'] = True
+                metadata['review_stats'] = {
+                    'total_reviewed': len(all_slides),
+                    'approved_removal': 0,
+                    'kept_after_review': len(all_slides),
+                }
+                with open(metadata_file, 'w') as f:
+                    json.dump(metadata, f, indent=2)
+                
+                # Update progress tracking
+                mark_reviewed(
+                    video_id,
+                    slides_kept=len(all_slides),
+                    slides_removed=0
+                )
+                console.print(f"[green]✓ Marked video as reviewed (all {len(all_slides)} slides passed)[/green]")
+            except Exception as e:
+                console.print(f"[yellow]Could not update metadata: {e}[/yellow]")
+        
         return {
             'video_id': video_id,
             'total': len(all_slides),
-            'reviewed': 0,
+            'reviewed': len(all_slides),
             'removed': 0,
             'kept': len(all_slides)
         }

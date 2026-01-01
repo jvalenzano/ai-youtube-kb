@@ -1,0 +1,40 @@
+# Slide from: 14. Agentic AI – What’s Hype, Myth, and Truth
+
+## Video Information
+**Video ID:** euTRqoB_OlA
+**Title:** 14. Agentic AI – What’s Hype, Myth, and Truth
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=euTRqoB_OlA
+**Duration:** 46:52
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily discusses foundational concepts of agentic AI, reasoning capabilities, enterprise adoption challenges, and the theoretical underpinnings of agent-based systems rather than specific workflows or tools
+
+## Slide Information
+**Timestamp:** 16m54s
+**Timestamp URL:** https://www.youtube.com/watch?v=euTRqoB_OlA&t=1014s
+**Original Filename:** slide_16m54s_c0cfbdc8.png
+
+## Transcript Context
+**Before:** >> So I'm going to show you a chart here, some of the research I did looking at a whole ton of different surveys out there about what do people view as being the most important technologies going forward
+**During:** to enable agentic AI.
+**After:** And you can see here at the very top is obviously the generative AI, the LLMs, which you can see the numbers in terms of relative importance. But what's your thought on this research?
+
+## Slide Content (OCR)
+Agentic Al Technology Priorities
+GenAl/ LLMs —                                                                                8
+Vector Databases |                                                                      7
+Graph & Agentic RAG                                                                  7
+Multi-agent FWs                                                            6
+Tool Integration APIs    |                                                                     6
+Decision Intelligence                                                              7
+Semantic & Causal Reasoning                                                                              z
+Multi-agent Learning Loops                                                            G
+McKinsey, Blueprism, Datalku,. RG, ArXiv   i  tesearch
+
+---
+
+*This slide is from the video: 14. Agentic AI – What’s Hype, Myth, and Truth*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=euTRqoB_OlA*
+*Slide timestamp: 16m54s*

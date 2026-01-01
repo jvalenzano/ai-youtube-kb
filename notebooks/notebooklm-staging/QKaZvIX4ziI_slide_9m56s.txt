@@ -1,0 +1,44 @@
+# Slide from: 19. From PoC to Production: Scaling Agentic AI in Financial Services
+
+## Video Information
+**Video ID:** QKaZvIX4ziI
+**Title:** 19. From PoC to Production: Scaling Agentic AI in Financial Services
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI
+**Duration:** 40:21
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video centers on real-world implementation challenges in financial services, featuring a detailed wealth management POC demonstration and practical deployment experiences with specific clients
+
+## Slide Information
+**Timestamp:** 9m56s
+**Timestamp URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI&t=596s
+**Original Filename:** slide_9m56s_ea073d4a.png
+
+## Transcript Context
+**Before:** to bring up here and maybe you can just talk a little bit about how you see this evolution occurring in financial services and how the challenges that you just talked about shift a little bit as time goes by here.
+**After:** >> Yeah. So this is an interesting chart when you look at stage one where a couple years ago LLM were introduced and pretty much all the companies trying to figure out
+
+## Slide Content (OCR)
+GenAI evolution in FSS                                         0 MongoDB
+:                       :         :               :        Alo
+:                       :         i              :         a         @
+Powe gg!           coe See.
+4 = gage Gee
+:       a     7       :                      :           AL
+‘°                               :
+:  eve      :                        :           i
+:      oC: “es      :           AI            :        Multi Agents
+:                    :        Agent         :
+:       RAG Ready for       :                               :
+:       Production       :                        :
+at
+Proof of Concept      :         b    2              :                               :
+TS
+
+---
+
+*This slide is from the video: 19. From PoC to Production: Scaling Agentic AI in Financial Services*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=QKaZvIX4ziI*
+*Slide timestamp: 9m56s*

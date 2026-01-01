@@ -1,0 +1,41 @@
+# Slide from: 20. Navigating the AI Talent Crisis: Act Now Before It’s Too Late
+
+## Video Information
+**Video ID:** 9xKc3OqMvog
+**Title:** 20. Navigating the AI Talent Crisis: Act Now Before It’s Too Late
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=9xKc3OqMvog
+**Duration:** 40:36
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video presents real-world examples of AI talent challenges, specific company implementations like BairesDev's talent retention tool, and practical case studies of how organizations are addressing the AI skills shortage
+
+## Slide Information
+**Timestamp:** 10m36s
+**Timestamp URL:** https://www.youtube.com/watch?v=9xKc3OqMvog&t=636s
+**Original Filename:** slide_10m36s_c4c0b937.png
+
+## Transcript Context
+**Before:** that can help augment those skills with people. And then there's the AI agents, which we'll get a little bit into a little bit later. But back on that first prediction,
+**After:** let me just bring up a graphic here. This is some of our research and the yellow line is showing the growth in software developers.
+
+## Slide Content (OCR)
+=e= | Software Engineers
+=a= Developers with Al/Data Science Skills                                 F-        ae
+7         \.   f      IAIN
+Are Developers Becoming _,’
+Al Engineers with the          ra
+/
+Help of Al Agents?           a
+¢
+a
++190     iat                          +200K yearly
+Te
+=r                                           ==                                                      CO xs
+
+---
+
+*This slide is from the video: 20. Navigating the AI Talent Crisis: Act Now Before It’s Too Late*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=9xKc3OqMvog*
+*Slide timestamp: 10m36s*

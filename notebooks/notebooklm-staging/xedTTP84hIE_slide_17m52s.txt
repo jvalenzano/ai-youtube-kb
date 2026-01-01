@@ -1,0 +1,27 @@
+# Slide from: 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** xedTTP84hIE
+**Title:** 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=xedTTP84hIE
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 17m52s
+**Timestamp URL:** https://www.youtube.com/watch?v=xedTTP84hIE&t=1072s
+**Original Filename:** slide_17m52s_a55a5aa5.png
+
+## Slide Content (OCR)
+66 While probabilities encode our beliefs
+about a static world, causality tells us
+whether and how probabilities         actin
+change when the world changes. #3
+- Judea Pearl                                                      - "
+
+---
+
+*This slide is from the video: 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=xedTTP84hIE*
+*Slide timestamp: 17m52s*

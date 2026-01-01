@@ -1,0 +1,112 @@
+# 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI
+
+**Video ID:** xedTTP84hIE
+**Channel:** Unknown
+**Duration:** Unknown
+**URL:** https://www.youtube.com/watch?v=xedTTP84hIE
+
+## ⚠️ Transcript Not Available
+
+**Note:** Full video transcript is not available for this video.
+This may be due to:
+- YouTube rate limiting during batch processing
+- Transcripts disabled or not available for this video
+- Video age or accessibility restrictions
+
+**Content Available:**
+- Presentation slides with OCR text (below)
+- Slide companion files with full metadata
+- Slide images with timestamps
+
+## Presentation Slides
+*6 unique slides extracted from this video*
+*Content below is extracted from slide OCR text.*
+
+**Note:** Each slide image has a companion .txt file with full metadata.
+Slide filenames: xedTTP84hIE_slide_TIMESTAMP.png
+
+### Slide: [xedTTP84hIE_slide_14m46s.png](https://www.youtube.com/watch?v=xedTTP84hIE&t=886s) at 14m46s
+
+66 If you prove the cause, youatonce <=
+prove the effect, and conversely,
+nothing can exist without its cause. tm "4
+- Aristotle
+
+### Slide: [xedTTP84hIE_slide_17m52s.png](https://www.youtube.com/watch?v=xedTTP84hIE&t=1072s) at 17m52s
+
+66 While probabilities encode our beliefs
+about a static world, causality tells us
+whether and how probabilities         actin
+change when the world changes. #3
+- Judea Pearl                                                      - "
+
+### Slide: [xedTTP84hIE_slide_24m26s.png](https://www.youtube.com/watch?v=xedTTP84hIE&t=1466s) at 24m26s
+
+tit
+Explains what,
+how and why
+Causal Al can                                                                        |
+understand the        K    wh         Dy
+.           .                      nows                               A
+precise chain of        Sa  Things             a        Understands  <5
+events leading           38% Happen         WW         Consequences
+to an outcome                                      |
+Helps Solve       * Causal discovery
+Problems         * Root cause detection
+* Counter-factual analysis
+WHAT IF.  ?      * Interventional “what if”
+Leam More
+
+### Slide: [xedTTP84hIE_slide_34m18s.png](https://www.youtube.com/watch?v=xedTTP84hIE&t=2058s) at 34m18s
+
+10x campaign performance
+* Trusted look-a-like audience modeling
+* On-the-fly real-time adjustments
++ Full transparency & explainability
+Scanbuy
+* Regulatory compliance guardrails              @             y
+ae’ HOV/SO
+
+### Slide: [xedTTP84hIE_slide_38m32s.png](https://www.youtube.com/watch?v=xedTTP84hIE&t=2312s) at 38m32s
+
+75%                                                   .               .                       .       "T
+Enterprise Adoption of AI Explainability
+55%                       and Reasoning Technologies (2024)
+35%
+|           20%          20%
+12%
+oq    :
+||          =
+Gen Al        Predictive Al Domain LLMs         CoT         Semantic Al       Causal Al       Multi-Agent
+Ga eee,
+
+### Slide: [xedTTP84hIE_slide_40m08s.png](https://www.youtube.com/watch?v=xedTTP84hIE&t=2408s) at 40m08s
+
+Pa                                               PP inecuse
+Democratizing Causal AI for the Masses                    iS. BSE8Fch
+General Purpose                Domain-specific
+41%                       causaLens*              ‘idynatrace AITIA
+(0)                causaly eS  ekvizuro       Eeausely Gethonai
+CAGR Through 2030                ve    eemivas   causa       anermntal    B porabote.al
+$1+ Billion Market           Aplin Data” Ari            Oster gstma
+s\Actavie at  B Product Genius  a
+© cavsauiry unk           Ttesitty Immun
+HOwso PROOF
+Gecatnyx                   tstana NAKURE Sbme
+a ee | |          BCausalwizard @ toskode     —   RHIZ@ME
+Ne SymphonyAl       Gi) Mugging Face       Astrazenecd 2
+Gp wesesten            R&D —gometa srmiccsot Gopenal Google <inviowa IBM AWS Sdotabricks XI
+A Sample of   Oso BBVA ask cisco @ =" croud wyases Uber Seka GH SP Om
+Businesses    Bezalendo Bookingcom GAPS CANON UAL Sven m  SRO tee cet Qvvstine iP
+Engaged in    Decwmen AISI We agen multe Tian BMW, lms Ge ene ten Fhrros 8
+Causal Al eeu dceomamene IE msm newex BY — nuveen Wore, Buf gy ¥Misaunnmmnnncss By
+
+
+## Full Transcript
+
+*Transcript not available. Content extracted from presentation slides only.*
+
+---
+
+*Content extracted from YouTube video slides. Full transcript not available.
+*Original content by Unknown. Video URL: https://www.youtube.com/watch?v=xedTTP84hIE*

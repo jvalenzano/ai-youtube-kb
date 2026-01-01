@@ -1,0 +1,960 @@
+# 11. Agentic AI Architecture Matters
+
+**Video ID:** cg9q5wnssH0
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 40:14
+**URL:** https://www.youtube.com/watch?v=cg9q5wnssH0
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses primarily on the foundational technologies, architectural principles, and core concepts needed to understand and build agentic AI systems
+
+## Summary
+- Agentic AI represents a fundamental shift from AI assistants to digital workers that can plan, think, and make decisions autonomously
+- Architecture matters more than ever - agentic systems require integration of multiple technologies including LLMs, vector databases, knowledge graphs, and multi-agent communication protocols
+- Salesforce is positioned well for agentic AI due to their integrated data cloud, Customer 360, and systems architecture that provides unified business state
+- Agentic RAG is a major advancement over traditional RAG, enabling dynamic planning, reflection, and tool invocation rather than hard-coded retrieval
+- Reasoning capabilities are evolving from semantic understanding to causal reasoning, enabling agents to understand cause-and-effect relationships for better decision making
+- Four levels of agent sophistication: task execution, domain-specific knowledge, reasoning/decision making, and orchestration/planning across multi-agent systems
+- A harmonization layer or 'cognitive core' is essential for coordinating multiple agents and maintaining shared business state
+- Most enterprises should start with agents built into existing platforms rather than building from scratch, then gradually expand capabilities
+- The shift requires treating AI officers as HR managers for digital workers, fundamentally changing how we think about workforce management
+
+## Key Takeaways
+- **DO:** Start with agents built into existing enterprise platforms (Salesforce, Oracle, SAP) rather than building from scratch
+- **DO:** Focus on integrated systems approaches rather than isolated agent deployments to ensure proper data foundation and coordination
+- **DO:** Invest in knowledge graphs and semantic layers to enable more sophisticated reasoning and decision-making capabilities
+- **DON'T:** Don't think of agentic AI as just advanced chatbots - it requires rethinking software architecture from the ground up
+- **DON'T:** Don't attempt complex multi-agent systems without proper harmonization layers for coordination and shared state management
+
+## Topics
+agentic AI architecture, multi-agent systems, agentic RAG, knowledge graphs, semantic reasoning, digital workers, enterprise AI platforms
+
+## Key Moments
+- [04:07](https://www.youtube.com/watch?v=cg9q5wnssH0&t=247s): Discussion of why Salesforce is ahead in agentic AI due to integrated systems approach
+- [12:22](https://www.youtube.com/watch?v=cg9q5wnssH0&t=742s): Explanation of agentic RAG vs traditional RAG and its dynamic planning capabilities
+- [17:34](https://www.youtube.com/watch?v=cg9q5wnssH0&t=1054s): Deep dive into semantic vs causal reasoning and knowledge graphs
+- [25:46](https://www.youtube.com/watch?v=cg9q5wnssH0&t=1546s): Introduction of the harmonization layer concept using self-driving car analogy
+- [37:01](https://www.youtube.com/watch?v=cg9q5wnssH0&t=2221s): Practical advice on getting started with agentic AI for mainstream enterprises
+
+## Presentation Slides
+*5 unique slides extracted from this video*
+
+### Slide at [7m18s](https://www.youtube.com/watch?v=cg9q5wnssH0&t=438s)
+
+_              =
+Agentic Al Technologies                                                 Qs.
+=                        GenAl / LLMs                                          3
+ea =                       .                                                             G
+ne           j                  Vector Databases                                       7
+=, ©                 Agentic RAG                                   \   R
+ae    A                   Mult-agent FWs                          ®            oo 4 Py data
+SS ee                     .                                          arXiv Vg iku
+==        =                              Tool Integration APIs                                                    6
+=a        P                   Decision inteligence                                                                          + blueprism
+i Fe M4   |       Semantic & Causal Reasoning                                         ,              McKinsey
+ise        is                                                                                         & Company
+‘    4 3                      Learning Loops                                6
+Georgecibert                                            ;     :     ;     :     ,     ;     ;
+Relative Importance                       :
+\
+\     US fekesicn. The Next Frontiers of Al
+«
+
+### Slide at [12m14s](https://www.youtube.com/watch?v=cg9q5wnssH0&t=734s)
+
+—    | if        ‘
+Agentic RAG
+Lid,      a  |          Goal-Oriented Task Execution         |x     |x             |
+nm (          N          _ Autonomous Planning & Decomposition | Bo  x                I           |
+Bess           a                 Tool Use & Multi-Tool Integration                  x             Limited                   |
+=  =       =                           Multi-Step Reasoning Over Time                x           x                 |
+cs m sal  i i}          " Self-Correction & Re-evaluation Loops  2 |
+Vs ye p\ iN          Context-Aware Retrieval Refinement     x     Static          eo |
+pee ay eS          Memory Use & Knowledge Sharing      |  x     |  x          |
+(osecnsoent) eee             )
+'              \   (J iz22%n The Next Frontiers of Al
+a
+
+### Slide at [16m48s](https://www.youtube.com/watch?v=cg9q5wnssH0&t=1008s)
+
+_— — fF             ‘
+.
+Al Reasoning
+a        .     -  |       |   Semantic Reasoning                              Causal Reasoning
+Eis         |   Interprets intent & related concepts            Identifies underlying drivers of queries
+allt        » ;      |  Fetehesimore contextually; aligned Jee |  Selects evidence based on causal logic
+Ls  =- —                 |   Shares semantic frames between agents | Coordinates based on causal dependencies
+‘ie             ai             |   Ensures coherence                                  Prioritizes actions that lead to goals
+Beas  s   \  Refines meaning based on new input         Updates beliefs based on observed
+coc (. FA                                                           outcomes
+\
+\               theCUBE                                           °
+.              \     LF research The Next Frontiers of Al
+s
+
+### Slide at [21m18s](https://www.youtube.com/watch?v=cg9q5wnssH0&t=1278s)
+
+——_                  >
+ie      i)       @       ©       ©
+Ma      fo)        Analysis GB             Domain @3”           Reasoning @*          Planning and @9>
+=| Era            & Tasks “7 7           Knowledge “|”           & Decistons “|")          Orchestration"| ")
+7       }
+:               i       i
+Ls  ri  fs           y                         Acts based on what has                 Acts on semantic structures           Acts on reasoned decisions            Plans and coordinates
+Pee),                           happened in the past                 and contextual knowledge           and inferred consequences          multi-agent workflows
+==            + Task automation              + Entity relationships            + Decision intelligence           + Contextual perception
+ae            * Pattern recognition            * Context and meaning           * Interactive explainability         * Autonomous actions
+= ey               |
+wy       rt   i]     * Anomaly detection             + Ontology knowledge            » Counterfactual analysis          + Dynamic pathways
+t fees        jis        = Predictions and forecasts        + Expert know-how             * Problem-solving             + Indirect, multi-hop reasoning
+3      ,
+¢     ‘e             |
+George Gilbert      “
+Enterprise and Domain-specific Generative Al Services
+\
+Wy thecuBe                                       .           f
+\    US iesecich The Next Frontiers of Al
+4
+
+### Slide at [32m58s](https://www.youtube.com/watch?v=cg9q5wnssH0&t=1978s)
+
+——_                -
+Architecture Matters
+Gl & co                                                                                   Orchestrate & Govern     oa :
+cn’ ew                                            1            Enable Autonomous       (
+| aA     4     »                      /            Agent-to-Agent Interplay 5! 5
+Scott Hebner
+—                                           Ses                  Infuse Explainable fff :2
+Sea                                     ee                Decision Intelligence      WHAT IF 2               o
+==" ee  el Il                                                        z
+\ Pa Be | |                          Deploy Domain         $             Ci 2
+\   at   ‘e   a     |                                     Knowledge Models     eget             %
+George Gilbert      .
+GenAl / LLM Foundation
+\
+Whi the                                        °
+\     Ue ‘esearch The Next Frontiers of Al
+Py
+
+
+## TL;DR
+Agentic AI requires integrated architectural thinking beyond LLMs to create coordinated digital workers.
+
+## Full Transcript
+
+>> Hello.
+Welcome back to The Next Frontiers of AI, a podcast dedicated to
+exploring the insights, best practices and real-world experiences of those shaping the future of AI.
+And that future may be
+here sooner than you think.
+As innovation cycles continue
+to move at warp speed, it has never been more
+important to stay informed, and we hope we are helping you stay one step ahead of the crowd.
+I'm Scott Hebner, your host,
+and thank you for tuning in.
+Today we continue our discussions on how to turn agentic AI
+aspirations into outcomes.
+Last week, we discussed why
+it's never been a better time to be a startup or to start a
+new business using agentic AI, or as a company, to use it to
+automate how work gets done.
+The nature of agentic AI has
+totally reset what is possible.
+AI is no longer about assisting
+people in executing tasks.
+
+[01:00]
+It's about helping people
+get actual work done, knowledge work, planning, thinking, making decisions, problem solving.
+We learned three key success
+factors from how Haoyu Zha, the CEO of a highly successful
+agentic AI startup named HOAi last week.
+He said, "Go deeply vertical,
+rethink what software is and target labor spend, not IT spend.
+It's all about digital coworkers, not just digital assistants.
+The focus is on domain
+specific digital labor.
+" I thought it was excellent
+advice from a proven winner in the new agentic AI marketplace.
+Today we take the next step with the help of an accomplished technologist and industry analyst in the
+AI space, George Gilbert.
+We'll delve into how AI agents
+are reshaping enterprise workflows, the technologies
+that enable them and why this marks a fundamental shift in how software is designed,
+deployed, and involved.
+
+[02:02]
+Why architecture matters
+is what we're really going to focus on here because it's
+more important than ever.
+George is the principle analyst
+here at theCUBE Research.
+I'm sure many of you know him already.
+He focuses on data
+platforms, intelligent apps, and agentic frameworks.
+And just last week in fact,
+he interviewed Marc Benioff, the founder and CEO of
+Salesforce on how software and labor markets will never
+be the same going forward because of the rise of agentic AI.
+If you haven't watched it, make sure you check it out
+either on the AI Agent Builder Summit portal or go directly to YouTube and you'll be able to watch it.
+It's a fascinating conversation.
+All right, so let's get started here.
+I'm thrilled to have George
+Gilbert. There he is.
+I brought him up. How you doing, George?
+>> Hey, Scott. Good.
+- Weather good in California, I hope?
+>> It is. We're seeing the
+first parts of spring, at least after we hunker down for the rainy season.
+>> Yeah, it's finally 75
+degrees here outside New York.
+
+[03:06]
+>> Oh, wow. No, we're way behind that.
+>> All right, let's dive into this.
+The thing that I'm most
+curious, let's start with your takeaways after talking to Marc Benioff, which was just an absolutely
+fantastic interview.
+What did you learn? How
+does his views differ from what you've heard from dozens of other companies that
+you've engaged with?
+>> My biggest takeaway and the source of my interest
+in Salesforce is that agents are like a shiny object to everyone because it's a radically new technology that's transformative both
+on how we consume software and how we build software, but I think what's not part
+of the conversation always is that it's a systems problem, and that means that the performance of the
+agents is only as good as the data about the state of the business on which
+they're based, that they use
+
+[04:07]
+for inference and their ability to operationalize their decisions.
+And that's why I thought,
+so far of the incumbent, Salesforce is farthest ahead because with their data
+cloud system of intelligence, agent Salesforce system of agency and Customer 360 as
+their systems of record.
+It's all integrated into one piece.
+The customers still have
+to clean up their data, but you've got an all-in-one system that makes it much easier to
+get live than a do-it-yourself that only tech companies are capable of.
+>> Yeah, I mean, it was super interesting.
+He definitely has a vision
+for where this is all heading.
+I like his statement about
+how he may be the last CEO to be managing just human employees.
+I thought that was a really
+interesting point of view.
+>> One last thing that he mentioned that I thought was a
+great example was Disney.
+You can be walking through a theme park and your experiences is impacted by the lines and you don't know...
+
+[05:09]
+You have to make either
+reservations or wait in long lines.
+And the one thing that I
+thought was interesting, he talked about an example
+where everyone in the park could have their own agent.
+I'm not sure whether
+this was live already, and the agent would be,
+based on their preference, booking them rides based
+on the length of the lines, like optimizing the experience based on preference and availability.
+And that meant there were
+thousands of agents going around doing this for different
+people simultaneously.
+And that, you can't do
+if you're thinking about just a single agent.
+>> Yeah, it's like little tour
+guides helping the people have a better experience and- >> Exactly.
+>>  going on.
+When he made that
+statement, it reminded me of what Abdi Goodarzi, the head
+of generative AI at Deloitte, said during the AI Agent Builder
+Summit, that he's starting to see their clients
+treating the chief AI officer as not obviously a technologist
+but also a business person,
+
+[06:11]
+but also as an HR person and responsible for managing
+the HR of digital workers.
+>> Onboarding digital workers. Yeah.
+>> Fascinating stuff.
+- Yeah.
+I've heard of... Jensen
+Monk talks about that.
+IT department being now
+the HR for digital labor, but the chief AI officer within that, it's probably even more accurate.
+>> Yeah. Well, look, one
+of the things that you and I have talked a lot about is how agentic AI is truly a change from what we've been doing
+over the last three years with generative AI and AI
+assistants executing tasks and analyzing information and things of that nature, which everyone is pretty
+much familiar with.
+This is a whole new ballgame
+that we're entering here, and I think that's why
+people like Marc Benioff and others are so excited about it.
+It's going to take a
+lot of new technologies that are emerging on the scene beyond just
+
+[07:12]
+LLMs and generative AI.
+And one of the things I did,
+let me just bring this up so you can see it here and the audience can see
+it, is this is the aggregate of several surveys on the right, on what are the most important
+new technologies that are going to be needed to build
+these agentic workflows as time goes by here.
+And what is there? Seven
+of them or so here?
+I mean, gen AI and LLMs is obvious, very high relevancy, the highest buy most of the rankings here.
+It's the foundation. But we
+get into things like vector databases and agentic RAG, and these multi-agent
+communication protocols, and you need tool APIs, and you get into decision
+intelligence and learning loops.
+This is a lot of new stuff that people are going to
+have to figure out, right?
+What's your view on this?
+It seems like there's a lot to work with.
+There's a lot you need to deal with now.
+>> Well, it's like when you put
+Gen AI or the LLM at the top.
+
+[08:14]
+That's just the thing that's
+responsible for essentially coming up with the control
+flow of a new application or a component of a new application, but you needed all those other components.
+The vector database was at least for embeddings when you want to search and feed in chunks from
+your knowledge base.
+And that's itself just a first step because that's like a fuzzy search.
+So as you were talking
+about, if you want semantic and causal reasoning, you
+actually need structured data beyond what's in the vector database.
+You need the knowledge graph
+to show what's linked to what.
+An agentic RAG is like you might traverse the knowledge graph,
+look up some information, reflect on it, find
+you're missing something, and then make an additional
+plan and invoke some tools.
+And that's so part of agentic RAG.
+
+[09:16]
+>> This is like it builds from top to bottom in some ways, right?
+You get the foundation of GEN.
+AI and LLM Foundation, then they're going to execute better and be more efficient with the vector databases versus the old relational and data warehouses.
+You got to do a lot of
+work with your data.
+And then, like you said, you get into RAG and then you got to get these
+things to talk to each other and integrate with tools and ultimately make decisions
+and the whole thing learns.
+There was a lot of technologies mentioned, but these are the ones
+that have high relevancy, and that's a lot of technologies for sure.
+>> It goes back to the point,
+right now, the way you have to integrate all these
+pieces, you either need to be a very sophisticated shop or you need to buy from
+someone who's done the integration for you.
+So the tech-centric born-in-the- cloud companies might have
+this chops to do this, but most Fortune 500,
+Fortune 1000s do not.
+
+[10:19]
+>> Right. And that's fueling
+this 47% compounded growth in agentic systems and agentic platforms.
+Let these companies help
+you build that foundation, then you focus on your
+added value on top of it.
+That's where I think these
+technologies are going to start to show up.
+And I think we both agree as we talked before the podcast about
+architecture really matters, right?
+>> Yeah.
+- You've got to really think about this.
+I mean, this is the ultimate
+team sport in terms of how different technologies and different parts of an organization and different parts of your
+data set have to work together.
+And just like the theme park
+example you gave, that's not as simple as just rolling out a generative AI to somebody, right?
+>> Yeah. When you say
+architecture matters, that's back to the systems approach.
+It's like you don't build a complex enterprise application because
+you wrote one microservice.
+There's a lot more to it.
+
+[11:20]
+And agents, it's a little oversimplifying to say they're microservices that think, but they got to be part
+of a larger system.
+>> Yeah, absolutely. I think that's a good way of thinking about it.
+It's a componentized architecture and these microservices now
+represent little workers that collaborate with each other and with humans to get stuff done.
+Really does change the ballgame and it also changes the
+nature of software in general, which is what the advice was
+last week was don't think about building how you would go
+about building a SaaS app.
+This is a totally new thing, right?
+>> Right. Right.
+- So let's dive...
+There's two particular
+areas of those technologies that I wanted to touch on a
+little bit with you, one that think over time will be
+the big differentiating components, if you will.
+One is the agentic RAG, which
+is coming on the scene now, and then the other is
+going to be the reasoning.
+There's a little chart that
+I found out on the internet
+
+[12:22]
+that compares a standalone
+LLM, traditional RAG and then agentic RAG.
+What's your view of this whole thing that is getting a lot of focus now?
+I mean, like you were saying before, it's able to navigate through a knowledge
+graph more effectively.
+It's able to do a lot of things that traditional RAG cannot do, right?
+>> You think of it like an LLM has no external context or data.
+It's just you're asking it questions about what's in the weights.
+The traditional RAG would
+be like naively chunked vector embeddings, and that's essentially the extent of its tool use is
+invoking the vector database and you maybe have a re-ranker
+to say what you pull out of the vector database, tell
+me what's most relevant first.
+But the agentic RAG then
+it adds so much more because, as the name
+implies, it can make a plan,
+
+[13:24]
+it can retrieve data, reflect on what it's retrieved, decide
+does it have all the information it needs, or based on what
+it's retrieved, figure out what additional steps it needs to do to find more information,
+invoke other tools.
+I mean, it's a huge leap forward in utility and the outcomes you can achieve.
+>> Yeah, I think that was the
+notion if you were looking carefully at the traditional
+RAG versus the agentic RAG is exactly what you just
+said, the way I just read what you said, which
+it's much more dynamic.
+It can then choose what
+to do because planning and it can integrate with
+more tools on the fly.
+You don't have to hard code
+it all or structure it, right?
+It's a much more real-time
+dynamic decision on what to invoke and what to pull in terms of what's relevant. I mean, I think that's- >> Just the way you were saying.
+The key word was to what
+you said, the hard-coded because you're moving from putting...
+
+[14:26]
+All the control flow is
+in symbolic code to more and more is dynamically planned and generated by the agent, more and more of the control
+flow of the application, or in this case, this
+particular task is generated and executed by the agent.
+>> Yeah, and I think it
+goes back to your point before about the
+do-it-yourself versus acquiring and building on a platform because these are the kind of technologies that I could chance to
+grab that will become part of those platforms, right?
+>> Right.
+- In the tool set.
+>> Yeah, if you look at Microsoft's 365, they have the Microsoft graph as a way of organizing all the information
+from your productivity and collaboration applications so that when you can reason over
+it, if someone says, "I want to look at the project plan
+of a particular project, " it knows how to find
+everything that's related because it's spelled out
+explicitly in this graph.
+
+[15:31]
+And in the case of Salesforce, their data cloud is going to have...
+It has unstructured information now, but they're going to turn
+that into a knowledge graph, again, so that you can traverse
+the information much more explicitly, not the fuzzy
+search of an embedding alone.
+That's the downside of the...
+I'm having a senior moment here.
+I did  in my defense.
+When you just have a vector
+database, it's the equivalent of doing a vector search, but that works best when
+you can complement it with a knowledge graph for the precision.
+One is explorer, the other exploit.
+>> Yeah, and it gives the agent the RAG, the retrieval capabilities that better understand the context.
+They're able to understand relationships among different things
+better. They're able to- >> Right.
+explicitly.
+>> Yeah, yeah. Aligned to some goal.
+So a really important
+foundational technology, which,
+
+[16:33]
+over time, I think gets
+further enhanced by say better and better reasoning capabilities that are starting to show
+up in the marketplace.
+Chain of thought is one of them, but I think this is going to
+go much further than that.
+This is another good chart
+that I came up with here and it compares the notion of semantic reasoning
+and causal reasoning.
+So semantic reasoning, as I understand it in the research I've
+done is, like you said, it's based on knowledge graphs
+and it's able to help...
+Think about infusing this
+within the context of the RAG, the agentic RAG that we just talked about, but it understands a little bit more about intent and context.
+It's going to fetch more
+contextually aware data.
+It understands and shares
+semantic understanding within an agent and the
+different things it needs to deal with from a data perspective,
+but also among agents.
+
+[17:34]
+It's just all about
+perception and coherence and understanding meaning of things.
+That is the science of
+how AI is being applied around the knowledge graph.
+The next step on that is what
+call a causal knowledge graph, which does all the same things.
+Think of it as if semantic
+reasoning is a high school, not a high school, but a master's degree.
+Causal reasoning is the PhD.
+It's the next level of sophistication that not only understands
+context and relationships and all that, but it actually understands the causal effects, the
+causal logic of what invokes what based on what.
+So all the dependencies become more cause and effect-oriented, which
+is what really allows you to make judgments because
+a judgment is a function of understanding cause and effect and you need judgments to make decisions.
+And so it takes it to a whole
+new level of sophistication
+
+[18:35]
+and it's really just a knowledge graph that actually has causality or causal links between the entities.
+So what are your thoughts on
+this? I know we may be a couple years ahead of the curve here
+in terms of adoption rates, but I think you're going
+to see a lot of action on that left-hand side of this chart that will actually grow over
+time into the right-hand side.
+>> I think you're 100% right.
+I think this is part of a
+larger movement, which is as more and more knowledge of how the business work is
+learned by your data systems, basically you've always
+been setting up analytics to answer the most basic
+questions about the business, which is what happened.
+But the next set of
+questions is around why, why did something happen?
+Then it's what's likely to happen and what should we do?
+And the reason I put that as
+part of the framework is today,
+
+[19:37]
+the what happened is in
+a bunch of dashboards, but as you build out
+not just the data lake, but you build out a
+knowledge graph about...
+At the first most basic
+level, it's like the metrics and dimensions in your BI tool
+that gives you some structure around the data a little bit to find out a little bit more
+structure to find out why.
+It's in the diagnostic category, but that grows into a richer
+knowledge graph about how people, places, things and activities in the
+business are related.
+And then, as you're saying,
+then a causal reasoning agent can essentially traverse that and try and make sense out of
+the data that's coming in and say, "Why did this happen?
+" It goes beyond the dashboards.
+>> One of the participants in a
+previous podcast, from Fitch Group, actually
+presented at a conference not too
+
+[20:38]
+long ago, Causal Rack.
+So it's the next step here, right?
+>> Yeah. - It does retrieval
+based on what it believes to be the causal influence
+of what would happen.
+Again, I think it's just we're
+on this maturing strategy or journey here that over time, and I think it's just a question of when all that comes about.
+But you take a genetic RAG and you start over time
+infusing the semantics and the causal stuff
+into it, the reasoning, super powerful compared
+to what you're able to do with a generative AI,
+task-oriented chatbot today or assistant, which brings us to these levels of sophistication
+in terms of the type of agents that you can start to think about when you are
+building an agentic system or an architecture.
+I'm sure there are more, and George, will get
+your thoughts on this, but this was just my take on you
+
+[21:41]
+type of agents.
+Obviously you're going to
+need agents that are able to analyze and execute tasks.
+They identify patterns.
+They can detect anomalies.
+If they're hooked up to predictive models, they can do forecasts and predictions, they can create stuff.
+They can go off and execute
+or basically automate some tasks getting done.
+You're going to need those
+guys, those kind of workers.
+You're going to need those that really understand the domain.
+If you're in a legal contracts
+department, you're going to need workers, digital
+workers that understand legality and contracts that are specific
+to the industry you're in and the country, the region,
+all that kind of stuff.
+And that's when you start
+getting into this notion of the semantics and
+the contextual knowledge and very domain-specific
+LLM underpinnings.
+And then you got the agents
+that will help you reason, think through things, make better decisions,
+
+[22:42]
+do some counterfactual thinking,
+what if I did this instead?
+And then, of course, you've got the agents that are like the managers,
+they got to help you plan and they're orchestrating how all these different
+agents talk to each other and work together, including humans.
+It's got to be a journey over time.
+This is a lot of new
+potential sophistication.
+What are your thoughts on
+this simple four levels of sophistication?
+>> I think it's a really nice
+encapsulation and distillation.
+We're mostly in between one and two because two, if you're
+adding domain knowledge, typically it's done by RAG today and naive RAG, just chunking.
+And to do more sophisticated, I think people have done
+supervised fine-tuning and that's where you have a bunch of
+
+[23:45]
+data sets labeled as in
+here's the information, here's the answer.
+Some pair where you can do
+supervised training on it or potentially fine-tuning
+on a dataset beyond what something's been trained on, but we haven't done a lot of
+the reasoning and decisioning.
+The deep research stuff is
+starting to get into that, where the vendors have shown that, and that has a little bit of also planning and orchestration, not the
+orchestration, a little bit of the planning in it like,
+what's the plan I'm going to go generate to go find additional information as part of the deep research.
+But the orchestration is definitely people are just beginning to introduce products around that now.
+That's more sophisticated.
+>> Yeah, and I think when
+you get into the decision intelligence, the so-called reasoning
+
+[24:46]
+and all that, I think a lot of it'll start with the tools' integration.
+I'll be at the SAS Innovate
+conference next week and I'm sure they're a
+leader in analytics, right?
+I'm sure they're going
+to be talking about ways to integrate analytics into these agents.
+So it's not like a
+binary turn to switch off or on for it to be
+decision-making or reasoning, but I think just the
+sophistication is very likely to grow in time here.
+Which brings us to, one thing
+you've been talking a lot about, and I think you're 100% right, the offensive line in football, which is the harmonization layer, your
+data, the semantic layer.
+I've heard some people maybe calling it as the cognitive core.
+And this is where the
+knowledge, the reasoning to some degree, the goal
+setting, they're all converges.
+It's just a fascinating advancement.
+Where do you see all this coming
+together? I know you are...
+
+[25:46]
+Talk to us a little bit more
+about this harmonization layer, I guess is what I'm asking.
+>> Okay, so to make it what
+I think is a simplified analogy, the agents are
+like the self-driving cars that we had in the desert 30 years ago.
+They could drive 100 miles in the desert, but they were silos in the sense that they were not driving
+next to other self-driving cars or non-deterministic
+pedestrians, non-deterministic as in agents where you don't
+know exactly what they're going to do, or other
+non-deterministic human cars.
+And we still, 30 years later, don't have pervasive
+autonomous driving technology, as in agents, on the road because we don't have
+something like a digital four- dimensional map, something that tracks and predicts everyone's trajectory because that would allow these
+self-driving cars to know where all the other agents
+are and what they're doing.
+And in the enterprise, we
+need something like that.
+
+[26:48]
+To go back to that Disney
+example, something that shares the state of the
+wait time on all the rides.
+That's the equivalent. You
+can't coordinate everyone's experience unless there's
+a shared database to say, what is the wait time on
+all these different rides that I'm about to recommend you?
+That's the distinction
+and the common element.
+>> And I think you get into
+the relationships in the semantics when if the roller
+coaster has a short line, if all the agents say, "Go
+there at the same time," then that short lines, they
+all got to be... Yeah.
+>> Exactly. That's the
+predict the trajectory part.
+Everyone needs to essentially be able to execute a transaction and say, "Can I add my client to the line?
+And if I do, what's
+the weight going to be?
+" Because if 10,000 agents
+add their clients to the line, then the wait's going to be too long.
+>> And then that's where you
+kick in potentially the planning or orchestration agent, which is a manager
+
+[27:50]
+or a decision maker.
+You can just go on and
+there's probably an HR agent or at least let's say tracks the metrics and the effectiveness of
+all these different agents.
+Like Marc said, and like
+Deloitte was saying, it starts over time to
+replicate or augment or mirror digital twin of real workers, real people doing stuff.
+>> Exactly. And that's the learning loop, where the agents representing
+each visitor have to learn, did they match the
+preference of the visitor?
+Was their prediction about
+the wait time correct?
+All those models learn and then your personal
+experience gets better over time.
+And then the overall effectiveness
+of the efficiency of the theme park's operation improves over time.
+That's the collective part.
+>> So we have these emerging technologies that will build upon
+an LLM, generative AI, predictive foundation.
+And we showed seven of them.
+
+[28:52]
+We talked a little bit
+about the agentic RAG.
+We talked about the reasoning, decision intelligence stuff
+a little bit in the semantic harmonization layer.
+It begs the question or the importance, I say it
+that way, of having a well- thought-out architecture.
+Again, it's going to be multi-component.
+It's going to be multi-layered.
+You're going to have to be able to take these modular
+agents that have a job to do and many of which can act
+autonomously at least in communicating and talking with each other.
+So you're going to need
+a control plane, right?
+So what's your views?
+Let's talk about architecture for a second because you mentioned
+microservices as an analogy before.
+I mean, it seems to me if there's ever...
+Architecture matters more than
+ever with this stuff compared to past technology.
+>> Yeah. Well, this is why there's...
+Y Combinator did this show.
+Vertical agents are going to
+be 10 times larger than SAS.
+
+[29:53]
+And SAS has been the story
+of enterprise software for the last 25 years.
+And I'm like, yes, but it's going to be
+vertical agents as part of a bigger framework.
+Look at the example of go back to...
+Do you remember Zynga on
+Facebook? This was like...
+It was a game. It was essentially a verticalization of Facebook.
+Facebook was a horizontal social graph.
+This was the vertical of entertainment and casual gaming within that.
+But they needed Facebook's platform to orchestrate the
+activity of all the members of the Farmville game, for instance.
+And so you couldn't do
+that without the data because that social
+graph had the state of...
+It had everyone's relationship and the plumbing underneath,
+which is what everyone's doing.
+I guess what I'm trying to
+say is, Zynga had a bunch
+
+[30:56]
+of agents as in users, but they were orchestrated
+by this deterministic layer underneath, and they
+all essentially depended economically on the goodwill of Facebook.
+That's why I think that
+in this agent world, the vendor who controls
+the most, not just the data but how to shape it into a 4D map, again, which is a 4D map is the people, places, things and activities of the business.
+We've always done snapshots
+of entities, people, places, things, and mostly, we've
+stored them as strings, not things semantically meaningful, but once you add the activities, that's the everybody's
+moving about on the road or in the scene park.
+And that's really hard.
+And that's why I think much of
+the value is going to accrue to that layer because we have hundreds and hundreds of semi-unicorn
+customer-facing agents
+
+[31:58]
+and agent startups, and
+they all need the data and the state of the
+business that Salesforce has.
+To me, Salesforce is the new
+Facebook at least for customer- facing data and processes.
+>> Yeah, and that's where it's
+important to build off a lot of these technologies that
+are being enabled for you.
+It definitely is heading towards
+a very different approach.
+And I think that's how you
+from last week was pointing out that you got to rethink
+software from its core.
+It's just not the same
+as building a SaaS app that we've been doing for the last, right?
+And it's different. It's
+not RPA either, correct?
+I mean we're talking about .
+>> Well, RPA was literally hard coding what the agent figures out on its own now.
+>> Yeah. Very, very different,
+but incredibly powerful.
+And that's, again, why
+it's going to be a journey.
+Well, just if you recall, George, let me bring up this chart.
+
+[33:00]
+We did a podcast, I think it
+was back in early February, the ladder to agentic AI.
+Just want to make everyone
+aware, if you haven't watched it, you can go back and get our
+views on just the high level steps here and the reason
+why this architecture just really matters.
+And you start off with
+that foundational GEN.AI.
+Think of it as the gateway into AI, and then you have to build
+that domain knowledge around the use case and the
+workers that you're trying to add value to.
+You got to get the
+explainability and the decision intelligence in there.
+You got to enable these autonomous
+agents to be able to talk to each other and talk to different tools and different data sets and all that.
+And then, as you deploy
+these things, someone's going to be needing to orchestrate and govern the workflows that,
+as George just pointed out, are not static anymore.
+They're not hard coded.
+And then this whole thing
+learns from each other as time goes by here.
+So take Gen.
+
+[34:00]
+AI and LLMs, you build an
+ecosystem of models around that that are unique to your business, that infuse these new capabilities.
+And then you get your agents, whether you build them
+yourself or you acquire them in the open market and you
+wire those babies together into these workflows, and then it just adapts and gets better as time goes by.
+What are you thinking there, George?
+Do you think that's
+still the roadmap ahead at a very high level?
+>> Yeah.
+-  later.
+>> I think we're getting
+pretty good at deploying the domain knowledge in the models, but like you said, those
+more advanced steps are going to take some skills and some technology that
+it's not fully mature yet.
+But I do think the one thing I would add when you're talking about
+multi-agent systems is that there needs to be
+a framework for them
+
+[35:01]
+to get feedback from.
+And that is the same
+framework where you set up to answer the questions about
+the business, what happened, why, what's likely to happen,
+and what should we do?
+Those become the metrics, and the tree of metrics
+becomes the model of how your business behaves and just the way that's
+meant to give feedback to people about their
+performance and their goals and how it ties into the
+bigger corporate performance.
+As that metric tree becomes
+live, not just hard-coded rules, then the agent that's helping the
+customer service department or trying to autonomously
+help a customer in customer service can say, "I want
+to make sure I'm responding that within the parameters of the customer satisfaction goals, but I also want to respect
+the overall corporate profitability goals.
+I don't want to do something
+that's going to tank, that's to cost so much that...
+" In other words, you up something,
+
+[36:01]
+you set up this model
+of corporate performance that's reflected in metrics and that becomes a way to
+teach agents how to perform.
+>> Right. And then you optimize against those metrics and then...
+Yeah, it's a very different world.
+Before we wrap up here, George, I'm sure a lot in our audience
+are just getting started with this, trying to understand
+what this is all about.
+What would be your advice be for the first step they should take here?
+Just to, how do I get started?
+>> I think it depends then on who you are.
+Frankly, if you're just
+getting started now, you're probably like a
+mainstream corporate developer or data engineer or business analyst.
+You're not in a tech center company because they're putting the
+pieces together themselves.
+
+[37:01]
+So if you're in a mainstream shop, I would look at your
+current platform providers, whether it's your enterprise
+application vendors, whether Oracle or Salesforce or SAP.
+And essentially, they're going to have agents built into
+the apps that augment and automate some of
+the tasks or workflows or processes that are already in that app.
+But here you're still
+just reinforcing the silos that are already there, but that's okay.
+You're having scoped
+productivity improvement.
+I think the next step would be with your analytic data foundation,
+you're going to have agents for helping the data
+engineers build pipelines.
+You're going to have agents.
+You can already find these from
+your data platform vendors, agents for your data scientists
+working in the notebooks to help them with feature
+engineering and experiments.
+And you would have agents within your
+
+[38:03]
+business intelligence now for your essentially business analysts or for your end users to be
+able to talk to the data.
+So there's many different angles.
+We haven't brought them all together yet.
+They would all be today augmentations of your existing systems.
+>> Right. You got to
+build from what you have.
+>> Yeah.
+- All right. All right, George, this has been a great conversation here.
+Very informative, very
+meaningful, I think.
+Thanks so much for taking
+the time to be here.
+>> Always fun to join you, Scott.
+>> Yeah, we'll keep
+doing these. It's great.
+And for all of you, I hope you found this conversation insightful.
+I certainly did. There's no doubt that we're entering the
+golden age of AI agents, a total reset on how software
+is designed, built, and used, and perhaps the biggest since the e- business days 25 years ago with
+the advent of the internet.
+It really is a big change.
+And this opportunity, as
+George was just pointing out, is no longer theoretical.
+
+[39:03]
+It's real. It's growing.
+It's available to those
+with the clarity of vision and the urgency to get going and act.
+So one thing you can also do
+is make sure you check out the AI Agent Builder Summit that we just held with 20 industry pioneers.
+You can find that on thecube.
+net or out on our YouTube channel.
+Also, make sure, again,
+you go watch the interview that Dave Vellante and George did with Salesforce, Marc Benioff.
+Again, really good insightful conversation that I highly recommend.
+So anyhow, thank you for
+tuning in. Take care.
+We'll see you on the next
+episode of The Next Frontiers of AI.
+We are the leader in
+tech news and analysis.
+See you for next time around. Bye all.
+
+---
+
+*Content extracted from YouTube video. Original content by SiliconANGLE theCUBE. Video URL: https://www.youtube.com/watch?v=cg9q5wnssH0*

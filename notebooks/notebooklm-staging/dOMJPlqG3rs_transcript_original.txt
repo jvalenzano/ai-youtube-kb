@@ -1,0 +1,901 @@
+# 12. The Future of Marketing- Causal Al Agents That Think Strategically
+
+**Video ID:** dOMJPlqG3rs
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 38:47
+**URL:** https://www.youtube.com/watch?v=dOMJPlqG3rs
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video establishes fundamental concepts about the evolution from correlation-based AI to causal AI, explaining core principles and theoretical frameworks rather than specific implementation workflows or tools
+
+## Summary
+- Marketing is the #1 use case for AI adoption, but current applications focus primarily on cost reduction and productivity rather than revenue growth
+- Current AI in marketing is correlation-based (predictive/generative AI) which only tells you 'what' happened, not 'how' to fix it or 'why' one solution is better
+- Causal AI represents the next evolution, moving from correlation to true causation - understanding cause and effect relationships that change as conditions change
+- Unlike generative AI which mimics the limbic brain (memories/instincts), causal AI operates like the neocortex - reasoning, problem-solving, and decision-making
+- Causal AI enables marketers to play out countless scenarios, understand root causes, get prescriptive recommendations, and explain decision-making rationale
+- Marketing attribution models are still 'best guesses' - causal analytics can definitively determine which channels, tactics, and personas are most effective
+- The technology allows for true scenario planning and forecasting, critical in today's volatile market conditions with factors like tariffs and currency fluctuations
+- Organizations need governance models for AI deployment to move from experimentation to measurable ROI, as seen with Johnson & Johnson's centralized approach
+
+## Key Takeaways
+- **DO:** Implement governance models for AI initiatives with clear business value demonstration and ROI measurement within 90-day pilot periods
+- **DO:** Start exploring causal AI applications today for scenario planning, root cause analysis, and decision-making support in marketing
+- **DO:** Focus on understanding the 'why' behind marketing performance, not just the correlations shown in data
+- **DON'T:** Don't treat AI as a 'magic box' - understand when to apply causal vs generative AI models for different business outcomes
+- **DON'T:** Don't rely solely on attribution models for marketing impact measurement as they're still correlation-based best guesses
+
+## Topics
+causal_ai, marketing_analytics, ai_agents, decision_making, scenario_planning, attribution_modeling, marketing_transformation
+
+## Key Moments
+- [11:14](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=674s): McKinsey data showing marketing as #1 AI use case but focused on cost reduction/productivity over revenue growth
+- [20:28](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=1228s): Explanation of AI evolution from predictive to generative to causal reasoning and decision-making capabilities
+- [21:30](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=1290s): Brain analogy comparing generative AI to limbic system and causal AI to neocortex reasoning capabilities
+- [26:37](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=1597s): Three core reasons marketers should care about causal AI: decision-making, explainability, and dynamic adaptation
+- [30:40](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=1840s): Detailed breakdown of causal AI benefits including causality discovery, scenario planning, and root cause analysis
+
+## Presentation Slides
+*4 unique slides extracted from this video*
+
+### Slide at [10m54s](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=654s)
+
+Al in Marketing
+cosT
+REDUCTION                                 PRODUCTIVITY                           3 5 Of
+REVENUE                                                                                           Report high ROI
+GROWTH
+Marketing
+zo                         Sales         Service
+AppDev
+60                                                                 Finance
+HR
+so                                                                                               Ops
+.                                                                                                            Legal
+30                                                                                                                          R&D
+Supply Chain
+.
+° McKinsey&C company ae
+
+### Slide at [15m56s](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=956s)
+
+—
+Top Marketing Use Cases
+Lead Funnel Optimization                                                                     6
+— en E              )
+i   hi            Dynamic Content.                                            4 %
+‘Scott Hebner                                                                                  +
+2                     Cross / Up Selling      ee                         Marketing
+i                              4      (NPS, Churn, C1, Win/Loss)                                        °
+©                                 (Audience Gen, Retargeting)                                   5
+Michelle Killebrew
+Intelligence Nurture            FY 35                                                                                                                                           |
+.                                  Ni A
+McKinsey&Company         un          |
+\    Le research The Next Frontiers of Al
+a
+P
+
+### Slide at [20m46s](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=1246s)
+
+———                nn
+“—          You are smarter than your data. Your data
+%  a = [ol                   causation         don’t understand cause and effect; humans do.
+x            bE                                      -
+Ne ts ro  i,                                              Judea Pearl
+|       bo                                                                            Cerebral Cortex
+fl                                                                                                                                 Know-how
+al   eS     »                          a                 & Skills
+Scott Hebner             ,                               ot                                       |
+=                            =                                              Ww                                          LLMs /Genal        |         ‘Nepeortex
+we                                      oh                  2                        |      Reasoning,
+zg                  }              eat  EEE              AX.e>N32
+sil                          cor            THE HOw                        as y od)
+nc                    a           uimbictnin (Raed
+ichelle Killebrew                                                                   Memories,     ‘\
+THE WHAT                                                                         & Instincts
+\
+W i thecuse                       H
+| E resesrch The Next Frontiers of Al
+
+### Slide at [30m04s](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=1804s)
+
+——_
+CAUSALITY            WHAT IF            ROOT CAUSE
+Sa       .                              understand why things happen            interventions may impact outcomes                  confidence levels
+yal  re    »        PRESCRIPTION         INTUITION        CONFOUNDERS
+‘Scott Hebner
+|                               '
+E]             =e           !
+3    4           a 4             i
+i              of
+sneneld dl)            EXPLAINATION        SIMPLICITY          AGENTICS
+Open up Al “black boxes” to                    Create smaller yet more                 Enable Al agents that interact with
+| Eh 823) The Next Frontiers of Al
+\    Le, research  The Next Frontiers o
+at
+ts
+
+
+## TL;DR
+Causal AI transforms marketing from correlation-based insights to true cause-and-effect reasoning for strategic decision-making.
+
+## Full Transcript
+
+>> Hello, Scott Hebner here.
+Thank you for joining this
+episode of the next Frontiers of AI Podcast number 12.
+As you know, our objective is to partner with industry pioneers to explore what is shaping the future of AI.
+In today's episode, we'll continue our discussion
+about the advancements that will fuel new generation
+of AI agents capable of helping us achieve goals,
+make better decisions, and actually problem solve.
+But we'll do it in the context of my old profession, marketing.
+We'll explore what CMOs need
+to know about the next frontier of AI in the marketing profession.
+To do so, it all starts with
+a new generation of AI models that can actually acquire
+and apply knowledge.
+Think about it, knowledge is gained by comprehending truths
+obtained through experience through the process of reasoning.
+It's important to understand
+that data is not knowledge.
+In another way, we gain knowledge
+by understanding the cause
+
+[01:02]
+and effect relationships
+among actions and conditions and events and consequences.
+And just like humans, the
+successful marketing organization of the future will thrive
+on the knowledge they gain and apply.
+And their success as they go forward through time will be based
+on how well they build on that knowledge and adapt as
+things change around them.
+The key will be a new
+set of AI capabilities that enable marketers to
+play out countless scenarios to understand the consequences
+of various actions and strategies, explain what
+drives their marketing impact and their pipeline health, and to make decisions that
+are grounded in actual reality and a strong understanding
+of the business, not just pure data.
+In essence, marketeers will
+be able to not only understand what to do, but how to do it and why certain actions
+are better than others.
+IBM that knows why things happen, promises to be a game changer for marketing.
+
+[02:03]
+To discuss this in more detail and explain how CMOs can get
+started today, I'm thrilled to be joined by Michelle
+Killebrew, the founder of Pegasus Strategy Company,
+to explore the future of causal marketing agents and why it will become game- changing opportunity for marketers.
+Michelle is a seasoned
+marketing executive renowned for her AI driven approach
+to growth and innovation, and she'll share her insights.
+Gained over two decades of experience leading marketing
+transformations at companies like IBM, NTT, and now advises organizations
+on leveraging AI to drive go- to market success.
+Michelle, welcome to the podcast.
+>> Thanks, Scott. Excited to be here.
+>> Yeah, so glad, let me bring
+you up on the screen here, so glad that you joined.
+We've been talking about
+this for some time, not just marketing and
+how AI is transforming it but where this is all
+heading into the future.
+And I think people are starting
+to get a glimpse now when
+
+[03:04]
+you see the new capabilities
+coming out from Google, for example, that can do these
+amazing things with video, you're starting to see
+what Tesla is showing off with these robots that can now iron and they can prepare food and fold laundry and the AI capabilities
+from here are just going to get incredibly more powerful.
+And I think marketers have
+to think ahead, right?
+>> 100%. Yeah, I think
+marketing was one of the areas that was both disrupted and then also took
+advantage of AI early on or generative AI early on, especially as it relates to content.
+Marketers have to create
+so much content in order to create this inbound
+demand engine that was just sort of the gold standard or the best practice of the past.
+And I think there's a
+couple of things changing.
+First of all, buyer behavior is changing, the channel effectiveness is degrading
+
+[04:06]
+and how we actually engage
+with those clients to help them understand what
+their purchase decisions are, they're rapidly evolving and so marketers are
+trying to keep up with that and are on the forefront
+of leveraging generative AI to help them with those revenue models.
+>> What are you doing with your
+business, Pegasus Strategy?
+>> Yeah, so I'll go a little bit back into I guess my background and some of this you may know, some of this is maybe net new.
+I actually studied economics in school and did general management,
+so finance, accounting, all of those was as a background.
+But my first job was actually in, or marketing job, was in market research for the first online
+behavioral analytics company.
+And so I have this deep bench and foundation on
+analytics, including sort of the statistics of how people respond
+
+[05:08]
+to different surveys analysis.
+It was kind of one of my
+very first roles in seeking that quantitative side of how people engage with different things.
+We were also doing focus groups and it was pretty early
+days of the internet boom.
+And so a lot of eye tracking
+studies and focus groups.
+And so the balance of human behavior and psychology with that analytics really provided an amazing
+foundation upon which for me to grow my marketing career.
+I then had the opportunity
+to work at a number of marketing analytics companies
+first on on-site search.
+We were helping website
+providers help their customers find the things that they were looking for because at that point in time,
+you had to have exact match or you just get an error message.
+Making sure that we were
+connecting e-commerce providers with that revenue for their users and providing that user experience.
+And then into web analytics,
+which founded with Coremetrics through which I was acquired
+into IBM, which is where you
+
+[06:10]
+and I met, which was leveraging a lot of this different data from
+the web behavior into different channels so we could syndicate that out to different display networks.
+We would leverage that
+for behavior-based emails.
+And so if you think about
+how we're leveraging that behavior data and
+the analytics, that just provided me a really
+wonderful intersection of marketing behavior, trying
+to map that to outcomes.
+Of course, I was doing demand
+generation marketing at that point in time, so I
+was accountable for revenue and leads and the number, and then tying that with the technology.
+I was having a lot of conversations with both the product team and some of our partner
+organizations about how we might do things very differently.
+And so it was a wonderful
+intersection of practice, leading edge product, and then tying in some of that analytics.
+
+[07:10]
+And I think that that's kind
+of where we are again with AI, is looking at what
+we're trying to achieve, how we can leverage the
+technology to best do that.
+And then of course, looking at what the data is telling
+us in terms of behavior and preferences and marrying that to how we engage with our prospective buyers.
+>> The profession's really changed a lot.
+I mean, over my 20-plus year
+experience in marketing, it went from operating on gut feel and opinions to becoming
+marketeers, becoming data analysts, and now they're starting to have to evolve into becoming
+actual data scientists.
+And it started off with the prescriptive analytics that we were doing
+even back when we were at IBM together, and now we're getting
+into real data science where how do you apply AI?
+>> Yeah.
+- It's going to get really interesting.
+>> Absolutely. I think that's true.
+When I left IBM,
+
+[08:10]
+I actually went into a B2C organization where I was leading significant...
+Well, it was SEC-regulated
+in financial services, and so marketing was 100% attributable for every single dollar forbidden
+from solicitation from an SEC-regulation perspective.
+But I had a data science team that helped me look at the performance
+of all of my marketing and channel effectiveness, etc.
+And so having that as sort
+of a core bench strength to make sure that we're
+optimizing for performance, again with some of that information that kind of helps me just be very
+grounded in the strategies and approaches that I'm
+now engaging with clients.
+I think a lot of clients
+right now, they're just trying to keep their heads above water.
+Obviously the macroeconomy is
+not quite where we'd like it to be, and so demand
+is somewhat suppressed.
+And then you've got a lot of
+pressure from prospect CFOs
+
+[09:13]
+to make sure that if they're
+going to be an investment, that it is contributing
+significantly into their ROI and their bottom line.
+And so there's a lot of pipeline slippage, and you could have an
+enterprise sales cycle that's gone all the way
+through, you're on the brink of closing, and that
+prospect CFO is wanting to look at the business
+case all over again.
+And so it's particularly interesting in the market right now.
+And so I think one of the things that we can potentially offer
+our clients is thinking through partnering with innovation because they have to focus on the revenue and the business model
+that's in place today.
+But to your point, things are
+changing so very, very rapidly that they need to build for
+the future at the same time.
+And that's incredibly challenging.
+And so having a thought
+partner, having somebody who can help you orchestrate on
+potentially the future while you're
+
+[10:13]
+focused on collaborating with sales and your leadership team
+on making sure you hit this quarter's revenue, I think that's one of the areas we're able to help >> Marketing is going from
+being an art form more and more to a science, and then the innovation cycles with the technology are
+moving at warp speed.
+And you got to be careful
+not to fall behind because if you fall behind,
+you may never catch up, right?
+>> Absolutely. Absolutely. Yeah, for sure.
+>> Yeah. I'm very much excited
+to tap into your experience and your perspectives on
+where this is all heading.
+But let's start with where we are now in terms of the use of AI in marketing.
+And as we've discussed, the first thing to take from this chart, and this is data from McKinsey, is marketing's actually the
+number one use case for AI, and this is supported by PWC,
+I mean a whole bunch of other,
+
+[11:14]
+even Gartner Group too.
+I think it's consensus
+view that marketing is where AI is being applied
+the most so far, particularly around generative AI.
+But what's really interesting
+in the top left here is if you look at what their goals are
+with it, what they're doing, you'll see the big dark blue in the middle, that's cost reduction.
+And then you see the light
+blue, which is productivity, which is the biggest by far.
+And then there's a little
+tiny sort of medium blue that says revenue growth.
+I think what that's telling
+us is that the investment so far in marketing for AI
+has been about cost reduction and productivity, not to the points you were
+just making about having to grow the revenue forward, right?
+Is that how you would read this?
+>> Yeah, I would.
+And I think that's because
+of a couple of reasons.
+First of all, people are
+applying generative AI to help reduce that content production.
+
+[12:16]
+You've got sort of creativity and pattern matching from
+a content perspective that is allowing organizations
+from the productivity side to produce more effective
+content more quickly.
+And so they're focusing
+on those areas first.
+I think a lot of organizations
+are thinking through how they upscale.
+They've created different
+sandboxes for their teams to play in, and a lot of marketing teams that I'm hearing about are applying that on the individual level.
+They're just starting, I'll
+say mid 2025 now, we'll see how we get towards the end of this year because how quickly it's
+changing, thinking through how they can leverage that from a workflow and team's perspective in order to think about doing
+things more effectively beyond the individual's
+productivity into team productivity.
+And so some organizations are doing that,
+
+[13:18]
+some aren't quite there yet, but I think that's kind
+of where we are in terms of an inflection point from going beyond that individual productivity
+into potential broader ROI.
+>> Yeah, one of the things that jumped out to me on your point about ROI is only 35 % report having achieved high ROI.
+It seems to me, and just from
+what I know about marketing and talking to people including you, is that there's definitely
+advantage to getting involved in what people are doing today,
+some predictive models perhaps around who to target and pipeline, but obviously generative
+AI and creating content and doing research and things like that.
+But you're going to want
+to see that ROI increase.
+More people are saying they're
+getting high ROI out of it.
+And to the point on the previous
+chart about really focusing on it becoming a revenue
+driver, not just a productivity and cost reduction driver.
+>> Yeah, absolutely.
+Well, and I think, so
+you're just reminding me
+
+[14:20]
+of a headline that I saw.
+It was several weeks ago now on Johnson & Johnson, their pivot.
+As an organization, they had really pushed
+experimentation, etc.
+But they realized that
+they weren't getting that productivity that
+everybody's aspiring for.
+They actually kind of
+drew a line in the sand and set up a centralized governance model.
+And so now they have almost an AI approval board where individuals that have a use case have to go and demonstrate what
+the business value is.
+They've got 30 days to put it
+in place, they've got 90 days, which is kind of the pilot
+period with which to demonstrate that ROI and then take it
+back for broader approval.
+And I think we're going to
+see more organizations try to rein in the experimentation across
+the entire organization, which may actually feel like more of a distraction from
+the core business than
+
+[15:21]
+actually delivering that return on investment
+into more governed, intentional, centralized
+models in terms of what are we trying to prove?
+Is this a priority for the business?
+Where are the business
+cases that we should be applying it first, thinking
+through cybersecurity, the governance, all of
+those types of things, and being a little bit
+more thoughtful about how it's deployed, how it's measured.
+And then I think, so maybe
+into next year we'll start to see some of the ROI start to increase.
+>> Right. Let's talk a little
+bit about the use cases and bring up another chart here.
+Again, the source for
+this one is also McKinsey, but I've also seen this
+reflected in many other places.
+I mean, I think the first
+thing to note is on the right- hand side that about 4% of the marketing budgets
+today are being applied to AI.
+Is that a big number?
+Is that a small number?
+That's a good question. But
+on the left you can see where,
+
+[16:23]
+as of 2024 in particular,
+what are the use cases.
+And you see it is a
+lot about productivity.
+It's about trying to
+understand the lead funnel, scoring leads, message optimization,
+which is about research and SEO and all that, personalizing
+dynamic content.
+You can kind of go down the line here.
+It's at the bottom where you
+start seeing some of the more progressive, if you will, use cases like buyer journey mapping and intelligent nurture.
+But it seems to me when
+you look at these things, if we look at this chart in three years, I bet you it's going to change in terms of what people are doing with AI.
+What do you think about that?
+>> I would agree. I would, and
+I think that this is where we, and you and I have had this
+conversation, but we get into the differences between
+sort of the strengths of generative AI and causal AI.
+And I had the fortune of being at
+
+[17:26]
+a very technical intimate AI
+summit in Gibraltar at the beginning of the year
+and Microsoft presented, and one of the slides that
+I thought was particularly compelling is they kind of described the left brain, right brain.
+And so if you think about
+causal AI being very analytical, having very workflows and logic and rules, I guess is the word
+that I'm looking for in terms of causal analytics.
+And then generative analytics
+is a little bit more inference, it's pattern matching
+and those types of things.
+And so if you start to look
+at the different types of AI, again based on that
+list that you just had, the top ones are very strong from the generative perspective.
+They are looking for how can I communicate these
+concepts more effectively?
+Those ones at the bottom are
+much more, they lean into that left brain causal
+analytics kind of approach,
+
+[18:26]
+which is both, I think it's less on people's radar and so there's less understanding
+about what that means and how to leverage it.
+I was talking to an organization that I'm exploring a
+partnership with in terms of bringing custom agents into our clients as we're thinking about
+different workflows, etc.
+And I was asking about just causal analytics and how
+they're leveraging that for decision-making, etc.
+And it was interesting that they said that their clients
+weren't asking for that.
+And I said, "Of course not, because I think a lot of people
+still think of AI in general as the magic box.
+"
+And so I think as leaders, especially marketing, but just leaders in general,
+we need to understand a little bit of what's happening inside the black box from
+a governance perspective, the business decisions
+that are being made, and make sure that we're
+applying the right technology
+
+[19:27]
+to lead to the right outcomes.
+Because at the end of the day,
+these are strategic decisions that we are making on
+behalf of the business.
+And so we need to understand
+when to apply that causal model and when to apply the generative model and how they potentially work together.
+>> I think we've been on this
+evolution where we've had the, from a model perspective,
+we've had predictive AI, which identifies patterns, anomalies, and can help you predict what may happen in the future based on what happened in the past.
+Then we kind of evolved into
+the generative AI over the last three years, which is
+really about automating repeatable tasks.
+It's about analyzing information,
+creating content quickly, all that stuff that I think
+most people are familiar with, particularly in marketing.
+And now we're starting to
+evolve into this notion of AI reasoning, which starts
+with the semantic reasoning, how entities relate to each
+other, the context of them, the meaning of them,
+
+[20:28]
+and then into causal AI, which is really when you
+get into true reasoning and decision making
+because you can't reason...
+Reason is a function of processing
+cause and effect, right?
+>> Right. Yeah. If then, right.
+>> Yeah. Let's just take a step back here and talk a little bit
+about where I know you and I are both passionate
+about, which is this notion of- >> I love the chart thing. Yeah, >> Yeah.
+Causal AI, just a quick
+overview then you add your perspectives into it.
+I think the most important
+thing for marketeers to understand is that when
+you're applying generative AI or predictive AI today, it's correlation.
+It's correlating data
+in a huge lake of data and information that has
+been created in the past.
+And so if you think about
+it's all about statistical probabilities, which basically encodes what we know about the past.
+When you get into the realm of causality,
+
+[21:30]
+causality basically can tell you how those probabilities
+change when the world around you changes, and the world around
+us is always changing.
+It's a very dynamic
+world. It's not static.
+Marketers in particular need to understand that you are much smarter than your data.
+Your data does not understand
+cause and effect, humans do.
+And so if you kind of look
+at the left bottom left of this diagram, the blue
+is what predictive AI and what generative AI can do
+today is basically tell you what, it may tell you what
+is causing your pipeline to shrink, but it can't tell
+you how to go about fixing it.
+And it certainly can't
+tell you why one action or one fix is better than another fix.
+And so I kind of equate
+this to different parts of the brain.
+If you look at LLMs and GenAI in particular,
+it's like the limbic brain,
+
+[22:31]
+the part of your brain that is
+about memories and instincts.
+It takes in all this
+information and it stores it and organizes it, and you have instincts that
+you can react on based on that set of memories, which
+is very similar to this idea that it swims through a lake of data that was generated in the past to help you predict the future, which is basically an instinct.
+When you start getting into causal AI, that's when you start getting into first of all the cerebral
+cortex part of the brain, which it's mimicking on the know-how and the skills about how to do something.
+This is when you start
+getting into soft skills and you get into the human element.
+And then the neocortex, which
+is the most recent development of the brain through evolution,
+which is where you reason and problem solve and make decisions.
+And so think of causal AI as
+taking what we can do today with genitive AI to a whole
+new level of value, right?
+>> Yeah, 100%.
+
+[23:32]
+Yeah, I think a couple of the examples that pop into mind when you
+just described that, which was so clear, I think a lot of
+people really don't understand that, so thank you for going
+through that in detail.
+But when you're looking at, again, forecasting into the future and you're looking at scenario planning, I think we're in a very
+dynamic time right now.
+If you look at the impact of tariffs or even say currency, being
+able to forecast some of that with some level of probability and understanding the impact of that from a large scale
+in your business is going to help you figure out
+exactly where you should be both what is the say
+ideal path in terms of where you should be
+aiming your future plans, but also what are the risks
+that you should be avoiding so that you can be appropriately
+prepared for some of these major fluctuations that may create significant
+headwinds for your business.
+
+[24:34]
+And so being able to model that out and not just look at the past and say, "Hey, our pipeline is down, but we've got a significant
+client base that is impacted by this currency for whatever reason.
+And so they're going to have
+a different set of reactions, and so there's going to be a
+different pressure on their decision making, which is going
+to in turn hit our revenue.
+" And so being able to
+forecast that out I think is going to be more expected.
+I think it's going to be
+more important over time because I think with this rapid rate and pace of change, volatility
+is only going to increase.
+It's not going to decrease.
+And so being able to prepare for that and figure out where you are today, what your contingency plans
+are, how you can forecast and when you need to make
+some of those decision points are more important than ever.
+>> When we had talked about this, I mean, I think if you're a marketer,
+you should care about this next stage of AI for three core reasons.
+
+[25:35]
+Just to simplify it. One
+is, do you want the AI to help you actually make decisions?
+Generative AI does not
+help you make decisions.
+It presents you information that you can then make a decision, but it's not actually helping you.
+It's not capable of making a decision and justifying that decision.
+The second reason you
+should care about it is that it can explain to you, to
+your point earlier, Michelle, the precise chain of events
+that led to an outcome.
+Opening up the black box, if you will, or the magic box as you said, so you can understand how you get trust.
+I understand how this decision came about.
+And then the third reason, which
+we kind of just touched on, which is we live in a dynamic world.
+You want your AI to adapt
+with conditions around it.
+And that's why a marketer should care because generative AI is a major step in the right direction.
+It's adding productivity, cost reduction, but if you really want
+to get into the power of what it's going to do
+for marketing, I think that's when these new
+tools and new frameworks
+
+[26:37]
+and all the big guys,
+you mentioned Microsoft, they're doing stuff with
+causal AI, SAS is doing it, AWS is doing it, DeepMinds, it's coming, it's all your research divisions.
+And I think it's important that people start thinking
+ahead here on how to start to apply this because the
+technology's there today.
+You can get started actually
+today with agents that know how to deal with causality in marketing.
+>> Absolutely. And I'll
+underscore one more point just with regards to marketing
+and marketing leadership.
+I think marketing has long
+been chastised for not able to prove their impact.
+And so when you think about causality from a marketing
+contribution perspective, I think we're still kind of
+wrestling with this concept of attribution.
+Attribution is still a
+swag at the end of the day, you're attempting to create
+
+[27:37]
+some variables that may
+be weighted in one way or weighted in another way to look and see what is causing impact.
+You're typically not taking
+into account the full time lag of your impact.
+You launch a campaign,
+you're not going to see all of the impact of that campaign
+in a very specific time.
+It may take 12 months, you still might have some impact
+dragging on for another 18, 24, but it's outside of
+the attribution window, so you're not collecting all of the value that you're providing.
+And so it becomes a very kind of hypothetical scenario
+that you're trying to make as analytical as possible
+with this attribution model, which at the end of the day
+is still a model best guess.
+And so I think that causal
+analytics is actually going to be able to help you determine where your marketing is
+working, which channels
+
+[28:39]
+or tactics are landing on
+your most effective personas and profiles, and start to be able to have a different
+conversation with the rest of your leadership team around
+your marketing strategy, why you're investing in certain areas, what's working and what's not.
+And then importantly,
+some scenario planning and forecasting to determine having that proactive conversation at the onset and getting true buy-in
+with your future plans.
+>> Yeah, it goes back to the
+point we were making earlier about it's a mistake to associate causality with correlation.
+>> Yes.
+- And the attribution models of the past and even the new ones that
+use predictive models, it's still correlation based, which does not necessarily
+imply causation.
+And even though causation
+sort of implies correlation, the correlation or the
+causation may be so minor that it's irrelevant
+
+[29:40]
+and take that in addition
+to the fact that you want to understand how things
+change as conditions change, it makes a big difference.
+The causality is going to
+actually help you justify the decisions that you're making and the outcomes that
+you're producing in a way that has never been
+able to be done before.
+Let's end here on just me
+bring up another chart here, which is the core benefits of causal AI.
+Let's just kind of rotate through this and talk a little bit about marketing.
+Causality is one of the
+big benefits of causal AI, causal analytics, as you mentioned.
+As we said, you can identify
+these very precise cause and effect relationships that can help you understand why things happen.
+And there's a notion of causal discovery because a lot of the models
+that we use today, it's how we think things operate, but you can actually figure
+out how they actually operate through the mechanisms
+of cause and effect.
+
+[30:40]
+If you're a marketing person, how is this going to help them?
+>> Well, it's going to help
+you understand what's working and what's not in your marketing plans so that you can do more of what's working and less of what's not.
+And so if you understand
+that either a channel or a message or quite honestly a segment or persona is more effective, you're going to lean into that.
+It's just true cause and effect, if then this is
+absolutely what's working.
+It's no longer inferred.
+>> Right, exactly. It's a discovery.
+And then the next one is what?
+This idea of playing out
+countless scenarios to understand probably risk-free, how various interventions
+may impact outcomes.
+This is sort of when you
+get into the real powerful stuff, the what if?
+>> Absolutely. And I think
+marketing hasn't really been able to do that in a way because they're so focused
+on all of the permutations
+
+[31:43]
+of you've got so many
+different channels and messages and personas and all of
+those types of things.
+To then take it from that point and then scenario plan, well
+what if we make this investment or what if we target this other persona or what if, again, kind of
+back to currency, what if we've got a saturation
+in one particular market that's going to be impacted
+by currency, for instance.
+Whatever that may be, how do you then pivot
+your plans appropriately?
+Being able to forecast is pretty powerful.
+>> And do counterfactual analysis.
+If I change this variable,
+how's it going to affect things and so on and so forth.
+The other thing which I always talk to people about is root cause.
+And in my experience at IBM
+in front of general managers and SVPs, if I had a dime
+for every time someone said, "I can read the damn chart,
+talk to me about root causes of why this isn't working, why the pipeline is like
+this in Indonesia, whatever.
+" And people just melt
+
+[32:44]
+because not everyone
+understands the root cause of what's happening and what variables and what metrics are being affected and how do you rank the confidence levels.
+And there's just really no way
+today even with generative AI and predictive AI to
+understand root cause, correct?
+>> 100%. Yeah.
+- And I think it all starts because every effect has a cause.
+And people are going to want...
+If you're going to fix something and improve a marketing
+campaign or a message or a piece of content,
+you're going to have to understand the root cause of why it's working or why it's not.
+And that goes from everything
+from customer retention to promotion, everything you
+can think of in marketing, you're going to want to
+understand that root cause.
+That'd be another
+powerful capability here.
+The next one, prescription,
+we've talked about that.
+This gets you into, yeah,
+okay, well I understand what is going on and now I need to
+understand how do I fix it.
+It can actually help you
+generate that, correct?
+>> Absolutely. Yeah.
+
+[33:46]
+If you understand the root cause, then you can apply the
+appropriate recommended fix to get you back to where
+you were hoping to be.
+>> Right. And once you
+understand the prescription, you can start then interrogating
+the prescription with the what if analysis, and you can even change, well, what happens if the root
+cause is really this and you tweak it and you can see start to really do different
+kind of scenarios here.
+Which brings us to the next
+one, which is intuition.
+Causal AI is great and along with semantical AI, which is like knowledge
+graphs, it's great at capturing that innate expertise and the domain knowledge,
+sort of the tacit know how which is tacit meaning
+that you're not really sure how to explain it, but you know how to do things that are just innate.
+And that's what a lot of
+marketers, every profession has that kind of know how.
+Causal AI is the best chance
+we have at least over the next five years, I think to be able to capture
+
+[34:46]
+that in an AI model.
+>> Absolutely. Well, I think
+it's also understanding your sector or the market.
+Just say that there is, I'm
+just going to make it up, legislation that's going to
+impact a specific industry and that industry, you've
+got a heavy portion of that in your client base, then this is where your intuition...
+Hasn't happened yet, it may not be sort of in the full public domain in terms of what generative AI may or may not be picking up, especially in relation to your business.
+But you as an expert and somebody that has
+that domain knowledge and expertise can bring that into how you're approaching your strategies.
+>> That kind of brings you to the next one, which is confounders, which basically what's great
+about this technology is it can help you rank all the
+influences on an outcome and help understand what are the variables that are really affecting an outcome.
+And you may find out that
+some of them are irrelevant,
+
+[35:50]
+you might be able to identify bias in it, and you can actually identify things that you didn't even think about.
+It can tell you that
+something's affecting it that just wasn't in the thought process.
+And so this idea of
+understanding what's actually influencing the outcome and
+identifying what matters and what doesn't, another
+powerful thing when it comes to trying to tweak this art form
+called marketing, right?
+>> Absolutely. Absolutely.
+>> There's a ton of value and this is all going to start to come to fruition I think in the years ahead.
+There's a ton of marketing use cases that vendors have enabled
+with causal AI in marketing, which we can share.
+We will write up a research note on this and reference some of those going forward.
+And we didn't get into
+the bottom row there, but basically what that's
+saying is this is actually going to be able to help you explain
+why you're making certain decisions, why you're investing here,
+
+[36:51]
+why you're tweaking the model
+where with generative AI and predictive AI, it's a black box.
+You're just guessing at how it came up with a certain recommendation, right?
+>> Absolutely. - This is going
+to give you prescription in that, I think that's really key.
+>> It is, it is.
+- And that's what's going to enable these agents that
+can help you make decisions and give you superpowers
+as a marketing person.
+Incredible. Now you've worked with different companies like
+Proof Analytics and other- >> I have.
+Yes. I've been an advisor for
+Proof for over eight years, and it's been phenomenal to see how that technology has just evolved over this course of time and how they're helping
+clients do this type of causal analysis to understand
+exactly what's working and what's not in their business.
+>> Yeah, I think it's really important that people also understand, particularly the marketing functions, that the future may be here
+sooner than you think.
+>> It's true.
+- It's becoming a reality.
+
+[37:55]
+All right, Michelle, this has been a great discussion. Thanks so much- >> Thank you.
+- ...
+For being a part of this.
+A lot to think about and the future in the
+marketing profession is going to get really interesting.
+Thanks much for being here.
+>> It will. Yeah.
+>> Best  as you
+move your business forward and look forward to more
+conversations in the future.
+>> Absolutely.
+- It's going to get super interesting.
+For all you, thank you
+very much for tuning in.
+Take care, and we will see
+you on the next episode of the Next Frontiers of AI podcast.
+We are the leader in
+tech news and analysis.
+Thanks so much for being with us and, Michelle, have a
+great day. Bye everyone.
+>> Thanks. Bye.
+
+---
+
+*Content extracted from YouTube video. Original content by SiliconANGLE theCUBE. Video URL: https://www.youtube.com/watch?v=dOMJPlqG3rs*

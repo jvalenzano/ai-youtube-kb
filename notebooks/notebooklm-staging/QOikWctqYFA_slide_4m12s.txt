@@ -1,0 +1,46 @@
+# Slide from: 9. SDLC in the Era of Agentic AI: Necessity or Overkill?
+
+## Video Information
+**Video ID:** QOikWctqYFA
+**Title:** 9. SDLC in the Era of Agentic AI: Necessity or Overkill?
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=QOikWctqYFA
+**Duration:** 32:16
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video focuses extensively on software development lifecycle workflows, CI/CD pipelines, and how AI agents integrate into development processes and methodologies
+
+## Slide Information
+**Timestamp:** 4m12s
+**Timestamp URL:** https://www.youtube.com/watch?v=QOikWctqYFA&t=252s
+**Original Filename:** slide_4m12s_a6555d55.png
+
+## Transcript Context
+**Before:** and have operational efficiencies that they didn't have previously. >> Yeah. Actually, when I was doing a little bit of study, whenever I do these podcasts, I take it as an opportunity
+**During:** to learn, there was actually a good case study on the
+**After:** AWS blog out there, about what they're doing with IBM consulting to automate the whole end-to-end cycle. You can see on the left,
+
+## Slide Content (OCR)
+.
+Example: AWS-IBM Al Automated SDLC Platform
+suns 8 rete oni & aoa aime & oevenes patcrn Gy tor ponent &        3      a
+30% reduction in
+GenAl Platform for SDLC                                 "Tools to support the supply of digital praduets (incl. DevOps)                       development time
+Tae ortota and Pjee Manaaerer                      y .
+Assisted procedures       x —         25% improvement
+ee eee           in unit test generation
+eo fee] | 259% improvement
+in code quality
+umm     ume || umn        60% reducti
+Corpo | Bet po                       f reduction
+requirements analysis
+rk                                SSeS
+Amazon Bedrock                                    Amazon Bedrock
+> AWS Blogs: Transforming the Software Development Lifecycle (SDLC) with Generative Al, January 2025                                                                             t we  poecuse
+
+---
+
+*This slide is from the video: 9. SDLC in the Era of Agentic AI: Necessity or Overkill?*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=QOikWctqYFA*
+*Slide timestamp: 4m12s*

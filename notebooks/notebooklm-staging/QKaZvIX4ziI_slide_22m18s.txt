@@ -1,0 +1,55 @@
+# Slide from: 19. From PoC to Production: Scaling Agentic AI in Financial Services
+
+## Video Information
+**Video ID:** QKaZvIX4ziI
+**Title:** 19. From PoC to Production: Scaling Agentic AI in Financial Services
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI
+**Duration:** 40:21
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video centers on real-world implementation challenges in financial services, featuring a detailed wealth management POC demonstration and practical deployment experiences with specific clients
+
+## Slide Information
+**Timestamp:** 22m18s
+**Timestamp URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI&t=1338s
+**Original Filename:** slide_22m18s_b831c3c7.png
+
+## Transcript Context
+**Before:** you can run it yourself and see in action. >> Well, let's take a look at it and maybe you can just talk us through the quick demo here. >> Yeah. This is the main screen.
+**After:** In the middle of the page, you can see the portfolio with different stocks and different colorful indicators like Wix, GDP, interest rate, unemployment rate and sentiment score.
+
+## Slide Content (OCR)
+® Leafy Bank                                           Investment Portfolio Dashboard                                              © ‘Selected Risk Profile: ( HIGH. RISK            | &
+Portfolio Performance                                                                               Asset Distribution by Symbo!                       Asset Distribution by Type
+aie            wisp             sete
+esr                                                         © Easty
+as.                                                                                                                                                             @ c00                                                           Bones
+]                                                                                                                                                                                                   ow                                                                            Coroety
+Stem                                                 Rewexate
+g?                                                                                                                                     Gib
+i                                                                                                                                    yo
+.                                                                                                                                                       O Nex: retrsh in an hour                    A stongoe                                                                 A songans
+Bo
+i   |
+15
+a                         access
+ia                            nn speelnioy Jdirmanies EWN mee “em
+|                                                                                                                                                 ATE
+ss            Fl                  ry                  i                  3                  8                  Fs                                         GDP (US)                   Quarterly        29/05/2025          29.97            Trl, of S            *
+4                   i                                        &                   i                   4                                  Unemployment Rate (US) Monthly 01/05/2028,            420                  *                -
+Date
+O mengoos                  Interest Rate (US)            Daily        renee. 438            *           -
+Investment Portfolio *
+SYMBOL ASSET TYPE          DESCRIPTION        CLOSEPRICE (s) ALLOCATION NEWSSENTIMENT —_VIXSENSITIVITY         cop        INTEREST RATE UNEMPLOYMENT         Actions
+score
+HYG         Bonds           High-Yield Bonds           79:36            5%               0.02                 e               e               e                 e           fol eo
+Lap         Bonds _—Investment-Grade Bonds 10778             %                oss                   e                 e                e                 “GR, sat Pontoo Asian
+@ Avalabie
+
+---
+
+*This slide is from the video: 19. From PoC to Production: Scaling Agentic AI in Financial Services*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=QKaZvIX4ziI*
+*Slide timestamp: 22m18s*

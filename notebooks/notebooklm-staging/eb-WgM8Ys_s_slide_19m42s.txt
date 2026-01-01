@@ -1,0 +1,39 @@
+# Slide from: 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+
+## Video Information
+**Video ID:** eb-WgM8Ys_s
+**Title:** 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s
+**Duration:** 46:57
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational knowledge about how AI systems discover and rank brands, explaining core concepts like the CAT framework, semantic graphs, and the fundamental shift from SEO to AEO
+
+## Slide Information
+**Timestamp:** 19m42s
+**Timestamp URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=1182s
+**Original Filename:** slide_19m42s_cc66e3c8.png
+
+## Transcript Context
+**Before:** different attributes. Um and then we'll get your your thoughts on that and then we can dive a little bit deeper into um some of this um
+**During:** actually the all four categories. So let me just kind of set the frame here on
+**After:** how how LLMs actually learn about brands and it turns out that there are four categories that you have to worry about. First is cat scoring and we'll talk
+
+## Slide Content (OCR)
+How LLMs learn
+v1 S
+about brands                               -O.
+Scoring            Optimization
+Learning,       \   ,           Real-time
+Knowledge                     Retrieval,
+Building                         Ranking
+Website
+Readiness
+
+---
+
+*This slide is from the video: 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=eb-WgM8Ys_s*
+*Slide timestamp: 19m42s*

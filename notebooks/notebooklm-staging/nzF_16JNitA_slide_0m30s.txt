@@ -1,0 +1,36 @@
+# Slide from: 8. History's Guide To The Future of AI
+
+## Video Information
+**Video ID:** nzF_16JNitA
+**Title:** 8. History's Guide To The Future of AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=nzF_16JNitA
+**Duration:** 46:14
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily discusses fundamental concepts about AI adoption, historical technology transformation patterns, and foundational understanding of current AI capabilities and limitations rather than specific workflows, tools, or case studies
+
+## Slide Information
+**Timestamp:** 0m30s
+**Timestamp URL:** https://www.youtube.com/watch?v=nzF_16JNitA&t=30s
+**Original Filename:** slide_0m30s_a4a4ea4b.png
+
+## Transcript Context
+**Before:** and how businesses are applying these advancements to create competitive advantage. With innovation cycles moving at warp speed, staying up to date is more important than ever.
+**During:** Today I'm thrilled to be joined by Irving Wladawsky-Berger.
+**After:** Irving is an MIT research affiliate, adjunct professor, senior fellow, advisory board member, and a legendary game-changing executive from IBM who I like to refer to as the father of E-business.
+
+## Slide Content (OCR)
+History’s Guide                   |
+To The Future Of Al
+Intelligence ew"
+Instrumentation                      iving
+Interconnection                        Wladawski-Berger
+Compute             =) years
+
+---
+
+*This slide is from the video: 8. History's Guide To The Future of AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=nzF_16JNitA*
+*Slide timestamp: 0m30s*

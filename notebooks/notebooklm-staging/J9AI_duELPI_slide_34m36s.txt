@@ -1,0 +1,37 @@
+# Slide from: 16. Governance and Compliance in the Age of Data & AI
+
+## Video Information
+**Video ID:** J9AI_duELPI
+**Title:** 16. Governance and Compliance in the Age of Data & AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=J9AI_duELPI
+**Duration:** 38:47
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental governance, compliance, and trust foundations that must be established before successful AI agent deployment, rather than specific workflows or tooling implementations
+
+## Slide Information
+**Timestamp:** 34m36s
+**Timestamp URL:** https://www.youtube.com/watch?v=J9AI_duELPI&t=2076s
+**Original Filename:** slide_34m36s_a4ea3b1a.png
+
+## Transcript Context
+**Before:** And that's what we'll try to get to a few weeks after the event. >> Yeah, to help give us insights and guidance for 2026. So, before we run out of time here, Christophe,
+**During:** why don't you give us a little bit of a brief overview?
+**After:** I think we've talked a good amount about the summit, but how's it going to be structured? It's September 27th. >> Yes. So, typically, what we do with these summits,
+
+## Slide Content (OCR)
+x
+B trecuse summits                                    Fe     is
+Governance and                     wee eee
+.          .                   3 e So ye
+Compliance in the       a     Y Qs 3
+Age of Data & AI              —_          -
+September 27, 2025                                                                                        -
+
+---
+
+*This slide is from the video: 16. Governance and Compliance in the Age of Data & AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=J9AI_duELPI*
+*Slide timestamp: 34m36s*

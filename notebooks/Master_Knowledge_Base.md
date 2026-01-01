@@ -1,6 +1,6 @@
 # AI Agents Knowledge Base
 
-*Generated: 2026-01-01 02:28*
+*Generated: 2026-01-01 08:01*
 
 A curated knowledge base from **The Next Frontiers of AI** podcast, covering agentic AI, workflows, architectures, and real-world lessons.
 
@@ -42,6 +42,13 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 
 **Topics:** agentic AI architecture, multi-agent systems, agentic RAG, knowledge graphs, semantic reasoning, digital workers, enterprise AI platforms
 
+**Slides (5):**
+- [7m18s](https://www.youtube.com/watch?v=cg9q5wnssH0&t=438s): _              = Agentic Al Technologies                                                 Qs. =                        GenAl / LLMs                    ...
+- [12m14s](https://www.youtube.com/watch?v=cg9q5wnssH0&t=734s): —    | if        ‘ Agentic RAG Lid,      a  |          Goal-Oriented Task Execution         |x     |x             | nm (          N          _ Autonom...
+- [16m48s](https://www.youtube.com/watch?v=cg9q5wnssH0&t=1008s): _— — fF             ‘ . Al Reasoning a        .     -  |       |   Semantic Reasoning                              Causal Reasoning Eis         |   In...
+- [21m18s](https://www.youtube.com/watch?v=cg9q5wnssH0&t=1278s): ——_                  > ie      i)       @       ©       © Ma      fo)        Analysis GB             Domain @3”           Reasoning @*          Planni...
+- [32m58s](https://www.youtube.com/watch?v=cg9q5wnssH0&t=1978s): ——_                - Architecture Matters Gl & co                                                                                   Orchestrate & Gove...
+
 ---
 
 ### 2. [12. The Future of Marketing- Causal Al Agents That Think Strategically](https://www.youtube.com/watch?v=dOMJPlqG3rs)
@@ -62,6 +69,12 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 - ✅ Focus on understanding the 'why' behind marketing performance, not just the correlations shown in data
 
 **Topics:** causal_ai, marketing_analytics, ai_agents, decision_making, scenario_planning, attribution_modeling, marketing_transformation
+
+**Slides (4):**
+- [10m54s](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=654s): Al in Marketing cosT REDUCTION                                 PRODUCTIVITY                           3 5 Of REVENUE                                  ...
+- [15m56s](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=956s): — Top Marketing Use Cases Lead Funnel Optimization                                                                     6 — en E              ) i   hi ...
+- [20m46s](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=1246s): ———                nn “—          You are smarter than your data. Your data %  a = [ol                   causation         don’t understand cause and ...
+- [30m04s](https://www.youtube.com/watch?v=dOMJPlqG3rs&t=1804s): ——_ CAUSALITY            WHAT IF            ROOT CAUSE Sa       .                              understand why things happen            interventions m...
 
 ---
 
@@ -84,6 +97,14 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 
 **Topics:** agentic AI adoption, enterprise AI strategy, AI talent crisis, data infrastructure, AI agent orchestration, trust and security, business model transformation
 
+**Slides (6):**
+- [9m58s](https://www.youtube.com/watch?v=8aq0rOYUeio&t=598s): as y                                 of executive respondents who are planning to increase their Al budgets say |                                     ...
+- [11m50s](https://www.youtube.com/watch?v=8aq0rOYUeio&t=710s): "                                                                                           8 @)             4    of (1 of tech leaders are already ad...
+- [13m18s](https://www.youtube.com/watch?v=8aq0rOYUeio&t=798s): Agentic Al Tech Priorities GenAl / LLMs                                                                           8 Vector Databases                  ...
+- [18m00s](https://www.youtube.com/watch?v=8aq0rOYUeio&t=1080s): Security inches its way to the top of the Al agenda                              (a) 3 in 4 technology leaders say that while they have security and p...
+- [26m48s](https://www.youtube.com/watch?v=8aq0rOYUeio&t=1608s): Ny > When it comes to Al talent,  + we can expect significant hiring of resources, along with a continued rebalancing of the workforce 70»)    =)  (e+...
+- *...and 1 more slides*
+
 ---
 
 ### 4. [14. Agentic AI – What’s Hype, Myth, and Truth](https://www.youtube.com/watch?v=euTRqoB_OlA)
@@ -104,6 +125,13 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 - ✅ Target existing enterprise problems with clear ROI rather than creating new markets and technology simultaneously
 
 **Topics:** agentic AI, enterprise AI adoption, AI reasoning, autonomous agents, AI safety, data analytics, IT automation, AI governance
+
+**Slides (5):**
+- [5m54s](https://www.youtube.com/watch?v=euTRqoB_OlA&t=354s): @ i iku Be of business leaders       a  A lack clarity on the           yl AG, °                 Vis Al journey ahead         on ay,   : po   yi Y  2 ...
+- [16m54s](https://www.youtube.com/watch?v=euTRqoB_OlA&t=1014s): Agentic Al Technology Priorities GenAl/ LLMs —                                                                                8 Vector Databases |    ...
+- [19m20s](https://www.youtube.com/watch?v=euTRqoB_OlA&t=1160s): . . AI Reasoning: The Journey Ahead @) Multi-Agent -2                       oY Reasoning **s= Causal ==                                            Rea...
+- [24m22s](https://www.youtube.com/watch?v=euTRqoB_OlA&t=1462s): The percentage of data analyzed 377 ze drops from 36% > 16% 2e1 ze =e Data Science Talent Capacity Unanalyzed Enterprise Data                         ...
+- [28m08s](https://www.youtube.com/watch?v=euTRqoB_OlA&t=1688s): r y    7                 Identities    @ acounavty Ww      h           |   k     KPls      (Al      "Credentials orry that agents lac       Bo/ "NB sy...
 
 ---
 
@@ -126,6 +154,14 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 
 **Topics:** AI governance, data compliance, regulatory landscape, AI agents, data classification, trust in AI, cybersecurity
 
+**Slides (6):**
+- [5m38s](https://www.youtube.com/watch?v=J9AI_duELPI&t=338s): =                    Trust in data & Al 38% drops to only 18%     a 36% 281 ZB 33% ==@= Trust in Data & Al Analytics                        210 zB 30%...
+- [10m26s](https://www.youtube.com/watch?v=J9AI_duELPI&t=626s): r) \  P ]            Identities   & e<countaity w      h  le     KPIs     i  o  Credentials orryt  at agents ac          Sate   Si a systemic auditabi...
+- [16m32s](https://www.youtube.com/watch?v=J9AI_duELPI&t=992s): Prepared to handle AI              Using AI in governance governance & compliance?       and compliance? & 2%       0%   (x) 50% Very         Yes     ...
+- [20m32s](https://www.youtube.com/watch?v=J9AI_duELPI&t=1232s): are slowing down new data and Al deployments due to a lack of trust, governance & regulatory compliance 43%       42 39 as                            ...
+- [23m14s](https://www.youtube.com/watch?v=J9AI_duELPI&t=1394s): Cloud and Al-based Threats Keep IT and Cyber Pros Awake At Night... Cloud security Al-driven cyberattacks Data encryption Data exfiltration Regulatory...
+- *...and 1 more slides*
+
 ---
 
 ### 6. [17. AI Meets Psychology: How to Build Agents that Understand People](https://www.youtube.com/watch?v=RYiWt_u2h6Y)
@@ -146,6 +182,13 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 - ✅ Build psychological profiles dynamically from conversation history to adapt agent behavior in real-time
 
 **Topics:** psychological AI, agent personalization, LLM limitations, trust in AI, human-AI collaboration, psychological profiling, agentic workflows
+
+**Slides (5):**
+- [12m42s](https://www.youtube.com/watch?v=RYiWt_u2h6Y&t=762s): ling,         of business professionals Ss               % agreed that psychological and =                   —              .                         ...
+- [27m06s](https://www.youtube.com/watch?v=RYiWt_u2h6Y&t=1626s): Treat users the           Personalizes           Doesn't get how            Lacks human, same; adapts to          language, not         people think, ...
+- [30m06s](https://www.youtube.com/watch?v=RYiWt_u2h6Y&t=1806s): Integrating Psychological Intelligence into LLMs 1. Real-Time or Ongoing       2. Communication      3. Dynamic Contextual        Psychologically Psyc...
+- [32m46s](https://www.youtube.com/watch?v=RYiWt_u2h6Y&t=1966s): .                                                    : Generic vs. Psychologically-Informed Responses User inquiry: “I’m having trouble with my accoun...
+- [40m04s](https://www.youtube.com/watch?v=RYiWt_u2h6Y&t=2404s): The Future of        ;        25       Ee Agentic AI              Intelligence ae @          Causal         52 Reasoning          WHAT IF Psychologica...
 
 ---
 
@@ -168,6 +211,13 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 
 **Topics:** brand equity, AI discovery, generative engine optimization, thought leadership, startup marketing, authentic storytelling, executive visibility
 
+**Slides (5):**
+- [7m06s](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=426s): A crowded, noisy marketplace                                    xe _ 100%  > 50K The Survival Funnel for =                                     Al Star...
+- [12m36s](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=756s): ——      we ne A) [d                             “Om SS        “fy                                  | S       oo.        anes     7 =         BRGDAGF 4...
+- [15m34s](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=934s): .                 .                .                                    PP recuse The nature of discovery is changing                                 ...
+- [18m56s](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=1136s): “Zero-click” AI summaries are taking over                      Css, Replacing Search: % of Generative AI Users Researching and               Staying u...
+- [34m34s](https://www.youtube.com/watch?v=uHlrQWbdP7A&t=2074s): 2d ny re ees be 2 Se - 2) ee oe 8 eS °             “os tee        Signin theCUBE Al offers unique .  a °      °           °                           ...
+
 ---
 
 ### 8. [22. The State of Digital Labor Transformation](https://www.youtube.com/watch?v=5YrnYJBOpZY)
@@ -188,6 +238,14 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 - ✅ Focus on trust-building across multiple dimensions including security, compliance, governance, and user acceptance
 
 **Topics:** digital labor transformation, agentic AI strategy, workforce evolution, AI maturity assessment, cross-organizational collaboration, trust and governance, knowledge work automation
+
+**Slides (6):**
+- [5m12s](https://www.youtube.com/watch?v=5YrnYJBOpZY&t=312s): The research survey consists of five key indices that collectively create a foundational roadmap for enterprise leadership in agentic Al. theCUBE + Di...
+- [7m14s](https://www.youtube.com/watch?v=5YrnYJBOpZY&t=434s): Key Takeaways               26 Digital Labor Transformation > Digital labor is inevitable                                                    FUTURES I...
+- [11m04s](https://www.youtube.com/watch?v=5YrnYJBOpZY&t=664s): \              / ASPERATION:                     STRATEGY:                      EXECUTION: The rise of                          Knowledge             ...
+- [15m20s](https://www.youtube.com/watch?v=5YrnYJBOpZY&t=920s): if To what extent do you agree with the statement: .                                               Q   (This generation of business leaders will be th...
+- [19m04s](https://www.youtube.com/watch?v=5YrnYJBOpZY&t=1144s): Q   What are the primary activities that you envision Gal owl e d g e                          your organization’s digital co-workers performing? Help...
+- *...and 1 more slides*
 
 ---
 
@@ -210,6 +268,14 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 
 **Topics:** AI Engine Optimization, AEO, semantic search, LLM discovery, B2B marketing, content strategy, structured data
 
+**Slides (8):**
+- [8m30s](https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=510s): lly,         { <    chatGpr     itn i      f        Ll ~ TT  0s        creme TTP ia      SS ~                     + Nintex: Offers advanced work yall ...
+- [13m12s](https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=792s): H                                                         PP vrecuse Shift From SEO to AEO Buyer Journeys          Seen 80   —_—_ 0             Tradit...
+- [19m42s](https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=1182s): How LLMs learn v1 S about brands                               -O. Scoring            Optimization Learning,       \   ,           Real-time Knowledge...
+- [21m12s](https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=1272s): The core principles LLMs use to prioritize information & content                   CAAT .                                              Scorin Credible...
+- [25m44s](https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=1544s): LLMs build contextual knowledge & semantic maps Weights Factors                   Credibility Multimodal                         Signals            sD...
+- *...and 3 more slides*
+
 ---
 
 ### 10. [26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing](https://www.youtube.com/watch?v=gdtHUQInZTU)
@@ -230,6 +296,12 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 - ✅ Consider agentic AI as a progressive journey that may take years to fully realize, not an immediate transformation
 
 **Topics:** agentic AI, AI agents, agent washing, AI hype, enterprise AI strategy, autonomous systems, AI architecture
+
+**Slides (4):**
+- [7m06s](https://www.youtube.com/watch?v=gdtHUQInZTU&t=426s): Agentic Al |               yy &         i :    2 ae Predictive |                     4   \ LD         ¢         :      “ Models                       ...
+- [10m30s](https://www.youtube.com/watch?v=gdtHUQInZTU&t=630s): What activities do you                   © Ly                                    Q   envision your future state -© 2                                  ...
+- [21m06s](https://www.youtube.com/watch?v=gdtHUQInZTU&t=1266s): Consensus PoV - Definitions a               .      Agentic AI (ome                                  = fe                       * Plans action paths 4 ...
+- [30m02s](https://www.youtube.com/watch?v=gdtHUQInZTU&t=1802s): tit Explains what, Does                               how and why Reasoning                                            | Differentiate          <  Ne ...
 
 ---
 
@@ -252,6 +324,14 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 
 **Topics:** AI agents, decision intelligence, causal AI, agentic workflows, knowledge graphs, semantic reasoning, causal reasoning, multi-agent systems
 
+**Slides (6):**
+- [1m38s](https://www.youtube.com/watch?v=iHROZ526tUg&t=98s): The Rise of AI Decision Intelligence 23               .      Agentic AI = “£3                       * Plans action paths "4                      * Orc...
+- [4m26s](https://www.youtube.com/watch?v=iHROZ526tUg&t=266s): tit The Future                                Explains what, ss                                                          how and wh of Decision       ...
+- [8m52s](https://www.youtube.com/watch?v=iHROZ526tUg&t=532s): The Journey to AI Reasoning Building an AI model ecosystem extending                                 :                Multi-agent .              .    ...
+- [11m52s](https://www.youtube.com/watch?v=iHROZ526tUg&t=712s): Multi-Agent =e                       © Reasoning 2 Causal Reasoning                       poehtone nate _ by 525 semantic                             ...
+- [16m14s](https://www.youtube.com/watch?v=iHROZ526tUg&t=974s): Domain fore,                                Semantic _s73.                                    Causal pars                        Planning and    => In...
+- *...and 1 more slides*
+
 ---
 
 ### 12. [8. History's Guide To The Future of AI](https://www.youtube.com/watch?v=nzF_16JNitA)
@@ -272,6 +352,10 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 - ✅ Focus on business value and practical applications rather than getting caught up in technology hype
 
 **Topics:** technology transformation, e-business strategy, agentic AI, LLM limitations, business value, market experimentation, decision intelligence
+
+**Slides (2):**
+- [0m30s](https://www.youtube.com/watch?v=nzF_16JNitA&t=30s): History’s Guide                   | To The Future Of Al Intelligence ew" Instrumentation                      iving Interconnection                   ...
+- [23m52s](https://www.youtube.com/watch?v=nzF_16JNitA&t=1432s): FORTUNA       FORTUNE 1984        %  es    ». eee A B= SL ~ D.     fa dst    Paeee    y The oh    The IBM Erais Over [1992] Sinies:
 
 ---
 
@@ -298,6 +382,13 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 
 **Topics:** lean software engineering, agentic workflows, SaaS disruption, legacy modernization, developer role evolution, compliance automation, cost transformation
 
+**Slides (5):**
+- [9m58s](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=598s): ~  ee ee  \-  \  i  }  }  ee ee of developers                wa \ believe Al Agents            Ne) will advance         |     ‘i their careers        ...
+- [16m34s](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=994s): 0 f say their SDLC platforms 62 ue need major upgrades to support Agentic Al G3 a
+- [32m00s](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=1920s): Saas  yO      » Custom  Ww   | cut WS pig |e of business consumers familiar with AI 7 Ro  agents, view agentic AI as SaaS successors ‘€ Vortex IQ ascE...
+- [36m24s](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=2184s): Keys to Creating                                            = Power Decisions Software Business                                       — ($)           ...
+- [4m24s](https://www.youtube.com/watch?v=AaGtyE1bIjY&t=264s): Adile*” | V7    Ay ‘Ts Dead!    oe Le
+
 ---
 
 ### 2. [25. The Widening AI Value Gap — How to Close it Before its Too Late](https://www.youtube.com/watch?v=zNuZ9sADgXA)
@@ -319,6 +410,13 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 
 **Topics:** agentic_ai, digital_transformation, ai_value_gap, organizational_change, predictive_ai, generative_ai, enterprise_ai
 
+**Slides (5):**
+- [5m38s](https://www.youtube.com/watch?v=zNuZ9sADgXA&t=338s): Agentic AI Value: 2x by 2028 2x more value is expected to come          Companies are experimenting from agentic Al by 2028 (%)                     wi...
+- [12m48s](https://www.youtube.com/watch?v=zNuZ9sADgXA&t=768s): Assessing the Al Value Gap 2024   Higher                              .. fueling higher                     2028   Higher *       ——— ..              ...
+- [16m06s](https://www.youtube.com/watch?v=zNuZ9sADgXA&t=966s): ° Future-built: 5x the AI Workflows, 2x Faster Not adopted         Planned              Pilot              Scaling        Fully deployed        Averag...
+- [19m34s](https://www.youtube.com/watch?v=zNuZ9sADgXA&t=1174s): °                          °                          °                                                                  ° . Get It Right: Joint Busin...
+- [22m22s](https://www.youtube.com/watch?v=zNuZ9sADgXA&t=1342s): Q  Which part of your organization will be primarily accountable for implementing digital labor strategies? whe ee              ©.                    ...
+
 ---
 
 ### 3. [9. SDLC in the Era of Agentic AI: Necessity or Overkill?](https://www.youtube.com/watch?v=QOikWctqYFA)
@@ -339,6 +437,10 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 - ✅ Maintain human accountability and oversight when using AI-generated code, especially for compliance and governance
 
 **Topics:** SDLC, AI agents, software development, DevOps, application modernization, developer productivity, enterprise AI adoption
+
+**Slides (2):**
+- [4m12s](https://www.youtube.com/watch?v=QOikWctqYFA&t=252s): . Example: AWS-IBM Al Automated SDLC Platform suns 8 rete oni & aoa aime & oevenes patcrn Gy tor ponent &        3      a 30% reduction in GenAl Platf...
+- [24m28s](https://www.youtube.com/watch?v=QOikWctqYFA&t=1468s): ~~        - A Supply Chain Causal Knowledge Graph ee, BMWs     _ es      =)      ‘tom me .     GROUP ‘iii           al         te r    oa    j     pro...
 
 ---
 
@@ -369,6 +471,9 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 
 **Topics:** agentic_ai, vertical_ai, startup_scaling, digital_workers, hoa_management, y_combinator, labor_automation
 
+**Slides (1):**
+- [34m24s](https://www.youtube.com/watch?v=UpQoDiowH6Q&t=2064s): The Growth of Al Startups (usa 2015-2024) \ 2     mi    1400     90% —h |               1200         of Al startups will fail altogether or fail to sc...
+
 ---
 
 ### 2. [19. From PoC to Production: Scaling Agentic AI in Financial Services](https://www.youtube.com/watch?v=QKaZvIX4ziI)
@@ -389,6 +494,14 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 - ✅ Use domain-specific embedding models and re-ranking techniques to improve accuracy and reduce hallucination
 
 **Topics:** agentic_AI, financial_services, data_architecture, vector_search, RAG, multi_agent_systems, production_deployment, trust_governance
+
+**Slides (9):**
+- [4m58s](https://www.youtube.com/watch?v=QKaZvIX4ziI&t=298s): RL          The AI initiative abandonment SY              YZ                                             . SS              B       rate more than doub...
+- [9m56s](https://www.youtube.com/watch?v=QKaZvIX4ziI&t=596s): GenAI evolution in FSS                                         0 MongoDB :                       :         :               :        Alo :             ...
+- [22m18s](https://www.youtube.com/watch?v=QKaZvIX4ziI&t=1338s): ® Leafy Bank                                           Investment Portfolio Dashboard                                              © ‘Selected Risk Pr...
+- [22m30s](https://www.youtube.com/watch?v=QKaZvIX4ziI&t=1350s): @@ Leafy Bank                                                                   Investment Portfolio Dashboard                                        ...
+- [22m38s](https://www.youtube.com/watch?v=QKaZvIX4ziI&t=1358s): @@® Leafy Bank                                                                   Investment Portfolio Dashboard                                       ...
+- *...and 4 more slides*
 
 ---
 
@@ -411,6 +524,11 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 
 **Topics:** ai_talent_crisis, talent_retention, hybrid_professions, ai_agents, workforce_augmentation, skills_gap, talent_strategy
 
+**Slides (3):**
+- [5m34s](https://www.youtube.com/watch?v=9xKc3OqMvog&t=334s): ny,       of enterprises report Ss               % — struggling to find qualified AI =  7 4 of  = talent, while 40% of existing =                 O = ...
+- [10m36s](https://www.youtube.com/watch?v=9xKc3OqMvog&t=636s): =e= | Software Engineers =a= Developers with Al/Data Science Skills                                 F-        ae 7         \.   f      IAIN Are Develo...
+- [13m18s](https://www.youtube.com/watch?v=9xKc3OqMvog&t=798s): gap in supply & demand in higher education capacity  ~ > gap in new entrants vs new jobs AI Talent
+
 ---
 
 ### 4. [23. Agentic AI ROI: From Automation to Decisions](https://www.youtube.com/watch?v=PH6KNZykjX4)
@@ -431,6 +549,12 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 - ✅ Use unified agent platforms rather than deploying multiple disconnected agents to avoid 'agent sprawl' and maintain centralized oversight
 
 **Topics:** agentic_ai, digital_workers, trust_in_ai, decision_intelligence, ai_reasoning, enterprise_adoption, agent_platforms
+
+**Slides (4):**
+- [20m14s](https://www.youtube.com/watch?v=PH6KNZykjX4&t=1214s): 7 3  0 Yi                                                      Q  How would you describe your organization's level of investment 0                    ...
+- [24m06s](https://www.youtube.com/watch?v=PH6KNZykjX4&t=1446s): = ie ar ee ee ee ee    |    ae ee ee 6 2    Y/ 0                                        Q   What are the primary activities that you envision Envision...
+- [29m44s](https://www.youtube.com/watch?v=PH6KNZykjX4&t=1784s): fe)   |     4 9 0/                          Q Which of the following activities do you have high n  Y                                                c...
+- [32m50s](https://www.youtube.com/watch?v=PH6KNZykjX4&t=1970s): INVESTMENT                           USE CASES                                 TRUST Al Reasoning                              Knowledge Work         ...
 
 ---
 
@@ -453,6 +577,10 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 
 **Topics:** agentic AI, digital labor, workflow automation, business transformation, SaaS architecture, community management, AI-first design
 
+**Slides (2):**
+- [15m18s](https://www.youtube.com/watch?v=hQfmq63zh38&t=918s): ss       en =   oo x    a    5     A      *       \       ay       \        |        }       ii       i      7E       f—_/     Fie     f ff  Pee a Wha...
+- [26m32s](https://www.youtube.com/watch?v=hQfmq63zh38&t=1592s): Wantaca. Before HOAi Voice                                           After HOAi Voice 4,000        _       60%       _        1,600 ~800 hours        ...
+
 ---
 
 ### 6. [Digital Labor @ Work: How AI Agents are Transforming Community Management](https://www.youtube.com/watch?v=MvpEczgOI6w)
@@ -473,6 +601,14 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 - ✅ Implement human-in-the-loop feedback systems to continuously improve AI agent performance through real-world interactions
 
 **Topics:** digital_labor, ai_agents, community_management, voice_ai, workflow_automation, human_ai_collaboration, vertical_specialization
+
+**Slides (9):**
+- [5m20s](https://www.youtube.com/watch?v=MvpEczgOI6w&t=320s): (1) Go vertical in nuanced markets HOAI     (2) Address labor spend, not IT Keys To (3) Empower knowledge over tasks Success    (4) Rethink software, ...
+- [11m20s](https://www.youtube.com/watch?v=MvpEczgOI6w&t=680s): HOAI Go beyond chat, mdel-e(ciarece 1rue Automation Don’t just chat - experience Al that actually gets work done.
+- [14m12s](https://www.youtube.com/watch?v=MvpEczgOI6w&t=852s): e        e The Old Way: Drowning in low-value tasks * Constant homeowner & board requests * Buried in invoices & budget prep                     pee *...
+- [19m24s](https://www.youtube.com/watch?v=MvpEczgOI6w&t=1164s): e An Al Agent: Your Next Hire? Agents execute work                                               24/7 work — evenings, alongside your team           O...
+- [23m14s](https://www.youtube.com/watch?v=MvpEczgOI6w&t=1394s): .                       *                                                  ee HOAI - Automating Knowledge-based Decisions & Tasks Homeowner Suite Home...
+- *...and 4 more slides*
 
 ---
 

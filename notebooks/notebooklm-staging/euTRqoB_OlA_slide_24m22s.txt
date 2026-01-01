@@ -1,0 +1,41 @@
+# Slide from: 14. Agentic AI – What’s Hype, Myth, and Truth
+
+## Video Information
+**Video ID:** euTRqoB_OlA
+**Title:** 14. Agentic AI – What’s Hype, Myth, and Truth
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=euTRqoB_OlA
+**Duration:** 46:52
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily discusses foundational concepts of agentic AI, reasoning capabilities, enterprise adoption challenges, and the theoretical underpinnings of agent-based systems rather than specific workflows or tools
+
+## Slide Information
+**Timestamp:** 24m22s
+**Timestamp URL:** https://www.youtube.com/watch?v=euTRqoB_OlA&t=1462s
+**Original Filename:** slide_24m22s_c19b3e26.png
+
+## Transcript Context
+**Before:** bringing up in this context. >> Yeah, it's actually... Here it is right here. Actually, let me bring it up. There's two parts to it.
+**After:** What this is saying here is, if you look at the light blue bars, that's the amount of newly generated unanalyzed enterprise data and how it's projected to grow.
+
+## Slide Content (OCR)
+The percentage of data analyzed
+377 ze
+drops from 36% > 16%
+2e1 ze
+=e Data Science Talent Capacity
+Unanalyzed Enterprise Data                          vio 78
+aa ze
+6028
+soe tl Stages! | Lice tee eS
+2025. ~~—~«2026~—~S~SC~C~CS~SSSS*~SOHSCS~S~S~S~SOPG——S~SCS SSCS
+Note: Hypothetical inverse trend modeled between growth in unanalyzed data and business trust in Al/dat
+Sources: SAP, McKinsey, (DC, modeled for illustrative purposes.
+
+---
+
+*This slide is from the video: 14. Agentic AI – What’s Hype, Myth, and Truth*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=euTRqoB_OlA*
+*Slide timestamp: 24m22s*

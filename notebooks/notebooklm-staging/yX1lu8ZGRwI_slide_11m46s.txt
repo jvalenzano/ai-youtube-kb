@@ -1,0 +1,34 @@
+# Slide from: 4. Next-Generation AI in Financial Services | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** yX1lu8ZGRwI
+**Title:** 4. Next-Generation AI in Financial Services | The Next Frontiers of AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=yX1lu8ZGRwI
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 11m46s
+**Timestamp URL:** https://www.youtube.com/watch?v=yX1lu8ZGRwI&t=706s
+**Original Filename:** slide_11m46s_982c0fd0.png
+
+## Slide Content (OCR)
+LLMs          1
+(Context Window Only)
+2 RAG
+RAG                                           Retrieve &                    ‘en
+.                                            Re-rank          3
+architecture        RAG Multimodal
+.                                                              RAG
+progression
+F                                 Graph RAG         5
+SO fe ar:                                                           P         Agentic
+RAG
+Causal RAG?         7
+
+---
+
+*This slide is from the video: 4. Next-Generation AI in Financial Services | The Next Frontiers of AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=yX1lu8ZGRwI*
+*Slide timestamp: 11m46s*

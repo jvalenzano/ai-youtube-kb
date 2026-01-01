@@ -1,0 +1,51 @@
+# Slide from: 27. How Agentic AI Rewires a SaaS Business: Lessons from a Unicorn Pioneer
+
+## Video Information
+**Video ID:** hQfmq63zh38
+**Title:** 27. How Agentic AI Rewires a SaaS Business: Lessons from a Unicorn Pioneer
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=hQfmq63zh38
+**Duration:** 34:29
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** This video presents a detailed real-world case study of Vantaca's successful implementation of agentic AI at scale, with specific metrics, before/after examples, and business outcomes
+
+## Slide Information
+**Timestamp:** 15m18s
+**Timestamp URL:** https://www.youtube.com/watch?v=hQfmq63zh38&t=918s
+**Original Filename:** slide_15m18s_b5a94b52.png
+
+## Transcript Context
+**Before:** I love the HOAI voice thing. To me, you can't code what it may be asked and it has to make a judgment. And the reason why I think this is important is let me just
+**During:** show you one of the questions from
+**After:** our Agentic AI Futures Index, which is, and this was about 625 pre-qualified either business or technology leaders in businesses that are already involved in agentic
+
+## Slide Content (OCR)
+ss       en =   oo x    a    5     A      *       \       ay       \        |        }       ii       i      7E       f—_/     Fie     f ff  Pee a
+What activities do you                  ©
+Q   envision your future state
+Al agents performing?
+y 0:
+oe’                                     Plan - formulate a logical sequence                                   _               50:
+A gen tic Al                                             of actions to achieve a goal                                                            %
+FUTURES INDEX                  Solve problems - diagnose issues, identify                                                      50%
+root causes, and recommend solutions
+. | &,                                            Make decisions - evaluate multiple                                              49%
+\0                     Oy,                             actions and choose the most effective ones
+4              \                eC.               Explain their reasoning - in a manner
+/       2.4      q                    &                        that helps users understand outcomes                                       47%
+out ofS  D
+N=625                 ay                                          Act autonomously - taking actions without
+-                                                                5            a           i                                      44%
+human intervention in pursuit of a goal
+ec thecune
+research
+-        Z                /        /                }                |        |        \        \        \        \                        i                     Son Anite
+Pad      at      ie      o        f        oF        f       vA        i        i        i        if        \        \        \        \        a       ae       TS        \        >               “          =
+
+---
+
+*This slide is from the video: 27. How Agentic AI Rewires a SaaS Business: Lessons from a Unicorn Pioneer*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=hQfmq63zh38*
+*Slide timestamp: 15m18s*

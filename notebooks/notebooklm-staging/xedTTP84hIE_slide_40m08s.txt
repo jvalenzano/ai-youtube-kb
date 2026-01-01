@@ -1,0 +1,40 @@
+# Slide from: 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** xedTTP84hIE
+**Title:** 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=xedTTP84hIE
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 40m08s
+**Timestamp URL:** https://www.youtube.com/watch?v=xedTTP84hIE&t=2408s
+**Original Filename:** slide_40m08s_eb4b5161.png
+
+## Slide Content (OCR)
+Pa                                               PP inecuse
+Democratizing Causal AI for the Masses                    iS. BSE8Fch
+General Purpose                Domain-specific
+41%                       causaLens*              ‘idynatrace AITIA
+(0)                causaly eS  ekvizuro       Eeausely Gethonai
+CAGR Through 2030                ve    eemivas   causa       anermntal    B porabote.al
+$1+ Billion Market           Aplin Data” Ari            Oster gstma
+s\Actavie at  B Product Genius  a
+© cavsauiry unk           Ttesitty Immun
+HOwso PROOF
+Gecatnyx                   tstana NAKURE Sbme
+a ee | |          BCausalwizard @ toskode     —   RHIZ@ME
+Ne SymphonyAl       Gi) Mugging Face       Astrazenecd 2
+Gp wesesten            R&D —gometa srmiccsot Gopenal Google <inviowa IBM AWS Sdotabricks XI
+A Sample of   Oso BBVA ask cisco @ =" croud wyases Uber Seka GH SP Om
+Businesses    Bezalendo Bookingcom GAPS CANON UAL Sven m  SRO tee cet Qvvstine iP
+Engaged in    Decwmen AISI We agen multe Tian BMW, lms Ge ene ten Fhrros 8
+Causal Al eeu dceomamene IE msm newex BY — nuveen Wore, Buf gy ¥Misaunnmmnnncss By
+
+---
+
+*This slide is from the video: 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=xedTTP84hIE*
+*Slide timestamp: 40m08s*

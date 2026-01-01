@@ -1,0 +1,39 @@
+# Slide from: 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+
+## Video Information
+**Video ID:** eb-WgM8Ys_s
+**Title:** 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s
+**Duration:** 46:57
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational knowledge about how AI systems discover and rank brands, explaining core concepts like the CAT framework, semantic graphs, and the fundamental shift from SEO to AEO
+
+## Slide Information
+**Timestamp:** 42m14s
+**Timestamp URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=2534s
+**Original Filename:** slide_42m14s_f229494a.png
+
+## Transcript Context
+**Before:** things that can help. And I I I encourage everyone to kind of get in touch with you to kind of understand what that is. And then what you you kind
+**During:** of get out of it from what I understand
+**After:** is, you know, these kind of dashboards where you're tracking what you need to do, right? And I took this from from your website here and I think it's
+
+## Slide Content (OCR)
+.                          .                  .                                        CF
+Act, monitor, adapt in real-time            Bes
+Al SEO Dashboard Preview
+Monitor Your Al Search Performance
+Live Al Performance Data                                        Optimization Opportunities                                                 ‘  .    $
+87%                               92%                                     Product Knowledge Graph                       ey                                     .
+Brand Authority Tracking                      rr                                                    us
+17 unclaimed mentions found - convert to          Son
+Readiness
+
+---
+
+*This slide is from the video: 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=eb-WgM8Ys_s*
+*Slide timestamp: 42m14s*

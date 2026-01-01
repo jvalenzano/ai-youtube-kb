@@ -1,0 +1,28 @@
+# Slide from: 5. AI That Knows Why | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** 5qhDifJM8M8
+**Title:** 5. AI That Knows Why | The Next Frontiers of AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=5qhDifJM8M8
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 26m42s
+**Timestamp URL:** https://www.youtube.com/watch?v=5qhDifJM8M8&t=1602s
+**Original Filename:** slide_26m42s_d16a6ac0.png
+
+## Slide Content (OCR)
+Enabling Enterprise-scale AI
+LLMs            Sot         Causal Al          ML/DL            Apps
+=            =            mm             A)            A)
+Causal Knowledge Graph
+=
+Data Lake
+
+---
+
+*This slide is from the video: 5. AI That Knows Why | The Next Frontiers of AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=5qhDifJM8M8*
+*Slide timestamp: 26m42s*

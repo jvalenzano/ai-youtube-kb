@@ -1,0 +1,49 @@
+# Slide from: 25. The Widening AI Value Gap — How to Close it Before its Too Late
+
+## Video Information
+**Video ID:** zNuZ9sADgXA
+**Title:** 25. The Widening AI Value Gap — How to Close it Before its Too Late
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=zNuZ9sADgXA
+**Duration:** 34:05
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video primarily focuses on agentic workflows, the integration of different AI capabilities into end-to-end automated processes, and how organizations structure workflows for AI success
+
+## Slide Information
+**Timestamp:** 16m06s
+**Timestamp URL:** https://www.youtube.com/watch?v=zNuZ9sADgXA&t=966s
+**Original Filename:** slide_16m06s_f2451d19.png
+
+## Transcript Context
+**Before:** built cohorts, not just investing more in AI, but the way they're actually deploying AI-driven workflows. And the fact that they're able to scale that double. And I'll bring that chart up for you to
+**During:** provide some commentary on.
+**After:** I found this really interesting because, again, this goes to our discussion a couple of minutes ago about generative versus agentic. These guys seem to be putting it in the AI into the context
+
+## Slide Content (OCR)
+°
+Future-built: 5x the AI Workflows, 2x Faster
+Not adopted         Planned              Pilot              Scaling        Fully deployed        Average number of months
+——,_ Soe sob+ sav           required to fully deploy
+T                                                                           42
+27
+Future-built                                                                                                    20                       9-1 2
+8
+3                                                                                                         Planning accuracy increases with
+62%                          experience of full deployment
+Deployed
+x                12-18
+23                                         31
+Laggards                                                                                1                                            Likely overly optimistic
+1                      without prioritization and
+aclear roadmap
+42% ——___
+Deployed                                      ;
+BOG Siva sacs tn 3230)
+
+---
+
+*This slide is from the video: 25. The Widening AI Value Gap — How to Close it Before its Too Late*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=zNuZ9sADgXA*
+*Slide timestamp: 16m06s*

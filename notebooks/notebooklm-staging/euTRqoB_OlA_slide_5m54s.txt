@@ -1,0 +1,38 @@
+# Slide from: 14. Agentic AI – What’s Hype, Myth, and Truth
+
+## Video Information
+**Video ID:** euTRqoB_OlA
+**Title:** 14. Agentic AI – What’s Hype, Myth, and Truth
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=euTRqoB_OlA
+**Duration:** 46:52
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily discusses foundational concepts of agentic AI, reasoning capabilities, enterprise adoption challenges, and the theoretical underpinnings of agent-based systems rather than specific workflows or tools
+
+## Slide Information
+**Timestamp:** 5m54s
+**Timestamp URL:** https://www.youtube.com/watch?v=euTRqoB_OlA&t=354s
+**Original Filename:** slide_5m54s_a55b1aa0.png
+
+## Transcript Context
+**Before:** promised too early, but definitely catching up now, that's for sure. >> Yep, yep, yep. - Well, let me set up our conversation here,
+**After:** which is what's happening out there in the marketplace. We went through, what, 10 years perhaps of people starting to put predictive AI models in place, and then we got, over the last three
+
+## Slide Content (OCR)
+@ i
+iku
+Be
+of business leaders       a  A
+lack clarity on the           yl AG,
+°                 Vis
+Al journey ahead         on ay,   :
+po   yi
+Y  2 f      [ } }  } \   \   \.  Mais XS  <<
+
+---
+
+*This slide is from the video: 14. Agentic AI – What’s Hype, Myth, and Truth*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=euTRqoB_OlA*
+*Slide timestamp: 5m54s*

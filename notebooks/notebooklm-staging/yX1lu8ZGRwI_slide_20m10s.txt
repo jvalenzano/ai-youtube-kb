@@ -1,0 +1,36 @@
+# Slide from: 4. Next-Generation AI in Financial Services | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** yX1lu8ZGRwI
+**Title:** 4. Next-Generation AI in Financial Services | The Next Frontiers of AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=yX1lu8ZGRwI
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 20m10s
+**Timestamp URL:** https://www.youtube.com/watch?v=yX1lu8ZGRwI&t=1210s
+**Original Filename:** slide_20m10s_9c37636c.png
+
+## Slide Content (OCR)
+Computer Science > Artificial Intelligence
+°                          Causal Parrots: Large Language Models May Talk Causality
+ut wait,           But Are Not Causal
+Matej Zecevic, Moritz Willig, Devendra Singh Dhami, Kristian Kersting
+can  t                                       Some argue scale is all what is needed to achieve Al, covering even causal models. We make it clear
+that large language models (LLMs) cannot be causal and give reason onto why sometimes we might
+feel otherwise. To this end, we define and exemplify a new subgroup of Structural Causal Model
+(SCM) that we call meta SCM which encode causal facts about other SCM within their variables. We
+|    |   Ms                                  conjecture that in the cases where LLM succeed in doing causal inference, underlying was a
+respective meta SCM that exposed correlations between causal facts in natural language on whose
+data the LLM was ultimately trained. If our hypothesis holds true, then this would imply that LLMs are
+like parrots in that they simply recite the causal knowledge embedded in the data. Our empirical
+reason  9                           analysis provides favoring evidence that current LLMs are even weak "causal parrots.”
+e
+
+---
+
+*This slide is from the video: 4. Next-Generation AI in Financial Services | The Next Frontiers of AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=yX1lu8ZGRwI*
+*Slide timestamp: 20m10s*

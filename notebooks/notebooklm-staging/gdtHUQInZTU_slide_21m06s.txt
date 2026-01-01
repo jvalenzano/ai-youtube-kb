@@ -1,0 +1,43 @@
+# Slide from: 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing
+
+## Video Information
+**Video ID:** gdtHUQInZTU
+**Title:** 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=gdtHUQInZTU
+**Duration:** 42:14
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental concepts and definitions of agentic AI, distinguishing between marketing hype and technical reality, which is essential foundational knowledge
+
+## Slide Information
+**Timestamp:** 21m06s
+**Timestamp URL:** https://www.youtube.com/watch?v=gdtHUQInZTU&t=1266s
+**Original Filename:** slide_21m06s_ef64441e.png
+
+## Transcript Context
+**Before:** and also one of my predictions back in January for this year was that LLMs alone are insufficient. You got to build a model ecosystem around them. So that kind of formed my basis of at least
+**During:** how I'm defining things plus all the conversations I've had
+**After:** with everyone over the years. So the way I'm sort of looking at this is where we largely are today is people are familiar with the AI assistance you prompt
+
+## Slide Content (OCR)
+Consensus PoV - Definitions
+a               .      Agentic AI
+(ome                                  = fe                       * Plans action paths
+4                       * Orchestrates workflows
+a                 Al Agents                   * Autonomous actions
+“4                     * Pursues goals                                         — J
+Al Assistants            * Problem-solves                  <<
+* Makes decisions                    _       gone
+* Automates tasks                                                 - ent BO)
+* Analyzes information                              we
+* Makes predictions                       oe
+~ h peas nine                      R O l
+ee ee
+
+---
+
+*This slide is from the video: 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=gdtHUQInZTU*
+*Slide timestamp: 21m06s*

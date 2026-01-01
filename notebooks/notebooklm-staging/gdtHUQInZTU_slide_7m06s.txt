@@ -1,0 +1,35 @@
+# Slide from: 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing
+
+## Video Information
+**Video ID:** gdtHUQInZTU
+**Title:** 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=gdtHUQInZTU
+**Duration:** 42:14
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental concepts and definitions of agentic AI, distinguishing between marketing hype and technical reality, which is essential foundational knowledge
+
+## Slide Information
+**Timestamp:** 7m06s
+**Timestamp URL:** https://www.youtube.com/watch?v=gdtHUQInZTU&t=426s
+**Original Filename:** slide_7m06s_a01e1be7.png
+
+## Transcript Context
+**Before:** and the lines are not crystal clear between all the talk of the last three and a half years of agentic AI, I'm sorry, of generative AI, now we're into agentic, and it's fusing, right?
+**During:** But to support your view, I happen
+**After:** to have Vladimir Lutik from the Boston Consulting Group on the podcast a few episodes ago, and they did a survey just recently and you can go out to their website
+
+## Slide Content (OCR)
+Agentic Al
+|               yy &         i :    2 ae
+Predictive |                     4   \ LD         ¢         :      “
+Models                                      |                 ¥               (f    7]
+|             A  ae  vy _——
+
+---
+
+*This slide is from the video: 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=gdtHUQInZTU*
+*Slide timestamp: 7m06s*

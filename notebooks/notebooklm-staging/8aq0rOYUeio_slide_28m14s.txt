@@ -1,0 +1,35 @@
+# Slide from: 13. Charting the Agentic AI Adoption Curve: What’s Next?
+
+## Video Information
+**Video ID:** 8aq0rOYUeio
+**Title:** 13. Charting the Agentic AI Adoption Curve: What’s Next?
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=8aq0rOYUeio
+**Duration:** 38:37
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily covers foundational concepts of Agentic AI, market adoption patterns, infrastructure requirements, and strategic considerations for enterprises rather than specific workflows, tools, or case studies
+
+## Slide Information
+**Timestamp:** 28m14s
+**Timestamp URL:** https://www.youtube.com/watch?v=8aq0rOYUeio&t=1694s
+**Original Filename:** slide_28m14s_daadad52.png
+
+## Transcript Context
+**Before:** saving exercise from that perspective. >> Yeah. As you kind of referenced and we talked a little bit before we got started on the podcast today, and bring up one of our charts here,
+**After:** which I think complements what you guys found, which is our view of this emerging talent crisis. You mentioned the supply and demand gap. Our research shows it to be about 2.
+
+## Slide Content (OCR)
+The Emerging Al Talent Crisis
+2.3X  gap in supply and demand                    supply
+9 in 10 lack a full view of talent needs         i
+8 in 10 are struggling to hire talent
+.                  .           .                                47%
+4 in 10 are at risk of losing current talent            Higher Pay
+
+---
+
+*This slide is from the video: 13. Charting the Agentic AI Adoption Curve: What’s Next?*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=8aq0rOYUeio*
+*Slide timestamp: 28m14s*

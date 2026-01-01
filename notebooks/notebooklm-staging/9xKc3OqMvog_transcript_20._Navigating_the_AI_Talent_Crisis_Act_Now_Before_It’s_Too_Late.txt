@@ -1,0 +1,889 @@
+
+
+---
+**Note:** This transcript references 3 slide images. Each slide has a companion .txt file with full metadata. Slide filenames follow the pattern: 9xKc3OqMvog_slide_TIMESTAMP.png
+# 20. Navigating the AI Talent Crisis: Act Now Before It’s Too Late
+
+**Video ID:** 9xKc3OqMvog
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 40:36
+**URL:** https://www.youtube.com/watch?v=9xKc3OqMvog
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video presents real-world examples of AI talent challenges, specific company implementations like BairesDev's talent retention tool, and practical case studies of how organizations are addressing the AI skills shortage
+
+## Summary
+- 90% of companies are accelerating AI spending, but 90% of leaders don't understand their AI talent needs or team proficiency
+- Only 2% of organizations believe they're on track to achieve AI organizational maturity
+- AI talent shortage affects both PhD-level ML engineers and applied AI engineers who can implement existing models
+- There's a 2.3x gap between AI talent supply and demand currently, projected to reach 10x gap for new entrants vs. new jobs
+- Software developers are increasingly taking on AI engineer roles, creating hybrid professions
+- AI agents are already being deployed as coworkers for code reviews, testing, and automation tasks
+- Companies should focus on team skill mix rather than seeking 'unicorn' developers with all capabilities
+- Talent augmentation through outsourcing and AI agents is becoming essential to bridge the skills gap
+- New graduates struggle to find AI jobs despite high demand due to companies preferring experienced candidates
+- BairesDev's AI-powered talent retention tool reduced attrition by 50% using predictive analytics
+
+## Key Takeaways
+- **DO:** Focus on building a good mix of skillsets across a full team rather than seeking one person who can do everything
+- **DO:** Train existing software developers and other roles (UX/UI, QA, DevOps, project managers) on AI tools and agents
+- **DO:** Utilize a three-pronged approach: existing team members, talent augmentation partners, and AI agents working together
+- **DO:** Act quickly on talent strategy as hiring processes take 3-6 months while AI landscape changes rapidly
+- **DON'T:** Don't try to find the 'unicorn' or 'purple squirrel' developer who can handle front-end, back-end, cloud infrastructure, and AI integration
+- **DON'T:** Don't put all institutional knowledge in one person who might leave, creating single points of failure
+
+## Topics
+ai_talent_crisis, talent_retention, hybrid_professions, ai_agents, workforce_augmentation, skills_gap, talent_strategy
+
+## Key Moments
+- [01:01](https://www.youtube.com/watch?v=9xKc3OqMvog&t=61s): Key statistics: 90% of leaders don't understand their AI talent needs despite accelerating AI spending
+- [13:18](https://www.youtube.com/watch?v=9xKc3OqMvog&t=798s): Critical data showing 2.3x current supply-demand gap growing to 10x gap for new entrants
+- [20:27](https://www.youtube.com/watch?v=9xKc3OqMvog&t=1227s): Discussion of AI agents as current coworkers and the shift to human-in-the-loop orchestration
+- [28:38](https://www.youtube.com/watch?v=9xKc3OqMvog&t=1718s): BairesDev's AI-powered talent retention tool that reduced attrition by 50%
+- [36:51](https://www.youtube.com/watch?v=9xKc3OqMvog&t=2211s): Final advice on avoiding the 'unicorn developer' trap and leveraging augmentation strategies
+
+## Presentation Slides
+*3 unique slides extracted from this video*
+
+### Slide at [5m34s](https://www.youtube.com/watch?v=9xKc3OqMvog&t=334s)
+
+ny,       of enterprises report
+Ss               % — struggling to find qualified AI
+=  7 4 of  = talent, while 40% of existing
+=                 O =    Al-skilled employees
+, RS     are considering        ,
+TS            leaving their jobs.
+= \       Na
+BO xe                                   = \ a y  y
+aS        =         <—&  ‘
+
+### Slide at [10m36s](https://www.youtube.com/watch?v=9xKc3OqMvog&t=636s)
+
+=e= | Software Engineers
+=a= Developers with Al/Data Science Skills                                 F-        ae
+7         \.   f      IAIN
+Are Developers Becoming _,’
+Al Engineers with the          ra
+/
+Help of Al Agents?           a
+¢
+a
++190     iat                          +200K yearly
+Te
+=r                                           ==                                                      CO xs
+
+### Slide at [13m18s](https://www.youtube.com/watch?v=9xKc3OqMvog&t=798s)
+
+gap in supply & demand
+in higher education capacity  ~ >
+gap in new entrants vs new jobs
+AI
+Talent
+
+
+## TL;DR
+AI talent crisis requires strategic workforce augmentation combining upskilled developers, outsourcing partners, and AI agents.
+
+## Full Transcript
+
+>> Hello and welcome back
+to the Next Frontiers of AI podcast, our 20th episode.
+Our objective is to partner
+with industry pioneers to explore the challenges,
+innovation, strategies, and real-world stories shaping
+the future of enterprise AI.
+I'm Scott Hebner, your host and principal analyst for
+AI at theCUBE Research.
+Thanks for tuning in.
+Today, we're going to tackle what I believe is one of the most mission- critical imperatives
+facing enterprises in 2025, the AI talent crisis.
+There's little doubt that AI
+represents the transformative force of our time, and that's why nine in 10
+companies are accelerating AI technology spending, with most declaring it
+their most important and strategic priority.
+Yet while technology investments soar, a parallel imperative is
+being left somewhere up in the stratosphere of leadership attention.
+The imperative is to win the
+battle for the best people.
+
+[01:01]
+And here's the reality, a
+recent Pluralsight survey of more than 1,200
+technology leaders found that nine in 10 do not have
+a complete understanding of their AI talent needs or the proficiency of their AI teams that
+they have right now.
+So think about that. Nine in
+10 leaders are accelerating technology spend and nine in 10 leaders are unsure of their talent foundation.
+That gap should stop every
+executive in their tracks.
+The stats are daunting.
+Only 2% believe they are
+on the road map to achieve organizational maturity for AI.
+90% of CXOs admit that
+they're not confident that they're building a
+future-ready skill base for AI disruption.
+Seven in 10 tech leaders
+say their org is struggling to secure or retain AI talent, and that jumped up from
+28% only two years ago.
+Meanwhile, generative AI and agentic roles have
+surged more than 1800%
+
+[02:01]
+and it's a global problem.
+In India, for example, for every 10 open generative AI roles, there's only one qualified applicant.
+The bottom line, AI skills
+market is becoming the battleground with enormous stakes.
+And if pathways of transformation
+are any guide, talent and culture, not the technology,
+will determine who leads, who lags and who simply fails.
+Business as usual won't cut it any longer.
+In this episode we'll
+go beneath the headlines to explore the hidden forces
+shaping the AI talent crisis, the demand-supply imbalance,
+the retention fault lines, the global sourcing
+shifts that are underway, the way agentic AI may reduce
+dependencies on human capital and the advent of hybrid
+adaptive professions, thanks to the world of AI agents.
+Joining me today to unpack
+all of this is Justice Erolin, Chief Technology Officer of BairesDev.
+
+[03:04]
+Justice is on the front lines of building and scaling AI teams for some of the world's most innovative companies, and he brings a unique perspective on what it will really
+take to close that gap.
+So Justice, thanks so
+much for taking the time to be here. Welcome to the show.
+>> Nice to be here, Scott.
+Thank you for having me.
+>> You bet. So why don't we
+just start with a little bit of background on your background.
+So can you just tell us a
+little bit about your personal journey that led you to where you are now, as CTO at BairesDev and maybe give us and our audience a little
+bit of background on what your company is all about?
+>> So I started in my career
+close to 25 years ago as an engineer, as a simple .
+NET engineer. Moved into
+front end development, then into data engineering and then moved into what I
+would call the foundations of what AI is today.
+That's essentially data analytics, data engineering, data modeling.
+
+[04:05]
+I did that for about
+five years in advertising and looked through a number of
+different attribution models to see how we can find out what advertising works for the largest brands in the world.
+One of my projects had to
+deal with building out, what we called at the time, an omni- attribution model, essentially.
+Multi-touch, multi-channel, and I looked to BairesDev for
+help, to help augment my team.
+I fell in love with the
+whole process of trying to find the right people, of getting the right folks in the room.
+And eventually I came on board because I was so in love
+with the process that, let me put it this way, I was so, so
+hard that I became an employee and that's how I started
+here at BairesDev.
+>> That's awesome. I wish I
+knew you a long time ago when I was a CMO at IBM because attribution models
+are the most contested thing
+
+[05:07]
+besides the quota models.
+>> Exactly.
+- , right.
+It's like does marketing really do that?
+And is the advertising really paying off?
+And what about this campaign?
+So I know it's a complicated space and hopefully AI is
+going to help bring a lot of value to that over time.
+>> We could do a whole
+podcast just on that.
+>> Yes, you can. No doubt about it.
+All right, well let me
+frame with a graphic the whole conversation
+that I'm hoping to have with you today.
+And I think this sets the stage here.
+So 74% of enterprises,
+according to our research, are reporting that they're struggling to find qualified AI talent.
+And they're also saying 40%
+of existing AI skills, people, the employees that have them
+are actually considering leaving for other jobs.
+So if seven in 10 can't
+find the right talent, and then four in 10 are
+having a problem retaining that talent, and the result of
+
+[06:08]
+that is something like anywhere from a 50% to 100% increase in salaries that many of these AI skilled people are getting.
+So the market's becoming more expensive, which makes it harder to find
+people, harder to retain.
+Is this what you're seeing
+as you are out there with, obviously, a lot more companies talking about talent than I am?
+>> Yeah, absolutely. It's
+essentially the great resignation, but part two, and now it's fueled by AI.
+What's interesting about that stat is the shortage isn't just PhD level machine learning engineers.
+These are not just folks that
+have the academic background to build out AI models, but it's also the applied
+AI engineers, the folks that can responsibly incorporate
+AI into production using models from OpenAI, from
+Google, from Meta, et cetera.
+And so it's two sides of that coin, and I would say the bulk
+of that 74% are going
+
+[07:09]
+to be on the applied AI side.
+The ones that make the news,
+the ones that you see from Meta and OpenAI, where they're
+stealing each other's AI engineers, I want to say that's a fairly low percentage and that's not for every company.
+If you're building out, let's call it, if you're a tire shop and you're trying to apply AI
+into your current ecosystem, you're not hiring an OpenAI ML engineer that has five PhDs.
+You're looking for somebody
+that understands the technology and can apply it to your
+specific business case.
+>> Yeah. No, I am with you on that.
+And while some companies
+may need PhD-level skills, most don't, but even given that, I think the talent is quite daunting.
+I mean, just one of the things that we do as industry analysts at the beginning of every year is we provide predictions.
+And so I put out six
+predictions back in January
+
+[08:11]
+for enterprise AI, and two of them are really
+relevant to, I think, our conversation today.
+So one, I argued that
+there's two big shifts that will shape the AI talent marketplace.
+First, software developers
+are increasingly taking on the role of data scientists and AI engineers.
+And second, enterprises are
+inevitably going to turn to AI talent augmentation.
+And that would be through outsourcing and through the application of AI agents to bridge those gaps.
+So from your vantage point, are you seeing this trend play out and how are they shaping the AI talent marketplace?
+I mean, do you think I'm on the right path and, be honest obviously,
+that those are two big things that need to change and
+be addressed ?
+>> Yeah, that first prediction
+that you mentioned, of having software engineers be AI engineers, that's currently in play.
+I don't think that's prediction
+anymore. That's a reality.
+
+[09:12]
+But what I'm seeing now is that there are companies that want it all.
+They want a single person
+that can do, that can build out their front end, their back end, build out their cloud infrastructure and also integrate with AI models.
+We're no longer looking at unicorns, we're looking at a purple
+squirrel at that point.
+We are trying to find the one person that could do everything, and with current salary ranges, now you're looking at even a higher rate.
+What companies should be doing
+instead is looking at a good mix of skillsets across a full team, and not just putting all
+their eggs in one basket, on one person because that
+person does have churn later on, in the future, which is part
+of career growth, part of what most people do.
+Now all of that domain
+knowledge, all of that institutional knowledge is out the window.
+>> Right. And that's why, and
+I also think just the pure
+
+[10:13]
+supply and demand numbers that we'll get to in a second here, because
+I got a graphic on that, is you're not going to be
+able to hire enough people.
+So you're going to have,
+directly hire into your company.
+So then there's companies
+like what you guys do, that can help augment
+those skills with people.
+And then there's the AI agents, which we'll get a little
+bit into a little bit later.
+But back on that first prediction, let me just bring up a graphic here.
+This is some of our research and the yellow line is
+showing the growth in software developers.
+Actually it has, the queue is wrong here, but the yellow line is
+the software developers.
+So there's going to be a 25,000 growth in newly hired
+software developers this year.
+That doesn't mean the total number higher, just from the previous year.
+So it's incrementing, and by 2030 it would be 200,000 a year.
+So obviously software development
+type skills are becoming increasingly in demand.
+But look at the red line.
+
+[11:14]
+Those are the, what we would
+maybe call a hybrid role here, which is there's software engineers that are also AI engineers and that skill set is fusing together.
+So our data shows in 2025, 190, 000 new roles will be hired for that type of hybrid role.
+But look, it goes up
+to 800,000 by 2030, so that's a 36% compounded growth rate.
+So the expectation is if
+you're a software developer and you want to continue to
+be viable and make good salary and have meaningful jobs, building out those AI skills are going to be absolutely critical, right?
+>> Right. We did a study
+on our side as well.
+Devs at our company are,
+I would say at least half of devs in our company, are
+looking for AI and ML skills.
+And so we've been training
+them constantly over the past few months.
+I would say since January,
+we've trained at least half of our engineers on the use of AI tools
+
+[12:16]
+and AI agents to help augment
+their existing workflow, their existing development workflow.
+And that's allowed us to,
+number one, speed up velocity for our clients, where we can get more features
+built out in a constrained amount of time and also increase productivity of our engineers.
+But two, it allows us to
+essentially retain that talent because now that they had
+the need to be trained, we trained them and then
+now they're actually using that within production-level environments.
+>> Yeah. The challenge is
+going to be that pure AI- skilled people coming out of universities and existing jobs, there's
+not going to be enough of them and therefore you have to,
+again, augment them with up- skilling existing people
+like software developers.
+And again, we'll keep coming
+back to the AI agents, which we'll get into,
+and the augmentation.
+And part of the reason, if
+we peel these statistics back even a little bit more, I'll
+bring up another chart here.
+
+[13:18]
+What we're finding here is first
+of all, there's, right now, in terms of jobs that are
+being posted, there's a 2.
+3 times gap in supply and demand.
+In other words, the demand is
+significantly higher than the ability for people to hire.
+The supply is simply not there.
+I believe it's going to
+get worse as time goes by, if we don't do something differently.
+Because if you look at higher education, so this is universities and not just PhDs, but basically any university at any level, there's a 4.
+4 times gap in their
+ability to meet the demand.
+They don't have the capacity to bring in enough people
+fast enough to then spit out.
+And what's resulting out there,
+as we go through time here, is a 10 times gap in new entrants that have the skills versus new jobs.
+They're creeping into the marketplace, but the need for the new jobs and the hiring is just
+going through the ceiling.
+That's a very, very daunting problem, not
+
+[14:19]
+to beat a dead horse here.
+And that's why I'm really
+intrigued by these ideas of hybrid professions, like the
+software developers becoming AI engineers, companies
+like what you guys do, which you can come in and quickly and efficiently augment the skills by sourcing them from different
+parts, like in Latin America and things like that, even on site.
+And then the big unknown is how much of a role are these agents going to take as they mature over time?
+It's a really fascinating conversation and there's so much technology
+discussion going on out there, and I follow this
+marketplace for a living and just not enough on
+the talent side of things, as we're pointing out here.
+>> Yeah. And there's
+another, I would say even, maybe anecdotal.
+What I'm seeing in the
+market are new grads are having a hard time landing a job.
+Even though there's plenty of
+jobs out there, the problem is that companies aren't willing to take a bet on a new grad.
+And so they would rather hire
+
+[15:23]
+a senior level dev or a dev with experience,
+with AI experience, rather than a junior developer with zero production level experience.
+And so let's say five years
+from now, you're going to have a bunch of senior level
+devs that have AI experience that are now retiring or
+getting out of the market or moving to leadership roles, and they're not getting backfilled with previously junior level devs
+that have now the experience of a senior level dev
+to take on the mantle.
+So there's going to be
+a big gap, not only now, but even worse in five to 10 years, where the market's going
+to shrink even more.
+>> Right. So the way things are right now, just in the United States, this
+gap probably means hundreds of thousands of jobs will remain unfilled.
+And it's interesting that
+people aren't willing to take the risk of newly
+skilled people coming out
+
+[16:24]
+of universities and
+building that new talent with such a huge gap.
+And the only way to get around that gap is offer a lot more
+money in terms of salary and bonus and all that stuff, which is not necessarily
+affordable for everybody.
+So what do you think's really
+underneath this imbalance?
+Is it really just the demand is so high and we don't have the skills?
+But you're pointing out
+there's actually a reluctance to bring in new people and they're trying to repurpose existing people.
+Is that what you think's
+at the core of it?
+>> No, they're trying to
+use, so some clients, let's say they have 10 openings,
+right, 10 potential roles.
+They'll get an influx of
+hundreds of applicants that are brand new from university and they'll deny every
+single one of them, partly because they don't have
+the production level experience that they're looking for.
+What I'm seeing instead
+is that they're looking to augment their team with folks like us, which we're more than happy to do,
+
+[17:25]
+but now we're essentially
+creating this bubble of talent that we'll keep
+retaining the experience and not giving it to the new generation of engineers, coming forward.
+It's a dangerous game that we're playing and we're going to have to pay for it in about five to 10 years.
+>> Yeah, fascinating. I want
+to get your take on this.
+On a recent podcast that I
+did with Arun Varadarajan, who's at Ascendion, they're basically, they have hundreds of agents.
+They're basically redefining, reimagining the software
+development lifecycle and with agentic AI.
+And he argues this notion
+that Agile is going to die a slow death, that
+technical skills, like people that have Python and things
+of that nature, are going to become less central to
+success with the advent of AI agents because they're
+going to take on so much more
+
+[18:25]
+of the design, execution.
+And the people that they're
+going to want to hire, I think, which what you're saying
+connects with me, is people that have more experience, that are able to actually guide the process,
+make strategic decisions.
+The emphasis is on directing
+the agents versus doing all the heavy duty work.
+And let me just show you a
+chart that we used during that conversation, and this is the notion of this
+adaptable hybrid profession, where agents today are starting to automate tasks, generate
+code, help you do testing.
+They're absolutely amazing at that because they can build
+off repeatable patterns of what worked in the past, and they have enormous, obviously, ability to do statistical, swimming
+in these huge data lakes and of code and all that stuff.
+Where it's heading though
+is these agents are going to start actually helping
+these developers make the right
+
+[19:26]
+decisions and understand the
+consequences of those decisions and problem solve.
+In other words, it becomes
+more goal-oriented.
+I want to build this versus
+telling it that you need to write code to do something,
+which is more task-oriented.
+And eventually these AI agentic workflows, these platforms are going to
+have autonomous automation with hundreds of these agents and they become effectively digital labor.
+They're digital coworkers
+that are then managed by the people that are responsible
+for designing, building, testing, and deploying and maintaining the software
+versus them doing it all themselves, which puts less of a burden on the
+hardcore technical skills.
+So curious to your take on that.
+In other words, where do you
+see agentic AI, AI agents, as they actually become truly intelligent and decision-making entities,
+which they aren't today, but they're going to
+head in that direction.
+Changes the game a lot, doesn't it?
+>> Yeah, so AI agents
+are already coworkers.
+
+[20:27]
+We have deployed them
+already within BairesDev.
+We're using them for a number of different tests like code
+reviews, test creations, test automations, things of that nature.
+As you mentioned, repetitive tasks that follow a specific pattern.
+What matters here is what you mentioned, is the orchestration of those agents, and that's where engineers
+really come into play.
+And that's where we essentially
+can guide agents safely in a production-level environment, so that way we're taking off some of that low- level tasks from an engineer and have them focus on the
+higher strategic items, like architecture, design, systems- level thinking, et cetera.
+Are they going to go in and ensure that a function is very strictly written Python?
+No, the agent can do that, but that doesn't mean
+that they stop learning and understanding Python
+and understanding the nuts and bolts of the technical ecosystem.
+
+[21:28]
+It just means that
+they're doing less of it.
+There's an internal joke for folks that are developers.
+The worst part of being a dev is reading someone else's code.
+But now with AI agents, that's
+almost your primary job.
+So there's still going to
+be that need to understand what the agent has written or has reviewed or has verified, but it's not going to be
+your primary responsibility.
+You're going to be there to ensure that what is being written, what's being produced
+is verifiable and good.
+It's what we call the
+human-in-the-loop interaction.
+There's going to be agents, but that human is still going to be a central piece of that puzzle.
+>> Yeah. They're becoming the supervisors, they're becoming the architects, they're becoming the managers.
+They're the ones that are
+ultimately accountable for whatever stage of the SDLC they're in, whatever they're building, but more of the deep technical work
+in the coding and all that.
+
+[22:31]
+In other words, you need to
+know how to build, in this case, software, but you don't
+necessarily have to do it.
+You're more supervising it with more and more help as time goes by.
+I mean, I think that's the net of it.
+>> Right. Like a general contractor instead of being a electrician.
+>> Yeah. Well, it's certainly my view, and again, this goes
+back to my predictions, and hopefully we will
+see how those turn out, but I think you're basically
+saying that this notion that the agents are going to be acting increasingly at a greater rate to help actually not
+only build new solutions, but to maintain them, to test them.
+And the human component is
+going to be the specialists that know how to do all this.
+And the goal is going to be
+to not replace developers, which I think I'm not a big, I think all this AI replacing humans is, for most professions, is
+not really going to happen.
+
+[23:32]
+It's going to give them
+superpowers to do more and more and more, be more
+creative, more innovative, higher productivity, so on and so forth.
+And businesses will have
+to make the decision.
+Well, does that mean you can cut people or does that mean you can do
+more and be more successful?
+>> It's definitely the latter. We're going to see more productivity.
+It's akin to when Photoshop
+was first introduced.
+It didn't get rid of any photographers.
+It just made them much, much better.
+>> Yeah. So looking ahead here, let's talk a little bit about not only where you see AI agents
+ bridge the talent gap, but also what new career paths do you
+think these AI agents are going to provide for anybody?
+I'm just curious, because
+I think my argument was, and the prediction was
+software developers are going to become AI engineers, especially with the help of generative
+AI and AI agents, and as agentic workflows kick in,
+
+[24:32]
+which is what we just talked about.
+But I suspect that there's
+going to be other people with different careers,
+perhaps not even technical, that are going to be able
+to get into this game.
+>> Yeah, I'm really curious
+to see what's going to happen with product-related folks
+or product resources.
+So product managers, product owners, UX/UI designers, et cetera.
+Now they're no longer
+dependent on a single engineer or a team of engineers to get prototypes and proven concepts out.
+They'll be able to run through
+ideas very, very quickly.
+So we're going to see a very
+interesting churn of ideas that go through and fast
+failures, which is exactly what we want from the product side, to test out the market very, very quickly and then have now a full
+engineering team build out those concepts into more production- level ready applications.
+>> And one of the ways of
+dealing with the gap here,
+
+[25:33]
+which I think we're
+both definitely agreeing that is occurring and going to get worse, is you got to repurpose other skills.
+And the secret sauce is going
+to be a combination of, again, in my view, and I think you're
+saying the same thing here, which is it's going to be a
+combination of the technology through agentic AI, AI
+agents with the ability to dynamically, flexibly and very quickly augment
+skills from people like you, when you need them and help.
+And I know from how I've
+been working with you guys that you actually don't just
+have hardcore technical people, but you have architects,
+you have strategic managers, you've got a lot of
+different kinds of skills that can very quickly augment a business and get them going as they build skills.
+And so I think it's that combination of taking existing talent that
+may not be an AI developer, evolving them into the
+skill set with agents.
+It's being flexible with the augmentation through outsourcing, and then it's going to be
+obviously looking into the
+
+[26:36]
+marketplace, because
+you're still going to want to have some core AI engineer deep skills, and that's where you're still going to have to fight that battle.
+But businesses got to be
+thinking holistically here.
+>> Yeah. And that's exactly what we've done with our internal folks.
+It's not just an engineering talent that we've trained with AI.
+We've also trained UX/UI
+designers, QA, DevOps, even project managers and scrum masters on AI agents, so that way they can see the
+full SDLC, the full gamut and increase their skillset,
+increase productivity.
+So we're not just looking at
+only at software engineers becoming AI engineers, we're
+looking at every role within that life cycle and seeing how we can elevate their productivity.
+>> Yeah, I mean, I've talked
+to a lot of businesses, this is a side example, that are taking their
+business analysts, what used to be business intelligence
+people that use Cognos dashboards or Tableau or whatever, and they're actually using agents to try
+
+[27:37]
+to turn them into AI developers, which is, you would never think, if you
+were a business analyst using Tableau, that you may end up being part of a development team, but
+that's happening out there.
+>> Yeah. And it's because they
+have such a good grasp on data that they almost understand
+what the AI will do.
+Similar to how an engineer will understand what a compiler will do, based
+off of certain instructions.
+They have that intuitiveness, intuition to get that done.
+>> Yeah, they're taking on the
+data science elements of it, I guess, but that, today, is becoming AI.
+So another example of
+that hybrid profession.
+So I'm going to dig a little
+bit deeper into, especially for our audience, what you
+guys are actually doing at BairesDev.
+You have these internal tools, like the talent retention tool, you got team recommendation engine, and I know they've been
+extremely successful.
+They've cut attrition by what, 50% or so?
+
+[28:38]
+Can you walk us a little bit
+through how these tools work and why they matter so much?
+>> Yeah. The talent retention
+tool, that was a brainchild, actually, we won the CIO
+100 Award for that model.
+All it does is takes an
+employee's compensation history, skill sets, performance
+metrics, et cetera, the full picture, and then
+determines the risk of attrition.
+What that allows us to do
+is, based off of that risk, we could then be proactive and understand what we need
+to do to retain that talent, whether it means a pay raise or an upskilling or even a change in a
+project that has allowed us to retain upwards of 50% of existing attrition cases to make sure that we're being a little
+bit more proactive in that.
+Attrition is a costly
+thing for any organization, and especially because it's
+our business model, we want
+
+[29:40]
+to retain our as much as we can.
+But for other companies,
+when you risk attrition, you're essentially
+risking domain knowledge, institution knowledge and the cost of onboarding
+another engineer of that same caliber that
+you've trained up over years.
+>> Yeah. And I know, go
+through the statistics here.
+I know obviously your business
+runs on having the best skills, and I know you guys have, what?
+The top one or 2% of skill set out there, based on the amount of people
+you hire versus applications.
+Am I understanding that correctly?
+>> Yeah, we have about 2
+million applicants per year, and we hire only the
+top 1% based off of what we're seeing in the market
+and what the need is.
+And so that allows us, one, to
+attract the best of the best, but two, offer that kind
+of talent to our clients, our 500 plus clients all over
+the US, Canada, and Europe.
+
+[30:43]
+>> Yeah. So do you find
+that the best of the best, they enjoy going from a different company, a different project?
+I mean through you guys,
+you're not doing one project, one company.
+You get more diversity of experience, because you may be working
+with multiple clients over some period of time?
+>> Right. So what we found is
+that our best engineers tend to stay at a single project or a single company for
+as long as possible.
+There might be some instances
+that we've seen in that talent retention model where they might want a new challenge.
+For example, if they're seeing
+another skill that they want to develop, they want to
+utilize that new skill in a different project, it
+could be with the same client, it could be with a different client, and they'll ask for a change in their current workflow.
+But for the most part, I'm
+looking at some of our best, and they're staying at
+our clients for upwards
+
+[31:44]
+of four years.
+So these are not small
+little two-month projects.
+They're staying on for as long as they can because they love solving problems and they love being part of that of change or positive change for our clients.
+>> That's awesome. Yeah,
+that makes sense to me.
+And I think becoming part
+of that augmentation model, I just think it gives
+people a lot of flexibility and a lot of experience.
+And you stay on a project
+for a long period of time, relatively speaking,
+but you're not tied to, and I'm not talking about your company, I'm talking about your clients, because some people do more
+than one client, correct?
+>> No. So our main business
+model is essentially if you augment with us,
+you will have that person for as long as possible.
+And there's no content switching.
+There's no mind sharing,
+no bait and switch.
+That's essentially their
+guy for as long as possible.
+>> Right. And if they
+do shut down a project
+
+[32:45]
+or whatever, then that person gets to go onto another project.
+>> Exactly. Exactly.
+>> Yeah. Yeah, I think it's
+a great business model to be a part of, frankly,
+what you guys are doing.
+Obviously we're doing this podcast and I've expressed my view
+that I think is a really critical part of where this
+marketplace is going to head.
+Actually, since we're
+talking about your clients, could you maybe give
+an example of a client, you don't necessarily have
+to name them if you can't, but accelerated their AI initiatives by taking a different approach for talent acquisition or even retention?
+>> Yeah, so we worked with a client in the legal space that
+wanted to utilize AI as part of their product offering.
+So essentially that team was an R&D team.
+The internal client team was an R&D team, and we worked with them to,
+number one, set up a number of proof of concepts to test out which GenAI model works best, which
+
+[33:49]
+problem they wanted to solve.
+And then, based off of that
+initial finding, I believe it was five proof of concepts,
+they took one of them and then moved it into full production.
+We were able to essentially
+develop an application for them within four to six
+months of just pure MVP, and it cut down their ...
+this part, I can't fully say, but it cut down their
+processing of time from about 21 hours for a single workflow to only a couple of minutes.
+And that was purely AI-driven.
+>> It's incredible. Let me just
+bring up a a summary chart that I was going to show, assuming that we hit all the right points,
+which I think we did, but I think this is the
+bottom line, just want to get your thoughts on it.
+So what it's basically saying here, and I've used this with several clients before, which people
+seem to resonate with it.
+
+[34:50]
+With Deloitte as an example, businesses are focused on extending their workplace strategies because of AI, and in particular for AI.
+And it nets out to, you got to
+tap into on-demand AI talent.
+That's what, I think, what you do.
+Also outsource some or all the projects, which is something that you guys also do too.
+So in other words, a big part of it, and obviously you need to really focus on creating
+these hybrid professions where you're augmenting
+existing skills that may or may not be an AI skill from its origin.
+And by using these AI agents, and what you're basically
+building out here is an interdisciplinary, an augmented
+team of people and agents and outsources that have different skills.
+It could be a very powerful
+model versus just keeping, battling and battling in
+this AI talent marketplace that has such a huge gap and you're going to be paying top dollar.
+
+[35:51]
+Is that a reasonable reflection of what you think landscape looks like?
+>> Absolutely. It's not an
+all or nothing type of deal.
+You can utilize your existing
+team members, you can augment with companies like us, and then you can also augment
+additionally with AI agents.
+And that collaboration between
+all three allows you to, one, utilize your existing
+institutional knowledge among your existing team members, but two, increase velocity
+by adding on folks like us.
+And then three, utilize new AI agents to help
+increase velocity further.
+So that three-pronged
+approach is a killer move, and I wish more clients would do that or more companies would do that because then you go from zero
+to 100 very, very quickly >> Yeah.
+Posting AI jobs out on LinkedIn
+or Indeed, and then going and fighting those battles
+obviously needs to happen,
+
+[36:51]
+but you can't rely on it and you have to do all these other things.
+>> I imagine that a company's
+hiring process for, let's say, from the time they open up a
+job rec on LinkedIn to the time that they get someone
+butt in seat is anywhere between three to six months.
+And a lot can change in the AI space within three to six months.
+>> Right. And then like we were
+saying before, you get them and then they get offered
+an even higher paying job for something and the
+retainment thing's tough.
+Well look, so before we wrap
+up here, if you had one piece of advice for any of the
+executives that may be listening that are struggling with
+AI talent, what would that piece of advice be?
+And while you're at it,
+what resources are available to learn more about what you guys do and how you can help them
+navigate this wild west of AI talent and solution sourcing that is definitely starting to become a bigger and bigger deal in the market?
+>> Yeah, I think for the execs
+that are hiring AI talent, the biggest danger is
+trying to find that unicorn
+
+[37:51]
+or that purple squirrel.
+It's just not going to be found and you're competing with
+everybody else trying to find that same person, if that person exists.
+So utilizing a company like us
+will help you get to that AI readiness level that you need to be at, but we could get that within
+two to three weeks or less.
+And we've proven that time and time again, and we already have the
+capability, the resources, and the knowledge to get you into a place of actual development rather than just, let's call it ideation.
+>> Yeah. It's going to be
+fascinating to watch this and see how it shapes in the years ahead.
+But look, I can go on
+forever on this subject.
+I do think it's one of the
+most critical dialogues that the industry should be having, but we have to wrap up here.
+But this has been incredibly insightful and a very helpful conversation.
+I'm sure the audience
+found it very valuable.
+
+[38:51]
+I don't think the message
+can be any clearer that while AI may be that
+transformative force, certainly of our era, it won't
+go anywhere without the right talent strategy.
+>> Absolutely.
+- It just simply won't, yeah.
+And technology alone is
+not going to determine who wins in the different markets and the different industries.
+That's going to be the people.
+And you got to get out there and act and you don't want to lag, and you certainly don't want to fail.
+And that's why it's time to
+get really focused on this because again, all the evidence shows, and just in my conversations
+with companies, that talent is thought about, but it's not a strategic imperative.
+It's just sitting, like I said before, up in the stratosphere somewhere
+and not getting the time and energy and investment that it needs.
+And those that are being
+successful are doing a lot of the things that we
+talked about on this.
+So Justice, thank you
+again for taking your time and sharing your expertise
+and insights on this.
+>> Thanks, Scott. It was
+a pleasure being here.
+>> All right. And to our
+audience, best wishes to Justice
+
+[39:53]
+as he continues to help solve
+the talent crisis out there.
+And for everyone listening,
+thank you for being a part of our 20th episode of the
+Next Frontiers of AI podcast.
+Be sure to subscribe so you
+don't miss future episodes.
+We will continue to bring you the stories and the strategies shaping the era of AI.
+Until next time, I'm Scott
+Hebner. Thanks for listening.
+Take care and bye for now.
+
+---
+
+*Content extracted from YouTube video. Original content by SiliconANGLE theCUBE. Video URL: https://www.youtube.com/watch?v=9xKc3OqMvog*

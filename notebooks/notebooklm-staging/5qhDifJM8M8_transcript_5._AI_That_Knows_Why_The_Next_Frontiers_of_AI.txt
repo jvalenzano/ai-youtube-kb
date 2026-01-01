@@ -1,0 +1,71 @@
+# 5. AI That Knows Why | The Next Frontiers of AI
+
+**Video ID:** 5qhDifJM8M8
+**Channel:** Unknown
+**Duration:** Unknown
+**URL:** https://www.youtube.com/watch?v=5qhDifJM8M8
+
+## ⚠️ Transcript Not Available
+
+**Note:** Full video transcript is not available for this video.
+This may be due to:
+- YouTube rate limiting during batch processing
+- Transcripts disabled or not available for this video
+- Video age or accessibility restrictions
+
+**Content Available:**
+- Presentation slides with OCR text (below)
+- Slide companion files with full metadata
+- Slide images with timestamps
+
+## Presentation Slides
+*3 unique slides extracted from this video*
+*Content below is extracted from slide OCR text.*
+
+**Note:** Each slide image has a companion .txt file with full metadata.
+Slide filenames: 5qhDifJM8M8_slide_TIMESTAMP.png
+
+### Slide: [5qhDifJM8M8_slide_14m56s.png](https://www.youtube.com/watch?v=5qhDifJM8M8&t=896s) at 14m56s
+
+Decisions - Fast and Slow
+| knowled
+Fast                ax S              Slow
+General questions                (ge (Pm).         Specific decisions
+Language driven           l        ‘                 Data driven
+Lacks precision                 LLMs     - Causal Al \ More precise
+Prone to bias &                CQIBEE)    (© milan      Less bias
+hallucinations                 ok a         al  ae |        No hallucinations
+Not good for key                                                                         ici
+decisions                                 i            Af            Great for key decisions
+Great for knowledge                 al mn             ; Wee raeperne?
+sharing                                       Grap!                                         ,
+Similar to Daniel Kahneman’s “Thinking, fast and slow”
+
+### Slide: [5qhDifJM8M8_slide_26m42s.png](https://www.youtube.com/watch?v=5qhDifJM8M8&t=1602s) at 26m42s
+
+Enabling Enterprise-scale AI
+LLMs            Sot         Causal Al          ML/DL            Apps
+=            =            mm             A)            A)
+Causal Knowledge Graph
+=
+Data Lake
+
+### Slide: [5qhDifJM8M8_slide_37m50s.png](https://www.youtube.com/watch?v=5qhDifJM8M8&t=2270s) at 37m50s
+
+Model Reuse and Decision Chains
+ision Model          1}    Decision Model | ag      : -— Decision Model a               Decisi
+‘oe   |      = ° ae     Lier 7 —         Lat 7
+er ae     as  ee
+eo8 oe N LO      Knowledge Model (KM)
+aie:       =        [ oe       >      =    >   +       ial   <
+$$ -_-4_4#—__+—_4}$_, ~~
+
+
+## Full Transcript
+
+*Transcript not available. Content extracted from presentation slides only.*
+
+---
+
+*Content extracted from YouTube video slides. Full transcript not available.
+*Original content by Unknown. Video URL: https://www.youtube.com/watch?v=5qhDifJM8M8*

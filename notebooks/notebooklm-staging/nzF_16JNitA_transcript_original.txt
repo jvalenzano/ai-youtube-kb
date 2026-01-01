@@ -1,0 +1,832 @@
+# 8. History's Guide To The Future of AI
+
+**Video ID:** nzF_16JNitA
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 46:14
+**URL:** https://www.youtube.com/watch?v=nzF_16JNitA
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily discusses fundamental concepts about AI adoption, historical technology transformation patterns, and foundational understanding of current AI capabilities and limitations rather than specific workflows, tools, or case studies
+
+## Summary
+- Irving Wladawsky-Berger, former IBM executive and MIT research affiliate, discusses how past technology transformations provide lessons for AI adoption
+- Historical tech waves (mainframes to PCs, client-server, internet) followed similar patterns of initial hype followed by practical business applications
+- IBM's near-death experience in the early 1990s was rescued by embracing the internet and focusing on e-business strategy rather than just technology
+- Early internet success came from simple, understandable applications like UPS package tracking rather than complex implementations
+- AI is currently in early stages similar to internet in mid-1990s - impressive demos but limited proven business value outside research
+- AI excels in research applications (materials discovery, cancer research) where it analyzes massive datasets for scientific insights
+- Current AI struggles with business applications requiring human-like understanding and contextual reasoning
+- Agentic AI represents evolution of programming languages rather than magical autonomous systems - still requires technical expertise
+- LLMs provide correlation capabilities but lack true reasoning and decision intelligence needed for autonomous agents
+- Market experimentation in real business contexts is essential - 'the game is played in the field, not in the dugout'
+
+## Key Takeaways
+- **DO:** Start with simple, easily understood AI applications that solve clear business problems rather than complex implementations
+- **DO:** Spend at least half your time experimenting with emerging AI capabilities while standardizing current technologies
+- **DO:** Focus on business value and practical applications rather than getting caught up in technology hype
+- **DO:** Experiment with real customers in marketplace settings to discover what actually works versus theoretical applications
+- **DON'T:** Don't expect current LLMs alone to provide true reasoning and decision-making capabilities for autonomous agents
+- **DON'T:** Don't assume agentic AI systems can understand natural language goals without technical expertise and proper prompting
+
+## Topics
+technology transformation, e-business strategy, agentic AI, LLM limitations, business value, market experimentation, decision intelligence
+
+## Key Moments
+- [16:28](https://www.youtube.com/watch?v=nzF_16JNitA&t=988s): Discussion of IBM's e-business strategy focusing on simple applications like UPS package tracking
+- [29:53](https://www.youtube.com/watch?v=nzF_16JNitA&t=1793s): Comparison of AI's current state to early internet adoption - impressive technology but limited business applications
+- [34:02](https://www.youtube.com/watch?v=nzF_16JNitA&t=2042s): AI's success in research applications versus challenges in business contexts requiring human understanding
+- [40:24](https://www.youtube.com/watch?v=nzF_16JNitA&t=2424s): Analysis of agentic AI as evolution of programming rather than magical autonomous systems
+- [44:30](https://www.youtube.com/watch?v=nzF_16JNitA&t=2670s): Discussion of LLM limitations and need for semantic/causal reasoning for true decision intelligence
+
+## Presentation Slides
+*2 unique slides extracted from this video*
+
+### Slide at [0m30s](https://www.youtube.com/watch?v=nzF_16JNitA&t=30s)
+
+History’s Guide                   |
+To The Future Of Al
+Intelligence ew"
+Instrumentation                      iving
+Interconnection                        Wladawski-Berger
+Compute             =) years
+
+### Slide at [23m52s](https://www.youtube.com/watch?v=nzF_16JNitA&t=1432s)
+
+FORTUNA       FORTUNE
+1984        %  es    ». eee A
+B= SL ~
+D.     fa dst    Paeee    y
+The
+oh    The IBM Erais Over [1992]
+Sinies:
+
+
+## TL;DR
+Historical technology transformations teach us to focus on simple, valuable AI business applications over impressive but impractical demos.
+
+## Full Transcript
+
+>> Hello, Scott Hebner here.
+Thank you for tuning into this
+episode of the Next Frontiers of AI Podcast, where we
+partner with industry pioneers to explore the latest developments in AI and how businesses are
+applying these advancements to create competitive advantage.
+With innovation cycles moving
+at warp speed, staying up to date is more important than ever.
+Today I'm thrilled to be joined
+by Irving Wladawsky-Berger.
+Irving is an MIT research
+affiliate, adjunct professor, senior fellow, advisory board member, and a legendary game-changing
+executive from IBM who I like to refer to as the father of E-business.
+During my days at IBM, I learned a ton from
+Irving's inherent skill to seamlessly fuse technology innovation with business strategy.
+Today we'll explore how the
+lessons from the last 50 years of technology transformations
+may provide a guide into the
+
+[01:00]
+future of AI.
+Irving will share his
+unique insights gained from experiencing multiple eras of technology- driven transformation,
+including compute, mainframes and PCs, interconnection.
+First with client-server, and
+then with the open internet.
+And instrumentation with
+the internet of things.
+And now intelligence, advanced
+analytics, and of course AI.
+For those of us that have been through these progressive
+waves of transformation, it begs a simple question.
+With AI, are we watching
+the same movie again, just with different characters?
+What can we learn from
+the lessons of history?
+So with that, let me bring up Irving.
+>> Hello, Scott. It's a
+pleasure being with you here.
+>> Hey, thank you very much.
+I really appreciate you taking the time.
+And the weather's starting
+to get a little bit warmer.
+We'll have to take our walk
+again down in Westport.
+>> I look forward to that.
+>> Yeah. What have you
+been doing over the last
+
+[02:00]
+many months since I last saw you?
+>> You know, same things.
+Going for walks, although it's a little
+harder when it's so cold, and it's been very windy.
+Reading a lot about AI and writing about it in my blog, trying to wrap my head around
+agentic AI, which is sort of the hottest new thing.
+Very involved now in helping to organize the MIT CIO Symposium, the annual MIT CIO Symposium
+that will take place in May.
+So pretty much things
+I've been doing year in, year out for the last several years.
+>> Well, I'm so glad that you
+found some time to be here , because we have a lot to talk about.
+Things have come a very
+long way in a relatively short amount of time.
+What used to be the big
+wow is now just duh. Right?
+
+[03:05]
+It's what people expect.
+My kids, I don't think
+appreciate what it was like, let's say 25 years ago when
+the internet was just coming on the scene here.
+>> Well, and we had no smartphones.
+>> We had no smartphones, right.
+>> Remember when you traveled and you got to the airport, and you had to call the
+car to come get you.
+How did we do that if we
+didn't have a smartphone?
+It's hard to imagine.
+>> Yeah, and I think back to when I was in college, you're right.
+The phone was wired to the wall.
+Actually, my dad had got
+me one of the first PCs, IBM PCs, and I remember it
+was like carrying luggage.
+I used it for word processing, I think when I was a junior
+or something like that.
+But even if you just go back
+2025 in the internet age, let me show you a video
+that I just happened to see over the weekend that I think helps
+
+[04:06]
+to bring this to light here.
+Let me bring that up right now.
+>> The X10s are online.
+Gentlemen, I am now about to
+send a signal from this laptop through our local ISP, racing down fiber optic
+cable at the speed of light to San Francisco, bouncing off a satellite in
+geosynchronous orbit to Lisbon, Portugal, where the data
+packets will be handed off to submerge transatlantic
+cables terminating in Halifax, Nova Scotia, and transferred
+across the continent via microwave relays back to our ISP and the extended receiver
+attached to this lamp.
+Look at me. Look at me.
+I've got goosebumps.
+Are we ready on the stereo? Go for stereo.
+>> That's very cute.
+And actually, there was a conference in
+
+[05:09]
+1995, and I was working with some
+people at Argonne National Lab and so on.
+And in the conference, we
+were trying to do experiments about being in touch with
+people in San Francisco where the conference was, and
+in Chicago over the internet.
+Now, that seemed to have been a very big deal then because we were trying to do
+that over cables as opposed to over phone communication.
+So that we take for granted now.
+Other things we shouldn't
+take for granted yet, but that we do >> Right.
+Now when you're on vacation somewhere and you want to turn your
+lights on at home in the early evenings, it looks like you're home.
+You can do it. And it is quite amazing.
+Actually, I looked up, that episode ran on March 19th, 2005, and I think the internet stuff started
+
+[06:10]
+10 years earlier than that.
+>> Yeah, for sure.
+>> And we're going to
+get into that for sure.
+But let's kind of start with you for a little bit of time here.
+I mean, you retired from
+IBM, I believe, in 2011.
+>> 2011. I retired from my full time job at IBM in June of 2007, after 37 years.
+And then I stayed another three and a half years as a consultant, and I finally fully retired
+in December of 2011.
+>> Yeah. And ever since
+then, I know you've been keeping super busy.
+You went through some of
+it a little bit early.
+But tell us a little bit
+more about the MIT affiliate research role that you're doing.
+>> Yeah. Okay. So I've been affiliated with MIT since 2005.
+It's one of the things
+I have most enjoyed.
+I've taught some master
+level courses, not a lot
+
+[07:12]
+because I don't live in the Boston area.
+I live in Connecticut,
+so it's a bit difficult to go every week to give a lesson.
+But I am a research affiliate at the
+Sloan School of Management, and I'm a particularly a member of two major groups in the
+Sloan School of Management.
+The Initiative on the Digital Economy, which as the name says,
+it's about looking at research on lots and lots of things to be done as we move into an
+increasingly digital economy.
+I became a member of
+another research group on cybersecurity, also associated with the Sloan School, and I asked to join that a
+couple of years ago when,
+
+[08:12]
+I mean, it was clear that cybersecurity was becoming a much,
+much more serious issue and cyber attacks.
+So I've learned a lot from
+attending our weekly meetings.
+A lot of it scares the hell
+out of me I have to tell you the kinds of things
+businesses have to face.
+And of course, all the phishing things that individuals are facing.
+And I am very, very involved as an organizer of the annual MIT CIO Symposium, which
+takes place every year.
+In May this year will take place, May 19th and 20th.
+And I've been doing that now
+for at least, I don't know, 10, 12 years.
+And the last three years I've led, I've been the
+
+[09:16]
+moderator of a panel.
+I like to moderate a panel with two young up and coming MIT graduate students or postdocs.
+And this year, for
+example, I'm doing a panel on the impact of AI on jobs and skills.
+I'm looking forward to that.
+And a number of activities of that nature.
+I'm a mentor in one of the classes in the Sloan
+School called the Analytics Lab, where students are given a problem that a company actually has.
+Companies contribute a problem
+they want the students to analyze and they contribute data to help them analyze the problem.
+And then throughout the
+semester, that's the key project
+
+[10:16]
+that groups of students are doing, and a mentor is assigned to each group, and I work with the students.
+So it's a combination.
+Working with students is the nicest thing.
+>> Yeah. I remember when
+we were taking a walk with my son Jackson,
+you were talking about- >> That's why I was so
+excited that he was about to go to Oxford.
+>> Yeah. And it wasn't lost
+on me the conversation about you having to mentor
+them on business impact and business context.
+And it's not just about the technology, and it sounds like a really
+rewarding thing to do, to work.
+>> It is rewarding. And
+let's say in these groups, most of the time they have
+to be admitted to the class.
+And for the most part, their analytics skills are very strong.
+They've all learned Python.
+They know the latest analytics kinds of things.
+Stuff, by the way, that they
+know that far better than me
+
+[11:20]
+because I got my PhD in the 1960s in physics doing eigenvalue problems and partial differential equations.
+So my math is a little
+bit behind the new math.
+But the thing where I
+could be most helpful is it's not enough to do the technology.
+You have to then explain the implications of your analysis to a group of people who may not know your technology.
+And actually, they don't care.
+What they really care about
+is, what does that mean to the business?
+Why should I do differently based on the technologies you're showing me?
+And that's where I can be
+most helpful to the students.
+>> Yeah. I remember when we were
+taking the walk, it was like
+
+[12:22]
+you and Jackson were talking Chinese or something like that
+with all the math stuff.
+I kind of followed it a little bit.
+But anyhow, having spent so much time in this industry and in particularly all those
+years at IBM, you've been through a lot of
+technology transformations.
+>> Oh God, yes.
+- Yeah.
+Have reshaped the business landscape.
+Of all those, what do you
+think had the biggest impact on change in business,
+the business landscape?
+>> What's so interesting
+about my career is that the different technologies
+I've been involved have been quite interrelated
+in the sense that one led to the next, to the next.
+Now, I was lucky enough that the summer before I started college at
+the University of Chicago, I was able to get a job in the brand new computation center
+
+[13:23]
+that was being organized
+by a professor of physics and chemistry, one of the
+top computational physicists in the world.
+And I was 17, I was about to start college,
+and he offered me the job.
+And I said, "What do I do now?
+" And he gave me some manuals
+and said, "Well, go read them and see how you're learning.
+" So I got started programming in assembly
+language back in 1962 and debugging programs by taking assembly language
+dumps and going through them.
+Did you ever do that, Scott?
+You're a little younger than me, so you probably didn't quite
+have to get to that level.
+>> Not that level. I programmed in Lisp.
+>> Yeah, that came later.
+Later on, I switched to
+programming in Fortran
+
+[14:25]
+because you know, you could do a lot more.
+When I joined IBM research, I started doing programming in PL/I and so on.
+And I would say among some of the projects that I was very involved.
+And actually later on I switched
+from being in the research divisions to more being
+in the product divisions.
+And for example, I organized IBM's efforts
+in parallel supercomputing.
+And that was very, very enjoyable.
+It was just starting, parallel supercomputing in the early '90s.
+And that parallel supercomputing continues to be incredibly important first as internet servers.
+
+[15:26]
+But in AI, all of the data analysis, and all of the
+training of algorithms, and on and on requires gigantically powerful parallel supercomputers.
+So I was involved in that.
+Then you and I worked together in the internet division when IBM made the decision to start a new internet division and embrace the internet.
+And then the best decision we made is to focus our internet strategy in what we call e-business, which meant leverage the internet for business value.
+And the reason I think it was
+such a good strategy, again, there was a lot of new
+technology around the internet.
+Of course TCP/IP protocols, HTML,
+
+[16:28]
+HTTP, etc., the new email protocol, new transaction kinds of algorithms to make sure that when you
+were paying with a credit card, it was all done very safely.
+E-commerce wouldn't have taken
+off if people didn't feel safe using their credit cards.
+But what we did best is that for the most part, the customer...
+Remember, IBM customers
+were business customers.
+They assume we knew the
+technology was going to work.
+We had already embraced the standards of the internet.
+They wanted to know,
+what is this good for?
+What should I do with this?
+And what we did was instead
+
+[17:31]
+of picking the most complicated
+examples we could pick, I still remember one of the first examples we picked was to work with UPS so that if you wanted to know
+where your package was, instead of having to call a UPS operator with an 800 number, and then he or she would enter the ID of your package into a terminal connected to the mainframe where they had all the
+data, we worked with them to develop a browser application that then connected to a web server.
+And the web server then
+tricked the mainframe and say, "Here is a
+request from a terminal.
+" Obviously it wasn't talking to it.
+
+[18:34]
+And the mainframe could
+care less. It got a request.
+It gave it back to the web server, which then translated it and
+gave it back to the browser.
+That sounds trivial, doesn't it?
+But it was so easy to understand.
+Really, people loved it because now they could find out where their package was
+anytime they wanted to, and they didn't have to see if
+the operator was busy or not.
+A lesson there is
+especially in the early days of a new technology, don't pick the most
+complicated applications you can imagine.
+Pick the simplest that you can explain to the customer in a short elevator ride and explain how it works.
+And because it's simple,
+then you can get it done.
+
+[19:35]
+Now later on, we did
+more complicated things.
+We worked with L.L.Bean. L.L.
+Bean, I don't know if
+you remember in the '90s.
+They had a catalog business.
+They would mail your catalogs
+and you look at the catalogs.
+And once more, you had to
+call somebody on an 800 number and order from the catalog, and then they would
+have it shipped to you.
+Well, we worked with them.
+Number one, create an online catalog.
+Created the online catalog.
+So now you no longer have to work with the operator.
+And because it was online,
+you can see this stuff.
+You can see the pictures on the browser of what you were ordering, and you finished.
+And then we integrated the credit card application so
+
+[20:36]
+that they could pay for it.
+We made sure it was all done
+in the safest way possible at the time.
+And I don't need to tell
+you, e-commerce took off.
+I mean, since taking off.
+So it was very nice to be
+able to be at the beginning.
+But let me repeat again.
+The key experimentation we did was in the marketplace working with customers, and jointly helping to
+develop the applications, and seeing which ones were very useful and which one...
+Did we do applications that
+didn't bring so much value?
+We did. But the only way to find out what works and what doesn't is by working with customers in the marketplace.
+And it's as true of AI now as it was
+
+[21:39]
+with the internet and in business then.
+>> Yeah, it was all novel
+back then, and I know- >> It was magical.
+It was more than novel.
+I think when you get a new technology, it feels like magic.
+>> Yeah. Well, I know it played a...
+I'm going to show you another clip here, which I know you have not
+seen, but you may remember it.
+And this has to do with
+IBM's near-death experience and what the internet did and how IBM, under your leadership with Lou Gerstner turned it
+into the e-business strategy.
+And then it was all history because, so let me show you this video.
+>> Company was going to make it, but now it was time to
+try to restore IBM's fame.
+We didn't want to be known,
+let's say you go to a party and somebody sees you and
+they say, "Where do you work?
+" I say, IBM.
+It wouldn't be nice if
+they say, "Oh my God, I thought you were dead.
+
+[22:40]
+Thank God you're alive.
+" You want to do a little
+bit better than that.
+And I think that God took pity on us because right around
+the time we were ready, they sent us this gift, the internet.
+The mid-'90s is when the
+internet was taking off.
+And I think the Gods were
+saying, "Here it is, guys.
+Don't screw it up this time.
+"
+Yeah, IBM almost died in the early '90s during the transition from mainframes to client servers, because client server
+systems were based on pretty much PC and Unix technologies, which were much cheaper than mainframes.
+And in the early '90s,
+
+[23:40]
+it was touch and go
+whether IBM would survive.
+Quite a number of
+companies didn't make it.
+I don't know if you remember digital DEC, the mini computer company.
+And Wang, who was the leader
+in office systems and so on.
+And we were very lucky.
+Yeah, I used to use this slide when I talked about that experience.
+Because in 1984, IBM was the most profitable company in the stock market.
+In 1984, all because of mainframes.
+And then only eight years later, we almost went out of business, which shows that if
+you don't pay attention
+
+[24:42]
+to what's going on in the
+marketplace, you can go from the top company to one that's barely alive.
+And luckily for us, we got one of the top executives that
+I've ever worked with, I think in the world, Lou Gerstner.
+And with Lou Gerstner, we
+transformed the company, we embraced the internet.
+And when he asked me, "Let's organize a new internet
+division," which we did.
+And that restored IBM.
+That stopped the death
+experience we were going through.
+And it restored IBM to once more be a major
+technology leader then.
+>> Yeah. I'll never forget those days because I joined IBM
+in 1989. My dad worked- >> We were already sliding down then.
+
+[25:43]
+>> Yeah, no, when I joined, we
+were starting to slide down.
+But it was okay. But
+by the time 1993, 1994, that's when my dad retired.
+You start to worry about the company.
+And I remember losing billions.
+And like you said, and I think you've made the
+point many times ever since, is that there's nothing like
+a near-death experience to just shake things up.
+Right? And I'll never forget that journey, because we had the software
+group coming online.
+We had services, and we
+had the overriding E- business strategy.
+And in my 34 years at IBM,
+I have never seen more of a one IBM.
+We win or lose together, do or die.
+And no one was confused
+about what IBM was about.
+>> Yeah, I give Lou Gerstner huge credit, because it was his leadership that he made sure no one was confused.
+This is what we're going to do.
+
+[26:44]
+Not everybody liked it.
+For example, IBM had its own proprietary network architecture system, network architecture.
+Do you remember?
+>> Yeah. SAA, systems
+architecture,  6.2.
+>> Yeah, all that.
+And the people who were leading the networking division didn't want to change.
+And they said, "Well, the
+internet is for supercomputing and for technical computing world," and we had to force it down their throat.
+I could never have done it if
+it hadn't been for Lou saying, "This is what we're going to do.
+" And we did it. And...
+>> I remember the shock
+waves when he went out, he was at a financial
+analyst session or something, and he's like, "The
+Internet's not about browsing.
+It's about business.
+" And I just remember the
+negative press about it,
+
+[27:47]
+and he turned out to be right.
+>> Absolutely. Absolutely.
+It's all about business, which brings us to AI now.
+>> Yeah, let's do that.
+- And the analogy is even more than the internet, when it first emerged in the commercial world.
+Remember, it was being developed in the technical world, and
+research labs, and universities, and government labs since 1969.
+And you couldn't use the internet for commercial purposes
+until 20 years later, the late 1980s.
+And that's when it entered the business world.
+And right now, once more,
+
+[28:51]
+we have AI, which in many ways is even more impressive than the internet.
+And you can go and have a conversation
+with ChatGPT about all kinds of things, and you will either text or write in English.
+And with large language
+models, it will understand you.
+It can do real-life translation.
+You can ask it to translate a Shakespeare poem into Spanish, and it
+will do that in a second.
+Or you can ask it to
+write you a poem to send to your son in Oxford saying
+how much you love him, and you hope he's happy
+in Oxford and so on.
+>> .
+- Hope he's having fun, and drinking good wines,
+and so on, which they do.
+As I understand, the different houses
+
+[29:53]
+in Oxford have their own wine cellars, so they take that very seriously there.
+But what really counts is, what's the business value?
+What are you going to do with AI that brings you real business value?
+And I think for the most part, we are in the very early stages of that.
+>> I agree.
+- I don't think we are anywhere near
+the equivalent of the e- business stage with the internet.
+There is one exception in my mind.
+The exception is the internet at heart is all about analyzing gigantic amounts of information, gigantic amounts.
+
+[30:56]
+A lot of the progress that
+we've seen with ChatGPT and the different AI models, it's all based on data.
+Lots and lots of data.
+You use special GPUs from companies like NVIDIA
+to help you analyze the data, but it's all about analyzing
+gigantic amounts of data.
+And then either answering questions, translating from
+one language to another, etc.
+Now, where the internet already is very, very useful because of the data
+analysis is in the world of research.
+For example, a young graduate student at MIT, a second year graduate student
+in the economics department
+
+[32:00]
+wrote a superb paper about the use of internet algorithms to develop new media products, that is new materials products.
+And the way the people who
+did that were able to do that is they were inputting into the algorithms characteristics
+of certain materials and asking it to give you examples of similar materials, which then they can analyze and test.
+Similarly, people are
+applying this ability to analyze huge amounts
+of data to find cures for cancer, to be able to link characteristics, let's say, of a breast cancer tumor to the
+
+[33:02]
+genomic characteristic of the woman who had the tumor.
+And then analyze a lot of databases to see what has worked in the past,
+what hasn't worked, find things that work that are very
+similar to this combination of tumors and genetic stuff.
+The reason that works so well, that's really not a business.
+That's scientific research.
+That's what that is.
+And we've been doing this
+kind of supercomputing- based scientific research for decades, maybe longer.
+But especially using very
+powerful parallel supercomputers, the people who do this are researchers.
+Physicists, biologists, etc.
+
+[34:02]
+Remember when the human
+genome was decoded?
+I believe that happened in
+the 1990s or thereabouts.
+And so you have a highly
+skilled group of people who don't know how to do that.
+And then that research then has to be the recommendations that
+you get from that research.
+Then they have to make a judgment.
+Which ones we should be
+patenting, which ones will lead to new products?
+And they go through all those processes.
+But the AI comes in in the research.
+That's very different from using it in a seemingly much simpler business application.
+But that now requires, for example, to help a customer service rep understand if you call the company
+
+[35:05]
+and you are confused about something.
+And if you talk to a person, people are very good at
+having a dialogue with you and clear up the confusion.
+If you talk to an AI agent, then the AI gets confused very quickly because it doesn't have the same human understanding of the
+problem that a human has.
+That's the state of the art
+today. Will it get better?
+Absolutely. When will it get better?
+It's too early to tell.
+That's .
+>> Yeah. My view of all this, and again, trying to learn from the past is one thing I think I've
+learned in my career is what you think is important and critical in the beginning
+
+[36:07]
+of the transformation turns
+out the end not to be.
+So example, I remember in those days, the browser wars and Netscape.
+It was the most critical
+decision you could ever make was what browser you picked.
+And what ended up happening is it faded into the infrastructure.
+At best right now, it's a preference.
+It basically created a
+gateway into the internet.
+I think what you got today with AI is LLMs and generative AI, most important decision
+you can make right now, but it's going to fade
+into the infrastructure.
+It's going to become just a preference.
+And it essentially is
+providing a gateway into the world of AI.
+And just like with the
+internet, with e-business, and I think what we're going
+to see today with AI is how you build around
+that foundational, LLM, generative AI capability
+within your business, your ecosystem of specialized models that get you into decision intelligence.
+>> By the way, what
+settled the browser wars,
+
+[37:11]
+the reason we had browser
+wars is different companies had developed browsers, but the browsers couldn't access all the
+websites from each other.
+And finally, the W3C got organized, which was a standard organization, and got everybody around the table, and they say, "We must
+have one goddamn browser based on standards that everybody's going to agree on.
+" And they all did to their credit.
+And that's what allowed the
+worldwide web to explode.
+By the way, in the same
+way, the reason the TCP/ IP replaced proprietary networks is because everybody agreed to now use the internet standard protocols for their networks.
+So the old proprietary
+networks that couldn't talk
+
+[38:15]
+to each other, that went away.
+So that's what takes time to try to get agreements.
+And then as you were just saying, because we don't know, because we're in the early stages, what will really work
+well in the marketplace and what will not.
+What is very cool, but it won't work.
+It doesn't bring you business value.
+We need a lot of experimentation.
+I like to say that you have
+to play the game in the field, and the baseball season is about to start.
+You have to play the game in the field.
+It's not a theoretical game.
+You have to get out there.
+And some of the applications will be very, very useful and valuable.
+And other applications that on paper look very good.
+
+[39:20]
+>> Well, I got something
+for you. Watch this.
+>> But you know, you're going to the Red Sox game tomorrow, right?
+>> I'm going to the Red Sox game.
+>> The game is played in the
+field, not in the dugout.
+So the labs are... No, I'm very serious.
+>> That was a key message to me, right?
+And I think, and I
+remember Steve Mills used to always preach this too, which is to be successful when you're in the middle of a transformation, you have to spend at least half
+your time experimenting with what's coming next, because you have to make a decision.
+You're either going to
+lead, lag, or simply fail.
+And I think that's another lesson where don't get overly consumed with LLMs and generative AI today, because the real impact is emerging now.
+And yes, you have to standardize that and you have to build it
+into your infrastructure, but you can't not be experimenting with what's coming next, right. Otherwise- >> Just as an example, lots
+
+[40:24]
+of people are very
+excited about agentic AI, and I'm trying to wrap my...
+You've heard of it, obviously.
+You've written about it, right?
+>> Absolutely.
+>> I mean when you read it
+on paper, it sounds magical.
+It sounds like oh my God, you can develop this AI module that will automatically do what you want.
+And what's not to like about something that does what you want and it's a collaborator for you?
+The way I'm looking at it is that this is the evolution of application programming.
+Now, when I say the evolution
+of application programming,
+
+[41:25]
+remember we started our chat when I told you that when I was entering college, I was programming in assembly language.
+That's in 1962, '63.
+And later on, I was
+programming in Fortran.
+That's a long time ago.
+Here we are, I don't know, 70 years later.
+And programming has gone
+higher, and higher, and higher, and higher, and higher, and it makes it easier.
+And you can get more
+tools, more abstractions, and things like that.
+And now, you can do incredible things with programming, some very
+sophisticated applications with "agentic" AIs.
+But if you ask me now, "
+
+[42:28]
+But you just talk to it with a large language model, which is English- like," well Scott, depends what you mean by you can just talk to it.
+Because the people who've shown me what they expect this will
+work, like Jerry Cuomo, who just retired from IBM, who's an IBM fellow.
+Yes. But you have to know how to do the hints to the model as to what you like.
+And it helps if you know Python and if you know other techniques.
+And you're not working a
+program, you're using them to tell the agentic AI system, "This is what I want.
+"
+But you have to tell it
+
+[43:29]
+what you want in specific languages.
+And if you don't have
+that kind of experience, if you just start talking like you and I are talking, expecting the agent AI to translate what we're
+saying into a program that will do incredible
+stuff, boy, you don't know what you're talking about.
+>> Well, what's going on out
+there today, you're right.
+And everyone's saying that these
+agents are going to be able to make decisions, and they're going to be goal- oriented versus just prompt-oriented.
+>> But who's telling them the goals?
+The humans have to explain the goals in ways the poor AI system understands.
+>> Well, I think the
+challenge they have today is that they're trying to build
+this on generative AI and LLMs, and an LLM is insufficient.
+
+[44:30]
+It's correlation at best.
+It is not AI reasoning.
+It's not decision intelligence.
+It's simply not capable of doing that.
+And that goes back to the
+browser analogy that you got to build on top of it
+with semantic reasoning and causal reasoning.
+And those technologies are out there, and our research shows about 10 to 15% of companies are using it today.
+Netflix, Uber, BMW, Fitch Ratings.
+There's a ton of them out
+there that are using it.
+That's what's going to
+differentiate an agent's ability to actually make some degree of decisions.
+All right, Irving, thank you very, very much for taking the time.
+This has been a fabulous conversation.
+>> Thank you for inviting me.
+It's a pleasure doing this with you.
+>> You bet. We'll do it again sometime, and we'll certainly as soon as now that things are getting warm,
+we'll take another walk down there on Westport on the beach.
+So look forward to that. And thanks again.
+And for all of you out there, thank you for joining us today.
+I really appreciate you being
+here on the Next Frontiers of AI Podcast.
+
+[45:31]
+So appreciate it. Stay
+tuned for more research and analysis from our team
+as we dive deeper into what is shaping the
+future of AI in business.
+Visit us at thecuberesearch.com
+and siliconangle.
+com to stay connected to and get access to all the AI research and podcasts from across the team.
+We are the leader in tech news
+and analysis. Bye for now.
+
+---
+
+*Content extracted from YouTube video. Original content by SiliconANGLE theCUBE. Video URL: https://www.youtube.com/watch?v=nzF_16JNitA*

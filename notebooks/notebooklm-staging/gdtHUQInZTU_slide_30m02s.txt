@@ -1,0 +1,42 @@
+# Slide from: 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing
+
+## Video Information
+**Video ID:** gdtHUQInZTU
+**Title:** 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=gdtHUQInZTU
+**Duration:** 42:14
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental concepts and definitions of agentic AI, distinguishing between marketing hype and technical reality, which is essential foundational knowledge
+
+## Slide Information
+**Timestamp:** 30m02s
+**Timestamp URL:** https://www.youtube.com/watch?v=gdtHUQInZTU&t=1802s
+**Original Filename:** slide_30m02s_8ea59fe0.png
+
+## Transcript Context
+**Before:** Data is not knowledge. Correlation doesn't imply causation. And if it doesn't understand what you're asking it, it can't weigh consequences. Those to me are the characteristics
+**During:** that I think take us into this next world,
+**After:** which may be years, it may be a decade, but at some point these things are going to be able to use knowledge graphs and causal inference and some of these more advanced technologies
+
+## Slide Content (OCR)
+tit
+Explains what,
+Does                               how and why
+Reasoning                                            |
+Differentiate          <  Ne things            r_-          Understands   ae
+Al Agents             323  Happen          WV,         Consequences
+from Gen AI                                 |
+Assistants?
+Helps Solve       * Causal discovery
+Problems       * Root cause detection
+* Counter-factual analysis
+WHAT IF  ?      * Interventional “what if”
+
+---
+
+*This slide is from the video: 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=gdtHUQInZTU*
+*Slide timestamp: 30m02s*

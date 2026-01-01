@@ -1,0 +1,35 @@
+# Slide from: Digital Labor @ Work: How AI Agents are Transforming Community Management
+
+## Video Information
+**Video ID:** MvpEczgOI6w
+**Title:** Digital Labor @ Work: How AI Agents are Transforming Community Management
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=MvpEczgOI6w
+**Duration:** 45:58
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** This video presents a detailed real-world case study of HOAI's implementation of AI agents in community management, including specific customer examples, measurable outcomes, and live demonstrations of the technology in action.
+
+## Slide Information
+**Timestamp:** 5m20s
+**Timestamp URL:** https://www.youtube.com/watch?v=MvpEczgOI6w&t=320s
+**Original Filename:** slide_5m20s_d528df27.png
+
+## Transcript Context
+**Before:** 800,000 tasks that would have otherwise required humans to do. So that's a big labor saving for a lot of our customers. And I think the reason why we're able
+**During:** to achieve such success are
+**After:** really due to the approach we have taken. When we think about software, there are vertical software, there are horizontal software. For us, we decided to go vertical,
+
+## Slide Content (OCR)
+(1) Go vertical in nuanced markets
+HOAI     (2) Address labor spend, not IT
+Keys To (3) Empower knowledge over tasks
+Success    (4) Rethink software, go agentic
+(5) Build trust in outcomes
+
+---
+
+*This slide is from the video: Digital Labor @ Work: How AI Agents are Transforming Community Management*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=MvpEczgOI6w*
+*Slide timestamp: 5m20s*

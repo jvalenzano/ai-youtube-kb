@@ -1,0 +1,45 @@
+# Slide from: 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+
+## Video Information
+**Video ID:** eb-WgM8Ys_s
+**Title:** 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s
+**Duration:** 46:57
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational knowledge about how AI systems discover and rank brands, explaining core concepts like the CAT framework, semantic graphs, and the fundamental shift from SEO to AEO
+
+## Slide Information
+**Timestamp:** 38m48s
+**Timestamp URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=2328s
+**Original Filename:** slide_38m48s_af48500f.png
+
+## Transcript Context
+**Before:** and you have to play the game differently. um which includes your website. And I want to get back to that because I think the website that you own
+**During:** and the properties you have are absolutely critical in how the LMS build
+**After:** the knowledge and the semantic understanding of the value you bring and uses that to then connect it to what problems or questions people are asking.
+
+## Slide Content (OCR)
+H                                                             PP orecuse
+ake your website reaay for                    BH esearch
+LIGHTSITE          @  Enterprise Al Infrastructure Layer
+Instantly deploy WACP protocol, Al plugins, manifests, semantic search endpoints,
+’                               and RAG-ready APIs — the complete technical foundation for Al discoverability
+$ ;            @  LLM Communication Protocol
+vn                         Al assistants can query your catalog directly via semantic endpoints, accessing
+re | <a                     structured product data in real-time for accurate recommendations
+uh                 (03)  Multi-Engine Visibility Tracking
+ig                      Monitor your brand presence across ChatGPT, Claude, Gemini, Perplexity with real-
+ad                         time alerts and competitive benchmarking
+Website
+Readiness                g  Brand Authority Building
+Discover unclaimed brand mentions across the web and convert them to strategic
+backlinks, strengthening your position as the source Al engines trust
+
+---
+
+*This slide is from the video: 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=eb-WgM8Ys_s*
+*Slide timestamp: 38m48s*

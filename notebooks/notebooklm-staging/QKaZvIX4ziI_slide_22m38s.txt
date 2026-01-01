@@ -1,0 +1,56 @@
+# Slide from: 19. From PoC to Production: Scaling Agentic AI in Financial Services
+
+## Video Information
+**Video ID:** QKaZvIX4ziI
+**Title:** 19. From PoC to Production: Scaling Agentic AI in Financial Services
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI
+**Duration:** 40:21
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video centers on real-world implementation challenges in financial services, featuring a detailed wealth management POC demonstration and practical deployment experiences with specific clients
+
+## Slide Information
+**Timestamp:** 22m38s
+**Timestamp URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI&t=1358s
+**Original Filename:** slide_22m38s_872bd22d.png
+
+## Transcript Context
+**Before:** and different colorful indicators like Wix, GDP, interest rate, unemployment rate and sentiment score. This is where the AI provide the explanation to portfolio manager with different indicators
+**During:** and different explanation of those predefined reports
+**After:** that the other two agents that I mentioned. So there are some charting capability, MongoDB support Atlas Charts, which if you have the data in MongoDB,
+
+## Slide Content (OCR)
+@@® Leafy Bank                                                                   Investment Portfolio Dashboard                                                                        © Selected Risk Profile: | HIGH RISK                  +\%
+U-Day Moving Average Analysis                                                                                                                                                                                                               .
+Price vs. MASO:
+HYG close price is 79.86, and its MASO is 79.94.
+Diagnosis:
+may indicate an uptrend.
+»
+VIX Sensitivity Analysis                                                                                         e            GDP Analysis                                                                                                            e
+Market Volatilty:                                                                                                                             GOP Trond:
+‘Vik close price is 20.84 (reported on: 2025-06-19), previous close price value was: 18.02 (reported on: 2025-              GOP fs up by +249.78 with respect to the previous period.
+(06-12), percentage change: 15.65%.
+‘Asset-Specitic Recommendation:
+‘Assot-Speciic Recommendation:                                                                                                       Suggestion:
+Suggestion:                                                Reduce Bond assets as rising GOP typically favors equity over fixed income.
+HYG has high VIX sensitivity and volatility is elevated (20.84), Reducing postion advised.
+i               a             De eee ma tae                                                            Conticting signal with Effective Interest Rate, Unemployment Rate
+HYG has HIGH sensitvity to market volaity, Curenty in UPTREND
+Interest Rate Analysis                                                                                    e           Unemployment Rate Analysis                                                                        e
+Intorest Rate Trond:                                                                                                                          Unemployment Rate Trend:
+Effective Interest Rate is neutral with respect tothe previous period.                       Unemployment Rate is neutral with respect to the previous period,
+‘Assat-Specific Recommendation:                                                                                                      ‘Asset-Speeitic Recommendation:
+Suggestion:                                                                                                                                   Suggestion:
+No change needed as interest rates romain stable,                               No change needed as unemployment ramains stable.
+Confliting signal wth GOP                                                                                                                 Conticting signal with GOP
+CR Let Perttotio Acsitant
+Leo             Bonds           Investment-Grade Bonds           10778                  ™                      0.86                          e                       e                      e                                me sekibie
+
+---
+
+*This slide is from the video: 19. From PoC to Production: Scaling Agentic AI in Financial Services*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=QKaZvIX4ziI*
+*Slide timestamp: 22m38s*

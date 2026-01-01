@@ -52,15 +52,25 @@ python skills/yt-series-to-team-kb/run_skill.py --playlist YOUR_PLAYLIST_URL
 python scripts/ingest.py --playlist YOUR_PLAYLIST_URL      # ~5-10 min
 python scripts/curate.py --all                            # ~15-30 min
 python scripts/extract_slides.py --all                    # ~45-90 min (longest step)
-python scripts/export_notebooklm.py                       # ~1 min
+python scripts/review_slides.py --video VIDEO_ID          # Review slides (per video)
+python scripts/add_credit_overlay.py --all                # Add credits to all videos
+python scripts/finalize_curation.py                       # Final sync & refresh
+python scripts/stage_for_notebooklm.py                    # Stage for NotebookLM upload
 python query.py --build                                   # ~2-5 min
 ```
 
 **⏱️ Time Expectations** (for 27-video playlist):
-- **Total**: ~1.5-2.5 hours end-to-end
+- **Total**: ~1.5-2.5 hours end-to-end (without review/credits)
+- **With full curation**: ~2-3 hours (includes review, credits, finalization)
 - **Longest step**: Slide extraction (~45-90 min with parallel processing)
 - **Can run in background**: Slide extraction can be left running while you do other work
 - **Check progress**: Use `python scripts/extract_slides.py --status` anytime
+
+**Full workflow includes** (after initial processing):
+- Slide review: ~5-10 min per video (interactive)
+- Credit overlay: ~1-2 min per video (automated)
+- Finalization: ~2-5 min (all videos)
+- Staging: ~1-2 min (all videos)
 
 ## Live Demo
 
@@ -112,6 +122,13 @@ python query.py --build                                   # ~2-5 min
 │  └────────────┘  └────────────┘  └──────────────┘  └─────────┘  │
 │       ↓               ↓                ↓               ↓        │
 │   data/raw/      data/clean/     data/slides/      kb/index     │
+│                                                                    │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────┐  │
+│  │review_slides │→ │add_credits   │→ │stage_for_notebooklm  │  │
+│  │(human review)│  │(attribution) │  │(prepare for upload)  │  │
+│  └──────────────┘  └──────────────┘  └──────────────────────┘  │
+│         ↓                 ↓                    ↓                 │
+│   data/slides/      data/slides/    notebooks/notebooklm-staging│
 └─────────────────────────────────────────────────────────────────┘
                                         ↓
                        ┌────────────────────────────┐
@@ -132,7 +149,12 @@ yt-agents-kb/
 │   ├── ingest.py            # Playlist + transcript extraction
 │   ├── curate.py            # Claude summarization + tagging
 │   ├── extract_slides.py    # CLIP-based slide detection + OCR
-│   ├── export_notebooklm.py # NotebookLM artifacts
+│   ├── review_slides.py     # Human-in-the-loop slide review
+│   ├── add_credit_overlay.py # Add attribution to slides
+│   ├── sync_slide_metadata.py # Sync metadata with files
+│   ├── finalize_curation.py # Final sync & refresh (all videos)
+│   ├── stage_for_notebooklm.py # Stage files for NotebookLM upload
+│   ├── export_notebooklm.py # NotebookLM artifacts (basic export)
 │   └── generate_master_kb.py # Master document
 ├── skills/
 │   └── yt-series-to-team-kb/ # One-command Skill CLI
@@ -140,8 +162,9 @@ yt-agents-kb/
 │       └── Skill.md
 ├── notebooks/
 │   ├── notebooklm-ready/
-│   │   ├── videos/          # Per-video .txt files
+│   │   ├── videos/          # Per-video .txt files (pre-staging)
 │   │   └── modules/         # Module bundles (.md)
+│   ├── notebooklm-staging/  # Staged files ready for upload (after finalization)
 │   ├── Master_Knowledge_Base.md
 │   └── youtube-urls.txt
 ├── kb/
@@ -154,6 +177,27 @@ yt-agents-kb/
 ```
 
 ### CLI Reference
+
+#### Quick Reference: Export vs Staging
+
+**`export_notebooklm.py`** (Basic Export):
+- Creates text files in `notebooks/notebooklm-ready/videos/`
+- Includes transcripts, summaries, slide OCR text (embedded in transcript)
+- **Does NOT include slide images**
+- **Does NOT move files** (keeps originals)
+- Use for: Quick export, module bundles, YouTube URL lists
+
+**`stage_for_notebooklm.py`** (Complete Staging) ⭐ Recommended:
+- **Moves** files to `notebooks/notebooklm-staging/`
+- Includes slide images (renamed with video_id)
+- Creates companion metadata files for each slide
+- Embeds metadata in every file for NotebookLM's RAG
+- **Condenses repository** (removes from original locations)
+- Use for: Final upload to NotebookLM with complete content
+
+**When to use each**:
+- Use `export_notebooklm.py` during development/testing
+- Use `stage_for_notebooklm.py` when ready to upload to NotebookLM (after finalization)
 
 #### Skill CLI (Recommended)
 
@@ -170,8 +214,11 @@ The Skill CLI automates the entire pipeline:
 2. Curates with Claude
 3. Extracts slides (if available)
 4. **Human review** (optional): Interactive slide curation
-5. Exports to NotebookLM
-6. Builds search index
+5. Adds credit overlays
+6. Exports to NotebookLM
+7. Builds search index
+
+**Note**: For final staging (moving files to `notebooklm-staging/`), run `python scripts/stage_for_notebooklm.py` after completing all curation.
 
 **Human-in-the-Loop Feature**: After slide extraction, the Skill offers an interactive review step where you can review each flagged slide and decide: Keep or Remove. This ensures quality while preserving important content.
 
@@ -462,6 +509,63 @@ python scripts/export_notebooklm.py        # Export curated
 python scripts/export_notebooklm.py --raw  # Include raw transcripts
 ```
 
+**When to use**: Creates text files in `notebooks/notebooklm-ready/` for basic NotebookLM import. For complete content with slides and embedded metadata, use `stage_for_notebooklm.py` instead (recommended after finalization).
+
+##### stage_for_notebooklm.py - Stage Files for NotebookLM Upload ⭐
+
+**Prepare all completed videos for NotebookLM upload** - moves files to a staging directory with embedded metadata.
+
+```bash
+# Preview what will be staged (recommended first)
+python scripts/stage_for_notebooklm.py --dry-run
+
+# Stage all completed videos
+python scripts/stage_for_notebooklm.py
+
+# Stage specific video
+python scripts/stage_for_notebooklm.py --video VIDEO_ID
+```
+
+**What it does**:
+1. **Moves** (not copies) all completed video files to `notebooks/notebooklm-staging/`
+2. **Renames slide files** to include video_id: `VIDEO_ID_slide_TIMESTAMP.png`
+3. **Creates companion `.txt` files** for each slide with full metadata
+4. **Creates/updates transcript files** with slide references
+5. **Organizes everything** in a flat directory structure for easy upload
+
+**⚠️ Important**: Files are **moved** (not copied) from original locations. This condenses your repository but removes files from `data/slides/` and `notebooks/notebooklm-ready/`. If you need to keep originals, back them up first.
+
+**Why staging?**
+- **Condenses repository**: Moves completed work out of main data directories
+- **Embedded metadata**: Each file is self-contained with enough context for NotebookLM's RAG
+- **Individual file uploads**: NotebookLM requires individual files (not folders), so each file needs embedded metadata
+- **Ready for upload**: All files in one place, properly named and organized
+
+**What gets staged**:
+- **Slide images**: `VIDEO_ID_slide_TIMESTAMP.png` (renamed with video context)
+- **Companion files**: `VIDEO_ID_slide_TIMESTAMP.txt` (full metadata for each slide)
+- **Transcript files**: `VIDEO_ID_transcript_TITLE.txt` (with slide references)
+
+**After staging**:
+- Files are moved from original locations (repo condensed)
+- All files are in `notebooks/notebooklm-staging/`
+- Ready for drag-and-drop upload to NotebookLM
+
+**Video Completion Requirements**:
+A video is marked as "completed" when **all three** conditions are met:
+1. **Reviewed**: Slides have been reviewed (`review_slides.py`)
+2. **Credits Added**: Credit overlays added to slides (`add_credit_overlay.py`)
+3. **Metadata Synced**: Metadata synced with actual files (`sync_slide_metadata.py` or `finalize_curation.py`)
+
+Only completed videos will be staged by default. To stage incomplete videos, use `--video VIDEO_ID --force`.
+
+**Handling Missing Transcripts**:
+If a video doesn't have a transcript (e.g., YouTube rate limiting), the staging script will:
+- Create a transcript file with "Transcript Not Available" notice
+- Include all slide OCR text as content
+- Explain why transcript is missing
+- Still provide valuable content for NotebookLM from slides
+
 ##### query.py - Local Semantic Search
 
 ```bash
@@ -484,17 +588,50 @@ Videos are auto-classified into:
 
 ### NotebookLM Import Guide
 
-#### Option 1: Drag & Drop Files
+#### Recommended: Staged Files (After Finalization)
+
+**After completing slide curation and finalization, stage files for upload:**
+
+```bash
+# 1. Finalize all curation (syncs metadata, refreshes exports)
+python scripts/finalize_curation.py
+
+# 2. Stage all completed videos for NotebookLM
+python scripts/stage_for_notebooklm.py
+
+# 3. Upload from staging directory
+```
+
+**Upload to NotebookLM**:
+1. Go to https://notebooklm.google.com
+2. Create a new notebook
+3. Open `notebooks/notebooklm-staging/` directory
+4. Upload files individually (NotebookLM doesn't support folder uploads):
+   - **Transcript files**: `VIDEO_ID_transcript_*.txt` (one per video)
+   - **Slide images**: `VIDEO_ID_slide_*.png` (all slide images)
+   - **Companion files**: `VIDEO_ID_slide_*.txt` (optional but recommended - provides full metadata)
+
+**Why staged files?**
+- Each file has embedded metadata (video context, timestamps, relationships)
+- Files are properly named with video_id for easy identification
+- Companion files ensure NotebookLM understands slide-to-video relationships
+- Works with NotebookLM's individual file upload requirement
+
+#### Option 1: Drag & Drop Files (Pre-Staging)
 
 1. Open `notebooks/notebooklm-ready/videos/`
 2. Select all `.txt` files
 3. Drag into NotebookLM notebook
+
+**Note**: This method doesn't include slide images. Use staging method above for complete content.
 
 #### Option 2: YouTube URLs
 
 1. Open `notebooks/youtube-urls.txt`
 2. Copy URLs
 3. In NotebookLM: Add source → YouTube → Paste URLs
+
+**Note**: This imports directly from YouTube but may not include extracted slides or curated summaries.
 
 #### Option 3: Module Bundles
 
@@ -544,15 +681,21 @@ python scripts/review_slides.py --video VIDEO_ID_1
 python scripts/review_slides.py --video VIDEO_ID_2
 # ... review all videos
 
-# 3. Manual curation (optional - delete/add slides manually)
+# 3. Add credit overlays to all videos
+python scripts/add_credit_overlay.py --all
+
+# 4. Manual curation (optional - delete/add slides manually)
 # Browse data/slides/VIDEO_ID/ and delete unwanted slides
 # Add custom slides if needed
 
-# 4. Sync metadata for individual videos (after manual changes)
+# 5. Sync metadata for individual videos (after manual changes)
 python scripts/sync_slide_metadata.py --video VIDEO_ID
 
-# 5. Final sync (when satisfied with curation for ALL videos)
+# 6. Final sync (when satisfied with curation for ALL videos)
 python scripts/finalize_curation.py
+
+# 7. Stage files for NotebookLM upload (moves completed videos to staging)
+python scripts/stage_for_notebooklm.py
 ```
 
 **Note**: `finalize_curation.py` processes **all videos** in your repository. Use `sync_slide_metadata.py --video VIDEO_ID` for single-video metadata sync.
@@ -580,6 +723,9 @@ python scripts/sync_slide_metadata.py --video NEW_VIDEO_ID
 
 # Finalize when satisfied with ALL videos (processes entire repository)
 python scripts/finalize_curation.py
+
+# Stage for NotebookLM upload (moves completed videos to staging directory)
+python scripts/stage_for_notebooklm.py
 ```
 
 ### Troubleshooting
@@ -628,10 +774,27 @@ brew install chafa
 
 Without these, the script uses ASCII art (always works, lower quality).
 
+#### Staging Issues
+
+**Files not staging?**
+- Check video completion status: Videos must be reviewed, have credits, and metadata synced
+- Use `--dry-run` to preview what will be staged
+- Use `--video VIDEO_ID --force` to stage incomplete videos
+
+**Want to keep original files?**
+- Staging **moves** files (not copies). Back up `data/slides/` and `notebooks/notebooklm-ready/` first if needed
+- After staging, original files are removed from those directories
+
+**Missing transcripts in staging?**
+- Some videos may not have transcripts due to YouTube rate limiting or disabled captions
+- Staging script creates transcript files with "Transcript Not Available" notice
+- Slide OCR text is still included, providing valuable content for NotebookLM
+
 ### Current Stats
 
-- **21 videos** curated
-- **368 searchable chunks**
+- **27 videos** curated
+- **26 videos** completed (reviewed, credits added, metadata synced)
+- **118 slides** extracted across all videos
 - **3 learning modules**
 - **~14 hours** of content
 - **95% slide detection accuracy** (CLIP-based)

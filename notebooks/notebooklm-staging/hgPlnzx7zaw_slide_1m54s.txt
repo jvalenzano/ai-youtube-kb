@@ -1,0 +1,33 @@
+# Slide from: 6. Create Supply Chain Resiliency with Causal AI
+
+## Video Information
+**Video ID:** hgPlnzx7zaw
+**Title:** 6. Create Supply Chain Resiliency with Causal AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=hgPlnzx7zaw
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 1m54s
+**Timestamp URL:** https://www.youtube.com/watch?v=hgPlnzx7zaw&t=114s
+**Original Filename:** slide_1m54s_c45b1b6e.png
+
+## Slide Content (OCR)
+The Needs of the Managerial Class
+ul                   .
+[Today’s Al] relies on
+correlations to make                                                 .
+predictions; the insights it                   ; New Machine
+offers managers are flawed, [Iigsreny   Aporoach
+at best, when it comes to         ee) “PProac
+ae         .                                Answers What-lf
+anticipating the impact of              Questions
+different choices on                               uestlo
+Business outcomes.
+
+---
+
+*This slide is from the video: 6. Create Supply Chain Resiliency with Causal AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=hgPlnzx7zaw*
+*Slide timestamp: 1m54s*

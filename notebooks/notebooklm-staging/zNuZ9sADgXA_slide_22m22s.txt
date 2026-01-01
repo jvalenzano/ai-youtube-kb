@@ -1,0 +1,42 @@
+# Slide from: 25. The Widening AI Value Gap — How to Close it Before its Too Late
+
+## Video Information
+**Video ID:** zNuZ9sADgXA
+**Title:** 25. The Widening AI Value Gap — How to Close it Before its Too Late
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=zNuZ9sADgXA
+**Duration:** 34:05
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video primarily focuses on agentic workflows, the integration of different AI capabilities into end-to-end automated processes, and how organizations structure workflows for AI success
+
+## Slide Information
+**Timestamp:** 22m22s
+**Timestamp URL:** https://www.youtube.com/watch?v=zNuZ9sADgXA&t=1342s
+**Original Filename:** slide_22m22s_8f699232.png
+
+## Transcript Context
+**Before:** and technology professionals. It was in UK, Canada, United States, spanned 13 industries. And let me show you one of the questions
+**During:** and one of the answers here
+**After:** that I think supports what you just said here. So which part of your organization will be primarily accountable for implementing digital labor strategies? There's a similar question using agentic AI
+
+## Slide Content (OCR)
+Q  Which part of your organization will be primarily
+accountable for implementing digital labor strategies?
+whe
+ee              ©.                                    Data Science / Al teams  | OB
+Digital Labor
+Transformation                  Shared (cross-functional, CoE, or board) fj ex
+FUTURES INDEX
+CxO leadership (including CAIO)  Bs                    ao”,
+Line-of-business (including HR, busi     ) fi a%        ak     oS,
+ine-of-business (including      USINESS OPS, |               /          18   eC,
+Not yet defined / unclear ownership   J              notcas
+Maturity Index
+
+---
+
+*This slide is from the video: 25. The Widening AI Value Gap — How to Close it Before its Too Late*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=zNuZ9sADgXA*
+*Slide timestamp: 22m22s*

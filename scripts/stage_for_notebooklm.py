@@ -77,7 +77,7 @@ def get_video_title(video_id: str) -> str:
 
 
 def get_video_metadata(video_id: str) -> dict:
-    """Get complete video metadata from curated data."""
+    """Get complete video metadata from curated data, raw data, or slide metadata."""
     curated_file = DATA_CLEAN / f"{video_id}.json"
     if curated_file.exists():
         try:
@@ -94,7 +94,23 @@ def get_video_metadata(video_id: str) -> dict:
         except Exception:
             pass
     
-    return {'video_id': video_id, 'title': video_id}
+    # Fallback: Get metadata from slide metadata.json
+    slide_metadata_file = DATA_SLIDES / video_id / "metadata.json"
+    if slide_metadata_file.exists():
+        try:
+            with open(slide_metadata_file) as f:
+                slide_meta = json.load(f)
+                return {
+                    'video_id': video_id,
+                    'title': slide_meta.get('title', video_id),
+                    'url': slide_meta.get('url', f'https://www.youtube.com/watch?v={video_id}'),
+                    'channel': 'Unknown',
+                    'duration_formatted': 'Unknown'
+                }
+        except Exception:
+            pass
+    
+    return {'video_id': video_id, 'title': video_id, 'url': f'https://www.youtube.com/watch?v={video_id}'}
 
 
 def create_slide_companion_file(video_id: str, video_meta: dict, slide_data: dict, 
@@ -349,11 +365,12 @@ def update_transcript_slide_references(content: str, video_id: str, slide_metada
 
 
 def create_transcript_from_metadata(video_id: str, video_meta: dict) -> str:
-    """Create transcript file from curated metadata."""
+    """Create transcript file from curated metadata or slide data."""
     content = []
     
     # Header
-    content.append(f"# {video_meta.get('title', video_id)}")
+    title = video_meta.get('title', video_id)
+    content.append(f"# {title}")
     content.append("")
     content.append(f"**Video ID:** {video_id}")
     content.append(f"**Channel:** {video_meta.get('channel', 'Unknown')}")
@@ -361,14 +378,33 @@ def create_transcript_from_metadata(video_id: str, video_meta: dict) -> str:
     content.append(f"**URL:** {video_meta.get('url', '')}")
     content.append("")
     
-    # Summary
+    # Check if we have curated data (full transcript) or just slides
+    has_curated_data = bool(video_meta.get('summary') or video_meta.get('key_takeaways'))
+    
+    if not has_curated_data:
+        # No transcript available - create document from slides only
+        content.append("## ⚠️ Transcript Not Available")
+        content.append("")
+        content.append("**Note:** Full video transcript is not available for this video.")
+        content.append("This may be due to:")
+        content.append("- YouTube rate limiting during batch processing")
+        content.append("- Transcripts disabled or not available for this video")
+        content.append("- Video age or accessibility restrictions")
+        content.append("")
+        content.append("**Content Available:**")
+        content.append("- Presentation slides with OCR text (below)")
+        content.append("- Slide companion files with full metadata")
+        content.append("- Slide images with timestamps")
+        content.append("")
+    
+    # Summary (if available from curation)
     if video_meta.get('summary'):
         content.append("## Summary")
         for bullet in video_meta.get('summary', []):
             content.append(f"- {bullet}")
         content.append("")
     
-    # Key Takeaways
+    # Key Takeaways (if available from curation)
     if video_meta.get('key_takeaways'):
         content.append("## Key Takeaways")
         for takeaway in video_meta.get('key_takeaways', []):
@@ -387,7 +423,11 @@ def create_transcript_from_metadata(video_id: str, video_meta: dict) -> str:
             slides = [s for s in slide_metadata.get('slides', []) if not s.get('is_duplicate_of')]
             if slides:
                 content.append("## Presentation Slides")
-                content.append(f"*{len(slides)} unique slides extracted from this video*")
+                if not has_curated_data:
+                    content.append(f"*{len(slides)} unique slides extracted from this video*")
+                    content.append("*Content below is extracted from slide OCR text.*")
+                else:
+                    content.append(f"*{len(slides)} unique slides extracted from this video*")
                 content.append("")
                 content.append("**Note:** Each slide image has a companion .txt file with full metadata.")
                 content.append(f"Slide filenames: {video_id}_slide_TIMESTAMP.png")
@@ -404,10 +444,26 @@ def create_transcript_from_metadata(video_id: str, video_meta: dict) -> str:
                         content.append("")
                 content.append("")
     
+    # Full Transcript section (only if we have curated data with transcript)
+    if has_curated_data and video_meta.get('transcript'):
+        content.append("## Full Transcript")
+        content.append("")
+        content.append(video_meta.get('transcript', ''))
+        content.append("")
+    elif not has_curated_data:
+        content.append("## Full Transcript")
+        content.append("")
+        content.append("*Transcript not available. Content extracted from presentation slides only.*")
+        content.append("")
+    
     # Attribution
     content.append("---")
     content.append("")
-    content.append(f"*Content extracted from YouTube video. Original content by {video_meta.get('channel', 'Unknown')}. Video URL: {video_meta.get('url', '')}*")
+    if not has_curated_data:
+        content.append(f"*Content extracted from YouTube video slides. Full transcript not available.")
+        content.append(f"*Original content by {video_meta.get('channel', 'Unknown')}. Video URL: {video_meta.get('url', '')}*")
+    else:
+        content.append(f"*Content extracted from YouTube video. Original content by {video_meta.get('channel', 'Unknown')}. Video URL: {video_meta.get('url', '')}*")
     
     return '\n'.join(content)
 

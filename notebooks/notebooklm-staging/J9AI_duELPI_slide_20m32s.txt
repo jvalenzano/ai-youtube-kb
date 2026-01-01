@@ -1,0 +1,48 @@
+# Slide from: 16. Governance and Compliance in the Age of Data & AI
+
+## Video Information
+**Video ID:** J9AI_duELPI
+**Title:** 16. Governance and Compliance in the Age of Data & AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=J9AI_duELPI
+**Duration:** 38:47
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental governance, compliance, and trust foundations that must be established before successful AI agent deployment, rather than specific workflows or tooling implementations
+
+## Slide Information
+**Timestamp:** 20m32s
+**Timestamp URL:** https://www.youtube.com/watch?v=J9AI_duELPI&t=1232s
+**Original Filename:** slide_20m32s_bb154468.png
+
+## Transcript Context
+**Before:** charts here on what's happening in the marketplace. Then, we'll jump to where we think the focus needs to be and what frames the summit that we're going to be doing together.
+**After:** So, the first one I'm going to do here, which is this is a study by Bain & Company, which I found really interesting. But if you look at the top challenges when it comes
+
+## Slide Content (OCR)
+are slowing down new data and Al deployments
+due to a lack of trust, governance & regulatory compliance
+43%       42
+39
+as                                         Top challenges
+28                           to be addressed
+26
+22        21
+18
+5
+Uncertainty         Data security            Intellectual               Unproven              Company
+around        |      and privacy     |        property       |       investment     |     technology       |
+regulation          concerns            concerns             returns            platform
+not ready
+Quality and                Lack of                 Company                 Lack of                   Lack of
+accuracy               in-house               data not            understanding         executive
+concerns                 expertise                    ready                 of use cases               support
+or resources
+BAIN & COMPANY ©)
+
+---
+
+*This slide is from the video: 16. Governance and Compliance in the Age of Data & AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=J9AI_duELPI*
+*Slide timestamp: 20m32s*

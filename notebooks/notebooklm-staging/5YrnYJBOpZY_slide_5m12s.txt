@@ -1,0 +1,46 @@
+# Slide from: 22. The State of Digital Labor Transformation
+
+## Video Information
+**Video ID:** 5YrnYJBOpZY
+**Title:** 22. The State of Digital Labor Transformation
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=5YrnYJBOpZY
+**Duration:** 37:18
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video establishes fundamental concepts about digital labor transformation, distinguishes between different AI strategies, and provides foundational research insights rather than specific workflows or tools
+
+## Slide Information
+**Timestamp:** 5m12s
+**Timestamp URL:** https://www.youtube.com/watch?v=5YrnYJBOpZY&t=312s
+**Original Filename:** slide_5m12s_f1c0eeb6.png
+
+## Transcript Context
+**Before:** with the index you've devised is really a state of the market and not just one. You have 13 of them you said. >> So let me explain, actually, let me bring up a chart here.
+**After:** So the name of the research is called the Agentic AI Futures Index, and think of it as five indices or five modules. What we're talking about today is the digital labor
+
+## Slide Content (OCR)
+The research survey consists of
+five key indices that collectively
+create a foundational roadmap for
+enterprise leadership in agentic Al.
+theCUBE
++ Digital Labor Transformation                   + ¢ research          sls
+* Agentic Al Maturity                                                       Sortie tities              -© -
+¢ Trust & Governance                                                            e’*
+« Reasoning & Decision Intelligence
+* Causal Al Innovation                                               ge hi     IC
+N=625
+Q=61
+Titles = 9
+Industries = 13
+Panel: US, UK, CA
+Aug/Sept 25’
+Confidential, Terms apply.
+
+---
+
+*This slide is from the video: 22. The State of Digital Labor Transformation*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=5YrnYJBOpZY*
+*Slide timestamp: 5m12s*

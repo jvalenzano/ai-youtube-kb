@@ -1,0 +1,32 @@
+# Slide from: 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** xedTTP84hIE
+**Title:** 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI
+**Channel:** Unknown
+**URL:** https://www.youtube.com/watch?v=xedTTP84hIE
+**Duration:** Unknown
+
+## Slide Information
+**Timestamp:** 38m32s
+**Timestamp URL:** https://www.youtube.com/watch?v=xedTTP84hIE&t=2312s
+**Original Filename:** slide_38m32s_afcf5030.png
+
+## Slide Content (OCR)
+75%                                                   .               .                       .       "T
+Enterprise Adoption of AI Explainability
+55%                       and Reasoning Technologies (2024)
+35%
+|           20%          20%
+12%
+oq    :
+||          =
+Gen Al        Predictive Al Domain LLMs         CoT         Semantic Al       Causal Al       Multi-Agent
+Ga eee,
+
+---
+
+*This slide is from the video: 3. Making AI Decisions Explainable with Causal AI | The Next Frontiers of AI*
+*Original content by Unknown*
+*Video URL: https://www.youtube.com/watch?v=xedTTP84hIE*
+*Slide timestamp: 38m32s*

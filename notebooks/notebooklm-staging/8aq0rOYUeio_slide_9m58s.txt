@@ -1,0 +1,37 @@
+# Slide from: 13. Charting the Agentic AI Adoption Curve: What’s Next?
+
+## Video Information
+**Video ID:** 8aq0rOYUeio
+**Title:** 13. Charting the Agentic AI Adoption Curve: What’s Next?
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=8aq0rOYUeio
+**Duration:** 38:37
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily covers foundational concepts of Agentic AI, market adoption patterns, infrastructure requirements, and strategic considerations for enterprises rather than specific workflows, tools, or case studies
+
+## Slide Information
+**Timestamp:** 9m58s
+**Timestamp URL:** https://www.youtube.com/watch?v=8aq0rOYUeio&t=598s
+**Original Filename:** slide_9m58s_aab5d498.png
+
+## Transcript Context
+**Before:** And I use sort of high-tech as the leading indicator of that, right? They are making serious traction in those spaces from that perspective.
+**During:** >> Yeah. There's no doubt. This one also jumped out at me
+**After:** too, the 43%, that they're actually increasing their budgets in AI and more than half of it is going to autonomous AI, which I guess is agents, right?
+
+## Slide Content (OCR)
+as
+y                                 of executive respondents who are
+planning to increase their Al budgets say
+|                                                         more than half of their total Al budget is
+. 43.,                currently allocated for autonomous Al
+”           ice as
+ep     EY
+
+---
+
+*This slide is from the video: 13. Charting the Agentic AI Adoption Curve: What’s Next?*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=8aq0rOYUeio*
+*Slide timestamp: 9m58s*

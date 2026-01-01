@@ -1,0 +1,38 @@
+# Slide from: 18. Why Brand Matters in the Age of AI Discovery
+
+## Video Information
+**Video ID:** uHlrQWbdP7A
+**Title:** 18. Why Brand Matters in the Age of AI Discovery
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=uHlrQWbdP7A
+**Duration:** 40:57
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video covers fundamental principles of brand building and marketing strategy in the AI era, focusing on foundational concepts rather than specific workflows, tools, or case studies
+
+## Slide Information
+**Timestamp:** 7m06s
+**Timestamp URL:** https://www.youtube.com/watch?v=uHlrQWbdP7A&t=426s
+**Original Filename:** slide_7m06s_ea6f4d18.png
+
+## Transcript Context
+**Before:** these new kind of startups. And let me just share some data points with you and I'd love to get your thoughts on like, "What do you do in this type of market?
+**During:** " So you kind of look at some work
+**After:** that we did here at theCUBE Research and... First of all, let's start about the crowded market. Depending on who you talk to, there's anywhere from 50 to 70,000 new AI startups.
+
+## Slide Content (OCR)
+A crowded, noisy marketplace                                    xe
+_ 100%  > 50K
+The Survival Funnel for
+=                                     Al Startups: 90% Failure Rate
+ro  o.                           60%                es research
+20-                              15%                           10%
+|
+seed                     Series A                  Series B          Product-to-Mkt Fit       Profitability / Exit
+
+---
+
+*This slide is from the video: 18. Why Brand Matters in the Age of AI Discovery*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=uHlrQWbdP7A*
+*Slide timestamp: 7m06s*

@@ -1,0 +1,48 @@
+# Slide from: 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing
+
+## Video Information
+**Video ID:** gdtHUQInZTU
+**Title:** 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=gdtHUQInZTU
+**Duration:** 42:14
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental concepts and definitions of agentic AI, distinguishing between marketing hype and technical reality, which is essential foundational knowledge
+
+## Slide Information
+**Timestamp:** 10m30s
+**Timestamp URL:** https://www.youtube.com/watch?v=gdtHUQInZTU&t=630s
+**Original Filename:** slide_10m30s_b5a14b56.png
+
+## Transcript Context
+**Before:** I want to show you one more chart here that I'm going to come back and ask you about ramifications of the hype, getting ahead of the technical aspirations. But let me show you this first.
+**During:** This is a survey
+**After:** that we did here at theCUBE Research back in September called the agentic AI Futures Index. And this is one of the questions we asked here, right? What activities do you envision your future
+
+## Slide Content (OCR)
+What activities do you                   ©
+Ly                                    Q   envision your future state
+-© 2                                            Al agents performing?
+—s
+Agentic Al
+=
+g en     Ic                                          Plan - formulate a logical sequence                                                        50%
+FUTURES INDEX                     of actions to achieve a goal
+Solve problems - diagnose issues, identify                                                   50%
+| Uw,                                          root causes, and recommend solutions
+r        \                                                   Make decisions - evaluate multiple                                            40%
+2   2  4   h                        G                actions and choose the most effective ones
+/       oats                                                 Explain their reasoning - in a manner                                     7%
+Neus               TRA                                                        that helps users understand outcomes
+Act autonomously - taking actions without                          aa%
+human intervention in pursuit of a goal
++ re
+/                             |                                                                    Sn
+
+---
+
+*This slide is from the video: 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=gdtHUQInZTU*
+*Slide timestamp: 10m30s*

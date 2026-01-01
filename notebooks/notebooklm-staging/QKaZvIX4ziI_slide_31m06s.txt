@@ -1,0 +1,42 @@
+# Slide from: 19. From PoC to Production: Scaling Agentic AI in Financial Services
+
+## Video Information
+**Video ID:** QKaZvIX4ziI
+**Title:** 19. From PoC to Production: Scaling Agentic AI in Financial Services
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI
+**Duration:** 40:21
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video centers on real-world implementation challenges in financial services, featuring a detailed wealth management POC demonstration and practical deployment experiences with specific clients
+
+## Slide Information
+**Timestamp:** 31m06s
+**Timestamp URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI&t=1866s
+**Original Filename:** slide_31m06s_942d6370.png
+
+## Transcript Context
+**Before:** what people find to be important is part of that, you get into knowledge graphs and you get into RAG and you get into chain of thought and certainly you get into causal AI.
+**During:** >> Yeah. - And since we brought this up, let me just, I went
+**After:** and got in the background here, just to chart just on casual AI, just a little bit of background on it for our audience, since we're getting into this.
+
+## Slide Content (OCR)
+a
+—    ae                        ete ran ep tS re teak Se Nether cna                                            |
+ly   rhe Af                 C2 teevemess
+Scie     wi                           ea crt iL. ae. Certs
+—     €     .       =                     SOAP AC SND 3 ESAS ew MN EVAN EB eS EEE aI OES
+=| ae                     ee ee re
+TODS TSU ee es
+SAS wn)                  Fide estes diced saby ein mite, wim ls ede wep ec ewe
+:
+\        7 iy thecusbe                                   4
+\ [Geb research The Next Frontiers of Al
+\ @~
+
+---
+
+*This slide is from the video: 19. From PoC to Production: Scaling Agentic AI in Financial Services*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=QKaZvIX4ziI*
+*Slide timestamp: 31m06s*

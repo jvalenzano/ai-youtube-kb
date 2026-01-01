@@ -1,0 +1,43 @@
+# Slide from: 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+
+## Video Information
+**Video ID:** eb-WgM8Ys_s
+**Title:** 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s
+**Duration:** 46:57
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational knowledge about how AI systems discover and rank brands, explaining core concepts like the CAT framework, semantic graphs, and the fundamental shift from SEO to AEO
+
+## Slide Information
+**Timestamp:** 25m44s
+**Timestamp URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=1544s
+**Original Filename:** slide_25m44s_9290edc5.png
+
+## Transcript Context
+**Before:** >> Yeah. No, it's absolutely true, right? And it's, you know, [clears throat] it really is changing the nature of all this. All right. So, let's let's kind of
+**During:** unpack all this and go to the next level. And we're going to start start
+**After:** here with the the knowledge. um building right that's really the first part what happens in training and ongoing enforcement that happens over
+
+## Slide Content (OCR)
+LLMs build contextual knowledge & semantic maps
+Weights
+Factors                   Credibility
+Multimodal                         Signals            sD
+Signals
+Prioritizes              Learning,                                 “0°
+Recency            Knowledge                             Al Engine
+Signals              Building                             Optimization
+Forms                                 Creates
+Topical                                Semantic
+Authority             Establishes Entity          Context
+Associations                                      2
+BSH
+
+---
+
+*This slide is from the video: 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=eb-WgM8Ys_s*
+*Slide timestamp: 25m44s*

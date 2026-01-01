@@ -1,0 +1,47 @@
+# Slide from: 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI
+
+## Video Information
+**Video ID:** iHROZ526tUg
+**Title:** 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=iHROZ526tUg
+**Duration:** 26:08
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational conceptual frameworks for understanding AI agents, decision intelligence architecture, and the progressive technology stack needed to build decision-making capabilities
+
+## Slide Information
+**Timestamp:** 8m52s
+**Timestamp URL:** https://www.youtube.com/watch?v=iHROZ526tUg&t=532s
+**Original Filename:** slide_8m52s_8f784567.png
+
+## Transcript Context
+**Before:** There's vendors that are coming on the scene with new innovations, and we've heard from a lot of them over the last many weeks here on this podcast. T. Hat brings us to the journey
+**During:** and how do you go about building this ecosystem?
+**After:** When you look at the chart here, it starts, as I said, with your foundation, generative AI services and the LLMs. Step one is, you need to have domain specific knowledge.
+
+## Slide Content (OCR)
+The Journey to AI Reasoning
+Building an AI model
+ecosystem extending                                 :                Multi-agent
+.              .                                            (@)) Reasoning
+Generative Al services                             causal              :
+Reasoning Fad                 ”
+Semantic             tf?                  a  /
+Knowledge                            oe
+eee, 2                  . qcaliee
+«3g. Domain      an a
+‘o~” Intelligence                q
+——gnteligene
+FE ete                       vec              Agentic AI
+Ion . mode      [Generative Tasks
+-  wo  .                                    Al Agents
+SE awe Nat
+-                      Al Assistants
+
+---
+
+*This slide is from the video: 7. The Anatomy of a Decision-Making Agent | The Next Frontiers of AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=iHROZ526tUg*
+*Slide timestamp: 8m52s*

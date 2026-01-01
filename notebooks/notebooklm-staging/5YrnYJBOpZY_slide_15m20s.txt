@@ -1,0 +1,45 @@
+# Slide from: 22. The State of Digital Labor Transformation
+
+## Video Information
+**Video ID:** 5YrnYJBOpZY
+**Title:** 22. The State of Digital Labor Transformation
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=5YrnYJBOpZY
+**Duration:** 37:18
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video establishes fundamental concepts about digital labor transformation, distinguishes between different AI strategies, and provides foundational research insights rather than specific workflows or tools
+
+## Slide Information
+**Timestamp:** 15m20s
+**Timestamp URL:** https://www.youtube.com/watch?v=5YrnYJBOpZY&t=920s
+**Original Filename:** slide_15m20s_b091ad68.png
+
+## Transcript Context
+**Before:** And we're going to get into some of that. So actually let's unpack some of this and get a little bit deeper into it. Let's start with the aspiration.
+**During:** This is an example of one of the questions related
+**After:** to the concept or the category that I consider to be the aspirational view, the rise of digital labor. And the bottom line here, 71% of leaders say
+
+## Slide Content (OCR)
+if
+To what extent do you agree with the statement:
+.                                               Q   (This generation of business leaders will be the
+EF h e   T1S e   of                                    last to manage a human-only workforce”?
+digital labor     <a
+0                                   Somewhat agree ——== 21%
+7 1   Yy                                                       Disagree  == 7%
+of leaders say this                          Strongly disagree [il 3%
+generation of business
+leaders will be the last                                                                                   Digital Labor
+to manage human-only                                        me / /            Ransformation
+workforces.                                                                o     41
+o          cikars     J aa
+N=625 |              O-
+Ss research   Confidential, Terms apply.                                                        ue
+
+---
+
+*This slide is from the video: 22. The State of Digital Labor Transformation*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=5YrnYJBOpZY*
+*Slide timestamp: 15m20s*

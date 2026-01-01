@@ -1,0 +1,51 @@
+# Slide from: 14. Agentic AI – What’s Hype, Myth, and Truth
+
+## Video Information
+**Video ID:** euTRqoB_OlA
+**Title:** 14. Agentic AI – What’s Hype, Myth, and Truth
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=euTRqoB_OlA
+**Duration:** 46:52
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily discusses foundational concepts of agentic AI, reasoning capabilities, enterprise adoption challenges, and the theoretical underpinnings of agent-based systems rather than specific workflows or tools
+
+## Slide Information
+**Timestamp:** 19m20s
+**Timestamp URL:** https://www.youtube.com/watch?v=euTRqoB_OlA&t=1160s
+**Original Filename:** slide_19m20s_941f6ac2.png
+
+## Transcript Context
+**Before:** to understand the goal you're trying to achieve and help you problem solve, and I think that's where this stuff, my two cents is that's where it's headed in the years ahead.
+**After:** I want to get your view on this diagram here, where I think we're at the chain of thought layer now, which is a step on that ladder, if you will, to more and more capable reasoning
+
+## Slide Content (OCR)
+.
+.
+AI Reasoning: The Journey Ahead
+@) Multi-Agent
+-2                       oY Reasoning
+**s= Causal
+==                                            Reasoning                  Achieves common Boals by
+teem        .                              sharing knowledge an
+a     Semantic         Und      ds h     d wh        coordinating actions
+Reasoning         mn lerstands how and why
+os. Shain of                                           consequences of actions         > Makagent RAG
+S° Thought           Interprets the underlying           4                    > Imitation RF
+context, relationships, and         > Causal Knowledge Models          > swarm Al
+Breaks problems into logical       concepts in a logical manner      > Causal-RAG
+steps that are dynamically       > Knowledge Graphs
+cvalwated and revised                ledge Grapl              > Causal Neural Networks
+> Graph-RAG
+> Chain-of- Thought                  > Neural Symbolic Al
+> Attention Transformers
+> RLHF for CoT Tokens
+theCUBE
+eg research
+
+---
+
+*This slide is from the video: 14. Agentic AI – What’s Hype, Myth, and Truth*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=euTRqoB_OlA*
+*Slide timestamp: 19m20s*

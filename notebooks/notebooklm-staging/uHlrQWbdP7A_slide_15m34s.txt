@@ -1,0 +1,43 @@
+# Slide from: 18. Why Brand Matters in the Age of AI Discovery
+
+## Video Information
+**Video ID:** uHlrQWbdP7A
+**Title:** 18. Why Brand Matters in the Age of AI Discovery
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=uHlrQWbdP7A
+**Duration:** 40:57
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video covers fundamental principles of brand building and marketing strategy in the AI era, focusing on foundational concepts rather than specific workflows, tools, or case studies
+
+## Slide Information
+**Timestamp:** 15m34s
+**Timestamp URL:** https://www.youtube.com/watch?v=uHlrQWbdP7A&t=934s
+**Original Filename:** slide_15m34s_eb35144b.png
+
+## Transcript Context
+**Before:** ultimately are going to be, as you know, better than almost everyone. It's going to be moving to AI agents that even have more algorithmic decision-
+**During:** making capabilities.
+**After:** I found this to be really interesting research that we kind of pulled together here from sources everywhere from McKinsey and Bain and so on so forth. But this is really interesting
+
+## Slide Content (OCR)
+.                 .                .                                    PP recuse
+The nature of discovery is changing                                           SM
+-30%
+Drop in Click-through Rates                                  0
+Across B2B Software Categories                80  % 0
+Rely on Al summaries
+Ny,                                at least 40% of the time
+% of click-
+throughs for
+select software                                    —
+keywords
+Jan 2024 (before Al summaries)  WE Jan 2025
+Source: Bain-Dynata Generative Al Consumer Survey, December 2024 (n=1,117)
+
+---
+
+*This slide is from the video: 18. Why Brand Matters in the Age of AI Discovery*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=uHlrQWbdP7A*
+*Slide timestamp: 15m34s*

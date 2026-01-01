@@ -1,0 +1,49 @@
+# Slide from: 12. The Future of Marketing- Causal Al Agents That Think Strategically
+
+## Video Information
+**Video ID:** dOMJPlqG3rs
+**Title:** 12. The Future of Marketing- Causal Al Agents That Think Strategically
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=dOMJPlqG3rs
+**Duration:** 38:47
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video establishes fundamental concepts about the evolution from correlation-based AI to causal AI, explaining core principles and theoretical frameworks rather than specific implementation workflows or tools
+
+## Slide Information
+**Timestamp:** 20m46s
+**Timestamp URL:** https://www.youtube.com/watch?v=dOMJPlqG3rs&t=1246s
+**Original Filename:** slide_20m46s_832c7c70.png
+
+## Transcript Context
+**Before:** which is really when you get into true reasoning and decision making because you can't reason... Reason is a function of processing cause and effect, right? >> Right. Yeah. If then, right.
+**During:** >> Yeah. Let's just take a step back here
+**After:** and talk a little bit about where I know you and I are both passionate about, which is this notion of- >> I love the chart thing. Yeah, >> Yeah.
+
+## Slide Content (OCR)
+———                nn
+“—          You are smarter than your data. Your data
+%  a = [ol                   causation         don’t understand cause and effect; humans do.
+x            bE                                      -
+Ne ts ro  i,                                              Judea Pearl
+|       bo                                                                            Cerebral Cortex
+fl                                                                                                                                 Know-how
+al   eS     »                          a                 & Skills
+Scott Hebner             ,                               ot                                       |
+=                            =                                              Ww                                          LLMs /Genal        |         ‘Nepeortex
+we                                      oh                  2                        |      Reasoning,
+zg                  }              eat  EEE              AX.e>N32
+sil                          cor            THE HOw                        as y od)
+nc                    a           uimbictnin (Raed
+ichelle Killebrew                                                                   Memories,     ‘\
+THE WHAT                                                                         & Instincts
+\
+W i thecuse                       H
+| E resesrch The Next Frontiers of Al
+
+---
+
+*This slide is from the video: 12. The Future of Marketing- Causal Al Agents That Think Strategically*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=dOMJPlqG3rs*
+*Slide timestamp: 20m46s*

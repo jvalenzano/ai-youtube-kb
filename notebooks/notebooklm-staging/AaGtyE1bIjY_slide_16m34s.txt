@@ -1,0 +1,34 @@
+# Slide from: 15. Are Agile & SaaS Dead with the Rise of Agentic AI?
+
+## Video Information
+**Video ID:** AaGtyE1bIjY
+**Title:** 15. Are Agile & SaaS Dead with the Rise of Agentic AI?
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=AaGtyE1bIjY
+**Duration:** 47:28
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video primarily focuses on how agentic workflows are transforming software development processes, replacing Agile methodologies with lean engineering approaches that utilize parallel agent execution across different application layers.
+
+## Slide Information
+**Timestamp:** 16m34s
+**Timestamp URL:** https://www.youtube.com/watch?v=AaGtyE1bIjY&t=994s
+**Original Filename:** slide_16m34s_8511e2ad.png
+
+## Transcript Context
+**Before:** that you write and agentic frameworks that will really turbocharge the entire user experience for the end consumer of that software product. >> That brings me to another thing I saw in the survey.
+**During:** Let me bring that up here, which is that 82
+**After:** % of the developers say that their SDLC platforms, they actually said infrastructure, needs major upgrades to support this notion that they're driving here,
+
+## Slide Content (OCR)
+0 f say their SDLC platforms
+62 ue need major upgrades to
+support Agentic Al G3
+a
+
+---
+
+*This slide is from the video: 15. Are Agile & SaaS Dead with the Rise of Agentic AI?*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=AaGtyE1bIjY*
+*Slide timestamp: 16m34s*

@@ -1,0 +1,36 @@
+# Slide from: 8. History's Guide To The Future of AI
+
+## Video Information
+**Video ID:** nzF_16JNitA
+**Title:** 8. History's Guide To The Future of AI
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=nzF_16JNitA
+**Duration:** 46:14
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily discusses fundamental concepts about AI adoption, historical technology transformation patterns, and foundational understanding of current AI capabilities and limitations rather than specific workflows, tools, or case studies
+
+## Slide Information
+**Timestamp:** 23m52s
+**Timestamp URL:** https://www.youtube.com/watch?v=nzF_16JNitA&t=1432s
+**Original Filename:** slide_23m52s_d2926d6d.png
+
+## Transcript Context
+**Before:** And in the early '90s, it was touch and go whether IBM would survive. Quite a number of companies didn't make it. I don't know if you remember digital DEC,
+**After:** the mini computer company. And Wang, who was the leader in office systems and so on. And we were very lucky. Yeah, I used to use this slide
+
+## Slide Content (OCR)
+FORTUNA       FORTUNE
+1984        %  es    ». eee A
+B= SL ~
+D.     fa dst    Paeee    y
+The
+oh    The IBM Erais Over [1992]
+Sinies:
+
+---
+
+*This slide is from the video: 8. History's Guide To The Future of AI*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=nzF_16JNitA*
+*Slide timestamp: 23m52s*

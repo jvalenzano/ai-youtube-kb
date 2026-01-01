@@ -1,0 +1,42 @@
+# Slide from: 19. From PoC to Production: Scaling Agentic AI in Financial Services
+
+## Video Information
+**Video ID:** QKaZvIX4ziI
+**Title:** 19. From PoC to Production: Scaling Agentic AI in Financial Services
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI
+**Duration:** 40:21
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** The video centers on real-world implementation challenges in financial services, featuring a detailed wealth management POC demonstration and practical deployment experiences with specific clients
+
+## Slide Information
+**Timestamp:** 31m08s
+**Timestamp URL:** https://www.youtube.com/watch?v=QKaZvIX4ziI&t=1868s
+**Original Filename:** slide_31m08s_da56155a.png
+
+## Transcript Context
+**Before:** you get into knowledge graphs and you get into RAG and you get into chain of thought and certainly you get into causal AI. >> Yeah. - And since we brought this up, let me just, I went
+**During:** and got in the background here, just
+**After:** to chart just on casual AI, just a little bit of background on it for our audience, since we're getting into this. There's a lot of potential benefits to this
+
+## Slide Content (OCR)
+Causal AI - AI that knows why things happen
+Causali                  What If              Root Cause                    >
+ty                                                                            4@) Agents that can reason
+WHAT
+todo
+Prescription       Know-how       Confounders                       ‘merentons
+Generate step-by-step               Capture expertise, domain            Identify misleading, irrelevant,                      Soumertactuals              Rationalizations
+i            i               i                       Intuition      How
+Explanation         Efficiency         Agentics           WHY       ontmters |i         todoit
+Open up Al "black boxes" to           Create smaller yet more         Enable Al agents that interact with          do it
+understand how and why certain            sophisticated Al models that uses             each other based on cause-and                                    <____"
+\@, research
+
+---
+
+*This slide is from the video: 19. From PoC to Production: Scaling Agentic AI in Financial Services*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=QKaZvIX4ziI*
+*Slide timestamp: 31m08s*

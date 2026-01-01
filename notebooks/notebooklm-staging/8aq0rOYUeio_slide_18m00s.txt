@@ -1,0 +1,38 @@
+# Slide from: 13. Charting the Agentic AI Adoption Curve: What’s Next?
+
+## Video Information
+**Video ID:** 8aq0rOYUeio
+**Title:** 13. Charting the Agentic AI Adoption Curve: What’s Next?
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=8aq0rOYUeio
+**Duration:** 38:37
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily covers foundational concepts of Agentic AI, market adoption patterns, infrastructure requirements, and strategic considerations for enterprises rather than specific workflows, tools, or case studies
+
+## Slide Information
+**Timestamp:** 18m00s
+**Timestamp URL:** https://www.youtube.com/watch?v=8aq0rOYUeio&t=1080s
+**Original Filename:** slide_18m00s_c4962b6e.png
+
+## Transcript Context
+**Before:** but a part of the survey, the biggest concern of all these companies is around security and privacy. Over three quarters of the respondents said that is their biggest gating item.
+**During:** A fair distance back our discussions around commercial terms
+**After:** and legal and all of that, but top of mind is this. And what is interesting was if you go back a year ago, I'll describe it much broadly as observability was probably at the top of the list.
+
+## Slide Content (OCR)
+Security inches its way
+to the top of the Al agenda                              (a)
+3 in 4 technology leaders say that while
+they have security and privacy governance
+frameworks in place to oversee Al-driven
+decisions, they still have concerns about
+the current state of Al                                                             =
+EY
+
+---
+
+*This slide is from the video: 13. Charting the Agentic AI Adoption Curve: What’s Next?*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=8aq0rOYUeio*
+*Slide timestamp: 18m00s*

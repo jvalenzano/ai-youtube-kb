@@ -1,0 +1,40 @@
+# Slide from: Digital Labor @ Work: How AI Agents are Transforming Community Management
+
+## Video Information
+**Video ID:** MvpEczgOI6w
+**Title:** Digital Labor @ Work: How AI Agents are Transforming Community Management
+**Channel:** SiliconANGLE theCUBE
+**URL:** https://www.youtube.com/watch?v=MvpEczgOI6w
+**Duration:** 45:58
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** This video presents a detailed real-world case study of HOAI's implementation of AI agents in community management, including specific customer examples, measurable outcomes, and live demonstrations of the technology in action.
+
+## Slide Information
+**Timestamp:** 43m18s
+**Timestamp URL:** https://www.youtube.com/watch?v=MvpEczgOI6w&t=2598s
+**Original Filename:** slide_43m18s_914a6fb5.png
+
+## Transcript Context
+**Before:** and how can they best learn more about HOAI? >> So, our website is HOAI.com. If they are interested in learning more, welcome to visit our website.
+**During:** And we have our team standby to help them.
+**After:** But really, HOAI is able to do a lot more than what we just covered. It's designed to be a full suite, full front office
+
+## Slide Content (OCR)
+HOAI - Learn More at HOAi.com
+30+ capabilities:             A few examples:
+* Community Support                          —
+* Management Tasks
+* Homeowner Suite                       .
+HOAI Voice              ARC Requests              Prepare a Budget
+* Accounts Receivable
+* Accounts Payable
+* And more
+Process Invoices                Homeowner Request
+
+---
+
+*This slide is from the video: Digital Labor @ Work: How AI Agents are Transforming Community Management*
+*Original content by SiliconANGLE theCUBE*
+*Video URL: https://www.youtube.com/watch?v=MvpEczgOI6w*
+*Slide timestamp: 43m18s*
