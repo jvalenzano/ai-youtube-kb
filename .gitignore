@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Data files (too large for git)
+data/raw/
+data/clean/
+data/slides/
+*.mp4
+*.part
+*.ytdl
+
+# KB index files
+kb/vector_index.pkl
+kb/chroma_db/
+
+# API keys
+.env
+*.key
+*_key.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Notebooks (optional - uncomment if you want to exclude)
+# notebooks/
+
+# Logs
+*.log
+

@@ -1,0 +1,251 @@
+# 25. Why AI Chooses Your Brand: Demystifying How AI Discovery and Buyer Journeys Work
+
+**Video ID:** eb-WgM8Ys_s
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 46:57
+**URL:** https://www.youtube.com/watch?v=eb-WgM8Ys_s
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video provides foundational knowledge about how AI systems discover and rank brands, explaining core concepts like the CAT framework, semantic graphs, and the fundamental shift from SEO to AEO
+
+## Summary
+- B2B buyer journeys are rapidly shifting from traditional search (SEO) to AI-mediated discovery through assistants like ChatGPT, Claude, and Gemini
+- By 2026, the majority of B2B discovery will rely on AI engines rather than traditional search, with web traffic declining 30-40% over five years
+- 77% of marketers don't know how to address this shift, with only 17-19% feeling they have expertise in AI Engine Optimization (AEO)
+- AI systems use the CAT framework to prioritize information: Credible, Authoritative, Authentic, and Trusted content
+- LLMs build semantic knowledge graphs through entity extraction and continuous learning, establishing brand authority in specific domains
+- 90% of companies have misconfigured websites that actively block LLMs from understanding their content
+- Real-time retrieval prioritizes structured data, conversational content, and third-party credible sources over company-controlled content
+- AEO strategies often oppose traditional SEO tactics - distributing identical content across multiple platforms is rewarded in AEO but penalized in SEO
+- Smaller, clearer companies can outrank established brands in AI search through better clarity and authenticity
+
+## Key Takeaways
+- **DO:** Implement structured data on your website to make it readable by LLMs
+- **DO:** Create conversational content like Q&As, interviews, and transcripts that mimic natural dialogue
+- **DO:** Publish authentic content on third-party credible sources like industry publications and review platforms
+- **DO:** Monitor how your brand appears in live LLM conversations to understand your current AI visibility
+- **DON'T:** Assume SEO equals AEO - they require different strategies and often opposing tactics
+- **DON'T:** Rely solely on volume-based content creation - focus on clarity and authenticity instead
+
+## Topics
+AI Engine Optimization, AEO, semantic search, LLM discovery, B2B marketing, content strategy, structured data
+
+## Key Moments
+- [08:06](https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=486s): Definition of AI search vs traditional SEO - optimizing for understanding rather than keywords
+- [14:16](https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=856s): Data showing rapid decline in traditional search reliance and growth in AI-mediated discovery
+- [21:25](https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=1285s): Introduction of the CAT framework - Credible, Authoritative, Authentic, Trusted content prioritization
+- [39:52](https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=2392s): Website optimization for LLMs - 90% of websites are misconfigured and blocking AI understanding
+- [43:58](https://www.youtube.com/watch?v=eb-WgM8Ys_s&t=2638s): Practical action plan for CMOs to start implementing AEO strategies immediately
+
+## TL;DR
+B2B brands must shift from SEO to AEO as AI assistants reshape buyer discovery journeys.
+
+## Full Transcript
+
+[music] Hello and welcome back to the next frontiers of AI where we explore the innovations, the strategies, the real world stories shaping the future of enterprise AI. I am your host Scott Hebner, principal analyst for AI and the CMO practice leader at the Cube Research. Welcome. Today we're going to discuss one of the most urgent and misunderstood shifts affecting B2B brands everywhere. how they are actually discovered and made relevant to buyers.
+Everything has now changed. We're witnessing a rapid shift from search driven buyer journeys to AI mediated buyer journeys. That is from traditional SEO to what we call AEO, which uh you know in my vocabulary stands for AI engine optimization. Some others refer to it as answer engine optimization. And you may even hear things like G um generative uh engine optimization all the same thing. But the truth of the
+
+[01:02]
+matter is as buyers increasingly turn to AI assistants like Chat GPT Claude Gemini Grock to discover and to do research about vendors to shortlist them. The traditional brand to demand to sales to success life cycle is being totally rewritten in real time. AI mediated buyer journeys are becoming the norm.
+And as we will cover, the numbers are staggering. A majority today are using AI assistance. More than half of all searches now end without a click.
+Website traffic is fallen across the board with no end in sight. And the brands that fail to adapt risk quietly disappearing from the very conversations that are shaping buying decisions every day. The trend is clear. The days of optimizing for clicks are given away to optimizing for credibility, authenticity, authority, and trust in AI answers. Yet 90% of companies are not yet ready. The takeaway is also clear.
+
+[02:02]
+If your brand isn't visible to AI, you're not visible to buyers. Today, my guest and I will overview how to best harness the art and science of AI mediated bio journeys, the next major transformation for marketing and communications. We'll demystify, or at least try to, how large language models actually discover and select brands, solutions, executives, and subject matter experts in their answers. And we'll summarize the 19 attributes that determine the odds of your brand not only showing up, but being positioned as most relevant. And we'll close with some practical advice you can act on right now. To help us do that, I'm thrilled to be joined by Stas Levitton, CEO of Light uh Lightsite. Um he leads a company that's at the forefront of helping organizations optimize their websites and digital content for AI discovery and the era of AEO. Stass, it's great to have you here. Let me uh bring you up on
+
+[03:03]
+the screen here. There you go. How are you?
+>> I'm good. Thanks, Scott. Good to be here.
+>> I appreciate you uh taking the time to be here and for all the conversations we've had offline. I've learned a ton from you and um I also appreciate I know it's real late where you're coming from right now. So, uh um on a Friday night when we're actually recording this, so again, thank you.
+>> Yeah. Uh thank you for having me here, Scott. It's it is a bit late. That's why I'm having my uh evening coffee. There you go. Evening coffee. Not good. Not good for the sleep cycle.
+All right. Well, let's let's just start with just a little bit of background.
+Um, could you just tell us a little bit about your personal journey that led you to where you are now as the founder and CEO of Lightsite and what Lightsite's all about.
+>> Yeah, absolutely. My background is um uh in startups. So, one of the things I love is challenging the status quo um
+
+[04:05]
+selling new tech um and changing the way companies do things. Um I work with a few companies uh you know some of them you've probably heard of like Zerto was acquired by HP. Similar web was one of the if not the first uh digital marketing uh uh competitive intelligence platforms and others you probably have never heard of because you know they went down so hard um nobody ever heard about them.
+Um so um the the way we created Lightsite was um uh was actually by mistake because we were building something completely different and and and in one of the conversations with one of the partners who was located in the another part of the world. So we're based in Israel and my partner is based in Japan. Um he during the call he was doing research about lightsite and what he did is he found u a structured
+
+[05:05]
+data or more precisely an exact prompt that we injected in our website structured data uh he found it in Gemini response so just to give a bit of a context we were only a couple of months in the market so there was no really and we didn't really invest in any SEO or promotion at all. So um but we did invest very early in structured data on our website. We were kind of aware of it uh or you know the bright technical guys I work with. Um so when we saw it and we we saw it during the conversation he was actually quoting what light side is from the Gemini prom. We were very surprised.
+So we decided to take another look at it and you know um generally very surprised about how even you know established brands that had perfect SEO they were disappearing or being misqued in um you know in AI assistance
+
+[06:05]
+then this is how we started lite.
+>> That's awesome. Yeah, I've been really impressed with everything I saw and what you what you're able to do and I think you know we'll get into this a little bit more later, but it's definitely something that all companies need to really take a look at. U but before we dive into all this this whole conversation, maybe you can help our audience define in your view, you know, the landscape that we're going to talk about here. So when when people say AI search or AI discovery, what exactly do they mean and how is it different from the traditional SEO world that we've all optimized for?
+Yeah, I think this is the main the main question. I think there's a lot of um confusion about it, which is okay. It's an kind of a new thing or a new thing for many companies. And I think that when people say AI search, they usually mean how users now ask full questions directly to assistants like Chip PT, Claude or Gemini and get complete
+
+[07:06]
+answers back, not a list of links uh which is what we used to from uh from Google, right? So the discovery happens inside the answer itself which is the big ins of of go or AO from SEO. You no longer win clicks. you win inclusion uh trust inside you know AI generated answers >> and while on the other hand SEO is optimized for algorithms and keywords you know and all those beautiful things that we used to so and AI search optimizes for understanding uh which means you will appear in AI search or be or you will appear in the relevant context within a conversation of an end user with LLM um And it depends really on how well your brand is understood which is what lights is about. We uh make brands own we make companies own
+
+[08:06]
+their brand in AI search.
+>> Right. Right. which is and I and that that's my definition exactly too is less search less you know it's it's really they're using their AI assistant to help them through the buying journey and it's giving them summaries and they're having ongoing dialogues and some of them are go on days and weeks and you know you can create your project and you know and just to kind of frame all this um this is a great study that came out from kickstand and pivian um if you look at it here 77% of marketers don't know how to address the shift and or are making it up sort of as they go and if I remember correctly only 17 or 19% feel that they have some expertise in it and you know on the right side of the chart here you can see some of the examples like what is the latest workflow automation platform for midsize financial firms and it lists some vendors so how do you show up on that list right or even the other
+
+[09:06]
+one and it just goes on and on and on right and then from there, they ask more questions and and they may never leave the dialogue. Um, and you know, the more I think about all this, I do the same thing, right? I actually use I go back to Google if I can't figure out how to spell a word, you know, and sometimes I go in, I check things. So I I don't think it's a world where traditional search goes away, but it's definitely one that's going to be optimized, I think, in time around um AI or AEO or whatever the term is, right? What are your thoughts on that? Is that what your experience is? Is that there's a lot of organizations and and marketing professionals that are, you know, still need to get on board and learn the depth of what to do here?
+Um absolutely you know I think we are in a it's a very um interesting time to be a CMO um we are in the middle of a shift
+
+[10:10]
+a kind of I think most of the people that are like in the industry now leading the companies have have not experienced yet >> especially if we talk about search engine optimization or uh content strategy because SEO is a very slow and methodical uh um um uh aspect of marketing and it takes time and it it stayed the same for quite a while. So there were of course you know few tweaks changes in the journey etc. But what I see now is uh first I'm completely convinced that the playbook is changing. It's changing in a ways that are difficult to grasp. Some things that uh are kind of trivial or completely were abandoned lately. They are back in the game like for example back links uh etc. But and other things such as creating a lot of content and
+
+[11:12]
+you know publishing a lot of blog articles or gathering many Google reviews just doesn't work um >> right >> as well as well as it was and so and this is the shift that we're seeing at the same time I would say I don't want to um I don't want to offend anyone you know in my in my uh my own audience and my own you know customers but most of the people we speak with uh I I think at best understand that they are in in the shuffle.
+>> Yeah.
+>> Um but most of them are um um are not ready that they're not ready to accept that some pretty dramatic changes are required to the playbook. Uh I think we see it across all the sectors where AI is involved. people are either not ready or not able to change and but uh nevertheless the the change is coming.
+It's I think I think it's already here.
+So >> yeah, I'm gonna I'm going to show show
+
+[12:13]
+you some data here in a second. um the research that we've been doing here at the cube research and after I go through it love to get your commentary on it and point of view and kind of match it to me doing you know research and study and surveys and all that kind of stuff and you actually being out in the field. Um, and I think if we bring that together, I think we can hopefully provide a good point of view and some advice here on where where to all head. And I can tell you I deal with, you know, I've probably talked to 120 130 maybe 140 companies this year already. And I I think about maybe 60 50 of them or somewhere in that range were marketing related discussions. Only once has one of them come to me actually on the subject of AEO. So if you use that as a percentage, just mean it's just an anecdotal thing.
+But yeah, I think there's a lot of catching up to do here. Um, and you know, that's why I think this could be really useful conversation. So, let's kind of frame this in some data. And,
+
+[13:14]
+um, this is some work that we've been doing here. And what you have on the vertical bar is the percent of business or B2B. So, this is B2B buyers um that e that use traditional search and and or AI mediated discovery and what you're seeing here is there's a rapid decline in a reliance on traditional search that will continue for at least through 2030. Yet if you look at AI mediated discovery the AEO side of the point rapid growth since what mid 2022 when chat GPT started coming out and obviously there were some predecessor stuff that was being infused around. Um but it looks like the you know the turning point or the tipping point is going to be somewhere in 2026 where the majority um of the reliance will become on traditional not on traditional search but on on the AI engines and their chat GPT friends or Gemini or Grock or
+
+[14:16]
+whoever your your friend is right your assistant and I think that's pretty pretty alarming if you look at by 2030 it'll be somewhere around a 40 42% gap and who's relying on what to do their to do their um buying, you know, search and discovery and evaluations and shortlisting and all that.
+What does that mean for web traffic? And you you enlighten me to a lot of this um just in our conversations this week.
+um but try to quantify this and this is using data from um uh e-arketer inside intelligent G2 Bane and company trust radius there's like eight of them or so um that actually looks like nine of them if it's nine of them 10 if you include us um but you can see the the impact here when you kind of analyze them and aggregate them um basically it's almost a 5% uh you know compounded growth rate
+
+[15:18]
+annually decline line. So if you take that over the next five years from today, we're talking about um anywhere from 30 33 to 40% decline in web traffic. Um and the the blue line is actually software companies in the B2B space. So overall B2B is I guess the the yellowish brownish line which is not quite as affected but if you're in the software industry this is going to become a big deal as you know by that time you're going to have a much higher sign you a much higher degree what 80% of the B2B software buying journey will be mediated by AI um you know AI chats and that's pretty that's pretty alarming I think if you if you're looking at that data and you know how accurate is another whole conversation but I think the trend lines are pretty consistent and again it was sourced from all those different studies that have been done sort of an aggregate if you will so what do you think consistent with the field
+
+[16:19]
+>> yes pretty consistent also it makes me think about two things that we've experienced quite a lot um but first I want to talk really quickly about how your own u AI assistant chat GPT uh you know cloud perplexity um what's their way to have a comm have a conversation with you and it's rooted in the design of these um LLMs and this is how they stay they stay sticky to the customer uh to the end user they they want to please you >> right >> um it means you know you probably noticed how this is an amazing question Scott uh etc right so they're built to please you. And uh part of it, the practical implication of it is that they will most likely surface information from your past that they think will resonate with you. Uh and um they've already indexed it about you even from
+
+[17:22]
+your own browsing activities outside of LLM. Um so uh when I think about this trend uh it makes me think about uh how the how it's very risky for for brands that are quite established today um to be discoverable in the future because if you are not becoming part of this conversation if you're not becoming rooted in this conversations now is going to become increasingly difficult for you apart from the adoption trends etc. I think it will be much more difficult for brands to become visible or rank higher or whatever you want to call it in AI search unless they get the basics of fundamentals right now and I'm not saying change you know everything everything they do but adjust to it.
+>> Yeah. So, so this is the first thing I first thing and the sec and second thing I think that um most of the uh CMOs we
+
+[18:22]
+we work with today they don't really look at it in terms of strategy or how they how they adjust the technology play or at their companies and also the content play. uh at in most of the cases um it's really focused on you know trial and error trying something out uh trying some new approach but not really something that is structured so I would say I you know I agree that this is where we're going yeah >> yeah well you're you hit the right notes on this I think from my experiences um it is clearly both right now at least it's an art and a science And I think everyone's trying to figure out how this, you know, how to optimize your odds to actually show up, right?
+And so I, you know, as we've talked, I've been talking to a ton of people, um, doing research for this for months and months. And let me just walk you through a framework that we've developed
+
+[19:23]
+that's designed to help companies assess their posture right now in a qualitative and quantitative way against 19 different attributes.
+Um and then we'll get your your thoughts on that and then we can dive a little bit deeper into um some of this um actually the all four categories. So let me just kind of set the frame here on how how LLMs actually learn about brands and it turns out that there are four categories that you have to worry about.
+First is cat scoring and we'll talk about that. um it's it's basically a set of principles that is the overriding point of view that these LLM consistently have right then there's a part of it where they learn and they build knowledge about your brand right then there's the real time retrieval um and ranking when the questions actually asked right which not only goes back to the
+
+[20:23]
+learning and the CAT principles but also goes to your website, right? And is your website ready to tell the LLM and to feed it and to educate it over time, not only as it builds its knowledge, but as it does real time retrieval and ranking, you have to do some things, and you're the expert on that part. Um, to actually optimize your ability to show up, right?
+So, I think what would be useful for the rest of the time we have here is for us to step through each of these four. I'm going to do the f first three and I'll try to do them succinctly and quickly and then you can do the last one then we'll bring it all together for everybody on some advice. Does that sound >> Yeah, sounds great.
+>> Good a good path forward. All right.
+Well, let's start with with uh I think the easier one to sort of understand um which is which is the CAT framework. Um it represents the core principles LLMs use to prioritize um when they are ranking and selecting
+
+[21:25]
+information to expose in their answers.
+So is it credible? That is the information backed by facts and data and verifiable um sources. Models favor content that can be explained, validated, cross-referenced and articulated in a conversational manner. So is it credible? two is is it authoritative, right? Um and that means that it's recognized expertise in a domain, right?
+It's reinforced by citations and other trusted sources, which signals to the LLM that the model that your voice and your content carry industry weight and success with real businesses. So it has to be anchored in a strong yet relevant point of view to have an authoritative um you know ranking for the LLMs.
+You know authentic is really important too. It looks and devours authentic content. Um you know content that is transparent. It's original insights. You
+
+[22:28]
+know it resists you know things like generic you know AI generated stuff or traditional collateral. um these LMS tend to consume unique perspectives, clear explan um explanations, proof points, survey data, you know, things that are kind of hard to replace um that you know, kind of get stuck like you said before, stickiness, right? So the authenticity of the content and how your brand comes across is really important.
+And then finally, trusted, right? It has to be trusted. And the way they act there is they they look for consistent appearances across multi- high quality hightraicked um contextes out there or sites or sources. So it helps the LLM build trust in a brand, right? Repet repetition, you know, showing up all over the place across trusted domains helps to build confidence in the model's ranking algorithms. Um so you take those those four principles pretty much everything it does with to discover and select a
+
+[23:29]
+brand is going to be based on um at the highest level those four things is what I have found. What are your thoughts on that?
+>> Yeah, I see it very clearly. Um um would you like I have um you know Scott I have a lot of um stories from the field.
+Would you like to hear some about >> Let's do let's do a quick one so we can make sure we get through everything. But yeah, >> I think also it relates to uh to what you what you said uh earlier about the the search trends that are declining. I think the major winners while you know the larger brands kind of uh you know trying to adjust to the new reality the major winners winners will be the upandcomers those you've never heard of right or those who are like traditionally um lagging behind or or just new companies because what I see very clearly one point I want to connect to is is clarity and credibility. Um I see very clearly how smaller companies
+
+[24:29]
+win against established competitors by just not by doing a lot or you know creating a lot of content by by being very clear. Um [snorts] a good example of it is one of my uh one of my clients is a skateboard shop and uh he's by far the largest one in in their own in their country. But every time you ask ShajiPT to recommend where to buy a skateboard gear, for example, the a competitor that has a clear name, so it has the skateboard shop in its name always appears as the as the most recommended result. So >> yeah, >> if so that's a good example of uh how you um how you can be clear. I'm not saying that everyone, you know, everyone should change their their name, not you know, but uh it's just an example of how clarity uh and trustworthiness really can get you ahead even if the large
+
+[25:30]
+competitors are much more established.
+>> Yeah. No, it's absolutely true, right?
+And it's, you know, [clears throat] it really is changing the nature of all this. All right. So, let's let's kind of unpack all this and go to the next level. And we're going to start start here with the the knowledge.
+um building right that's really the first part what happens in training and ongoing enforcement that happens over time um so it's when obviously it's ingesting data it starts to build knowledge and it creates a living and adapting semantic map essentially so as it applies um well first of all ingest information but as then applies the notion of entity extraction to identify and tag key items such as a company name, executives, products, industries, um problems, solutions, all these different things. These these entities are then linked together to create essentially a vectorzed semantic map, right? A semantic graph, which is a
+
+[26:31]
+dynamic structure that captures contextaware meaning um and understanding across a whole bunch of domains that are connected to it. It's really important to understand these graphs are not static data sets. They're intelligent networks of meaning that the LLMs use to establish, you know, context, infer connections, prioritize information, and produce responses um that demonstrate a deeper semantic understanding. So, think of it as the foundation layer for how these AI systems organize, retrieve, and communicate information um in a conversational. Remember, this is all about a conversational manner. So the pieces that kind of pull this together in the process is first it creates a semantic context. So LMS don't just recognize your brand's name. They understand the meaning and intent behind where your brand appears. So if your company's frequently cited for AI compliance in fintech, the model infers not only what you do but what contextes
+
+[27:33]
+your expertise is valued. From there it establishes um your profile to industries and technologies and partners and problem areas and much much more.
+And if you're linked like with agent AI architectures and stories and different companies those associations are embedded in the graph that also influence whether you get selected to show up or not. So it's the association among all these different topics and entities that then draw upon the semantic maps. It also forms an opinion on topical authority, right? It monitors these domains and it understands who has authority in a particular domain. Um, and it sort of remembers and associates your brand with specific topical areas that it views through its ongoing, you know, digest ingestion of of information that you're an expert on. Um, you also
+
+[28:34]
+have to understand that recency is important too. It it kind of ongoing takes the signals. You know, the longer something sits out there, the less value it has to the LLM. So, you want to keep putting new content out that helps helps it keep relevant to the, you know, to the time that the actual inquiry happens. Um, multimodal is also important important, not just text or video, but you want transcripts. the more visibility you have across all these different types of um um content types again feeds the map. And then finally, as we were talking about earlier, it weighs credibility signals.
+So in the way it works is in the knowledge graphs where your brand appears um mentions it's going to prioritize that are mentioned in trusted areas, right?
+um like things like analyst [snorts] independent analyst research um publications in a in a newsletter that's not yours um public media event coverage
+
+[29:34]
+you know TV you know it goes on and on and on and the more it gives credit to multimodal and so as this all occurs it is definitely evaluating everything also in the context of the cat so there's actually six attributes there that if you think about it as you put content out and you build your strategy, you can optimize all six of those. And I think that's one of the steps that people have to start thinking about.
+>> Yeah. You know, in my experience, clarity and authenticity beats right now in practice beats everything else.
+>> Yeah.
+>> Uh- because you know, every every so LLM retrieve content in basically two ways.
+One is through indexing remembering you for the future and this is where you have to be very clear and you know have the proper structure of your own data and you know the quantity maybe play quantity and structure plays a a major role here and then there is a retrieval so something that they would uh find
+
+[30:35]
+about you from the from the memory or from the real time retrieval and bring it up in the conversation. So in this area we see that an authentic human uh natural comment about your business for example on Reddit which is um very strong with LLM or other uh websites or other platforms where reviews are authenticated it will um uh it will prioritize it on um um u on top of everything else. Yep, that's exactly right. And that's why I think there's a shift towards more conversational content, Q&As's, interviews, you know, videos, um, even event sessions that are broadcasted in the digital domain, transcripts of those. I mean, it just devours all that stuff because it's a conversational being. Um, it's credible because it's a third party source. Um, it is authentic as you said, right? It's authoritative because you're going into detail and you're explaining things.
+
+[31:35]
+You're not just reading a brochure or a website. And u that's so that's how it builds the semantic map [snorts] you know from there. So that's you know ongoing process and it keeps building these things but then there is what happens when you actually ask it a question. And so if the training provides the LMS with their core knowledge, it's the real- time retrieval that keeps them current and constantly learning by fetching fresh, high authority content. Um, so they can deliver the most timely, accurate, and trustworthy information for that particular answer. So here's how this works just very quickly here is first of all, it's going to query trusted domains. So AI systems are source. If your content isn't on high authority platforms, it likely won't be pulled into a live search no matter how insightful it is. So it's important that you are optimizing for credible sources of the information. Two is it performs a semantic match, right? So instead of keyword matching, modern LLMs are using
+
+[32:38]
+that semantic search in the graph to grasp the meaning and intent of a question and then try to map who can help, who has the authority, who has the cat characteristics to help with that, right? It also goes through and evaluates known entities. So it'll retrieve content that's cross-referenced within its internal knowledge graph, but also as it does that it's going to understand how new content relates to the known brands, products, people, topics that have been, you know, that have high CAT um rankings, right? So this is why fresh content is really important. Um then of course it's going to then use that to help, you know, create relevancy. So it actually has to rank based on several signals that we were talking about several of them before and you know everything from domain authority to confirm where those source can be trusted examines topical alignment content matches um the user's
+
+[33:40]
+intent what the brand's intent was so it then kind of creates a a extraction around relevancy and then finally and I think this is part of your point that that you're going to make next which is it's going to prioritize signals in formats that um are structured, digestible, trustworthy.
+You know, they have to be built on clean metadata so they can interpret the um the content accurately. You know, the more it mimics natural conversations like in interviews and explainer videos and things of that nature, um it then want needs to have content that it can actually leverage. So again, it's it's somewhat of a um complicated process that they're going through here, but you know, it goes through those 15 non-stop all the time. And every one of them is a lever people can understand where they where they sit right now and and work to improve it. Um and
+
+[34:43]
+is that consistent what you're hearing out there in terms of at least the retrieval and all that?
+Yes, I think um you said it right. I think in um uh in the end that these points are they're not sequential.
+They're kind of interconnected. Yeah.
+>> So, uh I think they also in terms of uh in practice and tactics, right, or how you adjust to it, they will mean different things for different companies. Um >> but essentially, you're right. I think there is a good news and bad news for everyone. The good news is that you don't have to do a lot anymore, right?
+So volume and um you know um uh just you know being out there just like the way we used to do is is not that relevant anymore. But the bad news is that uh to succeed in the new um kind of this new in the LLM search you have to do certain
+
+[35:43]
+things differently and one of them is of for sure to be clear you need structured data you need uh authentic human um you know uh reviews and um you need to be clear trusted and understandable by LLM.
+So um yeah it's pretty consistent with with what we hear. Yeah. And and there's some things that are in direct opposition to SEO. For example, if you were going to create a blog, put it on your website, um, and then put it on Forbes, for example, that would confuse most search engines, right? Because you don't want to have the exact content because it unless you have the conical links to it and all that, but still even with that.
+So, you kind of get penalized a little bit for that. In the world of AEO, you get rewarded for it. Not just because it's an additional place for the LLM to find it, but your website is not a credible source. Sorry. Um, but an
+
+[36:44]
+independent website is a credible source. And the more independent that you're not controlling it, it increases everything. Right? Now, that's not to say your website's not important. It's probably the most important link in all of this because that's where it's going to build the knowledge. But how there's a difference between building knowledge about your brand versus surfacing it in the answers, right? And um so my my research has shown there's a lot of opposing, you know, one thing might be good for um AEO but be bad for SEO and vice versa. And so it's going to be tricky and I don't think anyone has all the answers. It's just, you know, everyone's gonna have to move forward here and start experimenting.
+>> Um >> yeah, I agree. No, nobody has all the answers. But what concerns me well kind of or maybe surprises me right uh uh we we we are making quite a few polls now now now and then within the SEO community and what more often than not the about 90% of the people who deal with SEO today so viewers people that
+
+[37:47]
+work for you right they are >> uh they still think that geo equals SEO >> right So 100% aligned which is uh which is not what we've seen right so it's not what our data shows it's not what this research shows so I think um uh it's um it's strange place to be in for many companies >> yeah yeah I mean it's not just different content you need to complement SEO it's different tactics right >> and a different to your earlier point a different strategy really um but I think you know one thing we I should probably say because I'm not sure if I've been clear on this during the podcast here, but I'm not suggesting SEO goes away.
+It's a critical part and I think it will be forever, particularly with Google Gemini and stuff like that. It's just that the balance is shifting, right? And and you have to play the game differently. um which includes your website. And I want to get back to that because I think the website that you own and the properties you have are absolutely critical in how the LMS build
+
+[38:49]
+the knowledge and the semantic understanding of the value you bring and uses that to then connect it to what problems or questions people are asking.
+A little bit different than prioritization, but they still have to learn about it so they know what to connect it to. And you've been doing a lot with your capabilities at Lightsite.
+Could you just talk through these four key things that are really key to to your website?
+>> Yes, 100%. Um so I think websites are a kind of a missed opportunity in the world of AI search because most of the if if there is any focus today on of s of Simo of how do I improve my position or how do I own my brand? How do I get ahead or beat the competition?
+Most of the focus today if any goes to the content play which is very important or content play or analytics uh of how do I appear in brand search etc and but
+
+[39:52]
+the website becomes a missed opportunity because websites are built for humans u they are built to be readable and understood and to be understood by humans and LLMs they just they just work a bit differently right >> they don't need all this content they don't care about your logos your colors or your forms and everything you have in your like regular HTML. Uh but they do care about clarity, consistency, uh structure, authenticity, uh etc. So what we see we we uh we did our own research not not long ago um uh on about 1,000 websites all around the world really SAS companies D2C companies anything um really any company you can think of about 90% of them are are not they just have completely misconfigured setup on their website so the their websites are not just not readable or poorly understood they are actively
+
+[40:54]
+blocking LLMs from understanding their own content >> right >> um so it's it's a missed opportunity for for many but I think that uh it's it's just a part of the puzzle website is part of the puzzle uh and the content player or what how do you adjust or everything that we discussed so far how do you adjust your content how do you you know uh even getting down to tactics so to which Reddit group is relevant for you and how uh which conversations are relevant for you. Um it's a big part of the um of the play, right? And we we take care of both of these parts, right?
+So we on one hand we make your website uh uh understood or loved let's say by LLMs and on the other hand we tell you what to do what can you do to first we give you the visibility and then tell you how can you actually get ahead in AI search and improve your ranking. So it's
+
+[41:55]
+not just about the website but website is a big part of it I think. Yeah. Most misunderstood part.
+>> Yeah. And there's you guys have a whole bunch of different very specific things you need to do to your website and things that can help. And I I I encourage everyone to kind of get in touch with you to kind of understand what that is. And then what you you kind of get out of it from what I understand is, you know, these kind of dashboards where you're tracking what you need to do, right? And I took this from from your website here and I think it's pretty cool if you got kind of go through the whole story and put this in context. It gives you a real world dashboard, a live dashboard if you will, to keep monitoring, learning, adapting, right? Um because we're all going to be learning and adapting and all that because there is no science to this yet, right? At least I at least I haven't been able to find it. Um but you're starting to create a science uh on on one important domain or facet of the whole problem, which is um what I think you guys are doing really really well.
+>> Thank you, Scott.
+>> Yeah. All right. Well, look, um, final
+
+[42:56]
+question because we're going to have to wrap up here in a second. So, if you were advising a CMO to ask, um, or a founder of a of a company, um, what are the few things that you would suggest that they do like right now to to start to improve this?
+Like what is what is the action plan um, for them to start to just, you know, like we've always said, the game's played on the field, not in the dugout.
+You got to start doing stuff. You might not have all the answers. So what what would your advice be?
+>> We definitely don't have all the answers. We don't claim to do that. Uh we are a layer a layer of optimization.
+Uh not a magical new thing that solves everything where but uh you know actually the first thing that I would advise CMO to do is has nothing to do with lights. uh I would advise them to uh just knock on the door of their SEO manager, organic growth manager and ask them if do you think SEO equals GEO? If
+
+[43:58]
+they say yes, I think um they there may be some other questions that need to be asked, right? Because if your team is thinking that the playbook hasn't changed, then you are in trouble already. Um uh I can guarantee you that your upandcomers, your competitors are getting ahead. Um so this is the first thing that but uh to be practical uh first I would structure your own data.
+90% of the companies miss structure data. Second I would look outside and to do that you need to some visibility. I would look outside of what's hap what's actually happening in live LLM conversation with LLMs. How do I appear there? Why do I appear in certain context or not appear in in the other?
+Because things that used to work for us um or things we you know keywords we scored for they they may not work anymore in the LM search. So um >> speak with your team, get your data
+
+[44:59]
+right and take a look outside and see are you still actually appearing in the choirs you think you're appearing.
+>> Yep. And and I think we agree on this, right? you know, you need an a an AEO strategy. It really is going to matter because on the right hand side of this chart, there's a lot to figure out. This may or may not be perfectly how it works. It may or may not be the right answer for the levers, but you know, you got to start somewhere and, you know, you know, get out there and just you got to really rethink what you're doing in your content strategy. I think that's going to be so important um going forward because you really are at risk of a big change kind of happening here under the covers that are is just now getting recognized. Um all right. Well, this has been a fascinating conversation um and I think it's been a wakeup call for every B2B brand leader that's out there. So, thanks so much for joining us today. I really appreciate it and for all the conversations we had during the week. As I said earlier, I've learned a ton and we we'll we'll keep uh we'll keep talking. Um, so look, if your brand
+
+[46:00]
+isn't visible to AI, it's going to be invisible to buyers. So the days of optimizing for clips, just clicks alone.
+You're gonna have, you know, you got to start working on what you're going to do for the AI engines. Um, for those of you that want to learn more and dig deeper about Lightsite, go to lightsight.ai and you can actually contact us here um through um through our link. And uh for all the listeners out there, make sure that you uh subscribe to the Next Frontiers of AI podcast. I appreciate you tuning in and uh until next time, I'm Scott Hebner. Thanks for listening and uh we'll see you the next round. Bye everybody.
+[music]

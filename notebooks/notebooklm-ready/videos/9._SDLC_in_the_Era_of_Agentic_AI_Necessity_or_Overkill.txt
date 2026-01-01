@@ -1,0 +1,690 @@
+# 9. SDLC in the Era of Agentic AI: Necessity or Overkill?
+
+**Video ID:** QOikWctqYFA
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 32:16
+**URL:** https://www.youtube.com/watch?v=QOikWctqYFA
+
+**Module:** Agentic Workflows & Orchestration
+**Module Rationale:** The video focuses extensively on software development lifecycle workflows, CI/CD pipelines, and how AI agents integrate into development processes and methodologies
+
+## Summary
+- Software Development Life Cycle (SDLC) integration with AI agents is becoming a necessity, not overkill, as organizations advance their AI capabilities
+- AI is transforming software development by serving as a productivity tool that enables faster delivery, better quality control, and operational efficiencies
+- Production applications using AI jumped from 18% to 54% in six months, showing rapid adoption in enterprise environments
+- Software developers are evolving to become more like data scientists, with citizen developers also creating applications using low-code/no-code AI tools
+- AI will not replace software developers but will give them 'superpowers' to focus on higher-value innovation while automating routine tasks
+- Organizations are hiring generalists over specialists (67% preference) due to AI tools making complex work more accessible
+- Fragmented toolchains (6-15 different tools) create complexity and fragile SDLCs, driving need for unified platform approaches
+- Human-in-the-loop remains essential for accountability, especially for compliance, governance, and reputation management
+- Legacy application modernization through AI agents can bridge heritage systems with modern interfaces without full rewrites
+
+## Key Takeaways
+- **DO:** Integrate AI into your SDLC processes now to avoid competitive disadvantage - it's a necessity for 2025 and beyond
+- **DO:** Consider unified platform approaches over fragmented toolchains to reduce complexity and single points of failure
+- **DO:** Maintain human accountability and oversight when using AI-generated code, especially for compliance and governance
+- **DON'T:** Don't blindly use AI code snippets without proper review and accountability measures in place
+- **DON'T:** Don't expect AI to completely replace developers - focus on augmentation rather than replacement strategies
+- **DO:** Evaluate build vs buy decisions for AI platforms - most organizations benefit from vendor solutions that provide 80% of needed functionality
+
+## Topics
+SDLC, AI agents, software development, DevOps, application modernization, developer productivity, enterprise AI adoption
+
+## Key Moments
+- [06:05](https://www.youtube.com/watch?v=QOikWctqYFA&t=365s): Production AI application usage jumped from 18% to 54% in six months
+- [11:18](https://www.youtube.com/watch?v=QOikWctqYFA&t=678s): 67% of organizations prefer hiring generalists over specialists due to AI democratization
+- [15:21](https://www.youtube.com/watch?v=QOikWctqYFA&t=921s): AI gives developers 'superpowers' rather than replacing them - power drill vs screwdriver analogy
+- [22:29](https://www.youtube.com/watch?v=QOikWctqYFA&t=1349s): Organizations use 6-15 different tools but 54% want unified approaches to reduce complexity
+- [28:45](https://www.youtube.com/watch?v=QOikWctqYFA&t=1725s): SDLC integration with AI is a necessity, not overkill - competitive disadvantage without it
+
+## TL;DR
+SDLC integration with AI agents is essential for competitive advantage in modern software development.
+
+## Full Transcript
+
+>> Welcome to another episode of theCube Research's Next
+Frontiers of AI podcast.
+I'm your host, Scott Hebner, and thank you for joining today.
+We're going to continue our
+discussions on what's shaping the future of AI, and with innovation cycles
+moving at warp speed, staying up- to-date is more important than ever, and more importantly, knowing how to get started sooner
+rather than later may be the difference between becoming a leader or a laggard when it comes to establishing competitive advantage.
+Today, we'll discuss the role of software development life
+cycle platforms in the emerging area of Agentic AI.
+Is it a necessity or is it overkill?
+We'll also get into how the role of software developers may be changing or may not be changing in the years ahead.
+These are meaningful
+questions to consider now, as the longer you wait, the more difficult
+appropriate change will be.
+Today, you think about it.
+
+[01:01]
+You've got no-code, low-code
+platforms, allowing more and more people to create
+AI-driven apps and agents and automations without really
+writing any code at all.
+At the same time, we have software developers
+building the core applications that make businesses operate.
+But as AI solutions
+become more sophisticated, when they have to start
+to reason and learn and help make decisions and problem-solve and dynamically adapt to
+real-world changes in the business and the environment that
+they operate in, the role and complexity of software
+in these AI systems just has to increase, no?
+And probably increase a lot.
+Won't the software that
+runs these businesses need to start incorporating
+more and more AI agents and AI models?
+To explore these questions and debate whether AI-driven
+solutions should embrace or escape the boundaries of a software development life
+cycle platform, I'm joined by Paul Nashawaty.
+He's a prominent industry analyst, you probably all know him.
+
+[02:01]
+He's here at theCube Research now, and he's focused on
+application development and modernization and cloud native.
+He's here to share his insights and have a good discussion with us on where this is all heading in the future.
+Paul, really appreciate you
+taking the time to be here.
+There you are.
+>> There I am. I showed
+up. Look it, I'm here.
+>> All right, there you are.
+Again, thanks for being here.
+I appreciate it. What
+you've been up to lately?
+I know, boy, you've been doing a lot.
+I know you're working
+on a summit coming up, that we'll talk a little bit later, on what else is going on in the
+world of software development and app dev and
+modernization and all that.
+>> Oh, it's definitely a fun
+place to be at this time.
+The app dev world focuses on
+day zero, day one, day two, and DevSecOps, so build
+release operations, anything in the CICD pipeline and anything that touches the SDLC.
+
+[03:01]
+This is, obviously, having
+AI in the conversation, is relative and important
+to the discussion.
+>> Yeah. What are you
+seeing in your research and your engagements with both end-users?
+I know you talked with a
+ton of vendors out there.
+How is AI helping to actually improve and automate the software
+development lifecycle?
+How do you see that where we are today?
+Where do you think it's
+heading in the years ahead?
+>> Yeah. AI is interesting, in my mind.
+The way I see it is, AI is a tool.
+When you look at the software
+development lifecycle, or the SDLC, developers are using AI to help accelerate their
+delivery of these applications.
+Whether it's testing or
+quality control or delivery or whatever it may be,
+AI is a big part of that, but AI is an enabler
+to make it successful.
+And by doing so, the AI
+allows for the developers to be more productive and have operational efficiencies that they didn't have previously.
+
+[04:04]
+>> Yeah. Actually, when I was
+doing a little bit of study, whenever I do these podcasts,
+I take it as an opportunity to learn, there was actually
+a good case study on the AWS blog out there,
+about what they're doing with IBM consulting to automate the whole end-to-end cycle.
+You can see on the left, what they've done in this
+project is they've brought in Amazon Bedrock and all of its AI and Generative AI capabilities.
+And then, on the right is,
+a little hard to read here, I can see, but the diagram that represents the IBM software development
+lifecycle when they're building custom applications for clients.
+What's interesting about the case study and their experience, you can
+see the value on the right- hand side of the chart here, that equates to a lot
+of money, doesn't it?
+When you're building these
+applications, spitting them out, being able to adapt quickly and get new things, new capabilities out?
+>> Well, absolutely, and
+when you look at the volume of applications that are being created,
+
+[05:04]
+organizations can't do the same thing that they were doing previously.
+They need technology stacks
+like what Amazon Bedrock and IBM is doing in order to accelerate the development processes.
+The nice thing about that slide that you were showing
+is it meets the clients where they're on their own journey.
+They can basically use AI
+as a small piece of it, if they're not very mature yet, and try to get to using
+functional parts of it in order to deliver specific
+parts of the application, or they can take a full- on automated approach
+across the CICD pipeline.
+I really like the way this slide really outlines that information.
+>> Yeah, it's an incremental
+progressive journey.
+You take different parts of
+it, not just the human elements of a team, but different
+parts of the life cycle.
+You can apply AI to automate
+it and help improve the quality and all the things we saw
+in that previous chart.
+That's my observation. I'm not
+as deep into it as you are.
+
+[06:05]
+I'm looking through the
+lens of the AI lens, but it certainly seems to be and has been one of the top use cases.
+IT overall has been the
+top use case for AI.
+Then, observability, software development,
+those are all at the top.
+>> Yeah, absolutely. A
+recent research study I ran, I'll say I ran the study a year ago.
+It goes a little bit further back now.
+What we found is production
+applications, we use 18% of production applications we use in AI.
+We ran that study roughly
+about six months ago, maybe a little bit more, and we found that that number jumped from 18% to 54%.
+The number of production applications
+using in AI is increasing, and that number now is
+significantly higher.
+AI and production applications
+is going and growing.
+It's definitely an area
+that's going to ...
+We're not looking back. We're
+not turning around going, "We're not going to use AI.
+" That tech stack that you showed helps accelerate the SDLC.
+
+[07:07]
+>> Yeah. Certainly, a movement, and again, every time I
+see a study, as I said, software development is definitely one of the top use cases being applied today, certainly for Generative AI.
+Let's shift a little bit
+to actual developers, software developers in particular.
+As I think you know, one of my
+six predictions for 2025 was that, how did I state it?
+Software developers are going
+to become data scientists?
+>> Yeah. - Before you comment
+on that, let me just, with my best friend now, who I hang
+out with all the time, ChatGPT, I asked it to do a little work for me and let me put it up here.
+I guess, what it used here, and this is obviously
+illustrative in nature, but it used the Bureau of
+Business of Label Statistics.
+Stack Overflow survey,
+GitHub, McKenzie, what is it?
+Boston Consulting Group, Gartner, it cranked all this numbers, and what you're looking at here is, I guess the yellowish gold on the bottom,
+
+[08:11]
+is the compounded growth rate of software developers that are involved in AI projects.
+Think of them as AI software developers, and they're projected that
+in 2025, so this year, there'll be 25,000 of
+those type people added, but by the time you get
+to 2020, it's going to be more than 200,000 per year.
+The top one, the red, which has grown even more
+aggressively, are the number of software developers
+each year that are going to gain data science and AI skills.
+I found that interesting.
+It clearly indicates that the
+nature of the role is going to change one way or the other with AI really coming on the scene and becoming more prominent and widespread across the organizations.
+>> Yeah, I think that when
+you look at this chart here, you hit on it right upfront
+in the conversation.
+
+[09:12]
+You mentioned low-code, no-code solutions.
+Now, I want to double-click
+a little bit down on that.
+What we're seeing in the
+application development world is the proliferation of applications
+being developed is growing substantially, as I mentioned.
+The problem is the professional
+developers are not the only ones creating applications.
+I love your prediction by saying that software developers
+would become data scientists, because the reality of
+it is with no-code, low- code solutions, citizen
+developers now become application developers and they're
+creating applications.
+If you're a business
+analyst, a financial analyst, whatever it may be, if you crunch data and you write an application to work on your data
+set, you're a developer.
+Now, you're using that
+information in order to grow and build, and using tools
+like AI will help accelerate that growth process.
+Now, I will caution.
+I will say that organizations that use AI can't just blindly
+use these code snippets
+
+[10:16]
+that come out of AI.
+They have to have accountability.
+Sorry, there's a lot of pollen
+in the air. It's killing me.
+>> It's springtime. It's
+springtime, baby. Yeah, I know.
+I've been down there a lot in the spring.
+>> Spring time, I love it. But
+basically, what we find is the citizen developers are
+using these applications, they are becoming, the data
+scientists are developing their own applications, and they're
+using these AI tools in order to create these applications, but the accountability has to
+be there with the business.
+>> Yeah. The other thing I
+found in some of the research, and I'm not sure it's widespread yet, it's probably very small
+number of organizations, some of them are looking to kill tubers with one stone, if you will.
+Rather than hire a software engineer and then hire a separate AI engineer or a data scientist, they're trying to fuse it into one role,
+which I found interesting.
+I think that's a little bit beyond what, maybe it's the top part of the
+graph that I showed before, but that was an interesting set
+
+[11:18]
+of comments I saw in one survey.
+>> Yeah. I'll overlay
+that comment with some of my research on skill
+gap issues and challenges.
+What we find in the app dev
+research, we find that 67% of organizations are hiring
+generalists over specialists.
+Part of that reason is because, to your point, well, one, they can't find a specialist, because if they do find a specialist, they're probably consumed or asking an insane
+amount of money that the organizations don't fund.
+Second thing is the generalists that they're hiring are able
+to do the work previously that a specialist was doing.
+What organizations are doing
+is they're pushing back heavily on vendors to institute
+less complex, easy-to- use solutions, and having a generalist doing the work that a specialist
+would've done in the past.
+That's where I think that
+there's a dovetailing two things together, using AI, allowing
+for the ease-of-use,
+
+[12:20]
+faster time to value with using AI to deliver your application.
+But having a generalist do
+the work, you don't have to have a professional developer
+or a specialist do the job, and those professionals, developers, and specialists that are in
+the company can focus on high- value innovation and not focus on tedious
+more remedial type of work.
+>> Yeah. No, I think that's right on.
+The question that
+everyone's asking everywhere for almost every role with AI going even more
+aggressively on the scene is, is it going to replace
+software developers?
+Is it going to replace those
+that are responsible for, in the broader IT organization, but let's stick to software developers.
+What's your view on that?
+>> Yeah. I like your chart that showed the growth in the adoption.
+I think that today, would you replace all
+your development team with
+
+[13:21]
+new college hires or
+interns to do the job?
+The answer is no, because you need experience,
+you need levels of knowledge and knowledge transfer, etc.
+Working with AI and working with today's
+auto-generated code, it's almost the equivalent of an entry- level kind of deployment or a junior-level coder.
+The code may work, it
+may not be optimized, it may not be perfect, but it may not be the best code for the solution you're trying to provide.
+Will it get there? Probably,
+at some point, yes.
+I think if you look at
+your chart in the adoption that you were showing earlier, I think that's when you're going
+to see that operational efficiencies increase significantly.
+But today, I don't think we're there yet.
+You still require a human in the loop, and that human in the loop
+is going to create the code, maybe push the big green button
+and push it out the door, but at the end of the day,
+the human in the loop is going
+
+[14:21]
+to be the one that's accountable for delivering that software.
+>> Yeah. I'm of the viewpoint
+that it's not going to replace software developers and probably not maybe forever, because when you use AI
+to help automate some of these things you have a choice to make, you can save money and cut costs, or you can do more quicker with
+higher quality and innovate and grow your business and
+grow your customer set.
+Even if you weren't doing it,
+I just don't see it happening.
+In fact, Paul, this is a true story.
+When I was getting ready
+this morning for this, a thing popped up, a YouTube
+thing popped up on my phone and it was our old friend, Scott Moore, from a podcast I did
+with him for a while ago.
+Let me just show you a clip,
+which kind of, I think, answers my view that- >>  you're wondering,
+"How does that affect me?
+" It sounds like it's going to take over what they do. Is that right?
+>> There are some people
+thinking that agents are going to replace humans.
+I'm not of that belief.
+
+[15:21]
+I think it's going to give
+the developers superpowers.
+It's going to allow them to do things with better quality at
+a much faster speed, and it's going to allow
+them to focus on the things that are most important and differentiated in what
+they're trying to build.
+You think so?
+>> Yeah, I think so. The way I look at what you just showed is a screwdriver and a drill, a power drill.
+Did a power drill replace contractors for doing their job?
+No, but it made them more
+efficient at putting, say, screws in the wall, so to speak, with the power drill versus
+having to do a hand turn with the hand screwdriver.
+That's where I think the
+analogy works very well with AI and software development.
+You're going to have a
+developer that's going to be better in having faster quality and faster delivery and
+operational efficiencies,
+
+[16:22]
+but you're not going to have
+AI just completely replaced.
+There might be things like bedtime scripts and automation for maybe,
+Terraform or Ansible or something to that effect,
+that might be turning things on and turning things off, which
+has been around for a while, but that's something that seems to be logical when it comes to automation.
+I don't see that ...
+maybe, what we'll see is we'll see, if an application breaks, AI will go in and go identify, "This section
+of code needs to be fixed, and I suggest this section
+of code to replace it.
+" But I still believe, I truly
+believe that somebody has to hit the button, because if
+that section of code goes in, and say, if it's financial or PII data or whatever it may be and that goes out to the public,
+the company that pushed out that code, now their reputation,
+compliance regulation and governance are broken, and now there can be financial impacts
+
+[17:24]
+or legal causes or issues.
+That is something that the
+accountability still lies with the developer and the organization.
+>> Human in loop forever, I
+think, it's just going to have to be the case, at least
+when I'm still alive, maybe a hundred years from now
+or something like that.
+I think you're a hundred percent right, and I guess, the more the AI
+helps automate these kinds of tasks for the developers, the higher value things they can focus on, which is a good thing.
+If anything, it's going
+to empower developers to become even more strategic and do more important things than just the example you just gave,
+which could be automated.
+I think it's a good thing.
+Let's transition here a little bit to the actual software
+development lifecycle platforms.
+Given your expertise in this
+for a long, long, long time, as we think about how AI
+agents are, the development of these AI agents, I should
+say, they're going to evolve,
+
+[18:25]
+they're going to become a
+little bit more sophisticated, do you see it requiring
+the integration of an SDLC?
+Certainly, the methodologies
+and an actual platforms, because today, I don't think a lot of it's being done in
+the context of an SDLC.
+>> There is some. I think when
+you look at API management, API gateways, traditionally, we would say, before the AI agent word came into play, you would use an API gateway, an API call in your SDLC process, in your pipeline throughout the
+CICD pipeline, you would use that call for application to
+call on another application.
+Or if you're using a
+service mesh for East-West or North-South traffic
+for the API gateways and such, that's how data
+was communicated before.
+What I'm seeing in a modern use case that I think AI agents are
+really going to accelerate here, is from a modernization perspective,
+
+[19:26]
+there are heritage applications.
+When I speak in my practice, I talk about past, present, and future.
+There's heritage applications that basically need to be
+taken into consideration.
+Those applications, in
+order to modernize them, can be modernized a
+number of different ways.
+One could be taking that application, that monolithic application, and encapsulating it
+as a system of record.
+If you build a new system of
+engagement in the front end with, say, a React application or a mobile application,
+whatever it may be, and that application then accesses that previous heritage application, now you have a modernized front-end for that heritage application.
+I see AI agents doing just that.
+AI agents in the SDLC are going
+to help with the ecosystem around the entire delivery process of these modernization of applications.
+
+[20:26]
+That's where I think it's going to evolve, and the integration across the
+SDLC is really going to help with that staged approach in that journey for organizations.
+Because those heritage systems of record, they may sit in place for
+9, 18 months and never move, and just use it as what
+we would call them an LLM.
+We'll call them an LLM or SLM,
+and then, that data set is now being used for modernized apps.
+Case in point, have you
+done a bank transaction recently on your phone?
+Have you gone on an airplane?
+Those weren't mainframes in the backend.
+You're not running a
+mainframe on your phone, you're running a system of
+engagement on your phone that's accessing that data.
+>> Yeah. An interesting
+consideration too is many of the enterprise AI
+projects actually fail due to poor lifecycle
+management of the models.
+It causes model drift and biases
+and things of that nature.
+
+[21:28]
+I think a lot of these
+platforms don't really have, and I'm talking about the AI development, the model development platforms, they don't really have robust
+SDLC capabilities in them.
+As you start to get into
+these world, the agents, and they're going to be doing
+more than just automating simple tasks, and they have to
+deal with the dynamic nature of that and the conditions
+around, it seems to me that one option is you start
+seeing things like WatsonX and SageMaker integrating the
+SDLC capabilities into it, but then you end up with
+two different platforms, because clearly, you're
+going to have the software development, your core
+software applications.
+There's got to, at some point, be some synergy between these things.
+Otherwise, you're just
+replicating another silo of lifecycle management.
+>> Yeah. That's problematic, because what we find in our
+research is that there's 75% of respondents in an
+847-respondent survey indicated that they use 6 to 15 different tools
+across their ecosystem.
+
+[22:29]
+In 2025, 54% of those respondents indicated
+that they want to remove the distributed tools that
+they're using in favor of a unified approach.
+Having all these different
+tools in these different pipelines causes complexity, and it also causes a very fragile SDLC, because now, you have all
+these single points of failure, all these little areas that can drop, and then now you're not delivering code.
+What we also find that is,
+from another data point, and of course, I'm sorry,
+I'm an analyst, I'm going to throw out data
+points, that's what I do, but 24% of those respondents
+indicated that they want to ship code on an hourly basis,
+yet only 8% are able to do so, and that's a big problem.
+When you look at it,
+if the business KPI is to release code on an
+hourly basis, you have 6 to 15 different tools in place in order to harmonize your ecosystem, and then your SDLC becomes very fragile and fragmented, it's
+very, very complicated.
+
+[23:31]
+That's where, I think, the AI agents, I think the platform approach and taking that dynamic data and applying it across the agent to have it help harmonize
+the delivery, I think, will unify the approach.
+>> I just think my gut tells me that, as we start seeing more and more sophisticated
+use cases for Agentic AI, there's going to need
+to be a lot of software that manages the interplay
+among the AI agents and the underlying AI model ecosystem.
+And of course, it's going to
+have to tap into connectors, to data and transactional
+systems and all that stuff.
+I want to ask you about, again, to elaborate a little bit more on what you were just saying about.
+I wonder how much software is going to get integrated in all this.
+And before you answer, let me
+just show you a chart here.
+There we go. Just as an example.
+This is from the BMW group.
+
+[24:35]
+This is one of the podcasts
+I had done earlier.
+This is actually a causal
+knowledge graph, so an AI graph of a supply chain that
+they're modeling at BMW.
+Each one of those blue
+things is an entity, and those entities have
+relationships, and those, because it's causal, it's
+not just a relationship between the two entities in
+terms of context and meaning and sort of a static drawing,
+it's actually dynamic because it understands the cause and effect mechanisms
+between the entities.
+So, if one entity changes or something changes
+in terms of conditions, like a factory goes on strike
+or the weather a hurricane or inflation rate goes up or whatever, the whole system
+then dynamically changes, but it's meant to model a supply chain.
+I'm looking at this stuff
+and saying, "Okay, I get, the agents are going to
+be able to tap into this, but there's got to be
+software that gets infused in how these things even more
+intelligently interact.
+
+[25:36]
+And then, the
+transformations, I don't know how we start doing a lot
+of this without a lot of software code, I guess is my thought as I look at these things
+becoming more sophisticated, and that is a very
+sophisticated set of next- generational AI that they're working on.
+>> Yeah, for sure. I think
+that, one I really love, BMW use cases.
+BMW is the leading edge when
+it comes to tech companies.
+They have so much tech and they're right up there on the bleeding edge, which I really love.
+When I think about it, I
+think of, to your point, the platform approach is where many organizations are rolling to.
+Now, the challenge is
+a lot of organizations find themselves with this
+dilemma, where they have to put together a platform in
+order for it to deliver to what you're talking about,
+reduce the complexity, the interdependencies
+across the ecosystem,
+
+[26:38]
+and make sure things are working.
+Now, what they typically
+run into is the question of, do you build it yourself,
+or do you buy it?
+So, build versus buy conversation.
+There are many platforms out there that will get you faster time
+to value, rapid response, unified approach, and do the entire ecosystem without having to put your entire development
+team on point in order to build a platform unified approach.
+Now, can you customize
+it? Is it perfect? No.
+It's not perfect, but it will get you to 80% of the way there.
+For most of organizations,
+that's good enough.
+The devils are in the detail.
+If you build it yourself, you own it.
+If something breaks, you have to fix it.
+Most of these organizations,
+unless you're from banking and FinServe, they really don't have a lot of bench strength in order to do the work.
+If they do have the bench strength, those people are consumed
+doing their daily jobs.
+
+[27:40]
+I'm an advocate of working with vendors that have a unified platform
+to have software in the SDLC and the platform in the SDLC to unify to remove those obstacles and enable the developers
+to create those applications to involve advanced AI
+in their overall process.
+That's where I think that will
+eliminate friction points.
+It'll also eliminate the, I should say, it will allow organizations to hit their business KPIs faster.
+>> Yeah. Well, we're
+running out of time here.
+I know you got to go onto
+another meeting here, but the bottom line thought
+here is, is the integration of the SDLC into the AI agent development process a necessity or is it overkill?
+Why don't you frame that in
+today's 2025, maybe 2027, in 2030?
+>> Yeah. Scott, if you're an organization that's not using AI today,
+you're falling behind the 8-ball.
+
+[28:45]
+Every organization is
+using AI to some capacity.
+If you don't have integration of AI into your SDLC
+for model development, first and foremost, I'll
+stake this claim that today and moving forward, it is a necessity.
+Now, maturity of that can vary.
+It is a necessity, because if you don't do it, you're at a competitive disadvantage.
+Your competitors in the
+market will pass you.
+If you're not using AI,
+you're going to be viewed as a legacy or a heritage way or approach to do things, which is only going to slow you down.
+I think that that's where
+organizations need to take that into consideration,
+that if they don't use AI or don't invest in AI solutions today or capabilities today, they're going to be at a competitive
+disadvantage, not just today, but in the future as well.
+>> Yeah, a hundred percent
+in agreement with you.
+
+[29:46]
+Look, first of all,
+everyone should make sure that they're following Paul
+and he has a podcast going on.
+You can go to the same, thecube.net
+and look under Programs.
+It will be there, or you
+can go to thecuberesearch.
+com under podcasts. Make
+sure you go to see Paul.
+Before I wrap up here, let me just bring you up-to-speed here on
+the AI Agent Builder Summit.
+It's coming quickly, April 16.
+We're going to get into
+some of this stuff, not hardcore software development and application
+development, but certainly, how agents get built and
+how they get wired together.
+Paul, you're going to get an
+invite to be a part of this with us, because I think
+it's an important part that extends on this conversation here.
+>> .
+- Yeah, mark that on your calendar, that's coming up.
+And also, Paul, you have an application
+development summit coming up too, if you want to put a plug in for that.
+>> Summit is, we're targeting June,
+
+[30:46]
+and it's going to cover
+everything from day zero, day one, day two, and the DevSecOps
+aspects of the CICD pipeline and anything that touches the SDLC.
+It aligns to the conversation
+we're having today.
+Doesn't go into deep AI, but it goes into the
+processes around using AI to enable the success of the SDLC.
+>> Yeah, that's great. We got
+a lot of good summits coming up, so make sure you track them all.
+And Paul, thank you very,
+very much for being here.
+This has been a great, great conversation.
+It's time for us to wrap up
+here, so thanks once again, for all of you for taking
+the time to be here.
+I think this was a very
+meaningful discussion, and we appreciate you
+joining The Next Frontier of AI podcast, so appreciated.
+Make sure you stay tune for more research and analysis from our team and deeper dives into
+what is shaping the future of AI in business.
+You can visit thecuberesearch.
+com and siliconANGLE.com to
+stay connected, and access all of our research and podcasts
+from all of the analysts here,
+
+[31:47]
+including Paul, at theCube Research.
+We are the leader in
+tech news and analysis.
+Bye, we'll see you next time.

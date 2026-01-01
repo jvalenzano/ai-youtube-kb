@@ -1,0 +1,981 @@
+# Digital Labor @ Work: How AI Agents are Transforming Community Management
+
+**Video ID:** MvpEczgOI6w
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 45:58
+**URL:** https://www.youtube.com/watch?v=MvpEczgOI6w
+
+**Module:** Case Studies & Lessons
+**Module Rationale:** This video presents a detailed real-world case study of HOAI's implementation of AI agents in community management, including specific customer examples, measurable outcomes, and live demonstrations of the technology in action.
+
+## Summary
+- Digital labor involves pairing AI agents with humans to execute knowledge work autonomously, going beyond traditional task automation to handle planning, decision-making, and problem-solving
+- Labor costs comprise 60% of business expenses vs 2-5% for IT, making AI's biggest ROI opportunity in augmenting human work rather than optimizing technology
+- HOAI has achieved significant success by focusing vertically on community association management, serving 1.5 million homes and resolving 800,000+ tasks that would otherwise require human labor
+- The company's approach involves deploying AI agents as digital workers that integrate with existing software infrastructure rather than replacing it, acting as an additional labor layer
+- HOAI Voice demonstrates advanced conversational AI capabilities, handling homeowner calls with empathy and patience while accessing real-time data to provide immediate answers and create follow-up actions
+- Real customer results show dramatic improvements: Silverleaf reduced call wait times from 4 minutes to seconds, handles 1400+ calls weekly, and increased winning rates from 25% to 75%
+- The technology addresses unstructured, judgment-heavy, communication-intensive tasks that traditional software couldn't handle effectively
+- Digital workers operate with continuous learning through human-in-the-loop feedback, improving performance over time like training a new employee
+- The vision extends beyond efficiency gains to enabling new service models, allowing human workers to focus on relationship-building and strategic work while AI handles repetitive tasks
+
+## Key Takeaways
+- **DO:** Focus on vertical market specialization rather than horizontal solutions to deliver true value and solve specific industry problems
+- **DO:** Integrate AI agents as an additional layer on top of existing software infrastructure rather than rebuilding entire systems
+- **DO:** Implement human-in-the-loop feedback systems to continuously improve AI agent performance through real-world interactions
+- **DO:** Design AI agents to handle unstructured, judgment-heavy tasks that traditional software automation cannot address effectively
+- **DON'T:** Don't treat AI agents as just another chat interface - focus on end-to-end workflow automation and action-taking capabilities
+- **DON'T:** Don't assume AI implementation requires replacing existing staff - focus on augmentation and enabling humans to do higher-value work
+
+## Topics
+digital_labor, ai_agents, community_management, voice_ai, workflow_automation, human_ai_collaboration, vertical_specialization
+
+## Key Moments
+- [26:49](https://www.youtube.com/watch?v=MvpEczgOI6w&t=1609s): Live demonstration of HOAI Voice handling homeowner calls with natural conversation and problem-solving
+- [32:55](https://www.youtube.com/watch?v=MvpEczgOI6w&t=1975s): Silverleaf customer results showing 1400 weekly calls handled and wait time reduction from 4 minutes to seconds
+- [34:58](https://www.youtube.com/watch?v=MvpEczgOI6w&t=2098s): Customer testimonial from Silverleaf CEO about AI agents as actual employees and improved homeowner experience
+- [05:09](https://www.youtube.com/watch?v=MvpEczgOI6w&t=309s): HOAI's success metrics: 1.5 million homes served and 800,000+ tasks automated
+- [40:08](https://www.youtube.com/watch?v=MvpEczgOI6w&t=2408s): Vision for 80-90% automation of repetitive human work within 3 years and new use cases enabled by AI
+
+## TL;DR
+Digital labor through AI agents is transforming community management by automating knowledge work while enhancing human capabilities.
+
+## Full Transcript
+
+>> Hello and welcome back to the
+Next Frontiers of AI podcast where we explore the
+challenges, innovations, and real-world stories shaping
+the future of enterprise AI.
+I'm your host, Scott
+Hebner, Principal Analyst for AI at theCUBE Research.
+Thanks for joining us. In
+this episode, we're going to showcase what digital
+labor really looks like.
+You'll hear directly from a pioneer who is already putting
+digital workers into action, transforming operations,
+boosting productivity, and creating measurable business outcomes.
+In this episode, it's not going to be just about theory and technology.
+It's going to be about seeing real digital labor in practice.
+So what is digital labor?
+But simply, it's the pairing
+of AI agents with humans to not only execute tasks, but to plan, make
+decisions, solve problems, and enhance workplace productivity and quality, often operating autonomously
+
+[01:00]
+with minimal human guidance.
+In this case, it's about knowledge work, not predefined repetitive tasks, and unlike through
+additional task automation, digital labor operates across
+boundaries, finance, HT, operations, and customer service where real enterprise
+work actually happens.
+And here's why this is so important.
+While IT typically accounts
+for just 2 to 5% of revenue, labor costs comprise more
+than 60% of expenses.
+That's a big number. That
+means the biggest ROI from AI won't come from optimizing IT.
+It will come from
+augmenting human knowledge and efforts with
+intelligent digital labor.
+A recent Deloitte research backs this up.
+72% of business leaders
+see the value of human- AI collaboration across departments, but only 41% are taking action and just 11% are achieving success.
+Yet those that do are 1.
+
+[02:00]
+6 times more likely to
+achieve business goals.
+That's the promise of agentic AI, creating a complementary digital
+workforce that can reason, plan, act, and collaborate
+across complex cross- functional workflows.
+It is a workforce
+transformation initiative, not just a tech trend, and it's real.
+Nowhere is this transformation
+more visible than in community association management.
+The business is supporting homeowners associations and their boards.
+This is an industry filled with complexity and constant demand.
+Managers are often drowning
+in low-value repetitive tasks, things like building endless
+homeowner and board requests, and processing invoices,
+and preparing budgets and juggling detailed,
+administrative work.
+The result? Overloaded
+employees, frustrated homeowners, and a business model where growth requires more
+labor, not more profit.
+Digital labor is changing all that.
+By deploying AI agents as digital workers,
+
+[03:03]
+community management companies
+can offload the burden of invoices, budgets, communications, and other repetitive tasks and really bring to life their knowledge to serve everyone better.
+But it also is going to help
+boost accuracy and speed and scalability of how the team operates that can just allow
+more value to be created for the entire business chain.
+And at the forefront of all
+this transformation is a company called HOAI, founded by Haoyu Zha.
+He is now the CEO and he's busy redefining
+community association management by embedding digital labor
+directly into daily operations of these companies already serving over a million homes today.
+So joining me today,
+once again, I'm thrilled to have Haoyu here again.
+We talked many, many, many months ago, I think it was back in the
+spring, on the success of how to build a business like you're doing.
+But this is going to be more
+about digital labor coming to life, and I really
+appreciate you being here again.
+
+[04:08]
+>> Yeah, good to be here
+and good to see you, Scott.
+>> Yeah, it was a fantastic
+conversation last time.
+I know it was one of the
+more popular episodes, and certainly the paper I put out on it was also very popular.
+I think people are trying
+to figure out the keys to so much competition in the
+marketplace today around agentic AI, how do you succeed?
+So I appreciate you sharing what you've learned with everybody.
+Actually, that would probably be a good place for us to start.
+Maybe you could just give us
+a little bit about the success that you have achieved
+and then maybe as part of that we can summarize what
+your keys to success were that we were talking about the
+last time we were together.
+>> Yeah, absolutely.
+So HOAI has been helping hundreds and hundreds of management companies.
+Today, we serve more than 1.
+5 million homes and homeowners.
+And year-to-date, I think
+the last number by end of August was, we have
+helped resolve more than 800,000 tasks that would have
+
+[05:09]
+otherwise required humans to do.
+So that's a big labor saving
+for a lot of our customers.
+And I think the reason why we're able to achieve such success are really due to the approach we have taken.
+When we think about software,
+there are vertical software, there are horizontal software.
+For us, we decided to go vertical, and we focused on this very small or specific niche market that is otherwise overlooked by a lot of people, in particular by softwares.
+Because the industry is so much reliant on labor and not software, not IT.
+So prior to agentic
+AI, there was software, but still there were a lot
+of issues and problems.
+So with agentic AI, we're
+really solving a big,
+
+[06:10]
+unaddressed market, and even
+though it's niche and specific and vertical, but because there's so much labor there, we're solving a big problem
+and bringing huge value there.
+So that's kind of how
+we thought about this.
+And by going very deep and very specific, we were
+able to deliver true value to this industry and really
+help solve many problems.
+>> I think that message has
+resonated extremely well, at least in everyone I've talked to since we kind of went through all that.
+It was very enlightening,
+certainly for me, and I think many others.
+So I know we also talked about
+last time how HOAI was sort of born out of the frustration
+with the inefficiencies that you experienced as a board member and a community member and what happens in the community
+management organizations.
+>> Right. - And so, talk a little
+bit about how that sparked what you're doing now
+and helped you get to 1.
+5 million homes under management.
+
+[07:12]
+And I'd really like you
+to really crystallize for the audience here, because
+I think it's so powerful, what is the core value
+proposition of HOAI?
+What is your vision?
+>> Yeah, so I'll start with
+my background a little bit.
+I was a software engineer, so
+everything I thought about is how to build software and how to use software to solve problems.
+At the time, I was also a
+homeowner in a HOA community.
+I was curious enough to
+attend a lot of board meetings and just looked at the operations and try to help our
+communities to run better.
+However, I think I was
+also frustrated a lot by how inefficient that was, how hard it was to reach our property management company and get anything done as a homeowner, as a board member as well.
+So with that, I started thinking about building software to address it.
+
+[08:12]
+It actually took me about two years to figure out the real problem
+in this particular industry.
+Because when I started building software, I was thinking more about
+the traditional software, building the right interfaces for humans to use mobile app and so on so forth.
+What I realized, however, was those weren't the solution because so much of the
+problem in the industry, and in particular in
+this industry, is related to unstructured data.
+It's judgment heavy.
+It's communication heavy.
+None of which can be really addressed well with traditional software
+that is filled with if- else conditions and so on and si forth.
+It all required a different paradigm, a different thing to really address.
+And that came know LLMs and all these foundation
+models that were able
+
+[09:13]
+to really bridge the gap between these unstructured,
+judgment heavy, communication heavy tasks
+and the structured workflows and all those things.
+So that was the critical unlock.
+When GPD-4 came out, when
+all of those things came out, we realized and we saw
+the potential of using that new technology to solve
+the problem in a new way.
+And I think that has proven right.
+And we were using this new technology that was just not available in the past, addressing a problem
+that really is best fit for this type of technology.
+Because in a community, for
+those who don't really know how community association
+management works, it's about helping homeowners
+with billing questions, helping them process payments,
+help community association
+
+[10:15]
+do invoices, maintenance requests, enforcing rules, and so on so forth.
+95% of those work or sort of remote that can
+happen in a back office, answering the phone calls,
+processing, all of those things.
+So there actually isn't that much physical presence required.
+And most of those things
+happen behind a computer screen with humans doing the judgment and answering the calls,
+connecting the dots.
+So the nature of the industry and the problems that were
+there were really, really kind of the special things that
+LLM was really good at or good at solving.
+So we took that foundational
+technology innovation, put it in this particular space, and built a application layer that addressed the
+specific building problem.
+And I think that's where we got here.
+And apparently, I think
+we're solving a lot of real- world problems and
+having amazing outcomes.
+
+[11:20]
+>> I created this graphic from what I've learned from you
+guys and on your website.
+And I kind of love this
+message, "Go beyond chat.
+Experience what true automation's about, actually getting work done.
+" And you made the point about actually getting work done
+requires in most cases, and certainly in your marketplace, making judgments and having knowledge.
+So it's not just pure productivity, but it's knowledge-based automation.
+I think that's a powerful
+message that you're onto here.
+I love the way it's stated
+so clearly and it resonates.
+And I think you move beyond the technology and agentic AI this and agentic that.
+And you're talking about
+real solutions, right, real work, which is great.
+>> That's right. Because
+when I think about that, when software was first
+built, it was built for humans to use.
+We're turning the software turned file, documents into specialized
+workflow interfaces for humans
+
+[12:21]
+to make judgment and to use.
+Now we're fundamentally
+changing that paradigm.
+We're using AI, making those judgments, making these decisions and act, which deliver end-to-end results.
+So that's, I think, the true
+differentiation, well, compared to the last generation of software.
+And certainly, when this type
+of technology first came, a lot of people saw the chat interface, but that was really just
+the beginning of it.
+The more valuable thing is
+to connect the workflows and deliver an outcome and actions not just kind of
+giving an answer to humans.
+>> And we're going to show
+everybody's real world examples of these agents or digital workers
+in action here in a minute.
+But before we do, just
+help us understand some of the most significant pain points that you see in the community association management business.
+I know there's things
+like staffing challenges
+
+[13:22]
+and there's lots of demands
+by the homeowner association.
+So talk a little bit through that for us.
+>> So when you operate a
+homeowner association, it's almost like you are
+managing the property, but you're also managing the community.
+So it's a combination of
+a community management and the property management.
+What that entails is there's a kit of homeowner requests on billing, "How do I make payments?
+Did I make the payments?" So on, so forth.
+And then, there is a bunch of
+maintenance requests, okay, "Can you help fix this?
+" Or, "How do we fix this? Is
+everything being addressed?
+" Things like that. So that's on the homeowner and property side.
+On the other hand, a community
+homeowner association operates like a corporate entity, because it has a lot of things
+
+[14:24]
+or tasks that are
+required for that entity.
+That is, when you have
+communities' maintenance requests, you need to coordinate
+with vendors, you need to pay the invoices, you
+need to manage their work.
+And because you have these collections or accounts receivable tasks, and you collect money from homeowners and you make payments, you run the operation,
+you also need to deal with financial related tasks.
+You need to do bookkeeping,
+prepare budgets, produce financial reports.
+And then, a lot of that
+is involved as well.
+So really treat homeowner
+association management as a combination of property management, community management
+and corporate operation.
+So it's all of those things.
+And what happens prior
+to HOAI was almost all of those things require
+human labor, judgment,
+
+[15:26]
+communication, looking at
+the information, synthesize of the information, and act eventually.
+>> Yeah, I brought that chart
+up there that made the point that drowning in tasks and getting overloaded, not
+being able to focus on value.
+And it brings me to ask the
+question about the software that many of these
+associations have already.
+A lot of people talk about
+automation, software automation, software packages.
+I see it as being
+distinct from this new era of digital labor and knowledge workers and what agentic AI is
+designed to provide.
+And I think you are a
+great example of that.
+But just talk a little bit quickly about what's available in the marketplace that you're serving today
+in terms of SaaS apps, how what you're doing is different.
+And I know a big point
+that you emphasize is that you can integrate with
+all that existing software that many of these companies have, right?
+>> Yeah. So when I think about
+SaaS software and the AI agent
+
+[16:30]
+or AI agent software, it's
+just another piece of software.
+The difference is the SaaS software is building
+special interfaces, digitizing the files, the
+documents in a special way for humans to consume, to use.
+It doesn't matter what you do
+in what industry, the goal is, okay, you still have to have a lot of humans looking at the
+specialized interface or results you are presenting and clicking through different
+things, connecting the dots, doing the work, and then
+eventually act on the things there and deliver
+some sort of result.
+So AI agents is not something different from that human action, interaction.
+We are not trying to rebuild
+the entire infrastructure.
+So what we are is, we're that additional layer on top
+
+[17:31]
+of these existing infrastructure that have already been designed and have the society that operates on it.
+We are just really the additional layer that allows the software to act, to function more like humans, to synthesize these information
+from the existing software and then make decisions or present decisions for humans
+to really approve, verify.
+And then take that action
+really on behalf of the human or many times behind
+the scenes autonomously to deliver the results.
+So think of those as the
+infrastructure is the same.
+There's no change in the infrastructure.
+You still retain the software
+that you are used to, your company or business still runs on, and then the AI agents are
+more like labor addition that do the work that your
+humans are doing today.
+So now you have a much bigger labor force that deliver the same results
+
+[18:32]
+or better results to your customer.
+>> That's what I love is that
+that is a great articulation of the subtle difference
+between the SaaS applications and maybe the use of some
+agentic AI within it, versus you're going in and saying, "Look, you keep
+all your software stack that you have, it's doing good stuff, but rather than adding more
+people to use the software and to interpret things and apply the knowledge, you
+can now apply digital workers or AI agents." >> Yeah.
+>> And I love the message
+that you guys also say.
+You sort of beg this question
+about your next hire, right?
+Why not make it an AI agent.
+>> Right. That's right.
+- I'm going to bring up a graphic here
+which talks about many of the things that your agents can do and maybe you can summarize for us and just talk through what these agents can now
+do more specifically on top of the company's existing software stack.
+>> Yeah, I think on a high level,
+
+[19:36]
+the agents are just doing the work that humans are doing,
+and then they are...
+In particular in our industry, our agents are handling
+resident phone calls, answering billing questions on the call, help them navigate the
+community website portals.
+We also process invoices
+from vendors trying to prepare the invoices for payments.
+We  those
+into the community books, their accounting books.
+We help facilitate
+maintenance requests that sometimes require a decision
+whether this is community responsibility or
+homeowner responsibility.
+We process architectural requests.
+We guide the community members
+to fill out these forms.
+We also answer simple questions
+like hours, pull hours, pool hours, soon, so forth.
+So when I think about this,
+it's really a combination
+
+[20:38]
+of front office work and the back office work that
+are done by humans today.
+And we're able to help management
+companies address both.
+So whether it's directly
+customer interfacing, answering phone calls, texts,
+emails, so on, so forth, or the workflow, the complex
+things that we need to do behind the scenes to actually
+complete these tasks.
+We do all of those things.
+>> One of the things that
+intrigued me on that chart was, never quits, "They never quit.
+They're always executing,
+they're always learning.
+They're always doing
+more and more and more.
+" How does that work? Is that sort of the reinforcement learning and the human in the loop kind of stuff that then makes these things even more knowledgeable about your business?
+Is that the concept there?
+>> Yeah. We've designed a way that allows the agents to be put in
+the workflows, do the tasks, but then also at the same
+time, have human in the loop to give the feedback, give
+the right verification,
+
+[21:39]
+"Okay, you are doing right.
+You are not doing right.
+"
+And then every time that interaction that happens is used as
+kind of a ground truth data that feeds into the
+overall learning engine that continuously improves the results.
+So I really want to, in a
+simpler way, simpler term, where you can think of this as
+training a new employee and how do you train it?
+It's through you give the instructions, but then many times you
+have to have the employee, new employee, do the work,
+tell them right and wrong and why it's right, why it's
+wrong, and give that feedback.
+So these feedbacks are applied
+in a similar way in our AI paradigm.
+We help collect all of these data, and then we put these into
+the learning pipeline so that our AI would continuously improve.
+>> All right. Well why don't you...
+Let's step back a second here and let's talk a little
+bit about your portfolio of products, your portfolio
+of agents, if you will,
+
+[22:41]
+that these community
+associations can hire, right?
+Tell us a little bit about the portfolio.
+>> Yeah. So, when I think
+about the capabilities or portfolios we have,
+really, it boils down to two big categories,
+the front office facing and the back office facing.
+So the front office facing
+is really the agents that's serving homeowners directly.
+And then the back office facing
+is kind of the back office, your workforce that does the work like
+your employee would do.
+So for the homeowner facing product, we call it Homeowner Suite.
+It's a combination of
+voice AI agent that's able to answer phone calls,
+24/7, a SMS text-based agent that allows our AI agent
+to answer texts directly, and then a web-based chat interface.
+So you could put that chat box anywhere
+
+[23:42]
+on your website or inside the portal, and then be able to answer any
+questions the resident has.
+So those three combined
+is the Homeowner Suite, and then the back office workforce just consists of many roles.
+It's the AR accounting, AP accounting, manager task assistance
+board task stuff, budgeting and all of those things.
+>> How many agents are in total, or does a lot of these are working in the background and all that?
+>> Yeah, I think it's about
+eight to nine agents.
+A lot of them can do more
+than one category of things, but that's where we are.
+>> Well, I'm intrigued with
+one of the newest agents that you have introduced called HOAI Voice. Could you talk to
+us a bit more about that?
+>> Yeah. HOAI Voice is a voice AI agent that's able
+to answer phone calls.
+So it's like a human customer service representative
+who answers the phone calls.
+
+[24:44]
+It uses the same phone
+number you are using today, so it's your office phone
+number, no change required there.
+Your customers, residents,
+homeowners, will call the same phone numbers you
+have been sharing with them.
+Instead of having a human or an IVR phone tree, now it's an AI agent
+taking over the phone, answering questions, directing homeowners to the right places, and
+with infinite patience.
+I think that is a highlight.
+With infinite patience and a lot of empathy that we've found, which also are to our surprise.
+Because many times when we
+think about this type of thing, you start thinking about
+operational efficiency, how much time it saves
+our humans and staff.
+But more importantly,
+what we have realized is not only it saves your human time, but humans are not going to be as patient.
+Humans want to complete
+their tasks a lot of times, especially this type of grunt work.
+
+[25:45]
+But AI agents, HOAI Agent and Voice are really able to outweigh, outperform humans in those areas where humans just don't want to do.
+So, that's something we
+were really surprised by, but felt really excited about, too.
+>> Yeah, and that agent talks to the other agents as appropriate?
+>> No. More on when a homeowner or a resident is calling,
+they may have a bad day, they're impatient.
+They're asking questions that
+are perhaps less relevant or they're talking slow,
+they don't really understand, they repeat multiple times,
+all those kind of things.
+A human would get pretty impatient, fast or a little bit agitated
+in some of the situations.
+But AI agent, HOAI Voice, is just so patient, whatever you
+say, it's trying to help you and always in a calm way.
+So that is the difference
+I'm highlighting.
+
+[26:49]
+>> Yeah, I mean, for me, it really came to light when I was able to
+actually watch it in action and I was able to get a clip of it.
+So let me just bring that up so our audience can see it in action.
+>> Yeah, let's show it.
+- Today, I want to show you HOAI Voice,
+the most advanced resident- facing AI agent in the
+community association management industry.
+And what's so powerful
+about HOAI Voice is twofold.
+One, we have direct access to all of the important data
+on your association's and homeowners' governing documents, frequently asked
+questions, payment history, homeowner additional information,
+association information.
+And because we have such direct
+access, we can get faster answers to homeowner questions.
+Second, unlimited concurrent
+calls means no wait times for homeowners.
+Now your homeowners have an
+exceptional customer experience.
+Not only are they getting
+faster access to the answers,
+
+[27:51]
+but they're also getting
+those answers right away.
+No more flexing demand
+based on seasonality or based on time of the day,
+HOAI Voice flexes with you and grows with you.
+I want to give a call to HOAI
+Voice so that you can hear it.
+It will introduce itself to me, because it knows that I'm a homeowner.
+It can connect my phone number to a homeowner account. So let's give it a try.
+>> Hello, Neil. I'm Jamie from
+Unicorn Management Company.
+This call is recorded.
+How can I help you today?
+>> Hi, Jamie. I would like to know whether I can paint my house pink or rather my front door.
+>> Thank you for your question. To clarify, are you asking about painting
+just your front door pink or the entire exterior of your house?
+This will help me provide
+the most accurate information about your community's guidelines.
+>> Yeah, sorry, that was
+confusing. Just my front door.
+>> Thanks for clarifying.
+According to your HOA guidelines, front doors may only be
+painted red or yellow.
+Pink is not an approved
+color for front doors.
+
+[28:52]
+>> That's frustrating.
+This HOA just doesn't let me do anything.
+Can you tell me my account balance?
+>> Your current account balance is $35.00.
+This includes a $25.00
+assessment and a $10.00 late fee.
+Would you like more details
+or help with anything else?
+>> No, but I'd really like
+to waive that late fee.
+I was on a trip to Switzerland last month and totally forgot. Can
+you please waive that?
+>> Thanks for explaining your situation.
+I see you recently had a
+courtesy late fee waiver in June.
+The HOA policy allows only
+one waiver every six months, so another waiver can't
+be granted at this time.
+>> Wow, this is just
+getting worse and worse.
+Okay, my last question is, I have a dent in my garage door, and I'd like for the HOA
+to handle that situation.
+>> Thank you for letting me know
+about the garage door dent.
+The HOA is responsible
+for garage door repairs.
+
+[29:52]
+I'll create a maintenance request for you.
+Please hold while I do that.
+Please hold on as I check to see if I can address your request.
+Another few seconds here.
+I am now sending the right
+person to assign it to.
+Please hold on while I
+create an action item for your manager to review.
+I created an action item.
+Let me know if you would
+like the reference number.
+>> No, that's okay. Can
+you please transfer me to Michael Jordan, please?
+So what you'll see here is
+a full capability agent, not only does it handle general inquiries, but it can look at policies and give answers to homeowners
+right there on the spot.
+It can also create follow up
+action items for your team.
+So in this instance, we
+created a maintenance request for the team to actually go
+handle this garage door dent.
+We have full transcription
+of this conversation, so you can go back to
+listen into what happened.
+We have full recordings here,
+
+[30:52]
+and then we can also
+insert this call summary into the homeowner record.
+And so, we actually can always give you information on what happened on a call and which homeowners
+are calling how often, because then you can
+go to your communities and you can say, "Hey, here is how much call volume I'm
+getting on a monthly basis.
+These are all of the things
+that I'm trying to help with.
+" And you can start to really
+show value in different ways to your communities.
+So not only are you
+getting faster answers to your homeowners on the phone, but you're also giving more value to your homeowners via the community as well.
+>> That's pretty cool, huh?
+- Yeah. If you were just listening to it and you
+didn't know it was a demo, you would be hard-pressed not
+to think that's a human being.
+And you're right, the empathy
+
+[31:53]
+and the ability to deal with some tough questions
+and then pivot and...
+Wow, I think that's excellent.
+I'm used to calling my bank and getting one of those
+automated... You know from- >> Very robotic, right?
+>> Yeah.
+- Slow, automated, and sometimes frustrating
+phone tree stuff.
+I think this is exactly
+what we're bringing to the market and to the industry.
+Again, just to reinforce, I think many times we think about
+this as a efficiency gain, but what we really realize
+is, we're entering in a world where not only we're gaining a lot of efficiency from AI agents, we're actually improving
+our service quality and differentiating our
+business with the employment of our AI agents.
+Some numbers I can share with you are...
+In fact, one customer who
+started using our AI agents
+
+[32:55]
+increased their winning rate from 25% to 75% because of the differentiation our AI has brought to their business.
+>> That's great. And I
+read about Silverleaf, and I pulled together a chart for you to talk a little bit about
+it, because they're one your customers of the Voice.
+So what I like about this is very clear, measurable outcomes, right?
+>> Yeah. Silverleaf is a great customer.
+They always prioritize
+the resident experience.
+Therefore, they're employing HOAI to deliver a better experience.
+Today, HOAI Voice is answering about 1400 inbound calls every week for them.
+And note, as you guys can
+see, instead of 4 minutes average wait time, it's seconds.
+And we're solving thousands,
+thousands of tasks that save
+
+[33:55]
+so many hundred hours of
+hours for our customer.
+Most importantly, many people think AI would replace people.
+In this particular case, there
+was no employee reduction, but everyone was happier
+there, both the homeowners, the employee, and the
+owner of the company.
+So all of them were really
+excited about the result.
+>> Yeah. I really like the
+beginning of her quote there about she views the AI agents
+as actual employees, which I think is the whole
+point, right, of agentic AI?
+>> Yeah. - And as we're talking
+about here, digital labor, it's a digital coworker.
+>> That's exactly right. And in fact, we recently did a case study and interview with one of her customer who was extremely impressed by our voice, AI voice. Do you have that?
+>> I do. Let me just bring that up.
+I think it's a great testimonial.
+>> My name is Lisa Turner.
+I am the CEO and President for
+Silverleaf Management Group.
+
+[34:58]
+We are located in Georgia.
+We have about 250 associations,
+which equates to about 25, 000 doors.
+We're making our entrance
+into Alabama, so we're going to cover the southeast
+here in the near future.
+So in a company where you
+have 25,000 plus homeowners that are going to possibly
+contact you at any given day, the volume of touch
+points can be significant.
+So some of the challenges
+that we experienced, because of the volume of
+phone calls, was a high number of calls going unanswered.
+And the advent of HOAI and HOAI Voice has allowed us to implement and deploy a solution for that.
+And in the case of one of
+our homeowners, we were able to answer his question about a
+grass type in his front yard, something that we would not have been able to do even three months ago.
+>> What impressed me the most, I thought it was a live person, and she seemed genuinely
+concerned with my issues, and I appreciated it.
+It made me feel like a valued customer, I guess you could say.
+Just seemed like a real
+decent person, normal.
+
+[36:02]
+As long as I had questions, she wouldn't say, "I'm
+too busy," or, "I've got other phone calls.
+" She just stayed with me.
+She was so precise with her answers.
+It just didn't seem humanly
+possible to be that... And that's when I got the feel it might be AI.
+It took me off guard a little bit, but then I started thinking,
+"This is really cool.
+It's amazing." >> When I was listening to
+the call between HOAI voice and Greg, I thought it was so neat how the AI agent was actually listening to him.
+It sounded like two real people talking.
+You could hear that he
+appreciated the time that was taken with him.
+She didn't try to rush him off the call.
+She made sure that he knew like, "Hey, I've put in this action item for you.
+Here's the action item number.
+" It sounded like he really
+appreciated that time that was taken with him for
+that, and that somebody cared.
+
+[37:03]
+As Silverleaf progresses and we add technology to our portfolio and to our offerings for our clients and for our employees, the
+intention is never to lose that connection with our homeowners.
+So it was really satisfying and gratifying to be able to see the technology
+improvement without any kind of decline in our ability to
+connect with our homeowners.
+Prior to having HOAI Voice and the Voice AI agent, we were having our callers
+experience about a 4- minute wait time, waiting on
+our human customer service reps to answer the phone.
+With the advent of HOAI Voice,
+we've been able to reduce that to mere seconds, and those callers still have
+the option of talking with one of our human reps.
+So we haven't reduced our staff, we've just enhanced their
+ability to do their job.
+>> That's amazing. 
+time too, right? I, >> Yeah.
+So I heard the story, and I
+was really, really impressed.
+And the homeowner was
+
+[38:05]
+really impressed and
+being served very well.
+So that was really
+something we felt proud of.
+>> No, you should. That's
+a great testimonial.
+And again, the guy's,
+right? It really does...
+Most people's experience with
+these automated phone calls, whether it's a bank or insurance company or whoever you're calling is not that.
+It's going to be
+eye-opening, which is great.
+Where do you see all
+this digital labor stuff sort of heading here, right?
+The application with agentic
+AI, in the next three years, both for community management
+and even beyond, right?
+And I'm curious to your
+relationship with Vantaca and how that's accelerating your vision?
+>> Yeah. I think, again, let's start with our relationship with Vantaca.
+We have been very fortunate
+to be able to partner with Vantaca, and that
+just really accelerates the
+
+[39:06]
+deployment of this
+technology and our product, because we have just
+right data, the context that's needed to be able to
+end-to-end automate these work.
+And we have fortunately
+had a loyal customer base who is thinking, who
+really enjoyed Vantaca and is thinking about improving
+their business every day.
+They are the innovators.
+They are those who truly
+care about their customers.
+So we have been able to
+ride that wave very well.
+In terms of general thinking
+about where we are heading for this industry, and even more broadly,
+I think AI agents...
+We're really going through one of the most exciting
+transformation in our life.
+I feel I can see that in
+the next two, three years.
+As we develop our products, as the AI models continue improving,
+we will be really able
+
+[40:08]
+to do the work, especially the grunt work, the repetitive work that are done by human today at scale.
+So my prediction is we'll
+be able to do 80 to 90% of the work that largely done by human, the repetitive ones today,
+in about three years.
+Now, where do I see the world goes?
+I think on the other hand, we
+will be able to create a lot of use cases that we
+have not thought about.
+So one, the humans are
+going to be able to shift and repurpose to things
+that we were just not able to do in the past, focus on relationships, focus on actual human interactions and make that more valuable.
+But at the same time, AI agents are going to be able to do more.
+So like our homeowners, take
+this customer, Silverleaf as an example, they always
+want to offer more hospitality.
+
+[41:09]
+The community association
+management companies are trying to change from just the management company enforcing rules, to become
+hospitality providers, making the community feel better, make the residents live a better life.
+And those things were not possible before.
+Because if you want to make
+that shift, you are going to have to invest a lot
+more manpower to do that.
+Now with our AI agent, we're
+able to talk about grass and help you with a grass issue.
+That was just never a
+typical community association management task.
+So that's all to say
+we're entering in a world where AI agents are going
+to automate away a lot of these grunt work that people don't like and people are not good at.
+We will create a lot more
+new use cases with, one, the surplus of the human labor
+
+[42:09]
+because they're repurposed
+to these things.
+And by the advent of these infinitely scalable AI labor that is just really
+empathetic, that is patient.
+So I think that's going to be
+very exciting for all of us.
+We will see many, many more use cases that we just have not even imagined, because in the past, we have always been
+constrained by the human labor.
+Now it's what limits us is
+really just the imagination.
+>> Yeah, I agree with that.
+Entering the golden age of AI agents or a new super cycle of...
+And I love the focus you have
+on, it's about the labor.
+It's not just software automation anymore.
+>> That's right.
+- So, for executives and HOA board members and homeowners that are listening, what is the main takeaway you want them to remember about the power
+of these digital workers and how can they best
+learn more about HOAI?
+>> So, our website is HOAI.com.
+
+[43:11]
+If they are interested in
+learning more, welcome to visit our website.
+And we have our team standby to help them.
+But really, HOAI is able to do a lot more than
+what we just covered.
+It's designed to be a full suite, full front office and back office suite for our customers, both the management company, the HOAs, and the industry in general.
+I think we are trying to
+learn as much as possible and create a lot of impact
+for our communities.
+And we would really like to
+have all of you guys go try it.
+The biggest thing with AI is
+you just have to go try it.
+It's here, embrace it, and I think the result will be amazing.
+>> Well, Haoyu, this was really inspiring.
+It was great to see the real
+digital labor in action.
+You can get a glimpse of
+what the power is here,
+
+[44:13]
+and we didn't even get into
+things like processing invoices, doing accounts payable and
+all those kind of things.
+>> Budget, financial, all of those things.
+There are more advanced work
+we do for the customers, many of them saving hundreds,
+thousands of hours.
+But I think across the board, it's going to be limited by
+imagination. We can do a lot.
+>> Yeah, no, that's inspiring.
+And for our listeners, the key takeaway, at least I'm taking from this is, digital labor isn't some
+distant future, right, or some distant vision.
+It's happening now.
+And it's not about replacing people, it's about augmenting them and unleashing a whole new model of work where agents handle the
+complexity, the scale, and the repetitive processes
+so humans can focus on what they're best at, right,
+the strategy and creativity and leadership and relationship building and things of that nature.
+That's the future of the
+labor market in the age of AI.
+So just as Haoyu showcased on this podcast, it's real
+and it's real right now.
+
+[45:14]
+So, make sure you go out and
+learn more about HOAI by going to their website and how these digital
+workers are helping them.
+And I'm sure there's other many
+other markets that are going to be able to benefit from
+the same kind of thing.
+And don't forget to subscribe
+to the Next Frontiers of AI podcast so you don't
+miss any of the future episodes as we showcase more and more of the power of AI and where it's all headed.
+Until next time, I am Scott Hebner.
+Thank you for listening, and bye for now.
+>> Thank you for having me. Bye.
+>> You bet.

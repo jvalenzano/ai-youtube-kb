@@ -1,0 +1,854 @@
+# 22. The State of Digital Labor Transformation
+
+**Video ID:** 5YrnYJBOpZY
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 37:18
+**URL:** https://www.youtube.com/watch?v=5YrnYJBOpZY
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video establishes fundamental concepts about digital labor transformation, distinguishes between different AI strategies, and provides foundational research insights rather than specific workflows or tools
+
+## Summary
+- TheCUBE Research launched a Digital Labor Transformation Index survey with 625 respondents across 13 dimensions, revealing a maturity score of 3.1 out of 5
+- 71% of leaders believe they will be the last generation to manage a human-only workforce, indicating digital labor transformation is inevitable
+- There's a clear maturity decline from aspiration (4.1) to strategy (3.1) to execution (1.8), highlighting significant implementation gaps
+- Digital coworkers are evolving beyond automating repetitive tasks into knowledge work involving planning, problem-solving, decision-making, and autonomous action
+- HR is emerging as a key co-architect of digital labor strategy, with ~40% of Chief AI Officers expecting their roles to evolve into digital HR leadership
+- Trust is identified as the defining challenge for digital labor adoption, encompassing security, compliance, governance, and user trust dimensions
+- An agentic AI strategy is fundamentally different from a digital labor transformation strategy - both are required but serve different purposes
+- Implementation is heavily dominated by IT and AppDev teams (technical focus) rather than cross-organizational collaboration needed for success
+- Current AI limitations include being based on statistical probabilities rather than true decision-making capabilities with causal understanding
+
+## Key Takeaways
+- **DO:** Develop separate but coordinated strategies for agentic AI technology and digital labor transformation
+- **DO:** Establish cross-organizational teams involving HR, business units, and technical teams for digital labor implementation
+- **DO:** Focus on trust-building across multiple dimensions including security, compliance, governance, and user acceptance
+- **DON'T:** Don't make business-critical decisions based solely on generative AI outputs without human judgment
+- **DON'T:** Don't treat digital labor transformation as purely a technical IT implementation - it requires business and workforce strategy integration
+
+## Topics
+digital labor transformation, agentic AI strategy, workforce evolution, AI maturity assessment, cross-organizational collaboration, trust and governance, knowledge work automation
+
+## Key Moments
+- [01:02](https://www.youtube.com/watch?v=5YrnYJBOpZY&t=62s): Key finding that 70% of leaders believe they'll be last to manage human-only workforce
+- [11:18](https://www.youtube.com/watch?v=5YrnYJBOpZY&t=678s): Critical maturity gap showing decline from aspiration (4.1) to strategy (3.1) to execution (1.8)
+- [19:37](https://www.youtube.com/watch?v=5YrnYJBOpZY&t=1177s): Evolution from automation to knowledge work including decision-making and problem-solving capabilities
+- [27:47](https://www.youtube.com/watch?v=5YrnYJBOpZY&t=1667s): Implementation gap showing only 16% have cross-business teams despite strategic need for collaboration
+- [31:55](https://www.youtube.com/watch?v=5YrnYJBOpZY&t=1915s): Distinction between agentic AI strategy and workforce strategy requiring different stakeholders
+
+## TL;DR
+Digital labor transformation requires distinct strategy from agentic AI, with major execution gaps despite high aspirations.
+
+## Full Transcript
+
+>> Hello and welcome back to the
+Next Frontiers of AI Podcast where we explore the real world strategies and success stories that
+are shaping the future of enterprise AI.
+I'm your host, Scott
+Hebner, principal analyst for AI at theCUBE Research.
+Thanks so much for tuning in.
+As we have discussed
+throughout this podcast series, we're now entering the
+golden age of AI agents, the beginning of a new
+super cycle of innovation.
+And while technology innovation
+is moving at warp speed, the real impact will
+be in the labor markets where the very definition of a workforce is being
+totally re-imagined.
+The nature of work will change forever and likely in a more profound manner than past transformations.
+That's why I'm so excited to share hot off the press
+findings from a new digital labor transformation index survey sponsored by theCUBE Research launching
+this month in September 2025.
+And the data is striking.
+More than 70% of leaders believe they
+will be the last generation
+
+[01:02]
+to manage a human-only workforce.
+Yet our maturity score
+across 13 dimensions is 3.
+1 out of 5 showing progress, but there's a clear decline
+in maturity from aspiration to strategy to execution.
+And this brings me back to one of the principle tenets
+I applied while at IBM, a strategy without
+execution is hallucination.
+So it's clear that
+there's much work to do.
+We've paired this research
+with dozens of conversations with leaders across our ecosystem, from Deloitte to Semaphore.
+ai to Openstream and
+HOAi just to name a few.
+The findings are crystal clear,
+we are entering a moment, unlike any before, which will fundamentally
+reshape labor markets, redefine how value is created and unlock entirely new
+models of productivity.
+Why? We found that digital
+coworkers are evolving fast, moving beyond automating repetitive tasks or executing predefined
+workflows into the realm
+
+[02:04]
+of knowledge work where they
+can plan, problem solve, make decisions, and even
+act autonomously alongside human counterparts.
+This is a truly a profound shift.
+We also learned that today's
+leaders differentiate the notion of an agentic AI
+strategy from a digital labor transformation strategy.
+Both are required but not
+the same. So is that okay?
+Will that change? Do they have to merge?
+The index provides a treasure
+trove of actionable insights to help answer these questions, and this is just one of five indices to come in the weeks ahead.
+So with that today we're going to start by unpacking the current state of the digital labor transformation
+market, why it matters, what leaders must do to prepare.
+Joining me to break it
+all down is my colleague and fellow principal analyst
+here at theCUBE Research, Christophe Bertrand,
+and let me bring him up.
+Thanks so much for joining me again.
+Chris, it is great to have you here.
+
+[03:06]
+>> Thank you for having me.
+Great conversation topic.
+>> Yeah, it's fascinating because it's becoming more of a business and cultural strategy than
+I think many think right now versus just a technology strategy.
+And I think that makes
+it even more fascinating.
+>> And the other thing is I do research in a very different area,
+but related in many ways because I focus more on
+resilience infrastructure, data protection, things like that.
+And of course I've been
+looking at the impact of AI on anything around data
+and backup recovery.
+And it turns out this is intertwined.
+It's definitely changing the
+way architectures will evolve, the way people interact
+with the solutions, even at the infrastructure level.
+So overall, I think it's
+a fundamental conversation to be having right now.
+>> Yeah, I agree. You got to have a north star
+that you're heading for.
+And to my surprise with the research data, which was 625 respondents,
+
+[04:07]
+is I think people were further
+ahead in this thinking than I certainly anticipated.
+You've been a leader here
+at the theCUBE Research and getting us into the world of surveys and data-driven research.
+I think you've done three of these or in the process by the time you're done with three of these.
+And I think it's great
+because it's adding data to our experiences and our insights.
+It's going to make things much more interesting around here, isn't it?
+And for our clients, more importantly, >> Right.
+And just to point out for our audience, if you're not familiar
+with market research, when you're talking about 625 respondents, you are definitely in a very,
+very comfortable zone in terms of the meaning of it statistically.
+Typically, anything around 300 is great.
+So 600 is even better.
+So you can pretty much
+take it to the bank.
+I think what you have, Scott, is with the index you've
+devised is really a state of the market and not just one.
+You have 13 of them you said.
+
+[05:07]
+>> So let me explain, actually,
+let me bring up a chart here.
+So the name of the research is called the
+Agentic AI Futures Index, and think of it as five
+indices or five modules.
+What we're talking about
+today is the digital labor transformation module, 625 respondents.
+When I say 13 dimensions, I mean there were 13 different aspects of the digital labor market we looked at.
+And what's going to follow in
+the weeks ahead is an industry around agentic AI maturity more from a technology perspective.
+As you know because we
+collaborated on it, the Trust and Governance Index, which
+is related to a summit you and I are looking to
+run later in the year.
+There's one on reasoning
+and decision intelligence, and then there's one on
+causal AI innovation.
+So each of them are going to
+have 625 respondents in total.
+There's 61 questions.
+We surveyed nine different
+roles from executives
+
+[06:07]
+to practitioners and those that are actively
+involved in either business or technical strategy, 13 industries.
+And it was just held, so it's
+fresh data English through US, the UK and Canada.
+So it should give us a lot of
+really interesting insights.
+>> Yeah, absolutely. And I think the timing of it is critical.
+I was just on a couple of briefings from AI type of companies,
+hyperscalers, everybody's in AI and there's a lot of AI washing
+out there, but the truth is it's very complex and I think a lot of people
+asking themselves, "Well, what does this all mean for my own job?
+" Whether you're in IT,
+whether you're just working in any type of industry.
+So I think it's a very
+interesting time to see where the leaders are
+with their implementations and how much is hype versus reality.
+>> Yeah. Well let's jump into
+some of the findings, right?
+We'll give you a sneak peek
+
+[07:07]
+and obviously there's a
+boatload of this stuff behind the scenes here, but let me bring up what I
+consider to be the key takeaways.
+First, let me start on the top right.
+So the index is from one to five, and it's a set of criteria
+that we've developed here that basically applies a methodology on where the aggregate
+market sits in that index.
+And what we found was 3.1, so
+it's somewhere in the middle.
+And what I'm going to show you
+shortly is it's not like all the questions were in the same 3.
+1 range. So there's different parts or different dimensions, if
+you will, of this movement that have different levels of maturity.
+So what do we find?
+First of all, digital
+labor is inevitable, right?
+I mentioned in the intro that,
+what was it, 70% are saying that they're going to be
+the last set of leaders to manage a human-only workforce.
+No doubt that it's inevitable.
+Two is HR is emerging as a key
+
+[08:10]
+and primary co-architect of the strategy and the chief AI officers
+that are being put in place, there's a pretty solid, it's
+a minority, but around 40% or so that believe that
+their roles are going to evolve into becoming
+digital HR leaders.
+So there'll be business,
+there'll be technology, and there'll be HR all fused together.
+I found that really interesting.
+Trust is the defining challenge.
+You know that Christophe, right?
+No trust, no ROI, trust has
+multiple dimensions itself.
+Everything from security to
+compliance and governance and just user trust and all that.
+And that's becoming a big
+challenge in this movement.
+I also found the barriers
+are multi-faceted and multi-organizational.
+So there's a lot of barriers
+that are trying to be tackled.
+And as we'll talk about in
+a second here, Christophe, the gap between aspiration to
+strategy to execution is real.
+So before I move on to that,
+what are your thoughts on this?
+
+[09:13]
+>> Well, the one thing that gets
+my attention is the presence of essentially the functional leads of the business folks in
+this conversation, right?
+Let's face it, if you're
+talking about implementing a business process, of course you're going to have business people involved.
+The question becomes do they
+understand what's going on with the implementation?
+Are there some dimensions that maybe we're missing in a process because you're dealing
+with a non-technical crowd?
+At the same time, it's
+also maybe a guarantee that things will be done correctly because as a business professional
+in your functional area, you're going to think
+about multiple dimensions, and you mentioned trust,
+which is of course even maybe more important
+than anything else.
+What data, what infrastructure and what controls are you using to get all of this done whether
+you're talking about agents or just leveraging data
+to make better decisions or automate some processes?
+>> Yeah, that's true. And when
+you look at the demographics of the survey, there are business users and there are business stakeholders.
+
+[10:14]
+So it's not just a technology gang.
+And as you know, we can use cross tabs to take a look at each one of those.
+In fact, one of the
+things I found was those that have the most
+experience in times of years and the most familiarity with agentic AI are the
+most optimistic about digital labor and its capabilities and all that which I found interesting is that the more involved you are, the more of a believer you're becoming.
+And we can segment that up obviously across
+the different roles.
+And one of the things
+in the survey results that I also found is that
+there's a big difference between do users trust this
+stuff versus do the technology guys and gals trust this stuff?
+And there's a lot to be kind
+of weeded out in all this.
+Let me bring up what I
+consider to be the top line.
+If I had to net out what
+I think is the bottom line takeaway, if I'm an executive
+thinking about a strategy, and you can see here the
+aspiration, the maturity
+
+[11:18]
+of the aspiration, the rise
+of digital labor if you will, is quite mature, 4.
+1. But when you look at
+those that are starting to define, and implement, and where they are in that
+process of a strategy, and whether it's departmental, isolated or enterprise wide, you can see that the maturity drops to 3.
+1. And then when you look at
+actual execution in particular the barriers, the gaps in the culture, 1.
+8. So what this is telling me, and I'd be curious to your
+take on this, is that...
+And this has happened in many
+other transformations too, I think is the aspirations are
+there, the vision is there, strategies are being put in
+place, they're finding problems.
+Those problems are real
+in terms of inhibitors, and there's a lot to do to
+get this all straightened out.
+And the other thing that jumped out at me, which perhaps may be the headline here, is that an agentic AI strategy
+is not the same thing
+
+[12:18]
+as a digital labor
+transformation strategy.
+And I think that's a super key
+point to emphasize as we kind of unwind all this data
+in the weeks ahead.
+>> Yeah, I mean, I think
+when you're looking at these indices, what you're
+realizing very quickly is, and we'll go through some of the data and I know that you have
+a lot more behind this, but the reality for
+our viewers is this, is that these are all the signs of an early market in general terms, there's probably another index in there that you should throw in at
+some point in further research, which would be complexity
+of implementation, which I think is why you're seeing that 1.
+8 because you have so many
+tools, so many platforms.
+If you again, listen to
+vendors, they will say, "Oh, we have a unified way for you to do this, that and the other.
+" And then you realize
+they have 20 different product solutions, platforms, et cetera, and it becomes very complex.
+But what's interesting is
+that the aspiration is high.
+So there is maybe this realization
+
+[13:20]
+that AI can be your friend,
+not necessarily a foe, and can be an enabler.
+I think there are other reports
+out there from other firms that have hinted at the fact
+that there is very little ROI or it's hard to find ROI.
+I think that's not necessarily
+true if you narrow the scope to specific processes, but clearly the execution
+is you are walking into a very new world, totally different world.
+I mean even ourselves as
+industry analysts, you can ask the question, "Should
+we be doing this job?
+Won't we be replaced by AI?
+" And the truth is, well,
+in the end, you still have to think through what
+it is you want to do.
+You still have to have some
+humans driving the boat here to an extent, even if you
+get some assistance just like flying a plane, a lot of stuff is automated, but still in the pilot.
+And frankly, I think we are
+probably okay for a while.
+We still have pilots for many
+years. That's my view anyway.
+So I think the same thing applies here.
+And as long as you don't
+see execution in the four
+
+[14:23]
+or five-diameter range, I
+think we can rest assured that humans will be controlled.
+>> By the time that happens, I'll be tuna- fishing off the coast of Marco Island down there on the West Coast of Florida, hopefully.
+But I can tell you just from
+as I interpret the data, is I don't think that people are envisioning
+the elimination of jobs.
+I think they truly are looking at this as giving their employees and
+their work as superpowers.
+And it's not just productivity superpowers, it's
+thinking, it's reasoning, it's just making better decisions, it's diagnosing root causes.
+I think I was impressed by...
+And there were multiple
+questions hitting at what do you mean by digital labor?
+And we're going to get into some of that.
+So actually let's unpack some of this and get a little bit deeper into it.
+Let's start with the aspiration.
+This is an example of one
+of the questions related to the concept
+
+[15:24]
+or the category that I consider
+to be the aspirational view, the rise of digital labor.
+And the bottom line
+here, 71% of leaders say that this generation of business
+leaders would be the last to manage a human only workforce.
+So again, this is one
+of several questions, but when you look 41% strongly agree, another 30% agree, and even another 21%, if you
+add them in there, you're up around 90%.
+That's a huge...
+You've done a lot more surveys through your career
+than I have, Christophe, but when you have 90% that are agreeing, that is pretty significant.
+That's why I think the index,
+maturity index, in terms of aspirational thinking and vision, 4.
+1, that's pretty well down the road for a really early marketplace.
+>> Yeah, I think that's
+also the hype around AI, but the truth is it's
+happening whether there's ROI, whether we like it or not, it's happening.
+I think there will be
+probably some mitigation to
+
+[16:27]
+that speed over time as
+people realize, "Well, it's a lot more complex
+and we are photo rich.
+" And for some processes
+I think it's super valid, extremely valuable.
+Look, if I live in a Bay Area, and if you drive from the
+airport to San Francisco, you're going to see a bunch of billboards and literally you have companies
+there telling you, "Well, your new inside sales force
+is essentially gigantic.
+" You save X amount of money by using REI.
+And I think it appeals to
+the business side of things.
+Yes, of course, who
+would want to save money and add to the top line
+and the bottom line?
+I would love that. But the truth is, I think you're correct in that it gives or it de-multiplies the ability of the individual to do their job.
+So there is an operational
+efficiency dimension to it, and in reality there is so much that needs to happen in a lot of those companies.
+There's just too much data to begin with.
+So in many organizations,
+it's so much to do that augmenting the ability
+of the existing workforce
+
+[17:29]
+to do more with less is
+actually a great thing because otherwise what happens is the human side that maybe we're not talking
+about enough here, which is, well, you can't analyze enough, you can't do enough, you
+can't perform enough.
+Well, you end up burning people out.
+You end up with
+dissatisfaction, you end up with mistakes being made.
+So as long as we understand
+this as an addition to your capabilities as an
+individual, I think that's great.
+Now, again, the smart
+individuals, the smart employees will make AI their friends.
+I see the same thing in some
+research out recently conducted around data protection and AI.
+The expectation is that
+vendors have to include more AI in their data
+protection processes to help with automation, to help
+IT journalists be able to better recover data.
+So while you're taking a
+very general approach here, which is very key because
+that's across the board, in reality, it already is applying into
+very intricate components of the IT infrastructure and
+the economy in general terms.
+
+[18:34]
+>> Yeah, 100% right. I agree
+with everything you said and where those aspiration people are going to break through because...
+And I can tell you in the
+data behind the aspiration, there is investment, actually more investment than I thought.
+And that's where I kind
+of concluded from a lot of what I saw was that it's
+being viewed a little bit differently than the agentic
+AI technology strategy.
+It's a component of it, but it's much broader,
+which makes it interesting.
+So let's turn to strategy for a second.
+Again, this is probably where
+the most questions were.
+So the survey has given some
+really good insights into the strategic nature of what people
+are trying to accomplish.
+And one of the things that
+jumped out at me is right here, which is this is a movement from software that helps people analyze and automate things, whether
+it be making graphics or whether it be automating how you process a customer service call or diagnose an agent in
+a network, for example,
+
+[19:37]
+to knowledge work, where it's more than
+just making predictions and automating tasks.
+It's to knowledge work,
+which means make decisions, problem solve, diagnose
+problems, pursue goals, and you can see what the questions on the right side here in terms of what they envision in their strategy.
+Obviously automating routine and repetitive tasks is
+still number one at 67%, but when you take two, three,
+and four, which are all 60 or around 60 or above, or let's say an average
+around 60%, diagnose and solve problems, assist
+in making better decisions, pursue goals with minimal guidance, and then there's ultimately
+50%, half envision that these things are going to go off and do autonomous work
+on behalf of workers.
+That's a hell of a lot
+more of a knowledge work- based thought process than what has traditionally been associated with SaaS applications.
+
+[20:37]
+And where the software market has been, which has been about automation.
+If there's a single word, it's automation and maybe analytics of data, right?
+>> But what's interesting
+is there seems to be a bit of a decision piece of it,
+and we'll talk about that because you want to make sure
+the decision that may be made by a digital co-worker, an
+agent is actually correct.
+But, look, I was just
+on a briefing literally less than an hour ago.
+I'm not going to say
+who because I'm not here to talk about the specific vendor.
+But what was interesting
+is that we're showing how their solution can allow you to better migrate data from
+one environment to another and with essentially
+some sort of templatized automation that is AI driven, you can ask natural language
+questions, "Hey, I'm trying to do this and trying to do
+that, what would you recommend?
+"
+And it gives you those sort of guidelines or guide posts within which
+you can then maybe customize.
+Well, that's great because
+instead of me having to do hours of analysis and this and that and the other, I can go
+ask the question, "Okay,
+
+[21:38]
+I've got the data analysis, the analysis intelligently
+performed," is there and I can go make a decision
+and say, "Oh, by the way, go automate that for me.
+" I'm going to trust that you
+can go pop up this environment and create all the configurations.
+Now I'm giving a very
+specific IT environment, sort of infrastructure-ish example.
+Same thing could apply to a CRM customer relationship management
+or sales related process or marketing process.
+Okay, go create a campaign
+that will pick these leads or these type of profiles
+and do this and do that and send them this type of information.
+Now that I know these are the
+people I should be talking to, give me any industry, any
+example, as long as I know enough, I can probably give you
+the same general idea of what it would look like.
+What does that do for me
+as the knowledge worker, the IT admin, the HR person, the marketing, the manager, the person?
+Well, it gives me the
+ability to be more efficient for the business, to
+come from a place of data because it's been analyzed for me
+
+[22:40]
+and to do a lot more in the
+amount of time that I have and also get, which we haven't talked about all the reporting.
+I need to demonstrate the
+value that the function, the business that I bring
+back to the business.
+So I think this is a very, one of the most important maybe
+data points you've brought to the table and the levels of response are really, really high.
+So I think there is no question that people have these expectations.
+Now, where I'm going to say and put a big grain of
+salt in all of this is, "But are we sure that
+we can trust this data?
+Can I trust that what
+you're recommending I do, digital worker agent is
+really what I should do?
+" I can go talk to Scott
+and the coffee machine and ask for your opinion
+about this and that and you'll tell me,
+"Well, I know enough that, yeah, I think you should be doing that.
+" Or here, this is some agent telling me, "I think you should be doing that.
+" Where do we stop or
+begin with trust here?
+
+[23:42]
+>> And it's not only you
+have to get your data right, because the bloodline of AI,
+it's one of the core tenants of the summit we're going to
+run later in the late fall, but it's also the AI algorithms.
+And the bottom line is
+today's AI is only as good as you want your future
+to be just like your past.
+And it is not designed
+to help make decisions.
+That's just the bottom line.
+Decisions are based judgments, right?
+And judgments are what are
+used to actually be able to understand and solve problems.
+Knowledge work is about judgments.
+Generative AI, today's LLMs are about statistical probabilities,
+correlations, patterns, and that's why there's
+so much hallucination and challenges is do not make decisions, business critical decisions
+based on generative AI outputs.
+Now you get information and you can argue that information
+can help you make better decisions, but it's not actually
+helping you collaborating
+
+[24:42]
+with you to make a decision that understands the consequences
+of different decisions.
+And that's why the final survey I'm doing or the final index is on the notion of decision intelligence
+reasoning and causal AI.
+Because if you don't understand cause and effect of alternate
+decisions, so you're right, the trust issue has a long way
+to go and we'll unpack that.
+The other thing before we move to the next and final piece of data here is, as we heard this morning
+from our boss, Dave Vellante and our colleague George
+Gilbert, they have this notion of earning software as a service
+into service as software.
+And I think that's a technical
+architecture kind of thought.
+That is this idea of
+moving from automation of things into the world of knowledge work where you have these different services to do things better versus
+it's all about the service and the service to knowledge
+workers needs to be knowledge workers by
+definition make judgments.
+
+[25:44]
+So I think there's a
+technical thing going on here and then there's a business
+thing going on here.
+And the question is, do they merge?
+>> Yeah, that's the big open question.
+And for me, there are lots
+of gaps just in the baseline.
+Even what you're showing assumes
+that the data is correct, that the agents are
+managed, that to your point, the analysis can be trusted
+or at least the information provided can be trusted
+for further decision.
+If you offload some of
+that decision to an agent or some of that automation,
+then can you trust the results?
+So there are lots and
+security of the whole thing.
+So I think there are lots of...
+It certainly stages, lots of gaps still.
+But I do like the approach,
+I like the approach of this notion that it's services
+we provide to the business with this infrastructure versus consuming essentially what is today very piecemeal from multiple applications,
+whether they're in a cloud
+
+[26:46]
+or on-prem or whatever they
+are to try to get the job done.
+Still some way to go on that.
+>> Yeah, a big difference between downloading a software package to do my taxes versus
+just telling an agent, "Do my taxes," right?
+Let's deep dive on the gaps.
+And this is again, one of several, actually more than several data points that we have in terms of questions.
+But I chose this one because if you look at the strategy, it's cross organizational, it is HR working with a chief AI
+officer, being a coordinator.
+You got the data science teams,
+you got the technical teams, you got the users, you
+got the business units.
+Very clear to me that's
+what the strategy is about.
+But when it comes to
+actual implementation, the organizations that are part
+
+[27:47]
+of the implementation
+stream, only 16% have cross- business teams responsible for
+digital labor implementation and is dominated by IT and app dev.
+And when you get down to
+a shared model, cross- functional center of excellence or a board or even CXO leadership, like to see AIO chief AI officer or line of business including HR, I mean, look what happens here.
+It's in the single digit and that's why the
+maturity score is so low.
+So we've gone from 4.1 on aspiration to 3.
+1 on strategy to 1.
+8 on execution and gaps.
+And, Christophe, as you
+know, this doesn't even get to the next level, this
+chart right here at least of things like trust, which I asked a lot of questions about, and there security and there's all the other
+things that we've been talking about for some time here.
+So there's a lot. That's
+my point in the intro.
+There's a lot to do here, right?
+Strategy without execution
+is hallucination,
+
+[28:48]
+and there's a lot of
+execution gaps and barriers and inhibitors that many don't know about yet, but they're going to come.
+And there's a lot that
+people do know about that they're struggling
+to find answers for.
+So a lot of innovation
+still needs to come.
+>> And I think your index
+clearly shows, first of all, the research clearly shows
+that the illness is on IT.
+And to a certain extent,
+the data science folks, which actually surprising, I would've expected data science to be...
+Because I think it was pick one, right?
+In this question you had
+to add up to 100%, right?
+If I'm not mistaken. So it's
+not like pick all that apply.
+It's like pick the one who's
+really in charge of execution.
+And essentially the folks you surveyed, they said...
+Your respondents said, "Well, it's IT infrastructure." >> They didn't select cross- organizational. They
+could have selected that.
+>> Right. And your index, of
+course is slanted towards collaboration, cross-organization
+is the way to get to this nirvana of execution,
+
+[29:50]
+which I think is the right
+assumption, by the way.
+So the point is, without revealing too
+much about the algorithm, that's really where we want things to be.
+So I think two things.
+Number one, you chose the
+market is in early stages. Why?
+Because right now it's
+still considered a technical implementation, which
+of course makes sense.
+You need the infrastructure, but it's not an infrastructure play.
+This is actually, you're
+right, a business investment or a business play.
+And the fact that it is a
+business play means that you have to have cross-collaboration or cross-organization collaboration, and it's definitely lacking.
+So this is where things can
+head to the wall very quickly because there's only so much
+you can ask IT to do for you.
+Yeah, they're going to give
+you the compute, they're going to give you the cloud
+resources, they're going to give you whatever, the networking, hopefully they give you
+compliance governance at a data level, which also would actually normally include other functions.
+The fact that only 20% said data scientists or AI is a bit concerning
+
+[30:51]
+because I would've hoped
+you'd have at least maybe 30.
+30 and then... But no,
+no, you don't have that.
+So I think you're saying a market or initiative that are
+in their infancy here.
+Yes, IT is key. I think we're
+just building the engine.
+We're still putting foundations
+in place, if you want to use a house analogy,
+we haven't been thinking through all of the components.
+Some people may have
+at the strategy level, but we're not there yet.
+So it looks like we're years and years before where we want to be.
+If you run this in two
+years and three years and you stop looking at the evolution, I hope we see the CXO number,
+which I think you have at 5%.
+Looking at the data here, you
+want to see that in the 25, 30, 40, 50% range. We're not there yet.
+>> Yeah, no leader, no output in, just to circle back real quickly here, and this is why this is one of many of the data points that...
+Let me just conclude that
+an agentic AI strategy
+
+[31:55]
+is not the same thing
+as a workforce strategy, and there's different people involved.
+So when you see a response, we just saw that it's overly dominated
+by technical people in IT and AppDev, that tells me that it's just very different
+than the business strategy around your workforce, which
+is in most organizations, over 60% of your revenue where technical is like 5
+or 6 or maybe 10 at most.
+So this is where the impact's going to be, is bringing this stuff back to back to a fusion of technical
+business and workforce.
+And there was a lot of questions
+that were asked about HR, which was also very revealing.
+So before we wrap up here,
+unfortunately we're running out of time here, any last thoughts on this and advice for people?
+>> Well, so a couple of things.
+First of all, I think I
+would say, where can I get, if I'm a viewer, where can I get my hands on all of this data?
+Because this is fascinating. We're just...
+
+[32:56]
+Obviously you're just
+throwing, just discussing some of the top line levels.
+You have another four indices.
+You've devised across 13 industries.
+How do I know what's going in my industry?
+How do I get in touch
+to get access to this?
+And if I'm a vendor, more importantly, where does my solution fit in this model?
+Because obviously
+everybody's touting their AI, sometimes AI-washed solution,
+going to be candid here, not everybody has what it
+takes, so where do they fit?
+So I think there's a vendor conversation, there's an end user conversation.
+How do we gain access to this data?
+>> Yeah. Well, thanks for setting that up because actually put a
+chart in here for that, which is please do
+contact me or Christophe or anyone here at theCUBE
+Research if you'd like to explore the data in more detail or get some of the additional insights.
+There really is a treasure trove, and again, this is the
+first one out a five.
+So we'll be moving on to
+agentic AI, technology maturity, trust in governance, decision
+intelligence and reasoning, and then the innovation around causal AI.
+
+[33:59]
+But either reach out to me on LinkedIn or my email, scott@siliconangle.
+com, and we can definitely
+talk about more about what we're finding here with all this data and a very, very interesting set of things were uncovered.
+No doubt about it, as you saw, Christophe.
+>> Absolutely. And a lot of my findings that I'll be sharing very
+soon on data protection and AI really sort of take
+this maybe to a more down to a more implementation
+level type of dimension with processes such as
+compliance, governance, data management, data
+protection, data recovery.
+But you are going to see very
+similar trends in expectations and maturity, et cetera.
+So I think there's definitely
+something going on here.
+We look at it from theCUBE
+Research, from multiple angles, from multiple perspectives, and I think we're starting to
+see a very interesting market shaping up and lots of
+challenges for end users, but also I believe a lot of opportunity
+
+[35:01]
+and challenges for the
+vendors working with those end users to get things
+done with very high level of expectations, aspirations.
+This is very transformative, and I think the next few
+years will be a very key in establishing some of the best practices that are starting to emerge.
+And I think I'd love to see how the indices evolve over time.
+So I hope that maybe next year
+we have the same conversation and look at how the dials
+have moved if they have moved.
+>> Yep. Yeah, no, I think we're swimming in insights and data here.
+I mean, you mentioned
+the surveys you're doing, Rob Stretchy has the
+data platforms research that's underway, and Bob's doing the...
+Ruteh is doing the AI infrastructure.
+So kind of pull all this stuff together.
+You have these different
+dimensions, as you say, and very, very, very interesting.
+All right, Christophe, thank
+you for joining me today.
+You've not only been a great colleague, but you've also been a real mentor,
+
+[36:02]
+and I really appreciate
+everything that you've been doing and your thoughtful insights here and being a part of all this.
+Your perspectives are great.
+For our listeners, the
+key takeaway is this, digital labor is no longer theoretical.
+It truly is unfolding right now, and the leaders that lean
+in will gain the resilience, the competitiveness, and a
+true workforce advantage.
+If you'd like to survey, as
+I said before in more detail and explore with me, just get in touch and we can definitely
+have those conversations.
+And again, you can contact me
+at Scott Hebner on LinkedIn or scott@siliconangle.
+com, and don't forget to
+subscribe to the Next Frontiers of AI Podcast so that you
+won't miss future episodes where we'll continue to
+bring the latest insights and strategy shaping the
+future of enterprise AI.
+Until next time, I'm Scott Hebner.
+Thanks again for being
+part of the podcast.
+We'll see you soon. Bye for now.

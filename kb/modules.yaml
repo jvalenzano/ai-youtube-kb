@@ -1,0 +1,68 @@
+# Module Definitions for AI Agents Knowledge Base
+# Videos are automatically assigned to modules by the curation process
+
+modules:
+  foundations:
+    name: Foundations of AI Agents
+    description: Core concepts, architectures, and fundamental principles of AI agents
+    keywords:
+      - fundamentals
+      - architecture
+      - basics
+      - concepts
+      - decision-making
+      - reasoning
+      - causal AI
+    learning_objectives:
+      - Understand the core architecture of AI agents
+      - Learn fundamental decision-making patterns
+      - Grasp the key concepts in agentic AI systems
+
+  workflows:
+    name: Agentic Workflows & Orchestration
+    description: Patterns for multi-agent systems, orchestration, and workflow design
+    keywords:
+      - workflow
+      - orchestration
+      - multi-agent
+      - patterns
+      - automation
+      - pipeline
+      - digital labor
+    learning_objectives:
+      - Design effective multi-agent orchestration patterns
+      - Implement agentic workflows for enterprise use cases
+      - Understand coordination and communication between agents
+
+  tooling:
+    name: Tooling & Frameworks
+    description: AI engineering tools, frameworks, and development practices
+    keywords:
+      - tools
+      - frameworks
+      - development
+      - engineering
+      - implementation
+      - SDLC
+      - architecture
+    learning_objectives:
+      - Evaluate and select AI agent frameworks
+      - Implement best practices for AI development
+      - Understand the modern AI development lifecycle
+
+  case_studies:
+    name: Case Studies & Lessons
+    description: Real-world applications, lessons learned, and anti-patterns
+    keywords:
+      - case study
+      - lessons
+      - real-world
+      - enterprise
+      - business
+      - transformation
+      - ROI
+      - adoption
+    learning_objectives:
+      - Learn from real-world AI agent deployments
+      - Identify common pitfalls and anti-patterns
+      - Apply lessons learned to your own projects

@@ -1,0 +1,25 @@
+# YouTube Agents Knowledge Base - Dependencies
+
+# YouTube data extraction
+yt-dlp>=2024.1.0
+youtube-transcript-api>=0.6.0
+
+# Claude API for curation
+anthropic>=0.40.0
+
+# CLI and formatting
+rich>=13.0.0
+click>=8.0.0
+
+# Data handling
+pyyaml>=6.0.0
+
+# Slide extraction
+opencv-python>=4.8.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+imagehash>=4.3.0
+
+# CLIP for slide classification (optional but recommended)
+transformers>=4.35.0
+torch>=2.0.0

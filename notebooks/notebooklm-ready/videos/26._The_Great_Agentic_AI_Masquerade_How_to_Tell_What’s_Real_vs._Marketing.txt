@@ -1,0 +1,1011 @@
+# 26. The Great Agentic AI Masquerade: How to Tell What’s Real vs. Marketing
+
+**Video ID:** gdtHUQInZTU
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 42:14
+**URL:** https://www.youtube.com/watch?v=gdtHUQInZTU
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video focuses on fundamental concepts and definitions of agentic AI, distinguishing between marketing hype and technical reality, which is essential foundational knowledge
+
+## Summary
+- The AI industry is experiencing widespread 'agent washing' where traditional AI systems are rebranded as agentic AI without true autonomous capabilities
+- Most current 'agentic AI' products are just generative AI assistants with prompt chains, conditional logic, or RAG pipelines - not genuinely autonomous agents
+- True agentic AI requires autonomous decision-making, collaborative goal-setting, and sophisticated multi-agent coordination - capabilities most current systems lack
+- The hype is creating market confusion and leading enterprises to overspend on solutions that don't provide additional value over simpler architectures
+- Only 5-17% of products claiming to be agentic AI actually meet the technical definition, according to industry surveys
+- The progression should be: AI assistants (correlation-based) → AI agents (reasoning-capable) → Agentic AI (orchestrated autonomous workflows)
+- A normalization and 'agentic hangover' is predicted for 2026-2027 when enterprises realize they overpaid for repackaged technology
+- Enterprises should focus on understanding business problems first, then selecting appropriate technology rather than chasing buzzwords
+
+## Key Takeaways
+- **DO:** Understand your business problems first, then back the appropriate technology into solving them rather than starting with agentic frameworks
+- **DO:** Evaluate claimed agentic AI products against concrete technical criteria like autonomous decision-making and multi-agent coordination
+- **DO:** Consider agentic AI as a progressive journey that may take years to fully realize, not an immediate transformation
+- **DON'T:** Don't assume every AI solution needs to be agentic - most business problems can be solved more cost-effectively with traditional AI architectures
+- **DON'T:** Don't confuse chain-of-thought prompting or RAG pipelines with true reasoning capabilities
+- **DON'T:** Don't spend 10x more on agentic solutions when simpler AI systems can deliver the same business value
+
+## Topics
+agentic AI, AI agents, agent washing, AI hype, enterprise AI strategy, autonomous systems, AI architecture
+
+## Key Moments
+- [04:07](https://www.youtube.com/watch?v=gdtHUQInZTU&t=247s): Discussion of how agentic AI hype resembles the microservices trend with massive marketing investment but potential misapplication
+- [09:14](https://www.youtube.com/watch?v=gdtHUQInZTU&t=554s): Revelation that only 5% of products claiming to be agentic AI are truly autonomous according to Gartner survey
+- [22:26](https://www.youtube.com/watch?v=gdtHUQInZTU&t=1346s): Framework distinguishing AI assistants (correlation) vs AI agents (reasoning) vs agentic AI (orchestrated workflows)
+- [26:35](https://www.youtube.com/watch?v=gdtHUQInZTU&t=1595s): Explanation that many companies rushed to agentic AI after missing the generative AI boom, leading to misapplication
+- [38:53](https://www.youtube.com/watch?v=gdtHUQInZTU&t=2333s): Prediction of 'agentic hangover' in 2026-2027 when reality doesn't match promises and enterprises realize overspending
+
+## TL;DR
+Most 'agentic AI' is just rebranded generative AI creating market confusion and enterprise overspending.
+
+## Full Transcript
+
+>> Hello and welcome back to the
+next Frontiers of AI podcast where we dissect the forces
+shaping enterprise AI and explore the ideas, innovations, and strategies that will
+define the years ahead.
+I'm Scott Hebner, principal Analyst for AI at theCUBE Research.
+Thanks so much for joining us today.
+We're going to explore a topic
+that couldn't be more timely or more necessary.
+Over the past year, agentic
+AI has gone from a technical aspiration to an industry buzzword.
+Suddenly everything is an AI agent, and every workflow is a agentic, and every vendor claims
+have cracked the code on autonomous intelligence.
+But beneath the marketing gloss, the reality looks very different.
+In fact, much of what's being promoted as agentic AI today is a
+little more than generative AI assistance based on
+LLMs that are dressed up with new things like prompt
+chains or conditional logic or RAG pipelines.
+But are they really agentic? Is that what we're seeing today is
+really the promise of value
+
+[01:03]
+for agentic AI?
+I suspect not. Most are mostly
+just agentic only a name as our guest today describes it, and in some cases they're even lies.
+This dynamic is confusing the marketplace, distorting expectations and widening the gap between
+where we think we are and where we actually are.
+So today we're going to expose the great agentic AI masquerade and try to reset the narrative.
+We're going to explore the
+truth, what's real, what's not, what matters, and what
+leaders need to know before investing in
+solutions marketed as agentic but you're only getting correlation.
+To help us do that,.
+I'm thrilled to have one of the sharpest and
+most experienced voices and enterprise technology with
+us today, David Linthicum.
+He is internationally recognized cloud and AI strategist, bestselling
+author, and an educator and someone who has never been afraid to call out hype when
+it's getting in the way of sound architectural principles.
+
+[02:04]
+So I'm very thrilled to have David here.
+Let me just kind of bring
+him up onto the screen here.
+There he goes. Welcome.
+>> It's great to be here, Scott.
+>> It's great to have you here, and I saw your blog out on LinkedIn and I was like, "Bingo, this
+would be a great topic," because this has been
+something that's kind of been nagging at me also, and I think you may have seen
+some of that in the comments to a lot of what you've
+done over the months because agentic AI needs
+to mean something, right?
+It can't just be nothing.
+It has to be different than
+what we've had over the last several years with LLMs and GenAI.
+>> Yeah, and that's what bugs me, and that's why I wrote the blog.
+I wrote a bunch of stuff on this.
+And by the way, I'm a bit of a hypocrite because I do have the most
+hit agentic architecture class out on LinkedIn learning, and
+it's out there for some time.
+It's broken all records.
+So one thing, I'm
+getting a benefit from it and getting a benefit from the hype.
+The other thing, I'm trying to
+normalize it as an architect,
+
+[03:06]
+so I'm teaching AI architecture classes and as we're trying to mull through it, and I'm just seeing a huge
+chasm between the reality and how the hype is being depicted out there, as you pointed out.
+>> Yeah. Like I mentioned
+in the intro here, in your article you said
+agentic in name only, and essentially old
+architectures wrapped in new terminology, right?
+So what drove you to
+call that out so strongly and what are the concerning patterns that you're seeing in the industry right now around all this?
+>> Yeah. I don't want to see failure.
+We have an analog to look back
+on just five, six years ago, and that was the whole rise
+of the microservice stuff.
+And the microservice stuff
+had a key application and certainly Kubernetes and containers, and many of my clients were using that, and I just saw it misapplied.
+Other words, everybody
+was using it as kind of the cool architecture
+ wanting to leverage, and I think agentic is
+really times a thousand
+
+[04:07]
+what the microservices trends were.
+So in other words, it's
+enabling technologies to deployment architecture.
+It's perfectly valid.
+There's a reason why you
+want to use agentic AI.
+I've used it throughout my
+career in building AI systems, and there's a reason not to, and I think everybody's
+just over applying it.
+I've never seen anything
+like this in my 30 years doing this stuff.
+In other words, I've never seen the amount of marketing dollars and
+hype that's after this stuff.
+The agent washing everything, and confusion out in the marketplace.
+Let me tell you, I think
+that the technology industry is confusing the heck out
+of the enterprise users that are trying to figure
+out how to make sense of this stuff and how to use it.
+There's not a lot of
+thought leaders out there and influencers that are really
+taking a contrarian attitude out there and taking a look at what this architecture can actually do and what this architecture can't do.
+And I think many of the
+enterprises out there going to end up spending 20 times the amount of money they should be spending on many of these systems just to get
+this agentic based label on top of it, and they're not going
+
+[05:07]
+to get any additional value out of it.
+And so misapplication of
+the technology, misuse of the term agentic, and outright I think fibbing in terms of what's truly agentic and their ability to kind
+of put lipstick on a pig and take these highly
+monolithic architectures and this label them age agentic.
+Even name companies agentic.
+I'm finding that's, they're
+called agent this and that, and I just think it's
+causing so much distress and so much confusion out
+there that there's going to be a normalization
+at some point in time.
+I think in 2026, maybe
+2027, suddenly there's going to be a realization that we
+spent many, many, many millions of dollars in trying to
+chase this agentic dragon, we weren't able to catch it, and therefore that's money that
+went completely down the drain and technical debt and things like that.
+Obviously, we can make
+anything with enough money and time work, so I can
+use any kind of technology, make anything work if
+you give me enough time and give enough money to make it happen.
+
+[06:07]
+But is it the proper fit for that?
+Is it the optimized architecture, the optimized technology stack
+to approach these problems with the AI bets that are being made?
+I think many enterprises are
+going to figure out that, hey, this didn't work out as
+well as we thought we would.
+>> Yeah. My take on this
+is that there's yesterday, there's today, then there's
+where we head into the future.
+And I think the agentic AI and AI agents in general
+right now is more of a promise of value of where this could
+head based off a foundation that many, almost all of us
+are familiar with, right, like ChatGPT and some of the things that are going on in the enterprise.
+And so I think it's a very
+valid technical direction, but it is progressive, it's incremental, and the lines are not crystal
+clear between all the talk of the last three and a half
+years of agentic AI, I'm sorry, of generative AI, now we're into agentic, and it's fusing, right?
+But to support your view, I happen to have Vladimir Lutik from
+the Boston Consulting Group
+
+[07:10]
+on the podcast a few episodes ago, and they did a survey just recently and you can go out to their website and take a look at it's really good.
+But they surveyed globally
+1,250 enterprises, so a massive survey, and they were smart enough
+to ask the question, David, right, is what you do in predictive AI?
+Is it generative AI or is it a agentic AI?
+And they had definitions that
+they were trying to enforce as you answered the question, and what you see here is only 17% said that they were doing a agentic AI and qualified for whatever filters the
+Boston Consulting Group had.
+So I think that kind of supports
+your thesis here, right, is yeah, clearly there's some people that are pushing this forward.
+And one of the things I'd like
+to do in our podcast today is test you with some of the, not test you.
+Test me, I should probably say.
+My thought process and
+what I think agentic AI is and what the defining differences are,
+
+[08:11]
+and just get your critical
+opinion on it, right?
+And it's cool if I'm totally
+crazy or we generally agree or there's different degrees of timing.
+But anyhow, 17%'s not a
+very big number compared to what you see in the
+marketplace today where, like you said, everything's agentic.
+>> Yeah. I suspect is even
+less than that, Scott, because my question would be
+what are you calling agentic?
+And I think in many cases
+they're using products that say we're an AI agent on top of them, and they believe that to be agentic, when if you look at the
+architecture of the product, it's not that way.
+In other words, they've had
+the agent washing stuff.
+There was a Gartner survey
+that took place a couple of months back and I talked
+about it on my YouTube channel, and the fact of the matter
+is that I think only 5% of the products that were claiming to be agentic AI based product,
+this was surprising to me, are really truly agentic AI.
+In other words, they're
+autonomous, they're able to leverage their own
+rule-based systems, they're able to have collaborative goal settings.
+And really what agentic is,
+it's a very sophisticated,
+
+[09:14]
+very powerful kind of an architecture and most of them aren't leveraging that.
+So I think the problem is
+there's not a core definition what agentic based frameworks are.
+People aren't defining it
+out there in the marketplace.
+People are just calling
+everything an agent.
+They're just, and so far
+it's so confusing so much that if you do a survey like
+that, my concern would be do they even understand how they're responding to the survey?
+And that would be my
+core question for that.
+So I think that looks pretty much in
+line with what I'm seeing.
+But like I said, even
+within that smaller number that's leveraging agentic
+framework, I bet you maybe one- twentieth of them are
+actually doing things that we would consider an
+agentic AI architecture.
+>> Yeah. No, I actually think you're right.
+And again, it's just a matter of degrees on some of these terms.
+And the other word that has got taken over by the industry is the word reasoning, which we'll get into a little bit later because a chain of
+thought is not reasoning.
+
+[10:14]
+Sorry. But we'll get to that in a second.
+I want to show you one more
+chart here that I'm going to come back and ask you about
+ramifications of the hype, getting ahead of the
+technical aspirations.
+But let me show you this first.
+This is a survey that we did here at theCUBE
+Research back in September called the agentic AI Futures Index.
+And this is one of the
+questions we asked here, right?
+What activities do you
+envision your future state AI agents performing?
+So while they may not
+be there today, at least this is not asking them, are you going to be doing agentic AI?
+It's really asking them much more detailed question here about planning, which is formulating a
+logical sequence of actions to achieve a goal or problem solving or decisions, evaluate multiple actions and choose the most effective
+one and so on and so forth.
+I won't read them all here.
+And you can see, let's just say close to a majority at least have the aspiration
+
+[11:14]
+that they want their AI agents to or what they're building, let's say the AI that they're building
+to at least evolve into being agentic AI.
+So even though they may, the reality is they're not
+there now, they do want to get to planning and decision-making and autonomous action
+when warranted, right?
+So what we have is we're ahead of our skis here by quite a bit.
+I agree with you on that. There seems to be an investment stream
+least from our survey and an aspiration to get
+there in the years ahead.
+But the fact that the
+marketing is so far ahead and we've bastardized all the terms, what do you think the ramifications are?
+>> I think that we're going
+to see a normalization and a waste of resources in
+the marketplace, which is going to be blamed on, and it should
+be blamed on, misinformation that's coming from the industry right now.
+So in other words, all of these...
+I'm going to re:Invent, everybody's going to be there in a couple of weeks.
+I guarantee you that's going
+to be an agentic AI party, and everybody's going
+to be talking about it.
+
+[12:14]
+Everybody's going to be
+building applications and architectures in this space, and I think it's a misapplication
+probably 95% of the time of the technology and what agentic is and what it's able to do, and I think by doing that, we're going to overspend on solving problems.
+We're going to overspend on
+some of the planning stuff that's out that we're
+overspend on these systems.
+We're going to be able to orchestrate and make decisions for us, and it's not going to
+get us any more value that comes out of these systems.
+And as an architect, you got
+to remember, my role in life is to build a configuration
+of technology that's going to return the most value
+back to the business.
+And if that is my goal, then
+agentic is not going to solve that problem the majority of the time because it's not needed
+the majority of the time.
+In other words, I don't need
+autonomous decision making.
+I don't need common coordination.
+I don't need to build
+these multi-agent systems who will take these very
+complex coordination because it's going to
+cost me 10 times as much to build it than traditional
+just AI technology out there.
+And I think the other thing
+too, it's going to kind
+
+[13:15]
+of derail the movement to AI,
+which I think is important.
+In other words, these companies
+are able to leverage AI as a true force multiplier
+for their business.
+They don't need to leverage it through agentic based frameworks,
+agentic based deployments.
+They need to leverage it
+through a sound AI system that's built and optimized
+to solve a particular problem that's able to carry something out and use AI where it's applicable to the core systems that they're using.
+And I think they're
+going to try to force fit agentic on top of this stuff.
+They're going to miss
+the bigger issues with AI and they're going to misbuild, misspend, misdirect the resources in
+an area that's not going to bring a lot of value back probably, and I think there's going
+to be a realization of that.
+There's going to be a hangover
+that occurs in 2026, 2027, where suddenly there's
+lots of people like myself and yourself that are pointing out, we're spending way too much money, we're not getting value out of
+this stuff, this technology.
+It doesn't mean, just like
+the microservices stuff, it is a good application of an architecture we should
+be leveraging in certain
+
+[14:17]
+situations, but we just overused it.
+We didn't understand it.
+>> Yeah. It's not magic.
+You can't just do it.
+It takes time to build it
+out, experiment, learn, adapt, and I think that's what the
+industry's going through.
+I think the other thing too,
+which I know we agree on is one reason for all this challenge is that the confusion is it's definitional.
+I think people are still, in
+all my conversations I have with people, that people
+aren't just unclear on what is an AI assistant versus an AI agent versus agentic AI.
+And I do think there's
+consensus that's starting to form at least among industry experts, and from all the conversations
+probably a hundred plus this year on this subject, getting
+general, I keep taking input and I shift my views a little bit, but I think that definitional
+thing is why everything's gotten blurred, the boundaries, and we do need to restore some clarity on what truly differentiates
+value with gentic AI
+
+[15:18]
+and AI agents versus just LLMs.
+And I think that's the
+challenge for everyone is to take a step back
+after a year of hype now and reset things, right?
+>> It is, and I don't know
+how we go about doing that.
+There's got to be a kicking off of interest in making that happen.
+And I don't see a fire
+in the belly for many of the technology companies out there, and they're the ones who
+are perpetrating this because they're spending
+the marketing dollars and they're hiring analyst companies.
+They're hiring guys like
+you and I to go out there and help them define the
+marketplace, which I think is fine.
+It's just there has to be some
+sort of a common messaging and common sanity that comes along with how these things can be applied.
+Because right now, having been a technology CTO
+for two thirds of my career, the path and the speed that they're moving in this
+direction, they're going to end up doing more damage than good because they're not able to
+take their technology stack and shift it over to be
+a true agentic framework.
+So obviously they don't
+have agentic systems
+
+[16:20]
+that they're selling and
+software that they're selling, just remanufacturing
+something and recasting it and reconceptualizing it as
+something that's going to be in agentic-based frameworks.
+I'm seeing this in
+observability and security and things like that versus says, we're agent-based security now.
+No, you're not. You didn't
+do that in a year. Okay.
+I know what it takes to build
+and deploy these systems.
+It takes longer than that.
+And I think the reality is going
+to be that they're going to have to come to the conclusion
+that they went down a path that probably wasn't
+very productive for them.
+They spent a lot of money on marketing.
+The enterprises I don't think at the end of the day are going to adopt
+it at the degree they think it's going to happen, and so they're going to get a big letdown right now.
+The common conversations I have with people out in the marketplace,
+big technology players, "We don't see an uptake in the agentic AI stuff, what's going on?
+" And I said, "Well, what's
+going on is the enterprises, number one, they're confused.
+They don't know how to do
+it. They don't have the money to spend on it.
+In other words, you're going
+to ask them to spend 10 times the amount of money to build
+and deploy these systems.
+
+[17:20]
+They're not buying your upgrade just because it says it's agent-based.
+" That's the big thing out there.
+And until the value needs
+to be explained to them as why they're moving in this direction, and I've never seen anything
+like this in my career where the technology companies
+are so far out ahead of where the enterprises are thinking and to them they're
+spending money that's going to be shaping the market
+and shaping thought and shaping demand and the demand's typically,
+I don't think it's going to be there when they can
+think it's going to be there.
+We're going to see a minor
+pickup in the interest in agentic-based frameworks,
+things like that.
+Some of the enterprises
+are going to do it.
+It's going to be very
+much like the adoption of cloud computing where people
+were predicting this huge uptake in agentic-based
+systems and in the cloud, and it's going to take a
+ten-year period of time to have any kind of an understanding as to what value was able to bring.
+In any instances, it's going
+to build technical debt, people are going to move
+to agentic-based systems where it never should have moved
+to an agentic-based systems and have to repatriate it
+back into normal monolithic
+
+[18:23]
+environments, and it's architecture.
+We need to understand
+the business problems, back the appropriate technology
+into solving these problems.
+It's fairly straightforward
+it comes down to that, and the fundamentals seem to
+be just getting left behind.
+It's crazy.
+The fact of the matter is every
+time I turn on the keynotes, things like that, 90%
+of it's about agents.
+They're not even talking
+about the value of AI.
+They're talking in agentic-based stuff, and I do think it's going
+to hurt the adoption of AI because I think enterprises are going to spend more money on
+the agentic-based stuff.
+They're not going to get
+the value back from it, and therefore it's going to derail
+their strategic AI spending strategic AI investments and they're not going to
+be able to hop on the train versus some companies out
+there that say, "Well, we see what the value is, where it's going to be.
+We're going to not move
+toward agentic right now and we're going to invest in
+strategic use of AI systems that are incrementally
+used in an optimized way for our purposes within the enterprise.
+
+[19:24]
+" They're the ones who are
+going to hit the ball out of the park, and they're
+the ones who are going to leverage AI as a strategic
+differentiator in the marketplace to add value back
+to their technology strategy.
+Everybody who moves to agentic,
+I don't think they're going to see the forest through the trees.
+So if you're looking
+to get value out of AI, you can certainly do it with
+agentic-based frameworks, but it's not the only way to do it, and agentic-based frameworks
+should only be used in a sparing way when there's a need
+to use it, having understand what the architecture is.
+If you don't do that, you don't
+understand what you're doing and how to apply the
+technology, you're going to misapply the resources, you're
+going to miss the AI trend because you're spending
+too much time trying to build agents that never work for you.
+>> Yeah, my view of it's
+been you need to think of it as a journey into the future and have an agentic AI
+strategy, but realize, as I said before, it's very progressive,
+incremental in terms of how you're going to get there.
+And like you said, it could be
+years, it could be a decade, but I think the industry is
+heading in that direction,
+
+[20:24]
+at least on how I define it.
+So what I would like to
+do now is, keep it in mind that, so I spent the
+first third of my career as a technical guy or a
+computer science guide, in the middle as a product manager, the last third as a marketing guy.
+And I can tell you as a marketing
+guy, there is a fine line between heaven and hell,
+we always used to say, and I think that's getting
+ahead of the industry right now.
+But having said that, and also one of my
+predictions back in January for this year was that LLMs
+alone are insufficient.
+You got to build a model
+ecosystem around them.
+So that kind of formed
+my basis of at least how I'm defining things plus
+all the conversations I've had with everyone over the years.
+So the way I'm sort of looking at this is where we largely are today
+is people are familiar with the AI assistance you prompt and the background is
+a bunch of correlations and then it responds with the most statistically likely answer.
+
+[21:25]
+And it could be at the token level, it could be at a much
+higher abstract level, but that's basically what it's doing.
+It's a huge statistical engine that identifies correlations and patterns and anomalies and gives you an answer.
+So it's good at automating
+repetitive tasks, it's good at analyzing and collecting information,
+creating content.
+It can help you make predictions,
+things of that nature.
+I mean, that's the world of generative AI.
+I think AI agents is
+when you get to a level of sophistication that they can actually
+help you pursue a goal and help you plan on
+how to get to that goal and help you problem solve and help you make better decisions, right?
+Not just give you information, but actually help you
+think through decisions.
+What if scenarios, counterfactual reasoning,
+things of that nature.
+So I think reasoning is the
+defining difference here.
+And then agentic AI is when you start to put those things together and you have basically these
+agentic reasoning paths, right?
+
+[22:26]
+Orchestrated paths on how
+these agents work together to get you to an end result fully orchestrated through a workflow.
+And in many cases, some
+of them are, can go off and do this autonomously based
+on the design of everything.
+So I've kind of broken it down
+into those three simple high level things to start people and say, "Look, if what you
+got is working on an LLM, and yeah, it has some RAG in it and it has some conditional logic and has chain of thought,
+that's not an agent because it's not really starting to implement the idea of
+reasoning." What do you think?
+>> I think it's spot on, and this is a good way
+to think about I think how this stuff is going to mature.
+And then looking at
+this, if you look at what agentic AI is in your plan of action pass orchestrate
+project workflow, and the big thing would
+be autonomous actions.
+Okay. Just by the fact we're dealing with autonomous based
+software systems, that's going
+
+[23:29]
+to have an application in very few areas.
+In other words, there's
+a reason to use it.
+I use it to monitor oil
+derricks in South America because it made sense
+to do things in agent because I needed the autonomy, I needed to make independent decisions and I needed to work together
+with all the other agents to come up with coordination of maintenance and things like that.
+Most of the applications
+that the businesses are going to see are not that they're going to be core business systems.
+They're going to have
+very repeatable logic, very repeatable behaviors.
+That's what they need. The
+decisions they're making going to be fairly rudimentary.
+AI is going to assist in that, but you don't need autonomous systems to make these same decisions.
+They can work perfectly well
+in a monolithic environment that takes three to six months
+for the developers to build, deploy, test, and get into
+production versus these and cost a million bucks.
+These a agentic-based systems, I think you nailed it here
+in terms of what they are.
+To get to an autonomous framework,
+it's going to take a year
+
+[24:30]
+and a half and it's going
+to cost you $5 million to $10 million to build the same system to solve the same problem.
+And that's the whole issue here.
+And of course everybody's
+going to come back to me after they go through
+this and waste the money and they're going to say,
+"Well, Dave, it works.
+" Of course it works. I
+can make anything work.
+But you spent $10 million to
+make it work when you only needed to spend a million dollars.
+And by the way, that $9 million could have
+been reinvested in the business into another technology stack,
+into generative AI systems, into AI enabling all your
+business analytics system, optimizing your supply chain
+systems, things like that, versus you're having a very
+sophisticated, very interesting, love to hear the case studies, and leveraging agentic AI to use these autonomous frameworks when it really wasn't needed.
+And that's where we're
+dealing with right now.
+So in other words, it's
+efficiency to the architecture, to utilizing the technology
+in a way that's going to bring the maximum value
+back to the business.
+And if we're looking at that way, agentic just has a few niche
+use cases that are out there.
+
+[25:31]
+I know what they are,
+I've used them before and it's the only reason I've used it, but I paid the additional money and put the additional time in to build and deploy these systems.
+So we have to be very careful in how this stuff is going to be used.
+And people are talking about
+creating agents that are going to be assigned to a person on their phones and it's going to monitor
+them so we can market to them and things like that.
+Okay, I can do that with a
+monolithic system perfectly well and it'll probably be more resilient because it's not going to
+have this agent's going to fail over, only work when their phones are on, things like that.
+And people aren't thinking
+through this stuff.
+It just sounds so neat that
+we think we have to follow it.
+And I think what's going on right now, and just to bring another
+dimension to where we are here, I think that many of
+the companies out there, the technology companies
+missed the generative AI boom or they got into it too late.
+In other words, when 2022 hit
+and suddenly we had ChatGPT.
+It amazed everybody.
+Everybody started moving
+in that direction.
+I think it was probably one of the more important innovations
+that happened in my career and they felt they missed it
+felt they got into it too late.
+
+[26:35]
+They got some feedback from their employees and their investors.
+That was the case, and suddenly this agentic AI stuff came along
+and everybody rushed to it.
+But everybody's rushing to
+it for the wrong reasons and they don't know exactly what it is.
+People are like, "Well, it's
+replacing generative AI.
+" No, it's not. It's another
+way to deploy AI systems that it's an architecture deployment pattern at the end of the day.
+It's the ability to create a
+very sophisticated autonomous set of agents are able to
+function together to solve common goals, goals and objectives.
+The way I explained it
+to my students, I go, "Basically agentic AI systems
+are like building a company.
+You have different personas and different things
+that serve a particular role and function.
+They basically make their
+own independent decisions, they learn as they go and they're able to coordinate
+with the other agents to be better at the common
+goals and the common job.
+" So we're able to approach
+very complex things with a very complex architecture, and I think we need to make
+complex things simple at the end of the day, and I think we're
+moving in a direction where
+
+[27:36]
+that's not going to be the case.
+Now, I think what may happened
+is suddenly in 2026, 2027, I think the whole agent crazy stuff starts falling by the wayside.
+In other words, it is
+adopted as an architecture.
+A few people are going to leverage it.
+It is going to have value
+in very few distinct areas, but people will realize that it was a marketing
+exercise at the end of the day.
+There was no functional
+change in the technology of how we deploy technology.
+And I think if we get to that
+state, I'll be pretty happy.
+I won't be happy if suddenly
+we're spending trillions of dollars on following this,
+chasing windmills in the case of agentic AI, when there's no business value that comes from it.
+I just hate to see it. We did
+the same thing with cloud.
+We did the same thing with SOA and certainly the microservices
+stuff and containers.
+I would hate to see the same
+thing repeated with agentic.
+>> Yeah, I think it again is, to me it's a roadmap into a journey, and you hit it on the head
+in the blog about technical
+
+[28:37]
+aspiration of where this can all head and we'll have to see
+if we ever get there.
+And let me just back up give you my big point of view on this.
+I view generative AI and LLMs as sort of
+being the equivalent to what the browsers were in
+the early internet age.
+Remember the browser wars?
+The most important
+decision you can ever make for your business is what you selected.
+And in the end, what it turned out to be was a gateway into the
+world of the internet, into e- business, and the value
+was not the browser, it's what you put through it and what you built around it on the back end.
+Right? So I look at LLMs and generative AI as being the
+gateway into the world of AI.
+It democratizes access to it, but it in itself is not the value.
+It's going to be how you build around it and what you put through it.
+And I think you're going
+to start seeing layers of new technologies in the
+years ahead that are going to get layered on top of it.
+And the problem, and what
+it's going to get you to is a statistical model
+to more of a reasoning model that starts to mimic progressively some
+
+[29:40]
+of the reasoning patterns of humans.
+Because in the end, an LLM, a prediction is not a judgment.
+Data is not knowledge. Correlation
+doesn't imply causation.
+And if it doesn't understand
+what you're asking it, it can't weigh consequences.
+Those to me are the characteristics that I think take us into this next world, which may be years, it may be a decade, but at some point these
+things are going to be able to use knowledge graphs
+and causal inference and some of these more
+advanced technologies and be able to know why things happen and understand consequences and help people actually problem solve.
+What are the causal drivers
+of why this is happening?
+What's the root cause of
+what's happening here?
+What happens if I change this variable or if I do this differently or what if and actually be able to
+explain it to you, right?
+So to me, the difference
+between generative AI and agentic AI is you start to infuse some reasoning capabilities
+
+[30:42]
+and it will never be perfect in the sense of human reasoning, but more and more of the ability to
+do these kinds of things that I show on this chart.
+But again, keep in mind that,
+being an ex-marketing guy, I can blur the line
+between heaven and hell.
+But that's sort of my overview here.
+And the question to me
+is not if, it's just how long is it going to
+take before we get there.
+What do you think?
+>> I think to get to systems
+that are going to be able to use the methodology, which you've laid it out
+extremely well, I think it's going to take probably three to five years of very sophisticated uses of technology before we're able to
+find value in this stuff.
+Because at the end of the day, Scott, this is a people issue.
+People have to understand how to use this technology
+effectively and how to apply it and we're not going to
+be there for a while.
+That's the core limiting factor that many enterprises
+are having right now.
+Unless they understand we're
+not going to figure out how to do these things properly
+
+[31:44]
+and that's what the
+latency is going to happen.
+The tools are out there now.
+In many of the cases, I can do
+things doing this using open source, agentic-based frameworks that are out there in the marketplace, probably take a little bit more time to make these things happen, and it's a development exercise.
+But the thing is, how do you apply it to the particular business
+problems out there is what's the most important thing, and I think the enterprises
+are missing that.
+I know how many conversations
+I had when people are like, "Yeah, we're going to move this thing, and yeah, we're looking at
+agentic-based systems to rebuild our accounting system.
+" I say, "Well, what problems
+are you trying to solve and why do you think an
+agentic-based framework is going to give you some sort
+of a special advantage?
+" They don't need the
+reasoning in the systems, so basically in terms of how to apply it.
+Now, in a supply chain integration
+system may be a candidate for an agentic-based system just because we are dealing
+with complex systems and having to do complex planning and the ability to
+operate around disasters and things like that and
+do so in an autonomous way and become smarter in
+terms of how we're dealing and optimizing supply chain.
+
+[32:44]
+So maybe, but majority of the problems that I'm seeing out there
+are not necessarily something where agentic is going to have the value, and until we kind of
+understand when to use it and how to use it, I think
+it's not going to work, and I think it's going to
+probably take three to five years for the enterprises to
+get to a talent level, get to a cultural level, where are they able to make this stuff work and able to find the value They're
+going to be making a lot of mistakes between now and then.
+>> Yeah. All right. Well,
+two last questions here.
+One, I want to show you something because, and again, that's why I
+got excited when I saw your blog a few days ago.
+I read a lot on LinkedIn and I see people everywhere is talking about agentic.
+My thing, my feed is
+filled with the genetic AI, and they all talk about it can plan and it can make decisions and all this, but you notice no one ever talks about how it actually is going to do that.
+Right? And you get into
+things like chain of thought, which is still correlation,
+still predictive,
+
+[33:45]
+it just goes back and
+rethinks a little bit.
+I mean, that's not really
+what we mean by reasoning.
+So after getting a little bit aggravated of this over time, I created this agentic AI innovations index, which
+I haven't, to be honest, have not actually used yet, but it's a whole bunch of
+prompts and stuff like that.
+And it evaluates 21 attributes
+across seven different categories of what would define progressive
+levels of a genetic capability.
+So do you have the
+foundational capabilities?
+Does it understand knowledge
+and semantic knowledge and semantic layers?
+Can it do decision intelligence, right?
+Does it understand advanced context, things of that nature, right?
+And start to plot this stuff out.
+And I'm not saying this is the answer, but my thinking is someone's got to, and maybe Gartner started to do this because you referenced them earlier, but someone needs to start
+having the scorecard on, yes,
+
+[34:48]
+this is what you can
+consider to be an agentic workflow or an AI agent.
+There's just no definition
+out there except a high level.
+It can plan and it can help you and it's going to help you make decisions and it can act autonomous,
+but no one's getting into, so how do you actually make that happen?
+>> I agree.
+- And they get into RAG and they get into some of
+these things, but that's not...
+A RAG pipeline's not going to do it.
+>> No, and I think we need
+more thinking like this because right now agentic
+is a big black hole that no one knows exactly what it is, and I'm seeing people trying
+to define it in different ways and hijack it for their own
+personal marketing campaigns and that's just causing more confusion.
+There has to be some middle
+ground that we have in terms of what this stuff is putting a
+line in the sand as to what entails agentic based systems,
+how the architecture works, how they're going to be deployed,
+what the tools look like to deploy it so we can
+identify the imposters for the real stuff that's out there,
+
+[35:48]
+and I think that's going
+to be a good indication of we're getting to a level of maturity.
+But there has to be enough people who adopt something like this and take it into the marketplace.
+That's the big thing. Because
+one thing, as I found out, that I can be the thought
+leader, influencer dude and get on all the top 10 lists
+and all that kind of stuff.
+I can never get close
+to the marketing machine that is big tech marketing.
+OpenAI, Microsoft, Google,
+IBM, HP, all the folks that are out there, and
+they can take this road into anything that they want and
+the people are going to get it because they're going to get a snoot full of the information in very
+sophisticated marketing campaigns that change opinion and change demand.
+So we got to get around, there has to be enough enterprises out there that make the call in the marketplace that what you've done here is
+something that everybody needs to adopt and everybody needs to use and use it as a common framework, including the technology
+providers out there.
+In other words, if I hear
+another observability company that tells me that we have
+an agent based observability system, now, I'd love to
+throw this in their face
+
+[36:50]
+and say, "Tell me how it applies.
+Show me what you're
+doing in the architecture where you're using these kinds
+of attributes, these kinds of conceptual things," else
+you're just agentic in name or you're agents in name and
+I really don't care about it and it's not necessarily
+something I'm going to advise people to leverage because it's not going to be an upgrade with what you're looking to do.
+You're just making something semantic and hype compliant, which doesn't help us move
+the ball forward in terms of leveraging technology to again bring value back to the business.
+>> Yeah. And all the
+butchering of these terms and stuff as far as I'm concerned, started with OpenAI when they
+started calling chain of thought reasoning because
+it just butchered reasoning and then it just went downhill from there.
+Anyhow, okay, so final question
+here before we wrap up.
+So when you think about
+AI agents, agentic AI and all that, what do
+you think the big topic of discourse will be in
+2026 and perhaps 2027?
+So it gets two year view here.
+From a market perspective, maybe from a business perspective
+and from a technology.
+
+[37:51]
+I mean, I think you've
+talked to a lot of this, but just sum it up and I know part of it's
+going to be disillusionment, but give me your summary here
+of what you think is going to happen in the next couple of years.
+>> I think there's going
+to be a realization by the tech press out there and the thought leaders out there that there's a huge difference between what was promised versus
+what was delivered, and I think that's going to be the focus, and we saw the same thing happen in cloud and all these other tech
+trends that exploded.
+This is going to be probably
+the biggest adjustment and where the hype is
+versus where the reality is, and they're going to realize
+that many companies over invested in the agentic based stuff, they spent too much money trying
+to change their technology to something that's really
+not going to have any kind of benefit or value to it.
+And we're going to have basically enterprises complaining
+in the fact that, "Hey, listen, look, we're trying
+to just build stuff here to keep our business going, and you guys are often the ether
+in terms of making promises that you weren't able to keep.
+"
+So get back to the bread
+
+[38:53]
+and butter stuff as to
+how we're going to build and deploy these systems, how
+we're going to maintain stuff.
+I just wrote an InfoWorld article today, which is talking about the fact is where probably the tech
+companies are overspending, overinvesting on the AI stuff and they're not spending
+enough money on the core bread and butter stuff that there's meaningful to the enterprises out there.
+And so the enterprise clients I had and still have, they'll tell
+me that none of this innovation that people are spending on
+the AI space is anything we can use for another five years.
+So our concern is they're not
+building our storage systems or they're not innovating
+our storage systems, they're not innovating
+our network systems, not innovating our database
+systems to take that to the next level and not getting to the future function changes that we want built in this stuff because they're
+overinvesting the AI space.
+And I think companies
+need to kind of realize that they may be hurting
+themselves from a revenue perspective if they're
+missing the core revenue and the core needs of
+their existing customers.
+And I think in many cases the
+overinvestment in agentic is going to normalize people going to get back into sanity in 2026, 2027,
+
+[39:57]
+and I think it's probably
+something everybody's going to notice and we're going
+to give it some kind of a cool name, call it
+agentic hangover or whatever, and maybe just get back to business.
+But I wish we got the money
+back we overspent on the marketing technologies and some of these misspent
+technological innovations that turned out to be worthless.
+But here we are.
+>> Yeah. All right. Well,
+thank you very much, David.
+I mean, this is an
+outstanding conversation.
+I'm so glad I reached out to you.
+I do think this topic
+is overdue for clarity and obviously your voice
+brings the kind of rigor and honesty the industry
+really needs right now.
+So good for you. Keep going.
+>> Well, thank you. You got
+to kill your career somehow.
+I figured I'd just be a contrarian.
+But no, it's great to be here, Scott.
+It's great to find some kindred spirits.
+>> Yeah, look, for our audience,
+I think the one message to take away is you can't build
+an agentic outcome with non- agentic architectures and you cannot buy agentic
+capabilities simply
+
+[40:57]
+because the brochure says agent and the industry is moving fast, and sometimes it's moving too fast, especially on the marketing side.
+And I think the ambition is great, true agentic intelligence, and I think this is where people
+want to head like I showed with the futures index earlier.
+But it's going to take some
+time to get there, so we will see where it all heads and we will check back with you one of these months again, David.
+Okay?
+>> You got it, Scott. I would
+love to say, "I told you so.
+" We'll have the told
+you so come back podcast.
+>> We'll definitely do that.
+And for everyone listening,
+thank you for joining us.
+Be sure to subscribe to
+the next Frontiers of AI so you don't miss any of the podcasts, and visit us out on theCUBE
+Research for more analysis and news and all that.
+I'm Scott Hebner. Thank
+you for joining us.
+Stay curious, stay critical,
+stay ahead of the next frontier and take care for now.
+We'll see you on the next round.

@@ -1,0 +1,988 @@
+# 14. Agentic AI – What’s Hype, Myth, and Truth
+
+**Video ID:** euTRqoB_OlA
+**Channel:** SiliconANGLE theCUBE
+**Duration:** 46:52
+**URL:** https://www.youtube.com/watch?v=euTRqoB_OlA
+
+**Module:** Foundations of AI Agents
+**Module Rationale:** This video primarily discusses foundational concepts of agentic AI, reasoning capabilities, enterprise adoption challenges, and the theoretical underpinnings of agent-based systems rather than specific workflows or tools
+
+## Summary
+- Agentic AI represents a shift from individual productivity tools to intelligent systems that can reason, collaborate with humans, and operate autonomously in complex workflows
+- Unlike general-purpose LLMs, effective AI systems are domain-specific ensembles of models, agents, and modules working together rather than single algorithms
+- Trust and explainability are critical barriers to enterprise adoption - systems must be able to trace reasoning paths and explain decisions for governance and compliance
+- Current 'reasoning' capabilities like chain of thought are correlation-based first steps toward more sophisticated causal reasoning and decision-making abilities
+- Enterprise data is growing exponentially while human talent to analyze it remains flat, creating a massive opportunity for AI agents to bridge this gap
+- The IT services market (systems integration, data migration, ETL development) represents a prime use case where agentic coding can deliver immediate ROI
+- AI safety becomes critical with autonomous agents that can take actions and make decisions independently, requiring proper guardrails and human oversight
+- Enterprise leaders should focus on clear ROI questions rather than getting distracted by hype - how will this make or save money through improved outcomes
+
+## Key Takeaways
+- **DO:** Focus on domain-specific, systems-based approaches rather than general-purpose single models
+- **DO:** Prioritize explainable AI systems that can trace reasoning paths for governance and trust
+- **DO:** Target existing enterprise problems with clear ROI rather than creating new markets and technology simultaneously
+- **DO:** Implement proper guardrails and human-in-the-loop mechanisms for autonomous agents
+- **DON'T:** Don't expect AGI-level capabilities - current systems excel at specific domains but not universal tasks
+- **DON'T:** Don't deploy autonomous agents without accountability frameworks and compliance controls
+
+## Topics
+agentic AI, enterprise AI adoption, AI reasoning, autonomous agents, AI safety, data analytics, IT automation, AI governance
+
+## Key Moments
+- [08:10](https://www.youtube.com/watch?v=euTRqoB_OlA&t=490s): Defines agentic AI value proposition for IT services automation
+- [13:18](https://www.youtube.com/watch?v=euTRqoB_OlA&t=798s): Explains why AI systems are ensembles, not single models
+- [19:29](https://www.youtube.com/watch?v=euTRqoB_OlA&t=1169s): Discusses progression of AI reasoning capabilities from chain of thought to causal reasoning
+- [29:46](https://www.youtube.com/watch?v=euTRqoB_OlA&t=1786s): Addresses AI safety concerns and the need for guardrails with autonomous agents
+- [43:09](https://www.youtube.com/watch?v=euTRqoB_OlA&t=2589s): Provides advice for enterprise leaders on evaluating AI ROI over hype
+
+## TL;DR
+Agentic AI requires domain-specific systems with explainable reasoning to deliver enterprise ROI beyond individual productivity gains.
+
+## Full Transcript
+
+>> Hello everyone.
+Welcome back to the Next
+Frontiers of AI podcast, where we speak with the pioneers
+shaping not just the future of AI, but how we navigate
+the uncertainty around us.
+Thanks for joining us today.
+I'm Scott Hebner, the principal analyst for AI at theCUBE Research.
+In this episode, we'll delve
+into a challenge that most tech and business leaders
+face, how to make sense of what's real across the
+AI landscape, what's hype, what's myth, and where's
+this all actually heading?
+It's clear to us here at theCUBE Research that many are not getting
+the signals within the noise of the marketplace.
+With innovation cycles
+moving at warp speed, you can't afford distractions
+or to fall behind, because if you do, you may never catch up.
+We're at a defining moment, what many are calling the
+golden age of AI agents.
+Vast new opportunities are taking shape, where intelligent digital
+coworkers, systems that can reason
+
+[01:01]
+and collaborate alongside humans and even operate autonomously when needed.
+In addition, innovators can
+now build 10 times faster and deploy products at scale with significantly fewer resources.
+Unlike the cloud and SaaS
+era, the democratization of AI has changed everything.
+There is no doubt that we are in the dawn of a new super cycle in
+business innovations, and for many leaders, they're
+struggling to get clarity on what to do and how, what matters the most, what's coming next, and how do you design a journey
+that avoids the hype trap and creates long-term value?
+In other words, where
+do you place your bets?
+Well, today, we'll unpack all this with someone who's
+building on the front lines of this transformation.
+I'm thrilled to have Dr.
+Satya Nitta join us today.
+He is the co-founder and CEO of Emergence AI, the providers of intelligent agentic systems designed to automate complex workflows.
+With over 15 years of experience in AI,
+
+[02:02]
+he has led groundbreaking
+advancements in conversational systems, natural language
+processing and AI hardware, and has to his name the
+IEEE Innovator of the Year and Technology of the Year
+awards, and over 100 US patents and 40-plus publications, super qualified for this conversation.
+So Satya, thank you very, very much, it's an honor to have you here.
+Let me bring you up on the
+screen here. There you go.
+Welcome.
+>> Thanks, Scott. Pleasure to be here.
+>> Yeah, I'm really glad that we got to talk over the last week or
+so and get to know each other.
+I think this is going to be
+a fascinating conversation.
+And it was also interesting to
+find out that we spent a lot of time together at IBM,
+that big massive company.
+>> Indeed, yeah. I have very
+fond memories from my time at the IBM Watson Labs, I
+spent 18 years there.
+>> Yeah. And I was there at the same time, except I was in the software
+group, so we were...
+By the way, do you know Danny Saba?
+
+[03:03]
+>> Yes. I don't know him personally, but I know who he is, yeah.
+>> Yeah. He was one of my
+general manager managers at one point, so he was our connection into the world of research at the time.
+>> Yeah, he used to come
+to the labs quite a bit.
+>> Great guy, I've learned a ton from him.
+My favorite expression
+from him was, "Do you want to be right or do you
+want to be effective?
+" Which are two different things.
+>> I think I choose effective.
+>> Yeah, yeah.
+In other words, you can't
+always argue endlessly that you're right,
+sometimes you have to...
+But anyhow, for our audience, before we get into our
+conversation today, that's going to be about what is hype, what is myth, what is truth out there in
+the world of agentic AI, tell us a little bit about the
+journey that you've been on and how you ended up now
+where you are at Emergence.
+>> Sure, yeah. So I spent,
+as you said, Scott, I spent 18 years at the IBM Watson Labs.
+
+[04:04]
+Started my career as a
+nanomaterials guy, I have a PhD in nanomaterials formerly, so I spent about a decade
+advancing more slow.
+I morphed into a nanomechanics
+guy into a broader applied physics guy.
+Then I ended up working on a branch of computing called
+neuromorphic computing, that was my entry into AI, and that was actually, I
+didn't know it at that time, but my entry to AI was very well-timed.
+Watson had just won Jeopardy,
+AlexNet was about to win the ImageNet competition and deep learning as a
+field was being born.
+Obviously, Hinton published
+deep belief networks, I think, in 2006 or something, which
+was a groundbreaking paper of that time, and I just followed
+what was really exciting and interesting to me at that time.
+I was in the lab, moving up the ladder and finding research
+problems that were things that I genuinely enjoyed
+working on, and I realized
+
+[05:07]
+after working on neuromorphic
+computing for a little while that all the action was in algorithms, so that's when I basically jumped into AI.
+And it's ironic that 15 years later, we're now talking about some
+ architectures and how to accelerate
+machine learning inference and so on and so forth.
+And we were 15 years ahead of our time and solving problems that weren't fully there then, but they are now.
+>> Yeah, that's the way I view it, it was a huge learning experience.
+I think some of the
+provocations that we were going to solve, cancer and world
+peace, I think it was over- promised too early, but definitely catching
+up now, that's for sure.
+>> Yep, yep, yep.
+- Well, let me set up our conversation here, which is what's happening
+out there in the marketplace.
+We went through, what, 10 years
+perhaps of people starting to put predictive AI models in place, and then we got, over the last three years, into generative AI.
+
+[06:08]
+I think that democratized
+it for a lot of people, people have an appreciation
+for it now, what it can do.
+It's delivering marginal
+ROI, I think, in enterprises, mostly around individual productivity.
+But things have really sped
+up over the last couple of years, and now we're
+getting into agentic AI and there's just a ton
+of terms, a ton of points of view on what it is.
+I think it's confusing.
+As I keep track of the
+discourse out there, there's different opinions,
+there's different definitions, and it's not surprising to me
+that 75% of business leaders lack the clarity that they
+need on their journey ahead, where to head with all this stuff, and that's, I think, what we want to talk about today, right?
+>> Yes, yeah, absolutely.
+Look, I'm not surprised,
+there's so much noise, and at the end of the day,
+what was always true, even back in the day with Watson,
+Scott, the journey you and I shared during our time at IBM,
+
+[07:09]
+what was wasn't clear about AI was, how will this technology improve
+outcomes that really matter for enterprises?
+And so, we couldn't
+articulate it well then, I'm not sure people are
+articulating it any better now, a decade later.
+It's still mystifying to
+enterprises about what should I do with AI, how will this
+impact my business, how will it move the needle on outcomes I care about, how will it make me more
+money or save me more money?
+And there's a lot of value
+to be unlocked here, but unless you basically
+draw the line between the connecting threads between
+what the technology is capable of truly and the outcomes
+that really matter, you're not going to unlock that value.
+>> Let's start with a business leader.
+How would you define the
+emerging agentic AI marketplace, what it can do, what its value is?
+And more importantly, how's
+it different from what they've gotten exposed to over the last many years
+
+[08:10]
+with agentic AI and LLMs?
+>> Yeah, yeah. Look, Emergence as a company is focused
+on essentially a small set of problems in the IT back
+office, you could say.
+So if you look at what
+enterprises do on a daily basis, there's a large number of projects that they work on which are essentially
+doing things like systems migration, systems
+integration, data migration, even writing ETLs, and
+these are all served...
+So these are existing problems
+that enterprises are paying for, so that's the first
+thing, which is one of the hardest things in
+the world is it's very hard to create new technology and
+a new market at the same time.
+You can create new technology
+to serve an existing market, that's a bit easier, or you can basically create a new market for
+existing technology, which is also a little bit hard, but nonetheless, it's easier
+than building new technology
+
+[09:11]
+and inventing new use cases and new markets at the same time.
+So the reason we are going after something like the IT back office or IT automation broadly is
+these are existing spends, existing problems, enterprises know what it means if they
+were to migrate data, update their systems,
+get more value out of it and what the impact on their business is, and they're willing to basically deploy some money in
+the process of doing it.
+So today, that entire
+thing is met by a variety of technology companies,
+broadly IT services companies, everybody from IBM to Oracle
+to Wipro to Cognizant, et cetera, and the delivery happens through a large human labor pool that basically does a lot of coding jobs.
+And so, that brings us to
+what AI is really great at.
+So the promise here is agentic AI or agentic coding can actually
+do a subset of these jobs and do them just as well, if not better,
+
+[10:12]
+and do them cheaper, do them faster.
+And so, Emergence's value
+prop to enterprises says, we will deploy your IT services
+for you better, cheaper, faster, basically.
+>> So it's like generative
+AI, task-oriented, especially for repeatable tasks,
+more individual-focused, and it's a productivity
+tool for an individual, where agentic AI takes on
+more characteristics of how a human worker would do something.
+The case you were just
+talking about is building applications and systems integration and doing a lot of the heavy-duty work, because they become more
+intelligent or more educated and are able to do more, and they're able to participate in a workflow
+not only among each other, but with humans. Is that how you would...
+>> Yeah, that's how I would, exactly.
+And at the heart of it, if you will, what's actually really
+happening is I think one of the things that LLMs are
+actually really good at, they're not great at a lot of things, but one of the things they're good at,
+
+[11:13]
+and they're getting better at
+all the time, is coding jobs.
+So on the face of it, you would say, okay, look,
+what do you mean they're
+getting really good at coding?
+They are able to produce code, but you still need a human-in-the-loop to go correct the code
+and update the code.
+And of course, the more
+complex the coding job, the more difficult this
+whole thing becomes.
+And here's where we're bringing
+agents into the loop, we're saying, look, if you do
+something like agentic coding, which is get an LLM to produce
+some code, get an agent to basically validate that
+code, verify it, go back and figure out what's wrong and reproduce code, you're
+taking the developer's role with the human-in-the-loop.
+And so, for a small class of problems, of course the promise here
+is gigantic and the promises, and then the technology
+isn't fully there at all, but for a small class of
+problems in
+
+[12:14]
+in Python, et cetera, we have basically gotten very
+good at agents helping code and agent encoding
+becoming real to a point where we can do some of
+these tasks we talked about, some data migration stuff,
+systems implementation, systems integration stuff, pretty well, and that starts unlocking
+a pretty big opportunity.
+>> Yeah, a ton of value.
+So are we moving away from
+the one model rules them all, like ChatGPT, to systems
+of intelligent models and agent that are all working together, an ecosystem that's built around it?
+>> Yeah, I think we already have.
+Scott, you're aware of some of the work that existed in AI in a previous era around cognitive architectures and so on, and we discussed Minsky's
+society of mind, et cetera.
+What's been true about AI,
+from that time through the
+
+[13:18]
+deep learning era to the
+generative AI era, is that most successful AI systems are exactly that, they're systems.
+They're not one model,
+they're not one algorithm, they're a set of models,
+algorithms, modules, that all come together to solve a problem.
+And systems have aspects of determinism, they have aspects of
+reproducibility, they have aspects of long-term memory,
+governability, all these kinds of things, and if you get them right, then these things are actually capable of doing some pretty profound things.
+But at the end of the
+day, these are all systems and examples of what's happening
+today, where things like if you hit what you think you're hitting, which is an LLM like a ChatGPT, you're not really hitting an LLM, you're hitting an agentic
+system, the LLM is buried way below.
+But what you're really
+hitting is an agentic system that's fine-tuned to do a set
+of tasks for the consumer.
+
+[14:23]
+At some level, Emergence is
+doing something very similar, except our target isn't the consumer, it's the enterprise user and a certain class of enterprise users, and we are building agentic systems.
+Other examples of agentic systems
+are self-driving cars, one of the best examples of
+agentic systems out there.
+So yeah, I don't think we're talking about models at all anymore.
+Now, at least at the
+forefront of the field.
+Now, with respect to enterprise adoption, it's a different issue altogether, I can get there in a second.
+But we're certainly in
+an era where there's more and more acceptance of the fact that it's not one algorithm,
+one model, one algorithm, it's an ensemble, it's an
+intelligent system, well-built, that will solve really serious problems.
+>> Yeah, I think that's right, because every business,
+every industry, every domain, every country, there's going to need to be some unique
+characteristics and knowledge
+
+[15:23]
+and intelligence for each of
+those, very domain-specific.
+And that's why I've
+always thought of GenAI as being the equivalent to
+the browsers in the early internet age.
+The browsers basically created
+a gateway into the world of online, GenAI is creating a
+gateway into the world of AI, and it has all, like you said,
+the general purpose consumer- based knowledge, it sucks
+up the internet and beyond.
+But if you're going to do
+something in your enterprise for your customers and your
+industry and your business model and your products, you're going
+to have to have an ecosystem of models and agents that
+are specific to you, and therefore it's not going
+to be a one-size-fits all.
+You've got to have an architecture because it really matters, right?
+>> Completely, yeah, exactly,
+I couldn't agree more.
+All cognition is domain-specific,
+context-specific, whether it's human or machine cognition.
+And so, we've fully subscribed
+to the perspective that domain grounding
+
+[16:23]
+and context understanding is
+absolutely critical for any of this AI, agentic AI or even just pure old LLM-based
+generative AI, for it to be useful and effective and
+produce real ROI for people.
+>> So I'm going to show
+you a chart here, some of the research I did
+looking at a whole ton of different surveys out there
+about what do people view as being the most important
+technologies going forward to enable agentic AI.
+And you can see here at the very top is obviously the generative
+AI, the LLMs, which you can see the numbers in
+terms of relative importance.
+But what's your thought on this research?
+It seems to me, as you
+go down the stack here, you get into more sophistication.
+>> Yeah. So I think it's on the money.
+I see a couple of things
+missing, like long-term memory, et cetera, and context and domain understanding,
+which we just spoke about.
+But in particular, I know you
+
+[17:23]
+and I both share a real
+interest in reasoning, so some of the additional intelligence,
+causal reasoning, agentic reasoning, I think that's
+where the action is.
+From an enterprise's perspective, unless you can actually explain how these things are coming up
+with some decisions, how you can audit them, how you
+can correct them, I doubt that they will actually be
+very excited about just the promise of the technology.
+It's really about governance,
+about auditability, about trust, about safety, and ultimately, most of
+all, it's about outcomes.
+So if you get them all together, then you can unlock enormous
+promise, enormous potential with this technology.
+The promise is there,
+but there's a long way to go to fully unlock it.
+>> Yeah. And you and I, and certainly a lot of people watching, have lived in the technology
+industry for a long, long time, there's so many new
+technologies out there right now
+
+[18:25]
+and people are defining them differently.
+I can see how people, I've got to put all these pieces together.
+And one of the things that
+really has been a focus for me is we have chain of thought, people
+are calling that reasoning, and it's still correlation-based and it doesn't really
+understand consequences, it can't make a judgment,
+you need judgments to make a decision, but it's a first step on that roadmap.
+So I think to do everything
+that you talked about earlier, going from a task to achieving a goal and helping a human do more
+than just generate a task, like generating code, but actually design and implement a system, it's going to have to make decisions, it's going to have to understand the goal
+you're trying to achieve and help you problem solve, and I think that's where this
+stuff, my two cents is that's where it's headed in the years ahead.
+I want to get your view
+on this diagram here, where I think we're at the chain
+of thought layer now, which
+
+[19:29]
+is a step on that ladder,
+if you will, to more and more capable reasoning and semantic reasoning via knowledge graphs and all that stuff.
+What are your two cents on
+where this is heading in terms of reasoning, never be like human beings, but progressively more capability to help humans reason is probably
+a better way of saying it, where are we now and what are the key things you see happening?
+>> Yeah. I think I agree.
+I agree with this progression of gradual increase in
+reasoning capability of intelligent systems.
+From my perspective,
+you're exactly right, just to pick up on the fact that
+these things don't really reason like people, but it
+really shouldn't matter.
+At the end of the day, the
+reasoning is about achieving an objective, solving a problem,
+fulfilling a task and so on, and I think multi-agent reasoning, and in particular, bringing
+in context awareness, domain groundedness and then explaining.
+
+[20:32]
+So if you basically are an LLM
+and you produce some output, or an agent and produce an
+output, you should be able to explain how you got
+there, you should be able to trace the agent's reasoning path and you should be able to
+say, "Based on this data, based on this understanding of the domain, based on this SME knowledge,
+I've produced this output.
+" So it's getting better.
+Now, are these going
+to reason like people?
+I don't really think it matters.
+There's a very robust,
+I think, debate in the AI literature, certainly Rao Kambhampati and then people who maintain that language models don't reason or agentic AI doesn't
+reason, at some level, human reasoning itself
+isn't fully well-understood, and at some level, as an
+engineer, I don't really care.
+Just what I care about
+is, will this solve a task and will it give me a
+reasonable understanding of how it got to that answer?
+And that capability is
+certainly evolving rapidly
+
+[21:33]
+and it's certainly getting to a point where we can do some very complex things, like analyze gigabytes,
+hundreds of gigabytes of structured data, or
+even unstructured data, and come to some conclusion
+and explain how we got there.
+I think that's a great example
+of systems that can reason to a point where a human
+would say, "I'll trust what these things came up with.
+"
+I think another example of the frontier, I think one of the things we discussed and one of my favorite examples is AlphaGo and move 37, and so machines
+are capable of reasoning and coming up with very surprising
+leaps that humans aren't.
+So I do think there's a
+capability here that's evolved.
+AlphaGo is now nearly
+eight, nine years ago, it's been this beacon for the
+entire field in many ways.
+I think the ability
+for machines to reason, to solve problems, to explain themselves, it's coming along quite significantly, and at some level,
+
+[22:33]
+that debate about do
+these things really reason or not, I think it's a little bit academic, from my perspective.
+>> Yeah, yeah. and I think
+that's one of the things that gets me excited
+about the causal inference or the causal knowledge
+graphs, is that you have an LLM that you can feed a
+causal knowledge graph, that understands cause and effect, and that can actually describe
+the precise chain of events that leads to an outcome.
+It opens up the black box, but it does it in a way
+that it does it only for what's domain-specific for you.
+And so, I think there's
+these little things, little increments, that are
+moving forward in time here that are going to give us more
+and more of that capability.
+Because I think you're right, trust is the currency of innovation.
+No trust, no ROI going
+forward increasingly, and if it can't explain
+itself, you don't understand how it's recommending a
+decision, you're going to be less likely to trust
+it, so it's got to get solved.
+>> Yep, yep, 100%, yeah, completely.
+And that's why the discussion
+about reasoning is germane, because how do you build trust?
+
+[23:36]
+You build trust by
+tracing a set of decisions and showing how each
+conclusion led to the next one, and ultimately this is the output, and making that verifiable,
+making that governable, making that auditable, allowing
+humans to correct it, all of this is what will build trust.
+I think you had a stat, wasn't it, about how enterprise leaders
+have very little idea of what AI to trust and then the
+degree of trust people have.
+You had a very cool stat,
+I think that might be worth bringing up in this context.
+>> Yeah, it's actually...
+Here it is right here.
+Actually, let me bring it up.
+There's two parts to it.
+What this is saying here
+is, if you look at the light blue bars, that's the amount of newly generated
+unanalyzed enterprise data and how it's projected to grow.
+The black line is the human
+talent that is available
+
+[24:39]
+to actually figure out and
+get value out of the data.
+So clearly, there's a growing gap here, there's just not going
+to be enough human beings to do all this stuff.
+So you take that to one level further, and I think this is the one
+you were referring to, Satya, where if you extrapolate today, 60% don't really trust the decisions that the data is telling
+them through their analytics.
+It's just going to get worse.
+There's got to be a new way
+to do all this stuff, right?
+>> Yes. - Otherwise, you're
+going to get just a flood of data, and how do you
+trust what's coming out of it when it's a
+ just overtaking?
+>> Totally, totally, yeah.
+And then, the previous chart's
+also quite interesting, the one about the amount of
+data, zettabytes of data, and how little of it is analyzed and how we have this
+massive talent shortage.
+In fact, I'm not entirely
+sure about all this discussion
+
+[25:40]
+about job losses and everything else when
+clearly there's so much room for people to come in
+and be data scientists and data engineers, there's
+a big talent gap here.
+It's actually something that
+at Emergence we're actually very focused on, which is because there are problems where, one, because there's a big talent shortage, but two, even with the
+amount of technical talent that may be available,
+there's some problems that are simply not solved by
+humans, solvable by humans.
+There's a whole bunch of
+machine-scale problems, where you're getting something
+like 100 gigabytes a day from all kinds of manufacturing
+floors and all kinds of sensors, and there's all kinds of
+information that's buried in that data, and how would
+you analyze something like that in real-time and
+get some real results?
+I think that's a great example of where AI and agentic AI can come in and do something really interesting, and that's definitely an area of focus for us here at Emergence.
+>> Well, yeah, you guys are big-
+
+[26:41]
+time focused on helping people
+get value out of their data, among other things, and
+the way to help address that curve we were looking
+at is get agents to help turn people that aren't data scientists or data literate into being data literate.
+>> Exactly. - And so, to your
+point, I'm not one personally that buys into it's going
+to take everyone's job.
+I think you're going to be able
+to save money, for sure, but unless you want to go out of
+business, you should reinvest that money, you can do more.
+So you either save money or you do more.
+And if you give more and
+more people superpowers, and in this case, you give them more and more power to empower them too, to actually get value out
+of the data, I think that's how you address your
+biggest asset over time is how much data and what
+intelligence you get out of it.
+So I'm with you 100%, and that's what's exciting
+about what Emergence is doing, is you're helping to
+provide that capability.
+It's going to get interesting.
+>> Yeah, no, without a doubt. Yeah, go
+ahead, sorry, I didn't...
+>> Yeah, yeah.
+
+[27:44]
+We're going to come back to Emergence, I've just got a couple
+more questions for you- >> Sure, sure, sure, yeah.
+- ...
+before we wrap up here, and
+actually, one of them is, so I think what you're saying is the journey forward into
+incrementally more reasoning capability is important, because
+you want agents to be more and more capable to help humans,
+more than just doing tasks that GenAI is doing today.
+I think the other side
+of the coin is this, and this is Identity and SailPoint who are the source of this, and it's basically saying
+that 96% of enterprises worry that if they start deploying these agents, of which some go off and autonomously act,
+where's the accountability?
+Where's the auditability? What
+kind of compliance controls?
+Do these things have identities?
+Are they tied to a human
+being who's actually ultimately accountable?
+How do you give them credentials
+to go get certain data or take certain actions?
+How do you audit them?
+What are the actions?
+How well are they performing?
+
+[28:45]
+You need to start managing
+them as digital workers.
+So I think that's another big problem that I know you've mentioned before, and I agree that this needs to become on the forefront
+really quick too.
+>> Right, yeah.
+So I think what we're
+talking about there is currently the discourse in
+agents is somewhat dominated by a bunch of use cases where
+you're essentially getting an LLM to redo some read and write
+operations on some ERP system or CRM system or so on, and generally that's fairly straightforward.
+I don't even think of these
+things as agents, as much as they're workflows, they're
+simple automations, et cetera.
+And part of the reason why
+people aren't jumping up and down and worrying about the point
+you brought up about trust and auditability is a lot of these are relatively
+simple automations,
+
+[29:46]
+and certainly you just want to make sure that they're done right.
+But where this becomes important is when you start talking about
+things like web agents, things that are autonomously going
+off and taking some decisions and creating some sub-tasks for themselves and going off and exploring.
+That's where the frontier of the field is, and there, I definitely think 96% of enterprises don't
+trust their systems like that is warranted.
+I think that stat is warranted, I think the fear is warranted.
+I've been in this field
+for the last 10, 15 years, and the very first time I've
+really taken AI safety very seriously is with agentic systems.
+It's not that I didn't
+take them seriously before, but broadly, the points there were bias and data leads to biased
+AI algorithm outputs, and sure, yeah, that makes sense.
+But when you have systems that can act and that can take decisions
+and that can reason
+
+[30:47]
+and create goals for themselves, that's when all hell can break loose.
+That's something that
+we are very focused on and it's something that I think
+the field more broadly ought to tune into and dial into.
+And this lack of trust
+that enterprises have is not only warranted, but it should basically
+set alarm bells ringing amongst people who are
+developing the technology.
+>> Yeah. One example of
+a business challenge, actually Mark Stouse told
+me about this, he's the CEO of Proof Analytics, helping
+provide proof behind things, he's doing causal AI and stuff like that, is there
+was a fiduciary ruling in Delaware in the United
+States a couple of years ago where if you're a corporate
+officer, you can no longer say, "Oh, the AI did it.
+" No, you're accountable now, so you're accountable for your AI.
+And so, that's going to
+say, god, well, I have to understand the AI better, I have to understand why it's
+doing things, I have to be able to explain it.
+
+[31:47]
+And imagine having agents
+going off and doing things, but you're actually accountable from a fiduciary law perspective.
+So things like that are
+starting to happen here, where I think this becomes, like you said, when you start getting things
+going off and doing things and there's not always
+a human-in-the-loop, or it becomes more
+mission-critical business decisions that they're involved in,
+all this trust stuff's going to become more on the forefront.
+>> Totally. Look, I couldn't
+have said it better myself, which is the importance
+of the human-in-the-loop, the importance of guardrails.
+So one of the things we did about a year and a bit ago is, at that time, web agents were still relatively new.
+Adept had done some work a year before, and about a decade ago, some
+early work out of DeepMind, and even in the early days of
+OpenAI, there was some work on systems that can autonomously
+operate the web, et cetera.
+So we took that mantle and spent about two, three
+years really understanding how to build web agents, and then
+we open sourced an incredibly
+
+[32:50]
+high quality web agent called Agent-E.
+So if you Google Emergence Agent-E, you'll find the GitHub link
+and you'll be able to see it.
+And that particular agent
+had a lot of IP in it, things like hierarchical
+planning and skills harvesting and so on, and we've since then
+improved that substantially.
+But the point is, we put that out there because we wanted people
+to see how you build agents and what are the guardrails
+and what are you enabling and what are you disabling and the importance of
+the human-in-the-loop.
+All these things were things that we were really worried about, because we realized you have
+a system that can basically go and use a browser like
+a person, it can click, it can use the keyboard
+and mouse and enter terms and search fields and
+inherit your permissions, and systems like this
+are actually dangerous, and it's about building
+with the right guardrails, having the human-in-the-loop.
+So I think I like the Delaware ruling where you're responsible for
+the deployment of your agent,
+
+[33:52]
+and the other point you brought up about how do you manage a bunch of
+digital agents that are running around doing things.
+So all these things are
+basically where one needs to really be very focused
+on if autonomous agents are to go off and do something
+significant in enterprise.
+>> Yeah. A two-part question here, and this gets me to
+AGI, stop worrying about AGI, I think, you've got these real
+important business issues, like we've just been talking about.
+But at the same time, I'm curious too, why is AI moving faster than
+any other tech in history so far, and even faster
+than other fields like, say, quantum computing?
+It's just moving so quickly.
+So I'm curious to hear
+your thoughts on that, and then also on what do you think of AGI and where is that on our
+timeline here going forward?
+>> Yeah, yeah. Let me start
+with the first question, I think it's easier and less controversial in
+many ways than the second one.
+So why is AI moving so fast?
+
+[34:55]
+Look, Ray Kurzweil in
+his book The Singularity is Near, which was an interesting
+book, not that I agree with all parts of it,
+but certainly some parts of it were interesting and
+other parts were cherry-picked to support his argument,
+makes this observation that there's exponential
+trends that are happening everywhere you look, but these exponential
+trends have a particular gestation period, a long gestation period, before a number of things happen, and so you go from subcritical
+to critical all of a sudden, and then suddenly all hell breaks loose.
+So I'll give you one
+really fascinating example of this from my very early
+work in my PhD thesis days, where we were doing things like gelation of liquids into solids, then related to AI and a confluence of
+factors that came together.
+So what typically happens,
+let's say you're making jello,
+
+[35:55]
+which all of us have had at one point or the other, it starts off as a liquid and you're stirring it, and suddenly, all of a sudden, the thing gels.
+But in reality, all kinds of little networks are forming
+across this entire liquid, and you cross a particular threshold, called the percolation threshold, and then these things all start
+connecting with each other and the viscosity of the liquid rises and then suddenly gels.
+And the last bit happens very rapidly, and you spent the last several minutes bringing this thing into a boil and slowly stirring the thing, and then all of a sudden, the thing gels.
+In some ways, something
+very similar happened here.
+I know it's a fairly random
+example to talk about computing and AI, but what's
+interesting here is, look, Moore's law has been advancing and you've gotten a tremendous
+increase in compute power over the last 15, 20, 25 years, and we've gotten to a certain threshold where you can now have
+incredibly high quality
+
+[36:59]
+computing with tons of
+data, tons of networking, and all of them came together
+with a tremendous amount of human talent that also got produced over the last 15 years by universities.
+Because as deep learning
+advanced, people saw the promise of the field, more and more
+people went to universities to get computer science degrees, and suddenly you have an
+abundance of talent, an abundance of compute, an abundance of
+data, algorithmic breakthroughs, and voila, we are in
+this perfect place where everything came together and
+a whole explosion happened and people started building
+rapidly on top of each other.
+So that's why I think this field
+moved faster than any other field in the history of computing.
+And fields like quantum
+computing are maybe 20, 30 years from that place, that's my read, knowing a little bit about that field.
+As to AGI, look, the way we think of this
+whole thing is there's a major
+
+[38:00]
+conflation going on between
+generality of a certain set of tasks and generality of all tasks.
+What LLMs did so successfully is that they generalized
+next token prediction.
+They got incredibly good
+at next token prediction, and even predicting the
+next 10, next 100 tokens, and that lent itself to
+generalizing their ability to understand language,
+understand images, produce a code of very high quality, so some generation of certain tasks are generalized.
+But the conclusion
+that's happening is just because they're actually
+outstanding at producing language or code or images, doesn't mean they're outstanding
+at performing actions in the action space.
+And we very much think of AI agents and agentic AI as technology
+that's in the action space.
+And the closest parallel to
+this is what's happening in robotics and self-driving, which is actions in the physical world.
+And agentic AI, as
+we're defining it today,
+
+[39:02]
+in a very narrow sense, is about actions in the digital world.
+So generalizing actions
+in either the physical or the digital world, I think we're quite far
+away from that point.
+So if a definition of AGI is that you will have universal
+learning algorithms that can perform any
+type of actions robustly in the physical or digital world, I suspect we are a
+decade away at a minimum.
+I'm not even sure we entirely know how to generalize at this point in time, to be honest. So that's my take on AGI.
+>> Yeah. The good news or bad news, depending on
+which way you look at it, is a decade goes pretty quick.
+>> Yeah.
+- Well, look, so I want to make sure we talk a
+little bit about Emergence before we wrap up here.
+For the audience, you
+should go out to emergence.
+ai, they're doing some
+really interesting things.
+I think you're right on
+with the focus you have.
+So why don't you just spend a
+little bit of time here, just what your company's all
+about, what you're delivering,
+
+[40:05]
+I think that'd be real useful for people.
+>> Yeah, thank you,
+Scott. Yeah, Emergence is really focused on this idea
+that intelligent systems built with a particular focus can
+unlock an enormous amount of value in enterprise.
+And so, what we are
+really interested in is, what is agentic AI really capable
+of doing, and how robustly and how verifiably is it
+capable of doing this, and what are the kinds of
+problems you can solve, especially in things like analyzing data, structured, unstructured,
+semi-structured, at scale, to unlock real value for enterprises?
+And more broadly, we are
+interested in automating a variety of IT tasks, because we are especially
+interested in this idea of agentic coding and what agents and algorithms able to
+produce code put together can do in very robust ways
+to solve problems today.
+And in the process, what
+we're building are intelligent platforms and systems that are not only
+stitching agents together
+
+[41:07]
+to solve a given task
+from natural language, but also, as the case may be,
+creating new agents on the fly and evolving, and through an iterative
+self-play mechanism, learning how to solve multiple tasks within
+a given domain once it starts creating agents that it doesn't know how to solve in the past.
+Once that capability
+evolves within the platform, it then basically evolves itself further.
+All of this is with the goal
+of creating a very robust set of solutions to enable everything from ETL
+writing to data migration to data transformation to
+building machine learning models and analyzing data and so on.
+So that's the general domain
+that Emergence is focused in, and our toolkit involves
+everything from self-play and self-improvement and reinforcement learning
+techniques behind those to AI planning and AI verification
+as core first-class citizens
+
+[42:09]
+that we are advancing in this process.
+>> Yeah. You go back to those
+two charts we were talking about, which for the
+audience, you should know, those were charts, that's
+research that I did, I just thought it was
+relevant because I went through the website and everything.
+But you are hoping to solve
+those problems of the data, it's growing so quickly,
+that how do you get value out of it, how do you get
+intelligence out of it?
+And I think that's another
+big part of, I think, what you guys are really uniquely...
+I don't want to say uniquely,
+but I don't see as many of the agentic players focused
+on those particular areas.
+But it all starts there.
+There is no AI without IA,
+an information architect, so you've got to get to that data, right?
+>> Exactly, exactly.
+If you put the data foundation right, then you can do lots and
+lots of things on top of it.
+We're helping companies
+get that data governance and the data foundation right, and we're doing this with agents so we can do this much faster and you're not waiting
+a decade to do this.
+>> Right, and much higher quality.
+All right, well, final question,
+what would your advice be
+
+[43:09]
+for enterprise leaders on, what should I do, and what's your advice about the so- called hype versus myth versus what's true about .
+>> Yeah. So I think it all comes down to enterprise leaders need to
+ask a very simple question, how is this going to improve?
+What is the ROI here?
+How is this going to improve the outcomes that I really care about?
+Is this going to make
+me money, is it going to save me money, and how?
+And if you ask those questions and you're incredibly focused on it, then you're forcing
+your vendors to explain what their solution
+can really do for them.
+If we get this right as a field, both on the technology vendor side and on the enterprise buyer
+side, if we get this right, then the transformation
+can happen much faster.
+Otherwise, I think you put up
+a chart much earlier than the conversation, 75% of
+enterprise leaders are hesitant to trust AI and are confused
+about what to do with GenAI.
+
+[44:10]
+Otherwise, that confusion
+prevails, they don't know what they're being sold,
+because there's so much noise, and the vendors themselves
+aren't articulating this ROI very clearly, and as a
+consequence, they don't know what they're being sold
+and what they should buy, and that's hurting the entire field at some level, basically.
+So if they can ask that question
+and they can keep vendors or technology providers honest, then we can make progress here as a field.
+>> Yeah. Well, we're
+going to definitely have to have you back and we'll
+keep this conversation going, because I think this is,
+on one end of the spectrum, innovation cycles are moving at warp speed and you're at risk of falling behind, so the game is played in the
+field, not in the dugout, you've got to get out
+and start doing things.
+On the other side is you've
+got this challenge of hype and over-promise, and so what are the most
+critical things to focus on, particularly when there's so
+many different points of view, and obviously that'll shake
+out over time, I think.
+But it definitely is a challenging world,
+
+[45:11]
+at least in the cloud
+world and SaaS and mobile and client server, all those
+things that came before.
+Sitting on the sidelines a little bit to let things shake out
+was probably maybe prudent, but now you just risk
+falling behind, so I think it really is a big dilemma and that's why I think this was a really valuable conversation.
+So I really appreciate it, thank
+you so much for being here.
+>> Absolutely. My pleasure, Scott.
+Thanks for having me here with you.
+>> Yeah, no, this was a
+really great conversation.
+I think it was meaningful
+and very insightful, and I definitely got some additional ideas to go off and do research.
+Anyhow, best wishes to you.
+Keep us up to date on the
+progress you guys are making there, and I look forward
+to future conversations.
+For the audience, thank
+you all for tuning in.
+As you've heard, we're definitely
+entering the golden age of AI agents, it's here, and I think the opportunity
+is no longer theoretical, it's real, it's growing,
+it's available to those with
+
+[46:12]
+clarity of vision and the
+urgency to act and get out there and start playing around with this stuff and
+seeing what's possible.
+So again, thank you so much for tuning in, really appreciate you.
+We'll see you on the next
+round of the Next Frontiers of AI podcast.
+We are the leader in tech news
+and analysis. Bye for now.
+>> Thanks, Scott.
