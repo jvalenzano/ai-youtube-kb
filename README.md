@@ -169,8 +169,11 @@ The Skill CLI automates the entire pipeline:
 1. Ingests playlist
 2. Curates with Claude
 3. Extracts slides (if available)
-4. Exports to NotebookLM
-5. Builds search index
+4. **Human review** (optional): Interactive slide curation
+5. Exports to NotebookLM
+6. Builds search index
+
+**Human-in-the-Loop Feature**: After slide extraction, the Skill offers an interactive review step where you can review each flagged slide and decide: Keep or Remove. This ensures quality while preserving important content.
 
 #### Manual Pipeline
 
@@ -215,14 +218,29 @@ python scripts/extract_slides.py --check           # Check dependencies
   - With 4 workers (default): ~45-90 minutes (2.5-3x faster)
   - Adjust with `--workers N` (recommended: 2-8 based on CPU/bandwidth)
 
-**Slide extraction pipeline** (7 stages per video):
+**Slide extraction pipeline** (8 stages per video):
 1. **Download** video at 720p (~1-3 min per video)
 2. **Extract frames** every 2 seconds
 3. **Detect scene changes** via histogram comparison
 4. **Classify slides** using CLIP (or text-density fallback)
 5. **OCR text extraction** with pytesseract
-6. **Deduplicate** using perceptual hashing
-7. **Align** with transcript timestamps
+6. **Filter quality** - Remove low-text, filler, and empty slides
+7. **Deduplicate** - Remove duplicate slides using perceptual hashing
+8. **Align** with transcript timestamps
+
+**Quality Filtering** (automatic):
+- **Blurry detection**: Removes blurry images using Laplacian variance (<100 threshold)
+- **Low text**: Removes slides with <10 words of OCR text
+- **Filler text**: Filters out branding/copyright slides (theCUBE, LinkedIn links, "Thank you", etc.)
+- **Empty images**: Removes mostly black/empty images (>85% dark pixels)
+- **Duplicates**: Removes duplicate slides using perceptual hashing
+
+**Enhanced Filler Detection** catches:
+- Copyright/trademark notices
+- Branding slides (theCUBE, SiliconANGLE, website URLs)
+- Contact/engagement slides ("Your Views?", LinkedIn links)
+- Promotional content (summit announcements)
+- End slides ("Thank you", "Q&A")
 
 **Monitoring Progress**:
 
@@ -239,7 +257,7 @@ python scripts/extract_slides.py --status
 
 **During Batch Processing**:
 - Progress bar shows completion count
-- Each video processes through 7 stages
+- Each video processes through 8 stages
 - Errors are logged but don't stop the batch
 - Completed videos are saved immediately (can check `data/slides/VIDEO_ID/`)
 
@@ -256,6 +274,137 @@ pip install transformers torch  # for CLIP
 brew install tesseract  # macOS
 apt install tesseract-ocr  # Ubuntu
 ```
+
+##### review_slides.py - Human-in-the-Loop Slide Review ⭐
+
+**Key Feature**: Interactive human curation ensures important content is never accidentally deleted.
+
+```bash
+# Interactive review (recommended)
+python scripts/review_slides.py --video VIDEO_ID
+
+# Auto-approve all flagged slides (skip review)
+python scripts/review_slides.py --video VIDEO_ID --auto-approve
+
+# Custom thresholds
+python scripts/review_slides.py --video VIDEO_ID --min-words 15 --blur-threshold 80
+```
+
+**How it works**:
+1. **AI flags** slides for potential removal (blurry, duplicates, filler text)
+2. **Human reviews** each flagged slide one-by-one
+3. **Human decides**: Keep (important) or Remove (low-quality)
+4. **Updates metadata** and removes approved slides
+
+**Review Interface**:
+- Shows slide filename, timestamp, removal reason
+- Displays OCR text preview
+- **Displays image inline in terminal** (no window switching needed!)
+- Asks: "Keep this slide?" (default: Yes - conservative)
+- Shows summary before final removal
+
+**Image Display**:
+- Uses ASCII art by default (always works)
+- For better quality: Install `viu` → `brew install viu`
+- Falls back to external viewer if needed
+
+**Why Human-in-the-Loop?**
+- **Quality assurance**: Human judgment catches edge cases
+- **Content preservation**: Important slides aren't lost
+- **Flexibility**: Adjust decisions per use case
+- **Transparency**: See exactly what's being removed and why
+
+**Example workflow**:
+```bash
+# 1. Extract slides
+python scripts/extract_slides.py --all
+
+# 2. Review flagged slides
+python scripts/review_slides.py --video VIDEO_ID
+
+# 3. Review shows:
+#    - "Slide 1/5: slide_0m00s_blurry.png [blurry] - Keep? [Y/n]"
+#    - "Slide 2/5: slide_46m06s_copyright.png [filler_text] - Keep? [Y/n]"
+#    - etc.
+
+# 4. Final confirmation before removal
+```
+
+##### sync_slide_metadata.py - Sync Metadata with Files
+
+**Use this when you manually delete slide files** - updates metadata.json to match reality.
+
+```bash
+# Preview what needs syncing (dry run)
+python scripts/sync_slide_metadata.py --video VIDEO_ID --dry-run
+
+# Sync single video
+python scripts/sync_slide_metadata.py --video VIDEO_ID
+
+# Sync all videos
+python scripts/sync_slide_metadata.py --all
+```
+
+**What it does**:
+- Compares metadata.json with actual PNG files on disk
+- Removes metadata entries for files that don't exist
+- Updates stats (slide counts, etc.)
+- Marks metadata as synced
+
+**Use cases**:
+- Manually deleted a slide file
+- Files moved or renamed outside the tool
+- Metadata got out of sync somehow
+
+##### cleanup_slides.py - Batch Cleanup (No Review)
+
+```bash
+# Preview what would be removed (dry run)
+python scripts/cleanup_slides.py --all --dry-run
+
+# Cleanup all videos (removes low-quality slides without review)
+python scripts/cleanup_slides.py --all
+
+# Cleanup single video
+python scripts/cleanup_slides.py --video VIDEO_ID
+
+# Custom thresholds
+python scripts/cleanup_slides.py --all --min-words 15 --filter-filler
+```
+
+**Use cases**:
+- Quick cleanup when you trust the filters
+- Batch processing many videos
+- Preview changes before applying
+
+**Note**: `review_slides.py` is recommended for important content. `cleanup_slides.py` is for automated cleanup.
+
+##### finalize_curation.py - Final Sync & Refresh ⭐
+
+**Run this when you're satisfied with manual slide curation** - syncs metadata and refreshes all exports.
+
+```bash
+# Complete finalization (recommended)
+python scripts/finalize_curation.py
+
+# Only sync metadata (skip exports)
+python scripts/finalize_curation.py --skip-exports
+```
+
+**What it does**:
+1. **Syncs metadata** for all videos (removes entries for deleted files)
+2. **Refreshes NotebookLM exports** (includes updated slide set)
+3. **Updates Master Knowledge Base** (includes final slide counts)
+4. **Rebuilds search index** (includes updated content)
+
+**When to run**:
+- ✅ After manual slide deletions
+- ✅ After adding custom slides
+- ✅ Before exporting to NotebookLM
+- ✅ Before sharing with team
+- ✅ When satisfied with curation
+
+**This is the final step** in the curation workflow.
 
 ##### export_notebooklm.py - Export Artifacts
 
@@ -333,6 +482,29 @@ NotebookLM supports both **private** and **public** sharing:
 - [NotebookLM Sharing Guide](https://support.google.com/notebooklm/answer/16206563)
 - [Public Notebooks Announcement](https://blog.google/technology/google-labs/notebooklm-public-notebooks/)
 
+### Complete Slide Curation Workflow
+
+**Recommended workflow after slide extraction:**
+
+```bash
+# 1. Extract slides (automatic filtering happens here)
+python scripts/extract_slides.py --all
+
+# 2. Human review (recommended - ensures quality)
+python scripts/review_slides.py --video VIDEO_ID_1
+python scripts/review_slides.py --video VIDEO_ID_2
+# ... review all videos
+
+# 3. Manual curation (optional - delete/add slides manually)
+# Browse data/slides/VIDEO_ID/ and delete unwanted slides
+# Add custom slides if needed
+
+# 4. Final sync (when satisfied with curation)
+python scripts/finalize_curation.py
+```
+
+**See [SLIDE_CURATION_WORKFLOW.md](SLIDE_CURATION_WORKFLOW.md) for complete workflow details.**
+
 ### Adding New Content
 
 ```bash
@@ -341,10 +513,11 @@ python scripts/ingest.py --video NEW_VIDEO_ID
 python scripts/curate.py --video NEW_VIDEO_ID
 python scripts/extract_slides.py --video NEW_VIDEO_ID
 
-# Refresh exports
-python scripts/export_notebooklm.py
-python scripts/generate_master_kb.py
-python query.py --build
+# Review and curate slides
+python scripts/review_slides.py --video NEW_VIDEO_ID
+
+# Finalize when satisfied
+python scripts/finalize_curation.py
 ```
 
 ### Troubleshooting
@@ -379,6 +552,19 @@ Common issues:
 - **Tesseract not found**: Install via `brew install tesseract` (macOS) or `apt install tesseract-ocr` (Ubuntu)
 - **CLIP model download**: First run downloads ~500MB model. Ensure internet connection.
 - **No slides detected**: Video may not contain presentation slides. Check with `--status` to see detection stats.
+
+#### Better Image Display in Review
+
+For better inline image quality during review:
+```bash
+# Install viu (recommended - best quality)
+brew install viu
+
+# Or install chafa (alternative)
+brew install chafa
+```
+
+Without these, the script uses ASCII art (always works, lower quality).
 
 ### Current Stats
 

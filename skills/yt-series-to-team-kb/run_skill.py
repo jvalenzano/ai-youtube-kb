@@ -10,6 +10,7 @@ Usage:
     python run_skill.py --playlist URL --topics "machine learning, deep learning"
 """
 
+import json
 import os
 import sys
 import shutil
@@ -146,15 +147,87 @@ def create_project(
 
         progress.update(task, description="Curation complete!")
 
-    # Step 3: Export
-    console.print("[blue]Exporting NotebookLM artifacts...[/blue]")
+    # Step 3: Extract slides (optional but recommended)
+    console.print("[blue]Extracting slides from videos...[/blue]")
+    console.print("[dim]This may take 45-90 minutes for a full playlist (runs in parallel)[/dim]")
+    
+    code, output = run_command(
+        [str(venv_python), 'scripts/extract_slides.py', '--all', '--workers', '4'],
+        output_dir, env
+    )
+    
+    if code == 0:
+        console.print("[green]Slide extraction complete![/green]")
+        
+        # Step 3.5: Human review (optional but recommended)
+        console.print("\n[bold yellow]Human-in-the-Loop Review[/bold yellow]")
+        console.print("Review extracted slides to ensure quality while preserving important content.")
+        
+        if Confirm.ask("Review slides now? (Recommended)", default=True):
+            console.print("\n[blue]Starting interactive slide review...[/blue]")
+            console.print("[dim]You'll review each flagged slide and decide: Keep or Remove[/dim]")
+            
+            # Get list of videos with slides
+            metadata_file = output_dir / 'kb' / 'metadata.json'
+            if metadata_file.exists():
+                with open(metadata_file) as f:
+                    metadata = json.load(f)
+                
+                videos_with_slides = []
+                for video in metadata.get('videos', []):
+                    video_id = video.get('video_id')
+                    slide_dir = output_dir / 'data' / 'slides' / video_id
+                    if slide_dir.exists() and (slide_dir / 'metadata.json').exists():
+                        videos_with_slides.append(video_id)
+                
+                if videos_with_slides:
+                    console.print(f"\n[bold]Found {len(videos_with_slides)} videos with slides[/bold]")
+                    
+                    if Confirm.ask("Review all videos?", default=True):
+                        for video_id in videos_with_slides:
+                            console.print(f"\n[bold cyan]Reviewing slides for: {video_id}[/bold cyan]")
+                            run_command(
+                                [str(venv_python), 'scripts/review_slides.py', '--video', video_id],
+                                output_dir, env
+                            )
+                    else:
+                        # Review first video as example
+                        if videos_with_slides:
+                            console.print(f"\n[bold]Reviewing example video: {videos_with_slides[0]}[/bold]")
+                            run_command(
+                                [str(venv_python), 'scripts/review_slides.py', '--video', videos_with_slides[0]],
+                                output_dir, env
+                            )
+                            console.print("\n[dim]To review other videos, run:[/dim]")
+                            console.print(f"[dim]  python scripts/review_slides.py --video VIDEO_ID[/dim]")
+        else:
+            console.print("[yellow]Skipping review. Run later with:[/yellow]")
+            console.print(f"[dim]  python scripts/review_slides.py --video VIDEO_ID[/dim]")
+        
+        # Step 3.6: Manual curation reminder
+        console.print("\n[bold yellow]Manual Curation Phase[/bold yellow]")
+        console.print("You can now manually delete or add slide files in:")
+        console.print(f"[dim]  {output_dir}/data/slides/VIDEO_ID/[/dim]")
+        console.print("\nWhen satisfied with your curation, run:")
+        console.print(f"[bold]  python scripts/finalize_curation.py[/bold]")
+        console.print("This will sync metadata and refresh all exports.")
+        
+        if not Confirm.ask("\nContinue to exports now? (You can finalize later)", default=True):
+            console.print("\n[yellow]Stopping here. Run finalize_curation.py when ready.[/yellow]")
+            console.print(f"[dim]Location: {output_dir}[/dim]")
+            return True
+    else:
+        console.print("[yellow]Slide extraction had errors (may continue anyway)[/yellow]")
+
+    # Step 4: Export
+    console.print("\n[blue]Exporting NotebookLM artifacts...[/blue]")
     run_command([str(venv_python), 'scripts/export_notebooklm.py'], output_dir, env)
 
-    # Step 4: Generate master KB
+    # Step 5: Generate master KB
     console.print("[blue]Generating Master Knowledge Base...[/blue]")
     run_command([str(venv_python), 'scripts/generate_master_kb.py'], output_dir, env)
 
-    # Step 5: Build search index
+    # Step 6: Build search index
     console.print("[blue]Building search index...[/blue]")
     run_command([str(venv_python), 'query.py', '--build'], output_dir, env)
 
@@ -191,15 +264,22 @@ cat notebooks/Master_Knowledge_Base.md
     (output_dir / 'README.md').write_text(readme_content)
 
     # Summary
+    next_steps_text = (
+        f"[bold]Next Steps:[/bold]\n"
+        f"1. cd {output_dir}\n"
+        f"2. source .venv/bin/activate\n"
+        f"3. Review/curate slides (if extracted):\n"
+        f"   python scripts/review_slides.py --video VIDEO_ID\n"
+        f"4. When satisfied, finalize curation:\n"
+        f"   python scripts/finalize_curation.py\n"
+        f"5. Import notebooks/notebooklm-ready/ to NotebookLM"
+    )
+    
     console.print(Panel(
         f"[bold green]Knowledge Base Created![/bold green]\n\n"
         f"Location: {output_dir}\n"
         f"Videos: {len(raw_files)}\n\n"
-        f"[bold]Next Steps:[/bold]\n"
-        f"1. cd {output_dir}\n"
-        f"2. source .venv/bin/activate\n"
-        f"3. python query.py \"your question\"\n"
-        f"4. Import notebooks/notebooklm-ready/ to NotebookLM",
+        + next_steps_text,
         title="Success"
     ))
 

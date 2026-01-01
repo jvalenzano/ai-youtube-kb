@@ -13,9 +13,21 @@ Transform any YouTube playlist into a structured, searchable team knowledge base
 1. **Ingests** all videos from a YouTube playlist
 2. **Extracts** transcripts automatically
 3. **Curates** with Claude: summaries, key takeaways, topics, module clustering
-4. **Exports** NotebookLM-ready files for team collaboration
-5. **Builds** local semantic search index
-6. **Generates** Master Knowledge Base document
+4. **Extracts slides** from videos (CLIP-based detection, OCR, deduplication)
+5. **Human review** (optional): Interactive curation of extracted slides
+6. **Exports** NotebookLM-ready files for team collaboration
+7. **Builds** local semantic search index
+8. **Generates** Master Knowledge Base document
+
+## Key Feature: Human-in-the-Loop Slide Curation
+
+After slide extraction, the workflow includes an **optional human review step**:
+- AI flags low-quality slides (blurry, duplicates, filler text)
+- Human reviews each flagged slide
+- Human decides: Keep (important content) or Remove (low-quality)
+- Ensures important content is never accidentally deleted
+
+This human curation step is a **feature, not a bug** - it ensures quality while preserving valuable content.
 
 ## Parameters
 
@@ -24,6 +36,8 @@ Transform any YouTube playlist into a structured, searchable team knowledge base
 | playlist_url | Yes | - | YouTube playlist URL |
 | topics | No | "AI agents, workflows" | Focus topics for curation |
 | output_formats | No | all | notebooklm, cli, markdown |
+| extract_slides | No | true | Extract presentation slides from videos |
+| review_slides | No | true | Enable human-in-the-loop slide review |
 
 ## Usage Examples
 

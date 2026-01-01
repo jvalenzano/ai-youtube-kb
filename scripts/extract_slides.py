@@ -56,6 +56,11 @@ class SlideConfig:
     phash_threshold: int = 10             # Perceptual hash difference threshold
     text_density_min: int = 15            # Minimum words for text-density detection
     text_density_max: int = 300           # Maximum words for text-density detection
+    min_ocr_words: int = 10              # Minimum words in OCR text to keep slide
+    remove_duplicates: bool = True        # Actually remove duplicates (not just mark)
+    filter_filler_text: bool = True       # Filter out copyright/trademark slides
+    filter_blurry: bool = True            # Filter out blurry images
+    blur_threshold: float = 100.0         # Laplacian variance threshold for blur detection
 
 
 @dataclass
@@ -378,6 +383,128 @@ class SlideExtractor:
             console.print(f"[dim]OCR error for {slide.path.name}: {e}[/dim]")
             return ""
 
+    def _is_filler_text(self, text: str) -> bool:
+        """Check if text is mostly filler (copyright, trademarks, branding, etc.)."""
+        if not text:
+            return True
+        
+        text_lower = text.lower()
+        filler_patterns = [
+            # Copyright/trademark
+            'copyright', '©', 'registered trademark', '®', 'all rights reserved',
+            # Branding
+            'siliconangle', 'thecube', 'the cube', 'silicon angle', 'thecuberesearch',
+            'go to thecuberesearch.com', 'thecuberesearch.com',
+            # End slides
+            'thank you', 'questions?', 'q & a', 'q&a', 'your views', 'let us know',
+            'contact us', 'linkedin.com/in',
+            # Promotional
+            'ai agent builder summit', 'speed your way to roi',
+            # Navigation/prompts
+            'next frontiers of ai', 'the next frontiers',
+        ]
+        
+        # Count how many filler patterns appear
+        filler_count = sum(1 for pattern in filler_patterns if pattern in text_lower)
+        word_count = len(text.split())
+        
+        # If very short, it's likely filler
+        if word_count < 5:
+            return True
+        
+        # If contains filler patterns and is short, it's filler
+        if filler_count > 0 and word_count < 25:
+            return True
+        
+        # If mostly branding/contact info (high filler ratio)
+        if filler_count >= 2 and word_count < 30:
+            return True
+        
+        return False
+
+    def _is_mostly_black(self, image_path: Path, threshold: float = 0.85) -> bool:
+        """Check if image is mostly black/empty."""
+        try:
+            import cv2
+            import numpy as np
+            
+            img = cv2.imread(str(image_path), cv2.IMREAD_GRAYSCALE)
+            if img is None:
+                return True
+            
+            # Calculate percentage of pixels that are very dark (0-30 out of 255)
+            dark_pixels = np.sum(img < 30)
+            total_pixels = img.size
+            dark_ratio = dark_pixels / total_pixels
+            
+            return dark_ratio > threshold
+        except Exception:
+            return False
+
+    def _is_blurry(self, image_path: Path, threshold: float = 100.0) -> bool:
+        """Check if image is blurry using Laplacian variance.
+        
+        Lower variance = more blurry.
+        Typical threshold: 100 (below this is considered blurry).
+        """
+        try:
+            import cv2
+            import numpy as np
+            
+            img = cv2.imread(str(image_path), cv2.IMREAD_GRAYSCALE)
+            if img is None:
+                return True
+            
+            # Calculate Laplacian variance (measure of sharpness)
+            laplacian = cv2.Laplacian(img, cv2.CV_64F)
+            variance = laplacian.var()
+            
+            return variance < threshold
+        except Exception:
+            return False
+
+    def filter_quality(self, slides: list[SlideInfo]) -> list[SlideInfo]:
+        """Filter out low-quality slides based on content."""
+        filtered = []
+        removed_reasons = {
+            'low_text': 0,
+            'filler_text': 0,
+            'mostly_black': 0,
+            'blurry': 0,
+        }
+
+        for slide in slides:
+            # Filter: blurry images (check first, before OCR)
+            if self.config.filter_blurry and self._is_blurry(slide.path, self.config.blur_threshold):
+                removed_reasons['blurry'] += 1
+                continue
+            
+            # Filter: mostly black/empty images
+            if self._is_mostly_black(slide.path):
+                removed_reasons['mostly_black'] += 1
+                continue
+            
+            # Check OCR text quality
+            ocr_text = slide.ocr_text or ""
+            word_count = len(ocr_text.split())
+            
+            # Filter: too little text
+            if word_count < self.config.min_ocr_words:
+                removed_reasons['low_text'] += 1
+                continue
+            
+            # Filter: filler text (copyright, trademarks, etc.)
+            if self.config.filter_filler_text and self._is_filler_text(ocr_text):
+                removed_reasons['filler_text'] += 1
+                continue
+            
+            filtered.append(slide)
+
+        if any(removed_reasons.values()):
+            console.print(f"[dim]Quality filter removed: {removed_reasons}[/dim]")
+        
+        return filtered
+
     def deduplicate(self, slides: list[SlideInfo]) -> list[SlideInfo]:
         """Remove duplicate slides using perceptual hashing."""
         import imagehash
@@ -388,6 +515,7 @@ class SlideExtractor:
 
         hash_map = {}  # hash_str -> first slide info
         result = []
+        duplicates_removed = 0
 
         for slide in slides:
             try:
@@ -402,18 +530,26 @@ class SlideExtractor:
                     distance = phash - existing_phash
 
                     if distance <= self.config.phash_threshold:
-                        # Mark as duplicate but still keep it (for context)
-                        slide.is_duplicate_of = existing_slide.path.name
-                        is_duplicate = True
-                        break
+                        if self.config.remove_duplicates:
+                            # Actually remove duplicate
+                            duplicates_removed += 1
+                            is_duplicate = True
+                            break
+                        else:
+                            # Mark as duplicate but keep it
+                            slide.is_duplicate_of = existing_slide.path.name
+                            is_duplicate = True
+                            break
 
                 if not is_duplicate:
                     hash_map[phash_str] = (slide, phash)
-
-                result.append(slide)
+                    result.append(slide)
             except Exception as e:
                 console.print(f"[dim]Hash error for {slide.path.name}: {e}[/dim]")
                 result.append(slide)
+
+        if duplicates_removed > 0:
+            console.print(f"[dim]Removed {duplicates_removed} duplicate slides[/dim]")
 
         return result
 
@@ -566,23 +702,23 @@ class SlideExtractor:
             console.print(f"[dim]{video_meta['title']}[/dim]")
 
         # Step 1: Download video
-        console.print("\n[cyan]1/7[/cyan] Downloading video...")
+        console.print("\n[cyan]1/8[/cyan] Downloading video...")
         video_path = self.download_video()
         console.print(f"    [green]Done[/green]")
 
         # Step 2: Extract frames
-        console.print("[cyan]2/7[/cyan] Extracting frames...")
+        console.print("[cyan]2/8[/cyan] Extracting frames...")
         frames = self.extract_frames(video_path)
         console.print(f"    [green]Extracted {len(frames)} frames[/green]")
 
         # Step 3: Detect scene changes
-        console.print("[cyan]3/7[/cyan] Detecting scene changes...")
+        console.print("[cyan]3/8[/cyan] Detecting scene changes...")
         candidates = self.detect_scene_changes(frames)
         console.print(f"    [green]Found {len(candidates)} scene changes[/green]")
 
         # Step 4: Classify slides
         method = "CLIP" if self.config.use_clip else "text-density"
-        console.print(f"[cyan]4/7[/cyan] Classifying slides ({method})...")
+        console.print(f"[cyan]4/8[/cyan] Classifying slides ({method})...")
         slides = self.classify_slides(candidates)
         console.print(f"    [green]Identified {len(slides)} slides[/green]")
 
@@ -594,20 +730,30 @@ class SlideExtractor:
             return {'video_id': self.video_id, 'slides': [], 'stats': {'slides_detected': 0}}
 
         # Step 5: Extract OCR text
-        console.print("[cyan]5/7[/cyan] Extracting text (OCR)...")
+        console.print("[cyan]5/8[/cyan] Extracting text (OCR)...")
         for slide in slides:
             if not slide.ocr_text:
                 slide.ocr_text = self.extract_text(slide)
         console.print(f"    [green]OCR complete[/green]")
 
-        # Step 6: Deduplicate
-        console.print("[cyan]6/7[/cyan] Deduplicating slides...")
+        # Step 6: Filter quality (before deduplication)
+        console.print("[cyan]6/8[/cyan] Filtering low-quality slides...")
+        initial_count = len(slides)
+        slides = self.filter_quality(slides)
+        filtered_count = initial_count - len(slides)
+        if filtered_count > 0:
+            console.print(f"    [green]Removed {filtered_count} low-quality slides[/green]")
+        else:
+            console.print(f"    [green]All slides passed quality check[/green]")
+
+        # Step 7: Deduplicate
+        console.print("[cyan]7/8[/cyan] Deduplicating slides...")
         slides = self.deduplicate(slides)
         unique_count = len([s for s in slides if s.is_duplicate_of is None])
-        console.print(f"    [green]{unique_count} unique, {len(slides) - unique_count} duplicates[/green]")
+        console.print(f"    [green]{len(slides)} slides remaining[/green]")
 
-        # Step 7: Align with transcript
-        console.print("[cyan]7/7[/cyan] Aligning with transcript...")
+        # Step 8: Align with transcript
+        console.print("[cyan]8/8[/cyan] Aligning with transcript...")
         slides = self.align_timestamps(slides)
         console.print(f"    [green]Alignment complete[/green]")
 
