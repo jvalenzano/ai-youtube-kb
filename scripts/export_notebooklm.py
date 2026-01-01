@@ -275,6 +275,12 @@ def export_video_curated(video_id: str, data: dict) -> Path:
         content.append(format_raw_transcript(raw_data))
     else:
         content.append("Transcript not available")
+    content.append("")
+    
+    # Attribution footer
+    content.append("---")
+    content.append("")
+    content.append(f"*Content extracted from YouTube video. Original content by {data.get('channel', 'Unknown')}. Video URL: {data.get('url', '')}*")
 
     with open(output_file, 'w') as f:
         f.write('\n'.join(content))
@@ -305,6 +311,12 @@ def export_video_raw(video_id: str, data: dict) -> Path:
     content.append("## Transcript")
     content.append("")
     content.append(format_raw_transcript(data))
+    content.append("")
+    
+    # Attribution footer
+    content.append("---")
+    content.append("")
+    content.append(f"*Content extracted from YouTube video. Original content by {data.get('channel', 'Unknown')}. Video URL: {data.get('url', '')}*")
 
     with open(output_file, 'w') as f:
         f.write('\n'.join(content))

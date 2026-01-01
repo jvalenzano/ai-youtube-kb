@@ -16,6 +16,26 @@ Turn any YouTube series into a searchable knowledge base:
 
 **Real impact**: Transformed Scott Hebner's 27‑video AI agents series into a structured training library. Onboarding: 2 weeks → 2 days.
 
+## Attribution & Credits
+
+This tool works with any YouTube playlist. The example content used in this repository comes from:
+
+- **Series**: "The Next Frontiers of AI" by [Scott Hebner](https://www.linkedin.com/in/scott-hebner/)
+- **Channel**: [SiliconANGLE theCUBE](https://www.youtube.com/@theCUBE)
+- **Playlist**: [AI Agents Series](https://www.youtube.com/playlist?list=PLenh213llmcYQRnnZYJAFCns3BaKkA7dv)
+
+**Fair Use Notice**: This repository provides tools for educational and research purposes. All video content, transcripts, and extracted materials remain the property of their respective creators. This tool:
+- Only processes publicly available YouTube transcripts
+- Does not redistribute video content
+- Provides attribution in all generated outputs
+- Is designed for personal/internal team knowledge bases
+
+When using this tool with any YouTube content, please:
+1. ✅ Credit original creators in your outputs
+2. ✅ Respect YouTube's Terms of Service
+3. ✅ Use for educational/internal purposes
+4. ✅ Link back to original content
+
 ## 1‑Click Install
 
 ```bash
