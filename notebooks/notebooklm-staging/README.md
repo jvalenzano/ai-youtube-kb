@@ -15,6 +15,14 @@ This interactive notebook contains a comprehensive corpus of 124 sources coverin
 - **Slide Decks** - Presentation-ready slide decks synthesized from the entire corpus
 - **Infographics** - Visual representations of complex concepts (e.g., "Bridging the AI Reality Gap")
 - **Reports** - Comprehensive written reports and analyses (e.g., "The Architect's Roadmap to Agentic AI Transformation")
+
+### 📊 Example: Generated Infographic
+
+One example of the rich content generated from this knowledge base is "The AI Reality Gap: Bridging Enterprise Aspiration and Execution":
+
+![The AI Reality Gap: Bridging Enterprise Aspiration and Execution](../docs/AI-Reality-Gap.png)
+
+This infographic visualizes the disconnect between enterprise AI vision (4.1) and execution reality (1.8), highlighting key challenges like trust deficits and siloed implementation, while offering three strategic approaches to bridge the gap: starting small, running in parallel, and focusing on augmentation.
 - **Flashcards** - Study aids for key concepts and terminology
 - **Quizzes** - Interactive assessments to test understanding
 - **Mind Maps** - Visual knowledge maps showing relationships between concepts
@@ -125,4 +133,4 @@ NotebookLM free plan has a **50 source limit per notebook**.
 
 ---
 
-*For detailed instructions, see [NotebookLM Creation Guide](../../../docs/NOTEBOOKLM_CREATION_GUIDE.md)*
+*For detailed instructions, see [NotebookLM Creation Guide](../../docs/NOTEBOOKLM_CREATION_GUIDE.md)*
