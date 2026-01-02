@@ -74,10 +74,10 @@ python query.py --build                                   # ~2-5 min
 
 ## Live Demo
 
-**NotebookLM**: [Create a public link to share your notebook](#notebooklm-sharing)  
+**📚 [NotebookLM: AI Agents Learning Guide](https://notebooklm.google.com/notebook/5b8cfe75-fe13-48aa-8022-0ee11e3ea1cc)** - Interactive notebook with 124 sources, featuring AI-generated content including video overviews, podcasts, slide decks, infographics, reports, flashcards, quizzes, and mind maps.  
 **Query example**: `python query.py "futures index chart"` → Returns slide image + transcript context
 
-> **Note**: To create a shareable NotebookLM link, import your exported files to NotebookLM and use the "Share" button to generate a public link. See [NotebookLM Sharing](#notebooklm-sharing) below for details.
+> **Explore the NotebookLM notebook** to see AI-generated content from this knowledge base, including presentations, audio overviews, and visual infographics that synthesize insights from the entire corpus.
 
 ## Tech Stack ✨
 
