@@ -115,19 +115,19 @@ python query.py --build                                   # ~2-5 min
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                      This Repository                             │
+│                      This Repository                            │
 │  ┌────────────┐  ┌────────────┐  ┌──────────────┐  ┌─────────┐  │
 │  │ ingest.py  │→ │ curate.py  │→ │extract_slides│→ │query.py │  │
 │  │            │  │  (Claude)  │  │  (CLIP+OCR)  │  │  (RAG)  │  │
 │  └────────────┘  └────────────┘  └──────────────┘  └─────────┘  │
 │       ↓               ↓                ↓               ↓        │
 │   data/raw/      data/clean/     data/slides/      kb/index     │
-│                                                                    │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────┐  │
-│  │review_slides │→ │add_credits   │→ │stage_for_notebooklm  │  │
-│  │(human review)│  │(attribution) │  │(prepare for upload)  │  │
-│  └──────────────┘  └──────────────┘  └──────────────────────┘  │
-│         ↓                 ↓                    ↓                 │
+│                                                                 │
+│  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────┐   │
+│  │review_slides │→ │add_credits   │→ │stage_for_notebooklm  │   │
+│  │(human review)│  │(attribution) │  │(prepare for upload)  │   │
+│  └──────────────┘  └──────────────┘  └──────────────────────┘   │
+│         ↓                 ↓                    ↓                │
 │   data/slides/      data/slides/    notebooks/notebooklm-staging│
 └─────────────────────────────────────────────────────────────────┘
                                         ↓
