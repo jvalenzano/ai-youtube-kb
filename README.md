@@ -700,7 +700,7 @@ python scripts/stage_for_notebooklm.py
 
 **Note**: `finalize_curation.py` processes **all videos** in your repository. Use `sync_slide_metadata.py --video VIDEO_ID` for single-video metadata sync.
 
-**See [SLIDE_CURATION_WORKFLOW.md](SLIDE_CURATION_WORKFLOW.md) for complete workflow details.**
+**See [SLIDE_CURATION_WORKFLOW.md](docs/SLIDE_CURATION_WORKFLOW.md) for complete workflow details.**
 
 ### Adding New Content
 

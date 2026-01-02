@@ -125,4 +125,4 @@ NotebookLM free plan has a **50 source limit per notebook**.
 
 ---
 
-*For detailed instructions, see [NotebookLM Creation Guide](../../docs/NOTEBOOKLM_CREATION_GUIDE.md)*
+*For detailed instructions, see [NotebookLM Creation Guide](../../../docs/NOTEBOOKLM_CREATION_GUIDE.md)*

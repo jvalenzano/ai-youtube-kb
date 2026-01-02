@@ -7,7 +7,7 @@ A curated knowledge base from **The Next Frontiers of AI** podcast, covering age
 
 **21 curated videos** | **14h 5m** of content | **3 learning tracks**
 
-> **📦 NotebookLM Ready**: All content has been staged in `notebooks/notebooklm-staging/` and is ready for upload to NotebookLM. See [NotebookLM Creation Guide](../../docs/NOTEBOOKLM_CREATION_GUIDE.md) for step-by-step instructions.
+> **📦 NotebookLM Ready**: All content has been staged in `notebooks/notebooklm-staging/` and is ready for upload to NotebookLM. See [NotebookLM Creation Guide](../../../docs/NOTEBOOKLM_CREATION_GUIDE.md) for step-by-step instructions.
 
 ---
 
@@ -812,7 +812,7 @@ All videos have been processed and staged for NotebookLM upload in `notebooks/no
 4. **Generate** features: Summary, Audio Overview, Study Guides, Flashcards
 5. **Share** publicly using the Share button
 
-For detailed instructions, see the [NotebookLM Creation Guide](../../docs/NOTEBOOKLM_CREATION_GUIDE.md).
+For detailed instructions, see the [NotebookLM Creation Guide](../../../docs/NOTEBOOKLM_CREATION_GUIDE.md).
 
 ### File Organization
 

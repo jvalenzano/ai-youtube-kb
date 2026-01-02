@@ -284,7 +284,7 @@ def _show_workflow_help(video_id: str = None):
   python scripts/cleanup_black_frames.py --video VIDEO_ID
 
 [dim]View workflow documentation:[/dim]
-  See: SLIDE_CURATION_WORKFLOW.md or README.md
+  See: ../docs/SLIDE_CURATION_WORKFLOW.md or README.md
 """
     
     console.print(Panel(help_text, title="Workflow Help", border_style="blue"))
