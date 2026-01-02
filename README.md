@@ -1,5 +1,7 @@
 # AI YouTube KB 🔮
 
+![1-Click YouTube → AI Knowledge Base](docs/yt-agent-kb-github-1280x640px.png)
+
 **1‑click YouTube playlist → team training library**  
 Transcripts + slide extraction + AI curation + NotebookLM/RAG.
 
@@ -74,10 +76,19 @@ python query.py --build                                   # ~2-5 min
 
 ## Live Demo
 
-**📚 [NotebookLM: AI Agents Learning Guide](https://notebooklm.google.com/notebook/5b8cfe75-fe13-48aa-8022-0ee11e3ea1cc)** - Interactive notebook with 124 sources, featuring AI-generated content including video overviews, podcasts, slide decks, infographics, reports, flashcards, quizzes, and mind maps.  
+**📚 [NotebookLM: AI Agents Learning Guide](https://notebooklm.google.com/notebook/5b8cfe75-fe13-48aa-8022-0ee11e3ea1cc)** - Interactive notebook with 124 sources, featuring AI-generated content including video overviews, podcasts, slide decks, infographics, reports, flashcards, quizzes, and mind maps.
+
+### Example: AI-Generated Infographic
+
+NotebookLM automatically synthesizes themes across the entire video series to create visual insights. Here's an example infographic it generated from 27 videos and 119 slides:
+
+![The AI Reality Gap: Bridging Enterprise Aspiration and Execution](docs/AI-Reality-Gap.png)
+
+**"The AI Reality Gap"** visualizes a key theme discovered across the corpus: the disconnect between enterprise AI vision (4.1) and execution reality (1.8). The infographic highlights trust deficits, siloed implementation, and offers three strategic approaches—demonstrating how NotebookLM identifies and visualizes patterns that emerge across multiple sources.
+
 **Query example**: `python query.py "futures index chart"` → Returns slide image + transcript context
 
-> **Explore the NotebookLM notebook** to see AI-generated content from this knowledge base, including presentations, audio overviews, and visual infographics that synthesize insights from the entire corpus.
+> **Explore the NotebookLM notebook** to see more AI-generated content including presentations, audio overviews, and additional infographics that synthesize insights from the entire corpus.
 
 ## Tech Stack ✨
 

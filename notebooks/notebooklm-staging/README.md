@@ -1,5 +1,7 @@
 # NotebookLM Upload Guide
 
+![1-Click YouTube → AI Knowledge Base](../../docs/yt-agent-kb-github-1280x640px.png)
+
 Files are organized in numbered folders for sequential upload.
 
 ## 🎯 Access the Completed Notebook
