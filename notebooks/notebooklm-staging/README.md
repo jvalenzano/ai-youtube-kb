@@ -2,22 +2,56 @@
 
 Files are organized in numbered folders for sequential upload.
 
+## 🎯 Access the Completed Notebook
+
+**📚 [Open NotebookLM: AI Agents Learning Guide](https://notebooklm.google.com/notebook/5b8cfe75-fe13-48aa-8022-0ee11e3ea1cc)**
+
+This interactive notebook contains a comprehensive corpus of 124 sources covering AI agents, autonomous systems, and the shift from generative to agentic AI. The notebook has been enriched with multiple generated content formats to enhance learning and exploration:
+
+### 📹 Generated Content Available
+
+- **Video Overviews** - Visual summaries of key topics (e.g., "The Agentic Revolution")
+- **Audio Overviews & Podcasts** - Audio content for on-the-go learning (e.g., "Why AI Execution Scores Plummet to 1.8")
+- **Slide Decks** - Presentation-ready slide decks synthesized from the entire corpus
+- **Infographics** - Visual representations of complex concepts (e.g., "Bridging the AI Reality Gap")
+- **Reports** - Comprehensive written reports and analyses (e.g., "The Architect's Roadmap to Agentic AI Transformation")
+- **Flashcards** - Study aids for key concepts and terminology
+- **Quizzes** - Interactive assessments to test understanding
+- **Mind Maps** - Visual knowledge maps showing relationships between concepts
+- **Data Tables** - Structured data extracted from sources
+
+All content is dynamically generated from the 124-source knowledge base, ensuring comprehensive coverage of topics including:
+- The transition from generative AI to agentic AI
+- Organizational challenges and execution gaps in AI adoption
+- Causal AI and reasoning-based agents
+- Business-IT collaboration strategies
+- Domain-specific AI implementations
+- The future of AI assistants and brand discovery
+- Workforce transformation through digital labor
+
+---
+
 ## 📁 Folder Structure
 
 - **00_Backups/** - Backup transcript files (DO NOT UPLOAD - for reference only)
 - **01_Master_Knowledge_Base/** - Upload Master Knowledge Base first
 - **02_Transcripts/** - Upload all transcript files (27 files)
-- **03_Slide_Images/** - Upload all slide images (119 files)
-- **04_Companion_Files/** - Upload companion metadata files (119 files, optional)
+- **03_Slide_Images/** - Individual slide images (119 files) - **NOT RECOMMENDED** (hits 50 source limit)
+- **04_Companion_Files/** - Companion metadata files (119 files, optional)
+- **05_Retry/** - Failed images for retry (23 files)
+- **06_Slide_PDFs/** - Combined slide PDFs (one per video) - **RECOMMENDED** ✅
 
-## 📁 Upload Order
+## 📁 Upload Order (Recommended)
 
 1. **01_Master_Knowledge_Base/** - Upload Master Knowledge Base first
 2. **02_Transcripts/** - Upload all transcript files (27 files)
-3. **03_Slide_Images/** - Upload all slide images (119 files)
-4. **04_Companion_Files/** - Upload companion metadata files (119 files, optional)
+3. **06_Slide_PDFs/** - Upload slide PDFs (one per video, ~27 PDFs) ✅ **RECOMMENDED**
+4. **04_Companion_Files/** - Upload companion metadata files (optional)
 
-**Note:** Skip `00_Backups/` - these are backup files not needed for upload.
+**Note:** 
+- Skip `00_Backups/` - backup files not needed
+- Skip `03_Slide_Images/` - use `06_Slide_PDFs/` instead (avoids 50 source limit)
+- Skip `05_Retry/` - only if retrying failed individual images
 
 ## 🚀 Quick Start
 
@@ -27,13 +61,25 @@ Files are organized in numbered folders for sequential upload.
 - Click "New Notebook" → Name: "AI Agents: Complete Learning Guide"
 - Select "Learning Notebook" type
 
-### 2. Upload in Order
+### 2. Create Slide PDFs (IMPORTANT!)
+**Before uploading**, combine images into PDFs to avoid 50 source limit:
+
+```bash
+cd /Users/jvalenzano/Projects/the-cube/yt-agents-kb
+python3 scripts/combine_slides_to_pdfs.py
+```
+
+**Requirements:** `pip install Pillow` (if not already installed)
+
+This creates PDFs in `06_Slide_PDFs/` (one PDF per video, ~27 PDFs instead of 119 images)
+
+### 3. Upload in Order
 - Upload folder **01** → Wait for processing
 - Upload folder **02** → Wait for processing → **Generate Summary & Audio Overview**
-- Upload folder **03** → Wait for processing
+- Upload folder **06** (Slide PDFs) → Wait for processing ✅
 - Upload folder **04** (optional) → Wait for processing
 
-### 3. Generate Features
+### 4. Generate Features
 After transcripts (folder 02) are processed:
 - **Summary** - Click "Generate" → "Summary"
 - **Audio Overview** - Sidebar → "Audio Overview"
@@ -44,7 +90,7 @@ After all files are processed:
 - **Quizzes** - Sidebar → "Quiz"
 - **Mind Maps** - Sidebar → "Mind Map"
 
-### 4. Make Public
+### 5. Make Public
 - Click **"Share"** (top-right)
 - Select **"Get shareable link"**
 - Set to **"Anyone with the link can view"**
@@ -60,9 +106,22 @@ After all files are processed:
 ## 📊 File Counts
 
 - Transcripts: 27 files
-- Slide Images: 119 files
+- Slide Images: 119 files (individual - not recommended due to source limit)
+- Slide PDFs: ~27 files (one per video - **RECOMMENDED** ✅)
 - Companion Files: 119 files (optional)
 - Backup files skipped: 21 (not needed)
+
+## ⚠️ Source Limit Warning
+
+NotebookLM free plan has a **50 source limit per notebook**.
+
+**If uploading individual images:**
+- 27 transcripts + 1 Master KB + 119 images = 147 sources ❌ (exceeds limit)
+
+**If uploading PDFs:**
+- 27 transcripts + 1 Master KB + 27 PDFs = 55 sources ⚠️ (still over, but closer)
+
+**Best approach:** Upload transcripts + PDFs, skip companion files to stay under 50 sources.
 
 ---
 
